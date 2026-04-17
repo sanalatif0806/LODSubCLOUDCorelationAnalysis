@@ -1,0 +1,32 @@
+# ── Runtime dependencies ──────────────────────────────────────────────────────
+# Used directly by the custom assessment scripts
+# (fujiass.py, FAIR-Checkerass.py, LODsubcloud*.py, mergefairscore.py)
+requests~=2.31
+pandas~=2.1
+
+# ── F-UJI server dependencies (fuji-master / pyproject.toml) ─────────────────
+# Only needed when running the embedded F-UJI server locally.
+# Safe to skip if you connect to a remote F-UJI instance.
+beautifulsoup4~=4.12
+configparser~=7.0
+connexion[flask,uvicorn,swagger-ui]~=3.0
+extruct~=0.18.0
+feedparser~=6.0
+flask-limiter~=3.5
+hashid~=3.1.4
+idutils~=1.2
+jmespath~=1.0
+levenshtein~=0.26.1
+lxml==5.3.0
+pyRdfa3~=3.5
+pyld~=2.0
+pyyaml~=6.0
+rapidfuzz~=3.3
+rdflib~=7.0
+sparqlwrapper~=2.0
+tika~=2.6.0
+tldextract~=5.0
+urlextract~=1.8
+pygithub~=2.1
+numpy==1.26.4
+jsonschema<4.18

@@ -1,0 +1,181 @@
+[build-system]
+build-backend = "hatchling.build"
+requires = ["hatchling"]
+
+[project]
+authors = [
+  {name = "Robert Huber", email = "rhuber@marum.de"},
+  {name = "Anusuriya Devaraju", email = "anusuriya.devaraju@googlemail.com"}
+]
+classifiers = [
+  "Development Status :: 5 - Production/Stable",
+  "Intended Audience :: Science/Research",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3 :: Only",
+  "Programming Language :: Python :: 3.11",
+  "Topic :: Scientific/Engineering :: Information Analysis"
+]
+dependencies = [
+  # dependencies with major version on zero are defined with
+  # major.minor.patch, because they can potentially introduce breaking changes
+  # in minor version updates anytime
+  "beautifulsoup4~=4.12",
+  "configparser~=7.0",
+  "connexion[flask,uvicorn,swagger-ui]~=3.0",
+  "extruct~=0.18.0",
+  "feedparser~=6.0",
+  "flask-limiter~=3.5",
+  "hashid~=3.1.4",
+  "idutils~=1.2",
+  "jmespath~=1.0",
+  "levenshtein~=0.26.1",
+  "lxml==5.3.0",
+  "pandas~=2.1",
+  "pyRdfa3~=3.5",
+  "pyld~=2.0",
+  "pyyaml~=6.0",
+  "rapidfuzz~=3.3",
+  "rdflib~=7.0",
+  "requests~=2.31",
+  "sparqlwrapper~=2.0",
+  "tika~=2.6.0",
+  "tldextract~=5.0",
+  "urlextract~=1.8",
+  "pygithub~=2.1",
+  "numpy==1.26.4",
+  "jsonschema<4.18"
+]
+description = "FUJI (FAIRsFAIR Data Objects Assessment Service), A service to evaluate FAIR data objects based on FAIRsFAIR Metrics"
+keywords = [
+  "PANGAEA",
+  "FAIRsFAIR",
+  "FAIR Principles",
+  "Data Object Assessment",
+  "OpenAPI",
+  "FAIR",
+  "Research Data",
+  "FAIR data",
+  "Metadata harvesting",
+  "FAIR4RS"
+]
+license = "MIT"
+name = "fuji"
+readme = "README.md"
+requires-python = "~=3.11"  # at the moment only Python 3.11 is supported
+version = "3.5.1"
+
+[project.optional-dependencies]
+docs = [
+  "myst-parser~=4.0",
+  "sphinx~=8.0",
+  "sphinx-rtd-theme~=3.0"
+]
+report = [
+  "bokeh~=3.2",
+  "jupyter~=1.0"
+]
+
+[project.urls]
+Homepage = "https://www.f-uji.net"
+Issues = "https://github.com/pangaea-data-publisher/fuji/issues"
+Source = "https://github.com/pangaea-data-publisher/fuji"
+
+[tool.coverage.report]
+show_missing = true
+skip_covered = true
+skip_empty = true
+
+[tool.coverage.run]
+branch = true
+omit = ["tests/*"]
+parallel = true
+
+[tool.hatch.build]
+include = [
+  "docs",
+  "fuji_server",
+  "AUTHORS",
+  "LICENSE",
+  "README.md"
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["fuji_server"]
+
+[tool.hatch.envs.default]
+dependencies = [
+  "pre-commit"
+]
+post-install-commands = [
+  "pre-commit install"
+]
+
+[tool.hatch.envs.default.scripts]
+lint = "pre-commit run --all-files --color=always {args}"
+
+[tool.hatch.envs.hatch-test]
+# Ref: https://hatch.pypa.io/latest/config/internal/testing/
+extra-dependencies = [
+  "pytest-recording~=0.13",
+  "pytest-github-actions-annotate-failures~=0.3"
+]
+randomize = true  # run tests in random order
+
+[tool.hatch.envs.hatch-test.scripts]
+cov-combine = """
+coverage combine
+coverage xml
+"""
+cov-report = "coverage report"
+# Ref: https://hatch.pypa.io/latest/config/internal/testing/#scripts
+run = "pytest{env:HATCH_TEST_ARGS:} {args}"
+run-cov = "coverage run -m pytest{env:HATCH_TEST_ARGS:} {args}"
+
+[tool.pytest.ini_options]
+filterwarnings = [
+  # warnings from pyrdfa
+  "ignore: the imp module is deprecated in favour of importlib and slated for removal in Python 3.12:DeprecationWarning",
+  # warnings from feedparser
+  "ignore:'cgi' is deprecated and slated for removal in Python 3.13:DeprecationWarning",
+  # warnings from tika
+  "ignore:pkg_resources is deprecated as an API:DeprecationWarning",
+  "ignore:Deprecated call to `pkg_resources.declare_namespace:DeprecationWarning"
+]
+markers = [
+  "manual",  # tests which should be triggered manual only
+  "noci",  # tests which should not run on the CI
+  "regression",  # tests which run a fuji as a whole
+  "smoke"  # tests which run very fast
+]
+testpaths = "tests"
+
+[tool.ruff]
+# Ref: https://docs.astral.sh/ruff/configuration/
+line-length = 120
+src = ["fuji_server"]
+
+[tool.ruff.lint]
+extend-select = [
+  "I",  # isort
+  "UP",  # pyupgrade
+  "RUF"  # ruff
+]
+ignore = [
+  "E722",  # bare-except
+  "RUF012"  # mutable-class-default
+]
+
+[tool.ruff.lint.isort]
+known-first-party = ["fuji_server", "tests"]
+
+[tool.ruff.lint.per-file-ignores]
+# Note: ruff does not understand, that the logger, which gets passed through multiple inheritance is actually
+# a logger instance. It would not apply f-strings to logging messages. But let's ignore UP031 and UP032 for now.
+"fuji_server/evaluators/*.py" = [
+  "UP031",  # printf-string-formatting
+  "UP032"  # f-string
+]
+"fuji_server/helper/*.py" = [
+  "UP031",  # printf-string-formatting
+  "UP032"  # f-string
+]

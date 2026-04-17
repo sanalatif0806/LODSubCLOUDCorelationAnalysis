@@ -1,0 +1,989 @@
+openapi: 3.0.1
+info:
+  title: F-UJI
+  description: A Service for Evaluating Research Data Objects Based on <a href ='https://doi.org/10.5281/zenodo.3775793'>FAIRsFAIR Metrics</a>. <p> This work was supported by the <a href='https://www.fairsfair.eu/'>FAIRsFAIR</a> project (H2020-INFRAEOSC-2018-2020 Grant Agreement 831558).
+  contact:
+    email: anusuriya.devaraju@googlemail.com
+    x-additional-email: rhuber@marum.de
+  license:
+    name: MIT License
+    url: https://opensource.org/licenses/MIT
+  version: 3.5.1
+externalDocs:
+  description: Find out more about F-UJI
+  url: https://github.com/pangaea-data-publisher/fuji
+servers:
+- url: http://localhost:1071/fuji/api/v1
+  description: Development Server
+tags:
+- name: FAIR object
+  description: FAIRness assessment of a data object
+- name: FAIR metric
+  description: FAIRsFAIR assessment metrics
+paths:
+  /evaluate:
+    post:
+      tags:
+      - FAIR object
+      security:
+      - basicAuth: []
+      description: Evaluate FAIRness of a data object based on its identifier
+      operationId: assess_by_id
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/body'
+            example:
+              object_identifier: https://doi.org/10.1594/PANGAEA.908011
+              test_debug: true
+              metadata_service_endpoint: http://ws.pangaea.de/oai/provider
+              metadata_service_type: oai_pmh
+              use_datacite: true
+              use_github: false
+              metric_version: metrics_v0.5
+      responses:
+        '200':
+          description: successful operation
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/FAIRResults'
+            application/rdf+xml:
+              schema:
+                type: string
+            application/x-turtle:
+              schema:
+                type: string
+            text/turtle:
+              schema:
+                type: string
+            application/ld+json:
+              schema:
+                type: string
+            text/n3:
+              schema:
+                type: string
+        '400':
+          description: Invalid identifier supplied
+        '401':
+          description: Authentication information is missing or invalid
+          headers:
+            WWW_Authenticate:
+              style: simple
+              explode: false
+              schema:
+                type: string
+        '404':
+          description: Object not found
+      x-openapi-router-controller: fuji_server.controllers.fair_object_controller
+  /metrics/{version}:
+    get:
+      parameters:
+      - in: path
+        name: version
+        schema:
+          type: string
+          pattern: ^([0-9]+\.[0-9]+)(_[a-z]+)?$
+        required: true
+      tags:
+      - FAIR metric
+      summary: Return all metrics and their definitions
+      operationId: get_metrics
+      responses:
+        '200':
+          description: Metrics are successfully retrieved
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Metrics'
+        '400':
+          description: Invalid request supplied
+        '401':
+          description: Authentication information is missing or invalid
+          headers:
+            WWW_Authenticate:
+              style: simple
+              explode: false
+              schema:
+                type: string
+        '404':
+          description: Object not found
+      x-openapi-router-controller: fuji_server.controllers.fair_metric_controller
+  /metrics/{version}/{metric}:
+    get:
+      parameters:
+      - in: path
+        name: version
+        schema:
+          type: string
+          pattern: ^([0-9]+\.[0-9]+)(_[a-z]+)?$
+        required: true
+      - in: path
+        name: metric
+        schema:
+          type: string
+        required: true
+      tags:
+      - FAIR metric
+      summary: Return a single metric and it's definition
+      operationId: get_metric
+      responses:
+        '200':
+          description: Metrics are successfully retrieved
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Metric'
+        '400':
+          description: Invalid request supplied
+        '401':
+          description: Authentication information is missing or invalid
+          headers:
+            WWW_Authenticate:
+              style: simple
+              explode: false
+              schema:
+                type: string
+        '404':
+          description: Object not found
+      x-openapi-router-controller: fuji_server.controllers.fair_metric_controller
+  /harvest:
+    post:
+      tags:
+      - metadata
+      security:
+      - basicAuth: []
+      description: Harvest metadata of a data object based on its identifier
+      operationId: harvest_by_id
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/harvest'
+            example:
+              object_identifier: https://doi.org/10.1594/PANGAEA.908011
+      responses:
+        '200':
+          description: successful operation
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HarvestResults'
+        '400':
+          description: Invalid identifier supplied
+        '401':
+          description: Authentication information is missing or invalid
+          headers:
+            WWW_Authenticate:
+              style: simple
+              explode: false
+              schema:
+                type: string
+        '404':
+          description: Object not found
+      x-openapi-router-controller: fuji_server.controllers.harvest_controller
+components:
+  securitySchemes:
+    basicAuth:
+      type: http
+      scheme: basic
+      x-basicInfoFunc: fuji_server.controllers.authorization_controller.checkUser
+  schemas:
+    HarvestResults:
+      type: object
+      properties:
+        target_uri:
+          type: string
+        metadata:
+          type: array
+          items:
+            type: object
+            properties:
+              method:
+                type: string
+              url:
+                type: string
+              format:
+                type: string
+              schema:
+                type: string
+              namespaces:
+                type: array
+                items:
+                  type: string
+              metadata:
+                type: object
+                additionalProperties: true
+    FAIRResults:
+      type: object
+      properties:
+        test_id:
+          type: string
+        request:
+          type: object
+          additionalProperties: true
+        resolved_url:
+          type: string
+        start_timestamp:
+          type: string
+          format: date-time
+        end_timestamp:
+          type: string
+          format: date-time
+        expiry_timestamp:
+          type: string
+          format: date-time
+        metric_specification:
+          type: string
+          format: uri
+        metric_version:
+          type: string
+        software_version:
+          type: string
+        total_metrics:
+          type: integer
+        summary:
+          type: object
+          additionalProperties: true
+        results:
+          type: array
+          items:
+            anyOf:
+            - $ref: '#/components/schemas/Uniqueness'
+            - $ref: '#/components/schemas/Persistence'
+            - $ref: '#/components/schemas/CoreMetadata'
+            - $ref: '#/components/schemas/IdentifierIncluded'
+            - $ref: '#/components/schemas/Searchable'
+            - $ref: '#/components/schemas/DataAccessLevel'
+            - $ref: '#/components/schemas/FormalMetadata'
+            - $ref: '#/components/schemas/SemanticVocabulary'
+            - $ref: '#/components/schemas/RelatedResource'
+            - $ref: '#/components/schemas/DataContentMetadata'
+            - $ref: '#/components/schemas/License'
+            - $ref: '#/components/schemas/DataProvenance'
+            - $ref: '#/components/schemas/CommunityEndorsedStandard'
+            - $ref: '#/components/schemas/DataFileFormat'
+            - $ref: '#/components/schemas/MetadataPreserved'
+            - $ref: '#/components/schemas/CodeProvenance'
+            - $ref: '#/components/schemas/ComponentIdentifier'
+            - $ref: '#/components/schemas/TestCase'
+            - $ref: '#/components/schemas/UniquePersistentIdentifierSoftware'
+            - $ref: '#/components/schemas/VersionIdentifier'
+            - $ref: '#/components/schemas/API'
+            - $ref: '#/components/schemas/DevelopmentMetadata'
+            - $ref: '#/components/schemas/Requirements'
+            - $ref: '#/components/schemas/StandardisedProtocolData'
+            - $ref: '#/components/schemas/StandardisedProtocolMetadata'
+            - $ref: '#/components/schemas/Retrievable'
+    FAIRResultCommon:
+      required:
+      - id
+      - metric_identifier
+      - metric_name
+      - score
+      - test_status
+      type: object
+      properties:
+        id:
+          type: integer
+          format: int32
+        metric_identifier:
+          type: string
+        metric_name:
+          type: string
+        metric_tests:
+          type: object
+          additionalProperties:
+            $ref: '#/components/schemas/FAIRResultEvaluationCriterium'
+        test_status:
+          type: string
+          default: fail
+          enum:
+          - pass
+          - fail
+          - indeterminate
+        score:
+          $ref: '#/components/schemas/FAIRResultCommon_score'
+        maturity:
+          type: integer
+          default: 0
+    Uniqueness:
+      allOf:
+      - $ref: '#/components/schemas/FAIRResultCommon'
+      - type: object
+        properties:
+          output:
+            $ref: '#/components/schemas/Uniqueness_output'
+          test_debug:
+            $ref: '#/components/schemas/Debug'
+    Persistence:
+      allOf:
+      - $ref: '#/components/schemas/FAIRResultCommon'
+      - type: object
+        properties:
+          output:
+            $ref: '#/components/schemas/Persistence_output'
+          test_debug:
+            $ref: '#/components/schemas/Debug'
+    CoreMetadata:
+      allOf:
+      - $ref: '#/components/schemas/FAIRResultCommon'
+      - type: object
+        properties:
+          output:
+            $ref: '#/components/schemas/CoreMetadata_output'
+          test_debug:
+            $ref: '#/components/schemas/Debug'
+    IdentifierIncluded:
+      allOf:
+      - $ref: '#/components/schemas/FAIRResultCommon'
+      - type: object
+        properties:
+          output:
+            $ref: '#/components/schemas/IdentifierIncluded_output'
+          test_debug:
+            $ref: '#/components/schemas/Debug'
+    Searchable:
+      allOf:
+      - $ref: '#/components/schemas/FAIRResultCommon'
+      - type: object
+        properties:
+          output:
+            $ref: '#/components/schemas/Searchable_output'
+          test_debug:
+            $ref: '#/components/schemas/Debug'
+    License:
+      allOf:
+      - $ref: '#/components/schemas/FAIRResultCommon'
+      - type: object
+        properties:
+          output:
+            $ref: '#/components/schemas/License_output'
+          test_debug:
+            $ref: '#/components/schemas/Debug'
+    DataAccessLevel:
+      allOf:
+      - $ref: '#/components/schemas/FAIRResultCommon'
+      - type: object
+        properties:
+          output:
+            $ref: '#/components/schemas/DataAccess_output'
+          test_debug:
+            $ref: '#/components/schemas/Debug'
+    Retrievable:
+      allOf:
+      - $ref: '#/components/schemas/FAIRResultCommon'
+      - type: object
+        properties:
+          output:
+            $ref: '#/components/schemas/Retrievable_output'
+          test_debug:
+            $ref: '#/components/schemas/Debug'
+    RelatedResource:
+      allOf:
+      - $ref: '#/components/schemas/FAIRResultCommon'
+      - type: object
+        properties:
+          output:
+            $ref: '#/components/schemas/RelatedResource_output'
+          test_debug:
+            $ref: '#/components/schemas/Debug'
+    CommunityEndorsedStandard:
+      allOf:
+      - $ref: '#/components/schemas/FAIRResultCommon'
+      - type: object
+        properties:
+          output:
+            $ref: '#/components/schemas/CommunityEndorsedStandard_output'
+          test_debug:
+            $ref: '#/components/schemas/Debug'
+    DataFileFormat:
+      allOf:
+      - $ref: '#/components/schemas/FAIRResultCommon'
+      - type: object
+        properties:
+          output:
+            $ref: '#/components/schemas/DataFileFormat_output'
+          test_debug:
+            $ref: '#/components/schemas/Debug'
+    DataProvenance:
+      allOf:
+      - $ref: '#/components/schemas/FAIRResultCommon'
+      - type: object
+        properties:
+          output:
+            $ref: '#/components/schemas/DataProvenance_output'
+          test_debug:
+            $ref: '#/components/schemas/Debug'
+    DataContentMetadata:
+      allOf:
+      - $ref: '#/components/schemas/FAIRResultCommon'
+      - type: object
+        properties:
+          output:
+            $ref: '#/components/schemas/DataContentMetadata_output'
+          test_debug:
+            $ref: '#/components/schemas/Debug'
+    FormalMetadata:
+      allOf:
+      - $ref: '#/components/schemas/FAIRResultCommon'
+      - type: object
+        properties:
+          output:
+            $ref: '#/components/schemas/FormalMetadata_output'
+          test_debug:
+            $ref: '#/components/schemas/Debug'
+    SemanticVocabulary:
+      allOf:
+      - $ref: '#/components/schemas/FAIRResultCommon'
+      - type: object
+        properties:
+          output:
+            $ref: '#/components/schemas/SemanticVocabulary_output'
+          test_debug:
+            $ref: '#/components/schemas/Debug'
+    MetadataPreserved:
+      allOf:
+      - $ref: '#/components/schemas/FAIRResultCommon'
+      - type: object
+        properties:
+          output:
+            $ref: '#/components/schemas/MetadataPreserved_output'
+          test_debug:
+            $ref: '#/components/schemas/Debug'
+    CodeProvenance:
+      allOf:
+      - $ref: '#/components/schemas/FAIRResultCommon'
+      - type: object
+        properties:
+          output:
+            $ref: '#/components/schemas/CodeProvenance_output'
+          test_debug:
+            $ref: '#/components/schemas/Debug'
+    ComponentIdentifier:
+      allOf:
+      - $ref: '#/components/schemas/FAIRResultCommon'
+      - type: object
+        properties:
+          output:
+            $ref: '#/components/schemas/ComponentIdentifier_output'
+          test_debug:
+            $ref: '#/components/schemas/Debug'
+    TestCase:
+      allOf:
+      - $ref: '#/components/schemas/FAIRResultCommon'
+      - type: object
+        properties:
+          output:
+            $ref: '#/components/schemas/TestCase_output'
+          test_debug:
+            $ref: '#/components/schemas/Debug'
+    UniquePersistentIdentifierSoftware:
+      allOf:
+      - $ref: '#/components/schemas/FAIRResultCommon'
+      - type: object
+        properties:
+          output:
+            $ref: '#/components/schemas/UniquePersistentIdentifierSoftware_output'
+          test_debug:
+            $ref: '#/components/schemas/Debug'
+    VersionIdentifier:
+      allOf:
+      - $ref: '#/components/schemas/FAIRResultCommon'
+      - type: object
+        properties:
+          output:
+            $ref: '#/components/schemas/VersionIdentifier_output'
+          test_debug:
+            $ref: '#/components/schemas/Debug'
+    API:
+      allOf:
+      - $ref: '#/components/schemas/FAIRResultCommon'
+      - type: object
+        properties:
+          output:
+            $ref: '#/components/schemas/API_output'
+          test_debug:
+            $ref: '#/components/schemas/Debug'
+    DevelopmentMetadata:
+      allOf:
+      - $ref: '#/components/schemas/FAIRResultCommon'
+      - type: object
+        properties:
+          output:
+            $ref: '#/components/schemas/DevelopmentMetadata_output'
+          test_debug:
+            $ref: '#/components/schemas/Debug'
+    Requirements:
+      allOf:
+      - $ref: '#/components/schemas/FAIRResultCommon'
+      - type: object
+        properties:
+          output:
+            $ref: '#/components/schemas/Requirements_output'
+          test_debug:
+            $ref: '#/components/schemas/Debug'
+
+    StandardisedProtocolData:
+      allOf:
+      - $ref: '#/components/schemas/FAIRResultCommon'
+      - type: object
+        properties:
+          output:
+            $ref: '#/components/schemas/StandardisedProtocol_output'
+          test_debug:
+            $ref: '#/components/schemas/Debug'
+    StandardisedProtocolMetadata:
+      allOf:
+      - $ref: '#/components/schemas/FAIRResultCommon'
+      - type: object
+        properties:
+          output:
+            $ref: '#/components/schemas/StandardisedProtocol_output'
+          test_debug:
+            $ref: '#/components/schemas/Debug'
+    FAIRResultEvaluationCriterium:
+      type: object
+      properties:
+        metric_test_name:
+          type: string
+        metric_test_requirements:
+          type: array
+          items:
+            type: object
+            additionalProperties: true
+        metric_test_score:
+          $ref: '#/components/schemas/FAIRResultCommon_score'
+        metric_test_maturity:
+          type: integer
+          nullable: true
+        metric_test_status:
+          type: string
+          default: fail
+          enum:
+          - pass
+          - fail
+    FAIRResultCommon_score:
+      type: object
+      properties:
+        earned:
+          type: number
+          default: 0
+        total:
+          type: number
+          default: 0
+    Uniqueness_output:
+      type: object
+      properties:
+        unique_identifiers:
+          type: array
+          items:
+            $ref: '#/components/schemas/Uniqueness_output_inner'
+        guid:
+          type: string
+        guid_scheme:
+          type: string
+
+    Uniqueness_output_inner:
+      type: object
+      properties:
+        guid:
+          type: string
+        guid_scheme:
+          type: string
+        target:
+          type: string
+
+    Persistence_output:
+      type: object
+      properties:
+        persistent_identifiers:
+          type: array
+          items:
+            $ref: '#/components/schemas/Persistence_output_inner'
+
+    Persistence_output_inner:
+      type: object
+      properties:
+        pid:
+          type: string
+        pid_scheme:
+          type: string
+        resolvable_status:
+          type: boolean
+          default: false
+        resolved_url:
+          type: string
+        target:
+          type: string
+
+    output_core_metadata_found:
+      type: object
+      additionalProperties:
+        type: string
+    CoreMetadata_output:
+      type: object
+      properties:
+        core_metadata_status:
+          type: string
+          enum:
+          - insufficent metadata
+          - partial metadata
+          - all metadata
+        core_metadata_found:
+          $ref: '#/components/schemas/output_core_metadata_found'
+        core_metadata_source:
+          type: array
+          items:
+            type: string
+    IdentifierIncluded_output:
+      type: object
+      properties:
+        object_identifier_included:
+          type: string
+        object_content_identifier_included:
+          type: array
+          items:
+            $ref: '#/components/schemas/IdentifierIncluded_output_inner'
+    output_search_mechanisms:
+      type: object
+      properties:
+        mechanism:
+          type: string
+          enum:
+          - metadata registry
+          - structured data
+        mechanism_info:
+          type: array
+          items:
+            type: string
+    Searchable_output:
+      type: object
+      properties:
+        search_mechanisms:
+          type: array
+          items:
+            $ref: '#/components/schemas/output_search_mechanisms'
+    License_output:
+      type: array
+      items:
+        $ref: '#/components/schemas/License_output_inner'
+    DataAccess_output:
+      type: object
+      properties:
+        access_level:
+          type: string
+          enum:
+          - public
+          - embargoed
+          - restricted
+          - closed
+          - metadataonly
+        access_details:
+          type: object
+    Retrievable_output:
+      type: object
+      properties:
+        retrievable_objects:
+          type: array
+          items:
+            $ref: '#/components/schemas/Retrievable_output_inner'
+    Retrievable_output_inner:
+      type: object
+      properties:
+        format:
+          type: string
+        method:
+          type: string
+        resolved_url:
+          type: string
+        target:
+          type: string
+    RelatedResource_output:
+      type: array
+      items:
+        $ref: '#/components/schemas/RelatedResource_output_inner'
+    DataFileFormat_output:
+      type: array
+      items:
+        $ref: '#/components/schemas/DataFileFormat_output_inner'
+    CommunityEndorsedStandard_output:
+      type: array
+      items:
+        $ref: '#/components/schemas/CommunityEndorsedStandard_output_inner'
+    DataProvenance_output:
+      type: object
+      properties:
+        provenance_metadata_included:
+          $ref: '#/components/schemas/DataProvenance_output_inner'
+        structured_provenance_available:
+          $ref: '#/components/schemas/DataProvenance_output_inner'
+    DataContentMetadata_output:
+      type: object
+      properties:
+        object_type:
+          type: string
+        data_content_descriptor:
+          type: array
+          items:
+            $ref: '#/components/schemas/DataContentMetadata_output_inner'
+    FormalMetadata_output:
+      type: array
+      items:
+        $ref: '#/components/schemas/FormalMetadata_output_inner'
+    SemanticVocabulary_output:
+      type: array
+      items:
+        $ref: '#/components/schemas/SemanticVocabulary_output_inner'
+    MetadataPreserved_output:
+      type: object
+      properties:
+        metadata_preservation_method:
+          type: array
+          items:
+            type: string
+            enum:
+            - datacite
+            - tombstone
+    CodeProvenance_output:
+      type: object
+    ComponentIdentifier_output:
+      type: object
+    TestCase_output:
+      type: object
+    UniquePersistentIdentifierSoftware_output:
+      type: object
+    VersionIdentifier_output:
+      type: object
+    API_output:
+      type: object
+    DevelopmentMetadata_output:
+      type: object
+    Requirements_output:
+      type: object
+    Metrics:
+      type: object
+      properties:
+        total:
+          type: integer
+        metrics:
+          type: array
+          items:
+            $ref: '#/components/schemas/Metric'
+      example:
+        total: 0
+        metrics:
+          metric_identifier: FsF-F1-01D
+          metric_short_name: Globally Unique Identifier
+          metric_name: Data is assigned with a globally unique identifier.
+          description: A data object may be assigned with a globally unique identifier such that it can be referenced unambiguously by humans or machines. Globally unique means an identifier should be associated with only one resource at any time. Examples of unique identifiers of data are Internationalized Resource Identifier (IRI), Uniform Resource Identifier (URI) such as URL and URN, Digital Object Identifier (DOI), the Handle System, identifiers.org, w3id.org and Archival Resource Key (ARK). A data repository may assign a globally unique identifier to your data or metadata when you publish and make it available through their services.
+          fair_principle: F1
+          evaluation_mechanism: Identifier is considered unique if it is successfully validated through https://pythonhosted.org/IDUtils/. Supported schemes are ISBN10, ISBN13, ISSN, ISTC, DOI, Handle, EAN8, EAN13, ISNI ORCID, ARK, PURL, LSID, URN, Bibcode, arXiv, PubMed ID, PubMed Central ID, GND.
+          created_by: FAIRsFAIR
+          date_created: 2020-07-08
+          date_updated: 2020-07-08
+          version: 0.3
+          total_score: 1
+    Metric:
+      type: object
+      properties:
+        metric_identifier:
+          type: string
+        metric_name:
+          type: string
+        description:
+          type: string
+        fair_principle:
+          type: string
+        evaluation_mechanism:
+          type: string
+        date_created:
+          type: string
+          format: date
+        date_updated:
+          type: string
+          format: date
+        created_by:
+          type: string
+        version:
+          type: number
+          format: double
+        total_score:
+          type: integer
+          format: int32
+    Debug:
+      type: array
+      items:
+        type: string
+    body:
+      required:
+      - object_identifier
+      type: object
+      properties:
+        object_identifier:
+          type: string
+          description: The full identifier of data object that needs to be evaluated
+        test_debug:
+          type: boolean
+          description: Indicate if the detailed evaluation procedure of the metrics should to be included in the response
+          default: false
+        metadata_service_endpoint:
+          type: string
+          description: The URL of the catalogue endpoint (e.g. OAI-PMH data-provider)
+        metadata_service_type:
+          type: string
+        use_datacite:
+          type: boolean
+          description: Indicates if DataCite content negotiation (using the DOI) shall be used to collect metadata
+        use_github:
+          type: boolean
+          description: Indicates if the GitHub REST API shall be used to collect (meta)data
+        metric_version:
+          type: string
+          description: The FAIRsFAIR metric version be used fo rthe assessment
+        auth_token:
+          type: string
+          description: The authentication token for HTTP authentication
+        auth_token_type:
+          type: string
+          description: The authentication token type, 'Basic' or 'Bearer'
+        oaipmh_endpoint:
+          deprecated: true
+          type: string
+          description: (Deprecated) The URL of the OAI-PMH data-provider
+    harvest:
+      required:
+      - object_identifier
+      type: object
+      properties:
+        object_identifier:
+          type: string
+          description: The full identifier of data object that needs to be harvested
+    IdentifierIncluded_output_inner:
+      type: object
+      properties:
+        content_identifier_included:
+          type: string
+    License_output_inner:
+      type: object
+      properties:
+        license:
+          type: string
+        OSI_approved:
+          type: boolean
+          default: false
+        details_url:
+          type: string
+    RelatedResource_output_inner:
+      type: object
+      properties:
+        related_resource:
+          type: string
+        relation_type:
+          type: string
+    CommunityEndorsedStandard_output_inner:
+      type: object
+      properties:
+        metadata_standard:
+          type: string
+        url:
+          type: string
+        subject_areas:
+          type: array
+          items:
+            type: string
+        type:
+          type: string
+        source:
+          type: string
+    DataFileFormat_output_inner:
+      type: object
+      properties:
+        file_uri:
+          type: string
+        mime_type:
+          type: string
+        is_preferred_format:
+          type: boolean
+          default: false
+        preference_reason:
+          type: array
+          items:
+            type: string
+        subject_areas:
+          type: array
+          items:
+            type: string
+    DataProvenance_output_inner:
+      type: object
+      properties:
+        is_available:
+          type: boolean
+          default: true
+        provenance_metadata:
+          type: array
+          items:
+            type: object
+            additionalProperties:
+              type: string
+    DataContentMetadata_output_inner:
+      type: object
+      properties:
+        descriptor:
+          type: string
+        descriptor_value:
+          type: string
+        matches_content:
+          type: boolean
+          default: false
+    FormalMetadata_output_inner:
+      type: object
+      properties:
+        serialization_format:
+          type: string
+        source:
+          type: string
+          enum:
+          - typed_link
+          - content_negotiate
+          - structured_data
+          - sparql_endpoint
+        is_metadata_found:
+          type: boolean
+          default: false
+    SemanticVocabulary_output_inner:
+      type: object
+      properties:
+        namespace:
+          type: string
+        is_namespace_active:
+          type: boolean
+          default: false
+    StandardisedProtocol_output:
+      type: object
+      properties:
+        standard_protocol:
+          type: array
+          items:
+            $ref: '#/components/schemas/StandardisedProtocol_output_inner'
+    StandardisedProtocol_output_inner:
+      type: object
+      properties:
+        protocol_type:
+          type: string
+        auth_method:
+          type: string
+        found_in:
+          type: string
+        target:
+          type: string
+  responses:
+    UnauthorizedError:
+      description: Authentication information is missing or invalid
+      headers:
+        WWW_Authenticate:
+          style: simple
+          explode: false
+          schema:
+            type: string

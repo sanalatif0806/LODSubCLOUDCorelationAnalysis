@@ -1,0 +1,497 @@
+id,KG name,Sparql endpoint,SPARQL endpoint URL,License machine redeable (metadata),Description,Dataset URL,Author (metadata),Sources,F1-M Unique and persistent ID,F1-D URIs dereferenceability,F2a-M - Metadata availability via standard primary sources,F2b-M Metadata availability for all the attributes covered in the FAIR score computation,F3-M Data referrable via a DOI,F4-M Metadata registered in a searchable engine,F score,A1-D Working access point(s),A1-M Metadata availability via working primary sources,A1.2 Authentication & HTTPS support,A2-M Registered in search engines,A score,R1.1 Machine- or human-readable license retrievable via any primary source,R1.2 Publisher information such as authors-contributors-publishers and sources,R1.3-D Data organized in a standardized way,R1.3-M Metadata are described with VoID/DCAT predicates,R score,I1-D Standard & open representation format,I1-M Metadata are described with VoID/DCAT predicates,I2 Use of FAIR vocabularies,I3-D Degree of connection,I score,FAIR score
+miguiadeviajes-gnoss,"Mi Guía de Viajes, colección de guías de viaje para viajeros (GNOSS)",-,,http://creativecommons.org/licenses/by-nc/2.0/,"<a href=""http://miguiadeviajes.net/"">MiGuiadeViajes.net</a>
+is a semantic collection of travel guides, sightseeing tours and trips especially recommended for tourists, travellers and backpackers. The community allows you to find where to go, where to eat or sleep in different countries, regions and cities with the GNOSS facet-based search engine.
+<a href=""http://gnoss.com/"">GNOSS</a>
+promotes this community based on the standards of the Semantic Web and Linked Open Data. MiGuiadeViajes.net offers a selection of 3,533 resources (November 2012). The content of Miguiadeviajes.net belongs to 
+<a href=""http://thedatahub.org/dataset/webnmasunotraveler"">El Viajero's tourism dataset</a>
+, that integrates the various contents from newspapers and digital platforms belonging to the Prisa Digital Group in the domain of news and blogs about travel.
+</p>
+
+<p>
+Guías de viaje, rutas turísticas y escapadas componen 
+<a href=""http://miguiadeviajes.net/"">MiGuiadeViajes.net</a>
+, una selección de recomendaciones para viajeros, turistas y aventureros. La comunidad permite buscar dónde ir, dónde
+<strong> </strong>
+comer o dónde dormir por países, regiones y ciudades gracias al 
+<a href=""http://gnoss.com/comunidad/nextweb/recurso/Busquedas-facetadas-o-razonadas/13fd22d5-704d-412c-b35f-31ddc4b7238e"">buscador facetado de GNOSS</a>
+.
+</p>
+<p>
+<a href=""http://gnoss.com/"">GNOSS</a>
+ promueve esta comunidad  desarrollada y fundamentada en los estándares de la Web Semántica y de los Datos Abiertos Enlazados (Linked Open Data). MiGuiadeViajes.net dispone en la actualidad de 3.533 recursos (Noviembre 2012). El contenido procede del
+<a href=""http://thedatahub.org/dataset/webnmasunotraveler"">dataset de El Viajero</a>
+, que integra artículos, guías y reportajes turísticos de los periódicos y plataformas digitales del Grupo Prisa.
+</p>",http://miguiadeviajes.net,FALSE,Web:http://miguiadeviajes.net Name:GNOSS Team Email:gnoss@gnoss.com,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,0,1,0.75,0,1,0,1,0.5,2.8
+dbpedia,DBpedia,Available,http://dbpedia.org/sparql,http://www.opendefinition.org/licenses/cc-by-sa,"DBpedia.org is a community effort to extract structured information from Wikipedia and to make this information available on the Web. DBpedia allows you to ask sophisticated queries against Wikipedia and to link other datasets on the Web to Wikipedia data.
+
+The English version of the DBpedia knowledge base currently describes 6.0M entities of which 4.6M have abstracts, 1.53M have geo coordinates and 1.6M depictions. In total, 5.2M resources are classified in a consistent ontology, consisting of 1.5M persons, 810K places (including 505K populated places), 490K works (including 135K music albums, 106K films and 20K video games), 275K organizations (including 67K companies and 53K educational institutions), 301K species and 5K diseases. The total number of resources in English DBpedia is 16.9M that, besides the 6.0M resources, includes 1.7M skos concepts (categories), 7.3M redirect pages, 260K disambiguation pages and 1.7M intermediate nodes.
+ 
+Altogether the DBpedia 2016-04 release consists of 9.5 billion (2015-10: 8.8 billion) pieces of information (RDF triples) out of which 1.3 billion (2015-10: 1.1 billion) were extracted from the English edition of Wikipedia, 5.0 billion (2015-04: 4.4 billion) were extracted from other language editions and 3.2 billion (2015-10: 3.2 billion) from DBpedia Commons and Wikidata. In general, we observed a growth in mapping-based statements of about 2%.
+ 
+Thorough statistics can be found on the DBpedia website and general information on the DBpedia datasets here.",http://dbpedia.org/,FALSE,Web:http://dbpedia.org/ Name:DBpedia Team - http://wiki.dbpedia.org/Imprint Email:dbpedia-discussion@lists.sourceforge.net,,,,,,,,,,,,,,,,,,,,,,,
+interactivemaps-gnoss,"Interactive Maps, a collection of interactive flash maps (GNOSS)",-,,http://creativecommons.org/licenses/by-nc/2.0/,"<p>
+<a href=""http://mapasinteractivos.didactalia.net/"">Mapas interactivos</a> is a collection of interactive flash maps developed by 
+<a href=""http://mapasinteractivos.didactalia.net/comunidad/mapasflashinteractivos/perfil/Enrique-Alonso-Guti%C3%A9rrez/"">Enrique Alonso</a>
+ to facilitate the physical and political geography learning. It includes maps of Spain and its autonomies, Europe and its countries, the European Union, Asia, Africa, and America and countries of America. The project, with maps in 10 languages, is part of <a href=""http://didactalia.net/"">Didactalia (GNOSS)</a>.
+</p>
+<p>
+Mapas interactivos works with 
+<a href=""http://gnoss.com/"">GNOSS software (RIAM Intelearning Lab)</a>
+. RIAM is a company that develops semantic technology for the creation of specialized networks and linked markets. Mapas interactivos offers a selection of 841 maps (November 2012). It includes a facet-based search engine and enriched contexts. Both are developments by GNOSS.
+</p>
+
+<p>
+<a href=""http://mapasinteractivos.didactalia.net/"">Mapas interactivos</a>
+ es una colección de mapas en flash elaborados por <a href=""http://mapasinteractivos.didactalia.net/comunidad/mapasflashinteractivos/perfil/Enrique-Alonso-Guti%C3%A9rrez/"">Enrique Alonso</a> para facilitar el aprendizaje de Geografía (física y política). Incluye mapas de España y sus Comunidades Autónomas; países de Europa, Europa y la Unión Europea; Asia; África; y países de América y América. El proyecto forma parte de <a href=""http://didactalia.net/"">Didactalia (GNOSS)</a> y está en 10 idiomas.
+</p>
+<p>
+Mapas interactivos trabaja con 
+<a href=""http://gnoss.com/"">software de GNOSS (RIAM Intelearning Lab)</a>. RIAM es una compañía que desarrolla tecnología semántica para la creación de redes especializadas y mercados enlazados. Mapas interactivos ofrece en este caso una colección con 841 mapas en flash (Octubre 2012). Incluye un buscador facetado y contextos enriquecidos. Ambos son desarrollos de GNOSS.
+</p>",http://mapasinteractivos.didactalia.net/comunidad/mapasflashinteractivos,FALSE,Web:http://mapasinteractivos.didactalia.net/comunidad/mapasflashinteractivos Name:GNOSS Team Email:gnoss@gnoss.com,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,0,1,0.75,0,1,0,1,0.5,2.8
+didactalia,"Didactalia, índice de recursos educativos para profesores, padres y alumnos (GNOSS)",-,,http://creativecommons.org/licenses/by-nc/2.0/,"<p>
+<a href=""http://didactalia.net/"">Didactalia.net</a>
+ is a K-12 global community and an storage place for teachers, students and parents to create, share and find open educational resources that has currently more than 50,000 items with semantic contexts. In Didactalia.net, users can create, share and discover content and promote educational spaces where they can use lessons with facet based searches and enriched contexts. The project also offers a Personal Learning Environment (PLE) that includes an online reputation management service and a space where learners take control, communicate and cope with their own learning upgraded with personalized contexts. The Semantic Technology, the use of Linked Open Data and the creation of an ecosystem of learning communities in the context of Social Learning form the core of Didactalia.net. In this sense, the community aims to build an educational graph that gives meaning to distributed education and fragmented work of many teachers. This knowledge is managed on learning patterns and sequences that make sense for the educational community.
+</p>
+<p>
+<a href=""http://gnoss.com/"">GNOSS (RIAM Intelearning Lab)</a>
+promotes Didactalia.net.
+</p>
+<p>
+<a href=""http://didactalia.net/"">Didactalia.net</a>
+ es una comunidad educativa global para profesores, padres y estudiantes desde la Educación Infantil hasta el Bachillerato que incluye una colección con más de 50.000 recursos educativos abiertos. En ella, los usuarios pueden crear, compartir y descubrir contenidos educativos y promover clases y comunidades de aprendizaje en las que trabajar lecciones en un espacio social con búsquedas facetadas y contextos enriquecidos. En cuanto a identidad digital, Didactalia.net propone un Entorno Personal de Aprendizaje (PLE), que incluye herramientas semánticas y sociales para gestionar la reputación y un espacio en el que el usuario recoge, expone y comparte sus contenidos de aprendizaje. La tecnología semántica, el aprovechamiento de los datos abiertos enlazados (
+<a href=""http://linkeddata.org/"">Linked Data</a>
+) y la creación de un ecosistema de comunidades de aprendizaje en un contexto de Social Learning configuran el núcleo de Didactalia.net. En este sentido, la comunidad aspira a la construcción de un grafo educativo que dé sentido al trabajo distribuido y atomizado de muchos profesores y que esté organizado sobre patrones y secuencias de aprendizaje que tengan sentido para la comunidad educativa.
+</p>
+<p>
+<a href=""http://gnoss.com/"">GNOSS (RIAM Intelearning Lab)</a>
+promueve Didactalia.net.
+</p>",http://didactalia.net,FALSE,Web:http://didactalia.net Name:GNOSS Team Email:gnoss@gnoss.com,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,1,1,1,1,1,0,1,0.75,3.3
+flickr-wrappr,flickr? wrappr,-,,FALSE,"The flickr wrappr extends DBpedia with RDF links to photos posted on flickr. For each of the 1.95 million DBpedia concepts, the wrappr generates a collection of flickr photos that depict the concept.",http://www4.wiwiss.fu-berlin.de/flickrwrappr,FALSE,Web:http://www4.wiwiss.fu-berlin.de/flickrwrappr Name:Christian Becker Email:chris@beckr.org,1,0,1,0.56,1,1,0.76,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.26
+revyu,Revyu.com - Review Anything,-,http://revyu.com/sparql,FALSE,"Universal review site. RDF-based API, SPARQL endpoint.",http://revyu.com/,FALSE,Web:http://revyu.com/ Name:Tom Heath Email:contact@revyu.com,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.28
+https:www.childrensartmuseum.grLD-project,Greek Children Art  Museum dataset,-,,http://www.opendefinition.org/licenses/cc-by-sa,"The ""LD-project"" deals with the creation of cultural Open Linked Data (LOD), based on the artifacts of Greek Children Art Museum, in Greece, Athens. It was created in the frame of Master Thesis of MSc. students, Marini Efstathia and Chondrogianni Maria, in Cultural Informatics postgraduate program at the Department of Cultural Technology and Communication of the University of the Aegean.
+DCAT Description: https://www.childrensartmuseum.gr/LD-project/",https://www.childrensartmuseum.gr/LD-project/,"Name: absent, email: sotiriosangelis@gmail.com",Web:https://www.childrensartmuseum.gr/LD-project/ Name:Sotiris Angelis Email:sotiris@aegean.gr,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,0,1,0.75,0,1,0,1,0.5,2.8
+wikidata,Wikidata,Available,https://query.wikidata.org/sparql,http://www.opendefinition.org/licenses/cc-zero,free knowledge database project hosted by Wikimedia and edited by volunteers,https://www.wikidata.org/,"Name: absent, email: f.mambrini@gmail.com",Web:https://www.wikidata.org/ Name:Lucas Werkmeister Email:wikidata@wikimedia.de,1,1,1,0.89,1,1,0.98,1,1,1,1,1,1,1,1,1,1,1,1,0,1,0.75,3.73
+rubenverborgh,Ruben Verborgh's data,-,,http://www.opendefinition.org/licenses/cc-zero,"Data about Ruben Verborgh's professional activities, including metadata about publications, blog posts, and people.",https://data.verborgh.org/ruben,FALSE,Web:https://data.verborgh.org/ruben Name:Ruben Verborgh Email:,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,0,1,0.75,0,1,0,1,0.5,2.8
+red-uno-internacional-santillana,Red Uno Internacional (Santillana),-,,http://creativecommons.org/licenses/by-nc/2.0/,"<p>
+<a href=""http://reduno-internacional.com/comunidad/unoi"">Red UNO Internacional (Santillana) </a> is a support community for teachers of Sistema UNO, an educational project that manages the digitization of school, the training of the entire school community and the evaluation of their actions. The proposal provides everything needed to satisfy the standard parameters set by UNESCO and achieves the highest levels of educational quality indicators as PISA ranking.
+</p>
+<p>
+Red Uno Internacional (Grupo Santillana) works with <a href=""http://gnoss.com/"">GNOSS software (RIAM Intelearning Lab)</a>. RIAM is a company that develops semantic technology for the creation of specialized networks and linked markets. Red Uno Internacional (Santillana) offers a selection of 69 resources (November 2012). It includes a facet-based search engine and enriched contexts. Both are developments by GNOSS.
+</p>
+
+<p>
+<a href=""http://reduno-internacional.com/comunidad/unoi"">Red UNO Internacional (Santillana)</a>
+es un comunidad de apoyo a los docentes que participan en <a href=""http://www.sistemauno.com"">Sistema UNO</a>, proyecto educativo que gestiona la digitalización de la escuela, la formación permanente de toda la comunidad educativa y la evaluación constante de sus acciones. La propuesta provee de todo lo necesario para cumplir con los parámetros establecidos por la UNESCO y alcanzar los más altos niveles de calidad educativa que marcan los indicadores internacionales como PISA.
+</p>
+<p>
+Red Uno Internacional (Santillana) trabaja con <a href=""http://gnoss.com/"">software de GNOSS (RIAM Intelearning Lab)</a>. RIAM es una compañía que desarrolla tecnología semántica para la creación de redes especializadas y mercados enlazados. Red Uno Internacional (Santillana) ofrece en este caso una selección de 69 recursos (Noviembre 2012). Incluye un buscador facetado y contextos enriquecidos. Ambos son desarrollos de GNOSS.
+</p>",http://reduno-internacional.com/en/community/unoi,FALSE,Web:http://reduno-internacional.com/en/community/unoi Name:GNOSS Team Email:gnoss@gnoss.com,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,0,1,0.75,0,1,0,1,0.5,2.8
+abc,SummerOlympics,-,https://dbpedia.org/page/Summer_Olympic_Games,http://www.opendefinition.org/licenses/odc-odbl,This dataset  includes all the summer Olympics medalists from 1896-2014 and information about them,http://www.semanticweb.org/acer/ontologies/2021/11/untitled-ontology-6,"Name: absent, email: i191768@nu.edu.pk",Web:http://www.semanticweb.org/acer/ontologies/2021/11/untitled-ontology-6 Name:Zaid Khan Email:i191688@nu.edu.pk,1,0,1,0.78,1,1,0.8,0.5,1,0,1,0.62,1,1,0,1,0.75,0,1,0,1,0.5,2.67
+ineverycrea,"IneveryCREA, la comunidad de la creatividad educativa",-,,http://creativecommons.org/licenses/by-nc/2.0/,"<p>
+<a href=""http://ineverycrea.net/"">IneveryCREA (Santillana)</a> is the community of educational creativity for teachers and education professionals to create, develop and share original educational resources in Spain.
+</p>
+<p>
+Santillana is the leading textbook and general-interest publishing group in Spain and Latin America, and the most prestigious publisher of literary works in Spanish. With more than 108 million books sold in 2010, the company has been synonymous with quality, innovation and service to teaching staff since its inception in 1960.
+</p>
+<p>
+IneveryCREA (Santillana) works with <a href=""http://gnoss.com/"">GNOSS software (RIAM Intelearning Lab)</a>. RIAM is a company that develops semantic technology for the creation of specialized networks and linked markets. IneveryCREA offers a selection of 2,554 resources (November 2012). It includes a facet-based search engine and enriched contexts. Both are developments by GNOSS.
+</p>
+
+<p>
+<a href=""http://ineverycrea.net/"">IneveryCREA (Santillana)</a> es la comunidad de la creatividad educativa para profesores y profesionales de la educación que crean, desarrollan y comparten recursos educativos originales.
+</p>
+<p> Santillana es el grupo editorial líder en texto escolar y ediciones generales en España y América Latina, y la referencia en el campo de la creación literaria en lengua española. Con más de 108 millones de libros vendidos en el año 2010, es sinónimo de calidad, innovación y servicio al profesorado desde su creación en 1960.</p>
+<p>
+IneveryCREA (Santillana) trabaja con <a href=""http://gnoss.com/"">software de GNOSS (RIAM Intelearning Lab)</a>. RIAM es una compañía que desarrolla tecnología semántica para la creación de redes especializadas y mercados enlazados. IneveryCREA ofrece en este caso una selección de 2.554 recursos (Noviembre 2012). Incluye un buscador facetado y contextos enriquecidos. Ambos son desarrollos de GNOSS.
+</p>",http://ineverycrea.net/,FALSE,Web:http://ineverycrea.net/ Name:GNOSS Team Email:gnoss@gnoss.com,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,0,1,0.75,0,1,0,1,0.5,2.8
+ineverycrea-argentina,"IneveryCREA Argentina, la comunidad de la creatividad educativa",-,,http://creativecommons.org/licenses/by-nc/2.0/,"<p>
+<a href=""http://www.ineverycrea.com.ar/"">IneveryCREA Argentina (Santillana) </a>
+is the community of educational creativity for teachers and education professionals to create, develop and share original educational resources in Argentina.
+</p>
+<p>
+Santillana is the leading textbook and general-interest publishing group in Spain and Latin America, and the most prestigious publisher of literary works in Spanish. With more than 108 million books sold in 2010, the company has been synonymous with quality, innovation and service to teaching staff since its inception in 1960.
+</p>
+<p>
+IneveryCREA Argentina (Santillana) works with 
+<a href=""http://gnoss.com/"">GNOSS software (RIAM Intelearning Lab)</a>. RIAM is a company that develops semantic technology for the creation of specialized networks and linked markets. IneveryCREA offers a selection of 592 resources (November 2012). It includes a facet-based search engine and enriched contexts. Both are developments by GNOSS.
+</p>
+
+<p>
+<a href=""http://www.ineverycrea.com.ar/"">IneveryCREA Argentina (Santillana)</a> es la comunidad de la creatividad educativa para profesores y profesionales de la educación que crean, desarrollan y comparten recursos educativos originales en Argentina.
+</p>
+<p> Santillana es el grupo editorial líder en texto escolar y ediciones generales en España y América Latina, y la referencia en el campo de la creación literaria en lengua española. Con más de 108 millones de libros vendidos en el año 2010, es sinónimo de calidad, innovación y servicio al profesorado desde su creación en 1960.</p>
+<p>
+IneveryCREA Argentina (Santillana) trabaja con 
+<a href=""http://gnoss.com/"">software de GNOSS (RIAM Intelearning Lab)</a>. RIAM es una compañía que desarrolla tecnología semántica para la creación de redes especializadas y mercados enlazados. IneveryCREA ofrece en este caso una selección de 592 recursos (Noviembre 2012). Incluye un buscador facetado y contextos enriquecidos. Ambos son desarrollos de GNOSS.
+</p>",http://ineverycrea.net/en/community/ineverycreaargentina,FALSE,Web:http://ineverycrea.net/en/community/ineverycreaargentina Name:GNOSS Team Email:gnoss@gnoss.com,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,1,1,1,1,1,0,1,0.75,3.3
+ASCDC-Qing-Secret-Societies,Dataset of the Qing Secret Societies (Sect of the Shifokou Wangs' Clan),-,,http://www.opendefinition.org/licenses/cc-zero,"The LOD dataset of ASCDC_Database of the Qing Secret Societies (Sect of the Shifokou Wangs' Clan) is created by the Academia Sinica Center for Digital Cultures (ASCDC) and based on the research project of the “The Secret Societies in Qing Dynasty” (清代檔案與數位人文研究──以官方查辦民間教門為核心). From 2022 to 2025, this project is funded by the National Science and Technology Council in Taiwan (NSTC 112-2423-H-001-002). The dataset is established and maintained by ASCDC at Academia Sinica in Taipei, Taiwan (ROC). The data includes the archives, persons, religious sects, sect events and place names related to the Chinese secret societies in the Jiaqing era (1796-1820), which can be served as authority files or controlled vocabularies for the study of the Chinese history. In particular, the data triples of the sect event of the Shifokou Wang’s Clan (石佛口王姓教案) will be focused in this dataset. Containing 8,810 data triples, the textual content within the LOD dataset is licensed under the Creative Commons Attribution (CC BY).",https://www1.ihp.sinica.edu.tw/en/Fellows/Shu-Jiun_Chen,"Name: absent, email: luluyen1210@gmail.com","Web:https://www1.ihp.sinica.edu.tw/en/Fellows/Shu-Jiun_Chen Name:Dr. Shu-Jiun Sophy Chen (Academia Sinica Center for Digital Cultures, Taiwan R.O.C.) Email:sophy@sinica.edu.tw",1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,0,1,0.75,0,1,0,1,0.5,2.8
+ASCDC-DQOT,Database of Qing Official Titles (DQOT),Restricted access to the endpoint,,http://www.opendefinition.org/licenses/cc-zero,"The LOD dataset of ASCDC_Database of Qing Official Titles (DQOT) was created by the Academia Sinica Center for Digital Cultures (ASCDC) and based on the metadata from the online “Database of Qing Official Titles” (清代職官資料庫, https://newarchive.ihp.sinica.edu.tw/officerc/officerkm2?@@0.21081762485249556), which was established and maintained by the Institute of History and Philology, Academia Sinica, Taipei, Taiwan (ROC). The data includes titles of the official positions in the Qing dynasty (1644-1911) and their detailed information, which can serve as authority files or controlled vocabularies for official positions in the study of Chinese history. Containing 6,846 data records and 164,733 triples, the textual content within the LOD dataset is licensed under the Creative Commons Attribution (CC BY).",https://data.ascdc.tw/en/data.php,"Name: absent, email: luluyen1210@gmail.com","Web:https://data.ascdc.tw/en/data.php Name:Dr. Shu-Jiun Sophy Chen (Academia Sinica Center for Digital Cultures, Taiwan R.O.C.) Email:sophy@gate.sinica.edu.tw",1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,1,1,0,1,0.75,0,1,0,1,0.5,2.53
+ASCDC_-_DNB,Database of Names and Biographies (DNB),Restricted access to the endpoint,,http://www.opendefinition.org/licenses/cc-zero,"The LOD dataset of ASCDC_Database of Names and Biographies (DNB) was created by the Academia Sinica Center for Digital Cultures (ASCDC) and based on the metadata from the online “Database of Names and Biographies” (人名權威人物傳記資料庫, http://archive.ihp.sinica.edu.tw/ttsweb/html_name/), which was established and maintained by the Institute of History and Philology, Academia Sinica, Taipei, Taiwan (ROC). The data includes the names of Chinese historical persons, mostly from the Ming to Qing dynasty, and their biographical information, which can serve as authority files or controlled vocabularies for names in the study of Chinese history. Containing 35,251 data records and 2,819,864 triples, the textual content within the LOD dataset is licensed under the Creative Commons Attribution (CC BY).",https://data.ascdc.tw/en/data.php,"Name: absent, email: abigailcano4824@gmail.com","Web:https://data.ascdc.tw/en/data.php Name:Dr. Shu-Jiun Sophy Chen (Academia Sinica Center for Digital Cultures, Taiwan R.O.C.) Email:sophy@gate.sinica.edu.tw",1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,1,1,0,1,0.75,0,1,0,1,0.5,2.53
+green-competitiveness-gnoss,Green Competitiveness (GNOSS),-,,http://creativecommons.org/licenses/by-nc/2.0/,"<p>
+The competitiveness and the green economy should be a collective idea of organizing industrial production and, therefore, a business space, not a thought exercise or a radical practice.
+<a href=""http://red.gnoss.com/en/community/greencompetitiveness"">Green Competitiveness</a>
+is a global knowledge network designed to share content and opinion about the opportunities for economic growth and social well-being related to the promotion and growth of the green economy.
+</p>
+<p>
+Green Competitiveness works with 
+<a href=""http://gnoss.com/"">GNOSS software (RIAM Intelearning Lab)</a>
+. RIAM is a company that develops semantic technology for the creation of specialized networks and linked markets. Green Competitiveness offers a selection of 189 resources (November 2012). It includes facet-based searches and enriched contexts. Both are developments by GNOSS.
+</p>
+<p>
+<br>
+La competitividad y economía verdes deberían llegar a ser un idea colectiva organizadora de la producción industrial y, por tanto, un espacio de negocios y no un ejercicio de pensamiento en los márgenes o una práctica radical. La comunidad
+<a href=""http://red.gnoss.com/comunidad/greencompetitiveness"">Green Competitiveness</a>
+tiene como objetivo mostrar las oportunidades de crecimiento económico y bienestar social relacionados con la promoción y el crecimiento de la economía verde.
+</p>
+<p>
+Green Competitiveness trabaja con software de 
+<a href=""http://gnoss.com/"">GNOSS software (RIAM Intelearning Lab)</a>
+. RIAM es una compañía que desarrolla tecnología semántica para la creación de redes especializadas y mercados enlazados. NextWeb ofrece en este caso una selección de 189 recursos (Noviembre 2012). Incluye un buscador facetado y contextos enriquecidos. Ambos son desarrollos de GNOSS.
+</p>",http://red.gnoss.com/en/community/greencompetitiveness,FALSE,Web:http://red.gnoss.com/en/community/greencompetitiveness Name:GNOSS Team Email:gnoss@gnoss.com,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,0,1,0.75,0,1,0,1,0.5,2.8
+aegp-spanish-textile-and-clothing-association,"AEGP, Spanish Textile and Clothing Association",-,,http://creativecommons.org/licenses/by-nc/2.0/,"<p>
+Semantic catalog of the <a href=""http://www.agrupaciontextil.org/"">Spanish Textile and Clothing Association (AEGP) companies</a>. AEGP is a voluntary professional national association that promotes the competitiveness of its companies through the promotion, defense and representation of their professional, economic and work interests. It offers specialized services that enhance their position in the environment. The catalog includes 2,500 textile and clothing companies.
+</p>
+<p>
+AEGP works with <a href=""http://gnoss.com/"">GNOSS software (RIAM Intelearning Lab)</a>. RIAM is a company that develops semantic technology for the creation of specialized networks and linked markets. The project includes a faceted-based search engine and enriched contexts. Both are developments by GNOSS.
+</p>
+
+<p>
+Catálogo semántico de las empresas de la <a href=""http://www.agrupaciontextil.org/"">Agrupación Española del Género de Punto (AEGP)</a>. AEGP es una asociación profesional voluntaria de ámbito estatal cuyo objetivo es impulsar la competitividad de las empresas asociadas, a través del fomento, la defensa y la representación de sus intereses laborales, profesionales y económicos y, mediante una oferta de servicios especializados que les permitan mejorar su posición en el entorno. El catálogo recoge 2500 empresas del sector.
+</p>
+<p>
+AEGP trabaja con <a href=""http://gnoss.com/"">software de GNOSS (RIAM Intelearning Lab)</a>. RIAM es una compañía que desarrolla tecnología semántica para la creación de redes especializadas y mercados enlazados. El proyecto incluye un buscador facetado y contextos enriquecidos.
+</p>",http://red.gnoss.com/comunidad/buscaempresas,FALSE,Web:http://red.gnoss.com/comunidad/buscaempresas Name:GNOSS Team Email:gnoss@gnoss.com,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,0,1,0.75,0,1,0,1,0.5,2.8
+rism,Répertoire International des Sources Musicales - RISM,Available,http://data.rism.info/sparql,http://www.opendefinition.org/licenses/cc-by,"Répertoire International des Sources Musicales (RISM) is an international, non-profit organization with the aim of comprehensively documenting extant musical sources anywhere in the world. 
+
+The dataset offered here contains over 870,000 records, mostly for music manuscripts. These records hand down the works of some 27,000 composers, whose sources are preserved in the libraries and archives of 36 countries.",absent,FALSE,Web:absent Name:RISM Email:magda.gerritsen@bsb-muenchen.de,1,1,1,0.78,1,1,0.96,1,1,1,1,1,1,1,0,1,0.75,0,1,0,1,0.5,3.21
+cpv-2008,CPV 2008,-,http://purl.org/weso/sparql,http://www.opendefinition.org/licenses/odc-odbl,"The Common Procurement Vocabulary (CPV) establishes a single classification system for public procurement aimed at standardising the references used by contracting authorities and entities to describe the subject of procurement contracts.
+
+The dataset created is comprised of CPV 2008 and CPV 2003 codes and the mappings between them. 
+
+Authors:
+
+Authors:
+
+Jose María Alvarez Rodríguez & Jose Emilio Labra Gayo 
+
+WESO-University of Oviedo",http://www.josemalvarez.es/web/2011/11/16/product-scheme-classifications/,FALSE,Web:http://www.josemalvarez.es/web/2011/11/16/product-scheme-classifications/ Name:Jose María Alvarez Rodríguez at WESO (University of Oviedo) Email:josem.alvarez@weso.es,1,0,1,0.78,1,1,0.8,0,1,0,1,0.5,1,1,0,1,0.75,0,1,0,1,0.5,2.55
+naics-2012,NAICS 2012,-,http://purl.org/weso/sparql,http://www.opendefinition.org/licenses/odc-odbl,"The North American Industry Classification System (NAICS) is the standard used by Federal statistical agencies in classifying business establishments for the purpose of collecting, analyzing, and publishing statistical data related to the U.S. business economy.
+
+Authors of the linked data version:
+
+-Jose María Alvarez Rodríguez & Jose Emilio Labra Gayo
+
+WESO-University of Oviedo",http://www.josemalvarez.es/web/2011/11/16/product-scheme-classifications/,FALSE,Web:http://www.josemalvarez.es/web/2011/11/16/product-scheme-classifications/ Name:Jose María Alvarez Rodríguez at WESO (University of Oviedo) Email:josem.alvarez@weso.es,1,0,1,0.78,1,1,0.8,0,1,0,1,0.5,1,1,0,1,0.75,0,1,0,1,0.5,2.55
+openlinksw-dataspaces,openlinksw dataspaces,-,,FALSE,Open Dataspaces hosted at openlinksw.com,absent,FALSE,Web:absent Name: Email:,1,0,1,0.44,1,1,0.74,0,1,0,1,0.5,0,0,0,1,0.25,0,1,0,1,0.5,1.99
+semanlink,semanlink,-,,FALSE,,absent,FALSE,Web:absent Name:None Email:None,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+apache,apache,-,,http://www.opendefinition.org/licenses/cc-by,,absent,FALSE,Web:absent Name: Email:,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,1,0,0,1,0.5,0,1,0,1,0.5,2.53
+prefix-cc,prefix.cc,-,,http://www.opendefinition.org/licenses/cc-zero,"A community-curated collection of namespace prefix mappings for use in RDF applications.
+
+Features a lookup API and bulk download.",http://prefix.cc/,FALSE,Web:http://prefix.cc/ Name:Richard Cyganiak Email:richard@cyganiak.de,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,1,1,1,1,1,0,1,0.75,3.3
+semanticweb-org,semanticweb.org,-,,http://www.opendefinition.org/licenses/cc-by,Semantic Wiki about the Semantic Web community,http://semanticweb.org/,FALSE,Web:http://semanticweb.org/ Name:Markus Krötzsch Email:mak@aifb.uni-karlsruhe.de,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,1,1,1,1,1,1,1,0,1,0.75,3.03
+typepad,typepad,-,,FALSE,user and blog data,absent,FALSE,Web:absent Name: Email:,1,0,1,0.44,1,1,0.74,0,1,0,1,0.5,0,0,0,1,0.25,0,1,0,1,0.5,1.99
+wordpress,wordpress,-,,FALSE,,absent,FALSE,Web:absent Name:None Email:None,1,0,1,0.56,1,1,0.76,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.51
+myopenlink-dataspaces,myopenlink dataspaces,-,,FALSE,dataspaces at myopenlink.net,absent,FALSE,Web:absent Name: Email:,1,0,1,0.56,1,1,0.76,1,1,0,1,0.75,0,0,0,1,0.25,0,1,0,1,0.5,2.26
+universidad-de-cuenca-linkeddata,Universidad de Cuenca - LinkedData,-,,http://www.opendefinition.org/licenses/cc-by-sa,"Linked Data from the ""Universidad de Cuenca, Cuenca, Ecuador""  includes data about its academic structure and researchers.",absent,FALSE,Web:absent Name:Universidad de Cuenca Email:hernan.gonzalezt@ucuenca.edu.ec,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,0,1,0.75,0,1,0,1,0.5,2.8
+deustotech,DeustoTech (Deusto Institute of Technology),-,,http://creativecommons.org/licenses/by-nc/2.0/,"<p>
+<p>
+Deusto Instituto de Tecnología, <a href=""http://www.deustotech.deusto.es/"">DeustoTech</a>, anteriormente Tecnológico Fundación Deusto, es un instituto de investigación perteneciente a la Fundación Deusto y la Universidad de Deusto en la Facultad de Ingeniería. DeustoTech ha sido creado con la misión de realizar investigación básica y aplicada en tecnologías de la informática y la información, frente a la transferencia de tecnología y apoyo a las empresas, y fomentar la formación y la excelencia en la educación.
+</p>
+<p>
+DeustoTech trabaja con <a href=""http://gnoss.com/"">software de GNOSS (RIAM Intelearning Lab)</a>. RIAM es una compañía que desarrolla tecnología semántica para la creación de redes especializadas y mercados enlazados. Este dataset presenta información sobre publicaciones, autores y proyectos de investigación de dos grupos pertenecientes a DeustoTech: <a title=""DeustoTech Computing,"" href=""http://gescon.deusto.es:7877/servlet/Satellite/Page/1280393105788/_cast/#1284619588939%231280393105788/c0/UniversidadDeusto/Page/PaginaAsociacionDTTPL"">DeustoTech Computing</a> centrada en la inteligencia computacional aplicada a la seguridad y la optimización de procesos industriales, entre otros campos y
+<a title=""DeustoTech Internet"" href=""http://www.deustotech.deusto.es/servlet/Satellite/Page/1280393105780/_ingl/#1284619588939%231280393105780/c0/UniversidadDeusto/Page/PaginaAsociacionDTTPL"">DeustoTech Internet</a>, centrada en las soluciones móviles, la computación ubicua y la inteligencia ambiental. Esta información esta publicada en las comunidades gnoss
+<a title=""DeustoTech Internet"" href=""http://deusto.gnoss.com/comunidad/futureinternet"">DeustoTech Internet</a>
+y <a href=""http://deusto.gnoss.com/comunidad/deustotechcomputing"">DeustoTech Computing</a>.
+</p>
+
+<p>
+Deusto Institute of Technology,
+<a href=""http://www.deustotech.deusto.es/"">DeustoTech</a>, Tecnológico Fundación Deusto previously, is a research institute belonging to the Fundación Deusto and the University of Deusto in the Faculty of Engineering. Deustotech has been created to conduct basic and apply research in information technologies, to transfer technology and business support, and to promote training and excellence in education.
+</p>
+<p>
+DeustoTech works with
+<a href=""http://gnoss.com/"">GNOSS software (RIAM Intelearning Lab)</a>. RIAM is a company that develops semantic technology for the creation of specialized networks and linked markets. This dataset provides information about publications, authors and research projects of two groups belonging to Deustotech: DeustoTech Computing, that focus on computational intelligence applied to security and optimization of industrial processes, among other fields; and Deustotech Internet, that focus on mobile solutions, ubiquitous computing and ambient intelligence. This information is posted on the gnoss communities <a title=""DeustoTech Internet"" href=""http://deusto.gnoss.com/comunidad/futureinternet"">DeustoTech Internet</a> and <a href=""http://deusto.gnoss.com/comunidad/deustotechcomputing"">DeustoTech Computing</a>.
+</p>",http://deusto.gnoss.com,FALSE,Web:http://deusto.gnoss.com Name:GNOSS Team Email:gnoss@gnoss.com,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,0,1,0.75,0,1,0,1,0.5,2.8
+dblp-deusto-gnoss,DBLP Research Groups (University of Deusto-GNOSS),-,,http://creativecommons.org/licenses/by-nc/2.0/,"<p>
+<a href=""http://researchgroups.gnoss.com/"">DBLP Research Groups (University of Deusto-GNOSS) </a>
+is the platform for creating research communities enriched with scientific contexts from
+<a href=""http://www.informatik.uni-trier.de/~ley/db/"">DBLP</a>
+. The recommendation contexts of Deusto-GNOSS Research Groups are a part of an index with over two million scientific publications in IT developed by GNOSS in collaboration with the
+<a href=""http://www.deusto.es/"">University of Deusto</a>
+. You can use the contexts for your community or research group.
+</p>
+<p>
+<a href=""http://researchgroups.gnoss.com/"">DBLP Research Groups (University of Deusto-GNOSS) </a>
+works with
+<a href=""http://gnoss.com/"">GNOSS software (RIAM Intelearning Lab)</a>
+. RIAM is a company that develops semantic technology for the creation of specialized networks and linked markets. GNOSS works within the philosophy of Open Data and proposes a solution so that data can be linked (Linked Data). Data are expressed in OWL-RDF files. We are implementing semantic technology in Education (educational communities and social learning), semantic catalogs for companies, corporate e-commerce portals and platforms to realize the concept of Open Government and Enterprise 2.0 (corporate social networks).
+</p>",http://researchgroups.gnoss.com,FALSE,Web:http://researchgroups.gnoss.com Name:GNOSS Team Email:gnoss@gnoss.com,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,0,1,0.75,0,1,0,1,0.5,2.8
+deustoentrepreneurship,Deusto Entrepreneurship: sharing business knowledge,-,,http://creativecommons.org/licenses/by-nc/2.0/,"<p>
+<a href=""http://deusto.gnoss.com/comunidad/deustoentrepreneurship"">Deusto Entrepreneurship: sharing business knowledge</a>, promoted by the Deusto Entrepreneurship Center at the University of Deusto, aims to update and connect knowledge of entrepreneurs, researchers and professionals on entrepreneurship and business. 
+</p>
+<p>
+Deusto Entrepreneurship works with <a href=""http://gnoss.com/"">GNOSS software (RIAM Intelearning Lab)</a>. RIAM is a company that develops semantic technology for the creation of specialized networks and linked markets. Deusto Entrepreneurship is a source of information and opinion especially recommended for people who visualize an opportunity and need inspiration, approach and support to launch a business. It offers a selection of 257 resources on entrepreneurship (September 2012).
+</p>",http://deusto.gnoss.com/en/community/deustoEntrepreneurship,FALSE,Web:http://deusto.gnoss.com/en/community/deustoEntrepreneurship Name:GNOSS Team Email:gnoss@gnoss.com,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,0,1,0.75,0,1,0,1,0.5,2.8
+yovisto,Yovisto - academic video search,-,http://sparql.yovisto.com/,http://www.opendefinition.org/licenses/cc-by-sa,"Yovisto is a video search engine specialized in academic lecture recordings and conference talks. Unlike other video search engines, Yovisto provides a time based video index,
+which allows to search within the videos? content. Automated analysis techniques such as scene detection
+and intelligent character recognition are used for metadata generation. Time dependent collaborative annotation enables the user to annotate tags and comments at any
+point within a video.",http://www.yovisto.com/ontology/,FALSE,Web:http://www.yovisto.com/ontology/ Name:Yovisto.com Email:info@yovisto.com,1,0,1,0.89,1,1,0.82,1,1,0,1,0.75,1,1,1,1,1,1,1,0,1,0.75,3.32
+utpl-lod,Universidad Técnica Particular de Loja - Linked Open Data,offline,http://data.utpl.edu.ec/utpl/lod/sparql,http://www.opendefinition.org/licenses/cc-by-sa,"Linked Open Data from the Universidad Técnica Particular de Loja (UTPL), Loja, Ecuador includes data about its academic structure. The data was published in RDF format according to the design issues of Linked Open Data. Data can be accessed from a SPARQL endpoint. 
+## Data: ##
+* Institution: 1
+* Person: 19
+* Campus: 86
+* skos:Concept: 395
+* School: 31
+* Faculty: 7
+* Research Group: 59
+* Department: 17
+* Course: 1749
+* Programme: 233
+* Organizational Unit: 17
+* Study Program: 101
+##Collaborators:##
+* Elizabeth Cadme
+* Janneth Chicaiza
+* Eduardo Encalada
+* Jorge Landacay
+* Jorge Lopez-Vargas
+* Diana Torres",absent,FALSE,Web:absent Name:Nelson Piedra Email:nopiedra@utpl.edu.ec,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,1,1,0,1,0.75,0,1,0,1,0.5,2.53
+berlios,berlios,-,,FALSE,,absent,FALSE,Web:absent Name:None Email:None,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+linkedmarkmail,LinkedMarkMail,-,,FALSE,LinkedMarkMail is a simple Linked Data interface for accessing the MarkMail archives.,http://linkedmarkmail.wikier.org/,FALSE,Web:http://linkedmarkmail.wikier.org/ Name:Sergio Fernández Email:,1,0,1,0.56,1,1,0.76,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.26
+rdfohloh,RDFohloh,-,,FALSE,"RDFohloh is a RDFizer of Ohloh. It provides Linked Data from Ohloh. Using content negotiation, the RDF data can be founded serialized in XHTML+RDFa, RDF/XML and N3, and interlinked with DBpedia concepts.
+
+Please, introduce here your project/user information:",http://rdfohloh.wikier.org,FALSE,Web:http://rdfohloh.wikier.org Name:Sergio Fernández Email:sergio@wikier.org,1,0,1,0.56,1,1,0.76,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.26
+roceeh-road,ROCEEH Out of Africa Database (ROAD),Available,http://www.roceeh.uni-tuebingen.de:3030/road/sparql,http://www.opendefinition.org/licenses/cc-by-sa,"Database on human origins in Africa and Eurasia between 3,000,000 and 20,000 years ago covering prehistoric archaeology, paleoanthropology, paleoenvironment and geography.",https://www.hadw-bw.de/en/research/research-center/roceeh,"Name: absent, email: csommer.geo@gmail.com",Web:https://www.hadw-bw.de/en/research/research-center/roceeh Name:Christian Sommer Email:christian.sommer@uni-tuebingen.de,1,0,1,0.67,1,1,0.78,1,1,1,1,1,1,1,0,1,0.75,0,1,0,1,0.5,3.03
+elviajero,El Viajero's tourism dataset,-,http://webenemasuno.linkeddata.es/sparql,FALSE,"El Viajero's tourism dataset integrates the various contents from newspapers and digital platforms belonging to the Prisa Digital Group in the domain of news and blogs about travel. 
+It relies on the Open Provenance Model to capture the provenance of each resource, and it gathers information about more than 20.000 travel guides, pictures, videos and posts belonging to the platforms.",http://webenemasuno.linkeddata.es/,FALSE,"Web:http://webenemasuno.linkeddata.es/ Name:Ontology Engineering Group, Facultad de Informática, Universidad Politécnica de Madrid. Email:dgarijov@gmail.com",1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,0,1,1,1,0.75,1,1,0,1,0.75,3.05
+ce4r,CE4R Knowledge Centre Corporate Excellence – Centre for Reputation Leadership,-,,http://creativecommons.org/licenses/by-nc/2.0/,"<p> Knowledge plataform launched by Corporate Excellence – Centre for reputation leadership, a new think tank to professionalize management of intangible assets and contribute to the development of strong brands with good reputation and able to compete in to the global market. In this community, members will be able to access to a lot of contents as article, thesis, insights, cases and so on, related to intangible management. In addition, It is possible to share knowledge and make comments.</p>
+<p>CE4R works with <a href=""http://gnoss.com/"">GNOSS software (RIAM Intelearning Lab)</a>. RIAM is a company that develops semantic technology for the creation of specialized networks and linked markets. It includes a facet-based search engine and enriched contexts. Both are developments by GNOSS.</p>
+
+<p> Plataforma de conocimiento impulsada por Corporate Excellence – Centre for reputation leadership, un laboratorio de ideas para profesionalizar la gestión de los activos intangibles y para contribuir al desarrollo de marcas con una reputación excelente capaces de competir en los mercados globales. En la comunidad podrás acceder a numerosos contenidos (artículos, casos, noticias, tesis, insights, etc.) en torno a la gestión de intangibles, así como comentarlos y compartirlos.</p>
+<p>CE4R trabaja con <a href=""http://gnoss.com/"">software de GNOSS (RIAM Intelearning Lab)</a>. RIAM es una compañía que desarrolla tecnología semántica para la creación de redes especializadas y mercados enlazados. El proyecto Incluye un buscador facetado y contextos enriquecidos. Ambos son desarrollos de GNOSS.</p>",http://corporateexcellence.net/en/community/patronato,FALSE,Web:http://corporateexcellence.net/en/community/patronato Name:GNOSS Team Email:gnoss@gnoss.com,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,0,1,0.75,0,1,0,1,0.5,2.8
+newborn-photography-maternity-photoshoot-shivani-goyal,Shivani Goyal Photography,-,,http://www.opendefinition.org/licenses/cc-by,"Shivani Goyal is a Mumbai based Newborn Photographer, Maternity photoshoot, Baby photoshoot, Child Photographer and Family Photographer and has travelled across India for Newborn and Maternity Photoshoot.",https://shivanigoyalphotography.com/,"Name: absent, email: organicsearch@organicsearch.in",Web:https://shivanigoyalphotography.com/ Name:Shivani Goyal Email:info@shivanigoyalphotography.com,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,0,1,0.75,0,1,0,1,0.5,2.8
+prospects-and-trends-gnoss,Prospects and Trends (GNOSS),-,,http://creativecommons.org/licenses/by-nc/2.0/,"<p>
+<a href=""http://red.gnoss.com/en/community/prospectivatecnologica"">Prospects and Trends</a> is a tracking service of prospects and trends that will affect our society, markets and businesses. It is a meeting place for the community of researchers, institutes prospective with the professionals of  innovation, marketing, new product development and business. Prospects and Trends is based on the search, collection, analysis and interpretation of prospective papers, articles, reports, prospective studies on emerging science, technology, economy and society and its impact on the possible generation of social, new consumption, new industries, businesses, products and opportunities. Prospects and Trends aims to publish documents that can be easily used by those who have to make strategic decisions in the company or institutions, and provide professional knowledge service about trends for companies and institutions that need it.
+</p>
+<p> In Prospects and Trends, we’ve defined a systematic exploration of the future of science, technology, economy, society. We want to identify early changes in society, consumption and markets emerging technologies and other changes likely to produce structural order that allows convert anticipation economic or social benefits.</p>
+<p> You can find in this community good materials in the field of advance and identifying scenarios, produced by the best think tanks, prospective institutes, international organizations…</p>
+<p>
+Prospects and Trends works with <a href=""http://gnoss.com/"">GNOSS software (RIAM Intelearning Lab)</a>. RIAM is a company that develops semantic technology for the creation of specialized networks and linked markets. Prospects and Trends  offers a selection of 508 resources (November 2012). It includes a facet-based search engine and enriched contexts. Both are developments by GNOSS.
+</p>
+
+<p>
+<a href=""http://red.gnoss.com/comunidad/prospectivatecnologica"">Prospects and Trends</a>  es un servicio de seguimiento prospectivo de las tendencias que afectarán a nuestra sociedad, mercados y negocios. Es punto de encuentro de la comunidad de investigadores, institutos de prospectiva  con los profesionales de la innovación, el marketing, el desarrollo de nuevos productos y negocios. Prospects and Trends se basa en la búsqueda, compilación, análisis e interpretación prospectiva de papers, artículos, informes, estudios prospectivos sobre emergentes de la ciencia, la tecnología, la economía y la sociedad y su impacto en la posible generación de cambios sociales, nuevos consumos, nuevos sectores, negocios, productos y oportunidades. Prospective Trends  tiene como objetivo que los documentos públicos puedan ser fácilmente utilizados por quienes han de tomar decisiones estratégicas en la empresa o las instituciones; y prestar un servicio profesional ad hoc de conocimiento sobre tendencias para la empresas e instituciones que lo necesiten.
+</p>
+<p> En Prospects and Trends se ha definido un proceso sistemático de exploración del futuro de la ciencia, la tecnología, la economía, la sociedad, con el propósito de identificar anticipadamente los cambios en la sociedad, el consumo y los mercados que las tecnologías emergentes y otros cambios estructurales probablemente producirán con objeto de que la anticipación permita convertirlos en beneficios económicos o sociales.</p>
+<p> En Prospects and Trends se pueden encontrar todos los buenos materiales que en el campo de la anticipación y la identificación de escenarios, producen los mejores Think Tank, Institutos e Instituciones de Prospectiva internacionales y el análisis y conclusiones que de esos contenidos realizamos en Prospects and Trends.</p>
+<p>
+Prospects and Trends trabaja con <a href=""http://gnoss.com/"">software de GNOSS de RIAM Intelearning Lab</a>. RIAM es una compañía que desarrolla tecnología semántica para la creación de redes especializadas y mercados enlazados. Prospective Trends ofrece en este caso una selección de 508 recursos (Noviembre 2012). Incluyendo un buscador facetado y contextos enriquecidos, ambos son desarrollos de GNOSS. 
+</p>",http://gnoss.com/comunidad/prospectivatecnologica,FALSE,Web:http://gnoss.com/comunidad/prospectivatecnologica Name:GNOSS Team Email:gnoss@gnoss.com,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,0,1,0.75,0,1,0,1,0.5,2.8
+gnoss-com-a-social-and-semantic-platform,"GNOSS.com, a Social and Semantic Platform",-,,http://creativecommons.org/licenses/by-nc/2.0/,"<p>
+<a href=""http://gnoss.com/"">gnoss.com</a>
+is a society on the Net: it enables people, companies and any human group or organization to connect, interact and work according to their interests in a linked open knowledge network. The project is in public beta phase since September 2009. It already has 150,000 subscribers and a knowledge network of more than 3,000 communities (November 2012) on topics related to innovation, technology, business and education, among others. gnoss.com works within the philosophy of Open Data and proposes a solution so that data can be linked (Linked Data). Data are expressed in OWL-RDF files.
+</p>
+<p> Currently, more than 100,000 resources have been published in the platform. For each resource, the platform enables to download an RDF document describing its content and metadata. Different languages such as FOAF, SIOC and SKOS are used in this description. Our whole dataset has about 4,500,000 RDF Triples. In addition, most of these resources are linked to one or more resources of the Freebase and New York Time datasets. We have about 20,000 links to these datasets.</p>
+<p>
+<a href=""http://www.gnoss.com/"">GNOSS</a>
+ is a software platform, created by RIAM Intelearning LAB S.L., to build specialized online social networks with dynamic semantic publishing. GNOSS integrates knowledge management, informal learning and collaborative work in a 
+<a href=""http://linkeddata.org/"">Linked Data</a>
+ environment. Every GNOSS space incorporates semantic facet-based searches and semantic context creation which drastically improves user experience. GNOSS runs on technologies and standards of the semantic web, which makes it possible to structure and link all kinds of content, among them and with other Open Data (Linked Data), and to reinforce and to amplify the knowledge management processes with facet-based searches and generation of documentary and personal contexts for specific information. GNOSS provides people, groups and organizations with the necessary tools to create and develop their digital identity, connect their intelligences, create communities based on their interests and motivations, and activate thriving processes of collective creativity, brainpower, debate and thinking.
+</p>
+<p>
+For further information:
+<a href=""http://noticias.gnoss.com/"">http://noticias.gnoss.com</a>
+</p>
+
+<p>
+<a href=""http://gnoss.com/"">gnoss.com</a>
+es una sociedad en la Red: permite a personas, empresas y a cualquier colectivo conectar, interactuar y trabajar de acuerdo con sus intereses en una red abierta de conocimiento. El proyecto está en beta pública desde septiembre de 2009. Gnoss.com tiene 27.000 miembros registrados y una red de conocimiento de más de 3.000 comunidades (Octubre 2012) en temas como innovación, tecnología, negocios y educación, entre otros. gnoss.com trabaja con la filosofía de Datos Abiertos y propone una solución en la que los datos puedan ser vinculados (Linked Data). Los datos se expresan en ficheros OWL-RDF.
+</p>
+<p> En la actualidad, se han publicado más de 100.000 recursos en la plataforma. Para cada recurso, la plataforma ofrece un archivo RDF que describe su contenido y metadatos. Diferentes lenguajes como FOAF, SIOC y SKOS se usan en esta descripción. Nuestra base de datos tiene más de 4.500.000 triples. Además, la mayoría de los recursos de gnoss.com están vinculados con otros recursos de Freebase y The New York Times. Tenemos más de 20.000 enlaces de estos datasets.</p>
+<p>  </p>
+<p>
+<a href=""http://www.gnoss.com/"">GNOSS</a>
+ es una plataforma de software, creada por RIAM Intelearning LAB SL, para construir redes sociales especializadas a través de la publicación semántica dinámica de contenidos (dynamic semantic publishing). GNOSS integra gestión del conocimiento, aprendizaje informal y trabajo colaborativo en un entorno de datos enlazados (
+<a href=""http://linkeddata.org/"">Linked Data</a>
+). Cada espacio GNOSS incorpora búsquedas semánticas facetadas y la generación semántica de contextos lo que se permite mejorar considerablemente la experiencia del usuario.
+</p>
+<p> GNOSS funciona sobre las tecnologías y estándares de la web semántica, lo que hace posible, por un lado, estructurar y enlazar entre sí y con los intereses de las personas toda clase de contenidos (Linked Data), y por otro refuerza y amplifica los procesos de gestión del conocimiento con búsquedas facetadas y la generación de contextos documentales y personales para una determinada información.</p>
+<p> GNOSS provee a las personas, grupos y organizaciones de las herramientas necesarias para crear y desplegar su identidad digital; conectar inteligencias; crear comunidades basadas en sus intereses y motivaciones; y activar robustos procesos de creatividad, inteligencia, deliberación y pensamiento colectivo.</p>
+<p>
+Últimas novedades de GNOSS: 
+<a href=""http://noticias.gnoss.com/"">http://noticias.gnoss.com</a>
+</p>",http://gnoss.com/en/home,FALSE,Web:http://gnoss.com/en/home Name:GNOSS Team Email:gnoss@gnoss.com,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,0,1,0.75,0,1,0,1,0.5,2.8
+museosespania-gnoss,"Museos de España, colección de museos públicos y privados españoles (GNOSS)",-,,http://creativecommons.org/licenses/by-nc/2.0/,"<p>
+<a href=""http://museos.gnoss.com/en/community/mismuseos"">Museos de España</a>
+ is a directory that allows facet-based searches on a collection with more than 1,500 dynamic pages of public and private Spanish museums. Museos de España works with 
+<a href=""http://gnoss.com/"">GNOSS software (RIAM Intelearning Lab)</a>
+</p>
+
+<p>
+<a href=""http://museos.gnoss.com/comunidad/mismuseos"">Museos de España</a>
+es un directorio que permite realizar búsquedas facetadas sobre una colección que reúne las fichas de más de 1.500 museos públicos y privados españoles. Museos de España funciona sobre
+<a href=""http://gnoss.com/"">software de GNOSS (RIAM Intelearning Lab)</a>
+</p>",http://museos.gnoss.com/comunidad/mismuseos/,FALSE,Web:http://museos.gnoss.com/comunidad/mismuseos/ Name:GNOSS Team Email:gnoss@gnoss.com,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,1,1,1,1,1,0,1,0.75,3.3
+ichoose,ichoose,offline,http://ichoose.tw.rpi.edu/sparql,FALSE,SUNY Albany Center for Technology in Government I-Choose project,absent,FALSE,Web:absent Name: Email:,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,0,1,1,0.5,1,1,0,1,0.75,2.78
+ASCDC_-_CCP_Archive,"Dataset of the Chen Cheng-po’s Paintings and Documents (CCP) in the Taiwan Archive Information System (TAIS- ITH/ASCDC) at the Institute of Taiwan History, Academia Sinica",Restricted access to the endpoint,,http://www.opendefinition.org/licenses/cc-zero,"The LOD dataset of the archive of “Chen Cheng-po’s Paintings and Documents” (陳澄波畫作與文書檔) in the Taiwan Archive Information System at the Institute of Taiwan History (ITH), Academia Sinica was created by the Academia Sinica Center for Digital Cultures (ASCDC) and based on the metadata from the online database of the “Taiwan Archive Information System” (臺灣史檔案資源系統, http://tais.ith.sinica.edu.tw/sinicafrsFront/browsingLevel1.jsp?xmlId=0000283891), which was established and maintained by the Institute of Taiwan History, Academia Sinica, in Taipei, Taiwan (ROC). The data includes hierarchically structured archival resources and is focused on the creations of Chen Cheng-po, such as his works, personal objects and collections of books, collages, postcards, etc. related to his personal life. Containing 1,522 data records and 44,647 triples, the textual content within the LOD dataset is licensed under the Creative Commons Attribution (CC0).",https://data.ascdc.tw/en/data.php,"Name: absent, email: luluyen1210@gmail.com","Web:https://data.ascdc.tw/en/data.php Name:Dr. Shu-Jiun Sophy Chen (Academia Sinica Center for Digital Cultures, Taiwan R.O.C.) Email:sophy@gate.sinica.edu.tw",1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,1,1,0,1,0.75,0,1,0,1,0.5,2.53
+ASCDC-IHP-WCD,Database of the Han Wooden Slips Character Dictionary (WCD),Restricted access to the endpoint,,http://www.opendefinition.org/licenses/cc-zero,"The LOD dataset of ASCDC_Database of the Han Wooden Slips Character Dictionary (WCD) was created by the Academia Sinica Center for Digital Cultures (ASCDC) and based on the metadata from the “Han Wooden Slips Character Dictionary” (簡牘字典―史語所藏居延漢簡資料庫, https://wcd-ihp.ascdc.sinica.edu.tw/woodslip/), which was established and maintained by the Institute of History and Philology, Academia Sinica, Taipei, Taiwan (ROC). The data includes information on the archaeological objects of Han Wooden Slips, which were created in the Han dynasty (206 B.C.-220 A.D.) and excavated in the early 1930s during the Sino-Swedish Scientific Expedition. The data can serve as a profound source for the digital study of ancient Chinese history. Containing 207 data records and 143,264 triples, the textual content within the LOD dataset is licensed under the Creative Commons Attribution (CC 0), while the digitized images are under CC-BY-NC-ND 3.0.",https://data.ascdc.tw/en/data.php,"Name: absent, email: luluyen1210@gmail.com","Web:https://data.ascdc.tw/en/data.php Name:Dr. Shu-Jiun Sophy Chen (Academia Sinica Center for Digital Cultures, Taiwan R.O.C.) Email:sophy@gate.sinica.edu.tw",1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,1,1,0,1,0.75,0,1,0,1,0.5,2.53
+ASCDC-_NTM-Formosan-Aborigines,The National Taiwan Museum's Formosan Aborigines Collections Digitizing Project (NTM-Formosan-Aborigines),Restricted access to the endpoint,,http://www.opendefinition.org/licenses/cc-zero,"The LOD dataset of ASCDC_The National Taiwan Museum's Formosan Aborigines Collections Digitizing Project (NTM- Formosan-Aborigines) was created by the Academia Sinica Center for Digital Cultures (ASCDC) and based on the metadata from “The National Taiwan Museum's Formosan Aborigines Collections Digitizing Project” (國立台灣博物館原住民文物典藏數位化計畫) in the “Taiwan Union Catalog” (數位典藏與數位學習聯合目錄, https://catalog.digitalarchives.tw/Organization/List.jsp?CID=38973). Originally, the metadata was established by the History & Ethnic Groups of National Taiwan Museum (NTM, 國立台灣博物館) in Taipei. It provides information on Taiwanese indigenous people’s cultural heritages collected by the NTM and can serve as a database for the study of the indigenous people in Taiwan. Containing 3,767 data records and 118,549 triples, the textual content within the LOD dataset is licensed under the Creative Commons Attribution (CC 0), while the rights of the digitized item are reserved by the National Taiwan Museum.",https://data.ascdc.tw/en/data.php,"Name: absent, email: luluyen1210@gmail.com","Web:https://data.ascdc.tw/en/data.php Name:Dr. Shu-Jiun Sophy Chen (Academia Sinica Center for Digital Cultures, Taiwan R.O.C.) Email:sophy@gate.sinica.edu.tw",1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,1,1,0,1,0.75,0,1,0,1,0.5,2.53
+AntiqueCarsCollection,Antique Cars Collection (Linked Cars),-,,http://www.opendefinition.org/licenses/cc-by,"This dataset concerns a collection of 21 antique cars owned by different organizations around the world. It has been used in a proof-of-concept Semantic Web application (demonstrating Web components and JSON-LD data).
+Created by Markopoulos Athanasios, student of the University of the Aegean, Dept. of Cultural Technology and Communication, 2021 (as part of his graduate thesis).",http://linkedcars.mywebcommunity.org/Main.html,"Name: absent, email: auiop664@gmail.com",Web:http://linkedcars.mywebcommunity.org/Main.html Name:Kotis Konstantinos Email:kotis@aegean.gr,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,1,1,0,1,0.75,0,1,0,1,0.5,2.53
+twarql,Twarql,offline,http://twarql.org:8890/sparql,FALSE,"Twarql encodes information from microblog posts as Linked Open Data in order to enable flexibility for those interested in collectively analyzing microblog data for sensemaking. Our approach can be summarized as follows:
+
+* extract content (e.g. entity mentions, hashtags and URLs) from microposts streamed from Twitter;
+* encode content in RDF using shared and well-known vocabularies (FOAF, SIOC, MOAT, etc.);
+* enable structured querying of microposts with SPARQL;
+enable subscription to a stream of microposts that match a given query; and
+* enable scalable real-time delivery of streamed but annotated data using sparqlPuSH.
+
+This dataset is an example created for a brand tracking scenario involving the Apple IPad.",http://wiki.knoesis.org/index.php/Twarql,FALSE,"Web:http://wiki.knoesis.org/index.php/Twarql Name:Pablo Mendes, Alexandre Passant, Pavan Kapanipathi Email:",1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.28
+the-living-lod-cloud,The Living LOD Cloud,-,,http://www.opendefinition.org/licenses/cc-zero,"A lodcloud diagram, automatically. Based on quality standards.",absent,FALSE,Web:absent Name:Timothy Lebo Email:lebot@rpi.edu,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,1,1,1,1,1,0,1,0.75,3.3
+proyectoapadrina,"Proyecto Apadrina,  Marketing Punto de Venta",-,,http://creativecommons.org/licenses/by-nc/2.0/,"<p> <a href=""http://red.gnoss.com/comunidad/MPV-APADRINA"">Proyecto Apadrina</a>  is a learning community of students of Higher Grade in Business Management and Marketing from the <a href=""http://www.iesprofesormaximotrueba.es/"">IES Profesor Máximo Trueba</a> (Boadilla del Monte, Madrid, Spain) and <a href=""http://www.educa.madrid.org/portal/c/portal/layout?p_l_id=953.1"">IES Icaro</a> (Getafe, Madrid, Spain). The students have worked on topics of marketing at the point of sale or merchandising with companies and shops in Madrid. They have even created two virtual companies operating in both centers: ICI merchandising and Truemark. Proyecto Apadrina has been directed by Laura Cristanchi and Carolina Colorado.
+
+
+Proyecto Apadrina works with <a href=""http://gnoss.com/"">GNOSS software (RIAM Intelearning Lab)</a>. RIAM is a company that develops semantic technology for the creation of specialized networks and linked markets. Proyecto Apadrina offers a selection of 1,235 resources (November 2012). It includes a facet-based search engine and enriched contexts. Both are developments by GNOSS.
+
+</p>
+
+<p>
+<a href=""http://red.gnoss.com/comunidad/MPV-APADRINA"">Proyecto Apadrina</a> es una comunidad de aprendizaje de los alumnos de Grado Superior de Gestión Comercial y Marketing de los <a href=""http://www.iesprofesormaximotrueba.es/"">IES Profesor Máximo Trueba</a> (Boadilla del Monte, Madrid; España) e <a href=""http://www.educa.madrid.org/portal/c/portal/layout?p_l_id=953.1"">IES Icaro</a> (Getafe, Madrid; España) en la que han trabajado de manera colaborativa. Consiste en el asesoramiento en prácticas sobre temas de marketing en el punto de venta o merchandising a comercios y empresas de la Comunidad de Madrid por parte de los propios alumnos, que incluso han constituido dos empresas virtuales que funcionan en ambos centros: ICI merchandising y TrueMark. El Proyecto Apadrina ha sido dirigido por las profesoras Carolina Cristanchi y Laura Colorado. Proyecto Apadrina trabaja con  <a href=""http://gnoss.com/"">software de GNOSS (RIAM Intelearning Lab)</a>. RIAM es una compañía que desarrolla tecnología semántica para la creación de redes especializadas y mercados enlazados. Proyecto Apadrina ofrece en este caso una selección de 1.235 recursos (Noviembre 2012). Incluye un buscador facetado y contextos enriquecidos.
+
+</p>",http://gnoss.com/comunidad/MPV-APADRINA,FALSE,Web:http://gnoss.com/comunidad/MPV-APADRINA Name:GNOSS Team Email:gnoss@gnoss.com,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,0,1,0.75,0,1,0,1,0.5,2.8
+ASCDC-Linked-Taiwan-Artists,Linked Taiwan Artists (LTA),Restricted access to the endpoint,,http://www.opendefinition.org/licenses/cc-zero,"The LOD dataset of Linked Taiwan Artists (LTA) was created by the Academia Sinica Center for Digital Cultures (ASCDC) and based on the online database of “Starting Out from 23.5°N: Chen Cheng-po” (從北緯23.5°出發 陳澄波, https://chenchengpo.asdc.sinica.edu.tw/main_en). It provides information on the biographical and work information of the renowned Taiwanese artists of the early 20th centuries and could be served as foundation for the study of Taiwan’s art history at that period. Containing 311 data records and 17,298 triples, the textual content within the LOD dataset is licensed under the Creative Common Attribution (CC 0).",https://linkedart.ascdc.tw/index.php,"Name: absent, email: luluyen1210@gmail.com","Web:https://linkedart.ascdc.tw/index.php Name:Dr. Shu-Jiun Sophy Chen (Academia Sinica Center for Digital Cultures, Taiwan R.O.C.) Email:sophy@gate.sinica.edu.tw",1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,1,1,0,1,0.75,0,1,0,1,0.5,2.53
+garnicaplywood,Garnica Plywood Catalogue,-,,http://creativecommons.org/licenses/by-nc/2.0/,"<p>
+<a href=""http://www.garnicaplywood.com/"">Garnica Plywood</a>
+ is the first international poplar plywood manufacturer in terms of volume (and combinations with other tropical species). The company owns 4 factories in Spain and 1 in France, with more than 500 employees, and the annual production capacity exceeds 200,000m3 plywood. The group offers the widest product range in the market with over 2000 references,  present in different areas such as Marine, Caravan, Construction, Furniture, Decoration, Toys, etc., produced under the most demanding international quality labels. Garnica Plywood exports 80% of the total production to more than 25 countries in the world.
+</p>
+<p>
+Garnica Plywood’s LOD project works with
+<a href=""http://gnoss.com/"">GNOSS software (RIAM Intelearning Lab)</a>. RIAM is a company that develops semantic technology for the creation of specialized networks and linked markets.
+<a href=""http://products.garnicaplywood.com/comunidad/garnicacatalogo"">Garnica offers a product catalogue</a>
+with a facet-based search engine and enriched contexts. Both are developments by GNOSS. The catalogue has 42 products (November 2012).
+</p>
+
+<p>
+<a href=""http://www.garnicaplywood.com/"">Garnica Plywood</a>
+es el primer productor internacional de tablero contrachapado de chopo (y combinaciones con especies tropicales). La compañía consta de 4 fábricas en España y 1 en Francia, con más de 500 empleados, y una capacidad productiva anual superior a los 200,000m3 de contrachapado. El grupo ofrece la mayor gama del mercado con más de 2000 referencias, presentes en sectores como Náutica, Caravana, Construcción, Mobiliario, Decoración, Juguetes, etc., producidos con los certificados internacionales de calidad más exigentes. Garnica Plywood exporta el 80% de su producción a más de 25 países del mundo.
+</p>
+<p>
+El proyecto de Garnica Plywood en la Web de los Datos trabaja con
+<a href=""http://gnoss.com/"">software de GNOSS (RIAM Intelearning Lab)</a>. RIAM es una compañía que desarrolla tecnología semántica para la creación de redes especializadas y mercados enlazados. Garnica ofrece en este caso
+<a href=""http://products.garnicaplywood.com/"">un catálogo de productos</a>
+con un buscador facetado y contextos enriquecidos. Ambos son desarrollos de GNOSS. El catálogo incluye 42 productos (Noviembre 2012).
+</p>",http://products.garnicaplywood.com/comunidad/garnicacatalogo,FALSE,Web:http://products.garnicaplywood.com/comunidad/garnicacatalogo Name:GNOSS Team Email:gnoss@gnoss.com,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,0,1,0.75,0,1,0,1,0.5,2.8
+my-experiment,myExperiment,-,http://rdf.myexperiment.org/sparql/,http://www.opendefinition.org/licenses/odc-pddl,"[myExperiment](http://www.myexperiment.org) is a social web site for researchers sharing scientific workflows and ""packs"" (aggregations of resources).
+
+As of September 2010 it has several thousand members and a collection of around 1300 workflows, 350 files and 130 packs. It is the largest public collection of scientific workflows.
+
+myExperiment contains user-generated content, The RDF description of the public content is available under PDDL, while the actual user-generated content has separate licenses on a per-item basis.
+
+The site was the subject of the keynote ""[Repositories and Linked Open Data: the view from myExperiment](http://www.myexperiment.org/packs/131)"" by David De Roure at Open Repositories 2010 in Madrid, Spain.
+
+myExperiment has three sister projects:
+
+* The [BioCatalogue](http://www.biocatalogue.org/) - see package:biocatalogue
+* [SysmoDB](http://www.sysmo-db.org/) - see package:sysmo-db
+* [MethodBox](http://www.methodbox.org/)",http://www.myexperiment.org,FALSE,Web:http://www.myexperiment.org Name:David De Roure Email:david.deroure@oerc.ox.ac.uk,1,0,1,0.89,1,1,0.82,1,1,0,1,0.75,1,1,1,1,1,1,1,0,1,0.75,3.32
+artenuevosmedios-gnoss,Entornos interactivos. Arte en los nuevos medios (GNOSS),-,,http://creativecommons.org/licenses/by-nc/2.0/,"<p>
+<a href=""http://red.gnoss.com/comunidad/Interactivos"">Entornos Interactivos. Arte en los nuevos medios</a>
+ is a community promoted by Jaime Munárriz Ortiz, Professor and Associate Dean for Research and Graduate School of Fine Arts at the University Complutense of Madrid, for the subject Image Synthesis and Interactive Environments, of the Research Master in Art and Creation. The community works with 
+<a href=""http://gnoss.com/"">GNOSS software (RIAM Intelearning Lab)</a>
+. RIAM is a company that develops semantic technology for the creation of specialized networks and linked markets. Green Competitiveness offers a selection of 135 resources (November 2012). It includes a facet-based engine search and enriched contexts. Both are developments by GNOSS.
+</p>
+
+<p>
+<a href=""http://red.gnoss.com/comunidad/Interactivos"">Entornos Interactivos. Arte en los nuevos medios</a>
+ es una comunidad promovida por Jaime Munárriz Ortiz, profesor y Vicedecano de Investigación y Posgrado de la
+<a href=""http://www.bellasartes.ucm.es/"">Facultad de Bellas Artes</a>
+de la Universidad Complutense de Madrid, para la asignatura Imagen de Síntesis y Entornos Interactivos, del Máster en Investigación en Arte y Creación. La comunidad trabaja con software de 
+<a href=""http://gnoss.com/"">GNOSS software (RIAM Intelearning Lab)</a>
+. RIAM es una compañía que desarrolla tecnología semántica para la creación de redes especializadas y mercados enlazados. NextWeb ofrece en este caso una selección de 135 recursos (Noviembre 2012). Incluye un buscador facetado y contextos enriquecidos. Ambos son desarrollos de GNOSS.
+</p>",http://gnoss.com/comunidad/Interactivos,FALSE,Web:http://gnoss.com/comunidad/Interactivos Name:GNOSS Team Email:gnoss@gnoss.com,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,0,1,0.75,0,1,0,1,0.5,2.8
+biblioteca-escolar-digital-cita,Biblioteca Escolar Digital CITA,-,,http://creativecommons.org/licenses/by-nc/2.0/,"<p>
+<a href=""http://bibliotecaescolardigital.es"">Biblioteca Escolar Digital</a> is an educational tool for teachers, students, parents, educators and researchers in the world of education created by the <a href=""http://cita.fundaciongsr.com/"">Centro Internacional de Tecnologías Avanzadas (CITA)</a> of the foundation in Peñaranda de Bracamonte (Salamanca, España).
+</p>
+<p>
+The Biblioteca Escolar Digital’s repository works with <a href=""http://products.gnoss.com/"">GNOSS software (RIAM Intelearning Lab)</a>. RIAM is a company that develops semantic technology for the creation of specialized networks and linked markets. The project includes a faceted-based search engine and enriched contexts. Both are developments by GNOSS.
+</p>
+
+<p>
+La <a href=""http://bibliotecaescolardigital.es"">Biblioteca Escolar Digital</a> es una herramienta didáctica para profesores, alumnos, padres, pedagogos e investigadores del mundo de la educación creada por el <a href=""http://cita.fundaciongsr.com/"">Centro Internacional de Tecnologías Avanzadas (CITA)</a> de la Fundación en Peñaranda de Bracamonte (Salamanca, España).
+</p>
+<p>
+El repositorio trabaja con <a href=""http://products.gnoss.com/"">software de GNOSS (RIAM Intelearning Lab)</a>. RIAM es una compañía que desarrolla tecnología semántica para la creación de redes especializadas y mercados enlazados. El proyecto incluye un buscador facetado y contextos enriquecidos.
+</p>",http://red.gnoss.com/comunidad/Biblioteca-Escolar-Digital,FALSE,Web:http://red.gnoss.com/comunidad/Biblioteca-Escolar-Digital Name:GNOSS Team Email:gnoss@gnoss.com,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,0,1,0.75,0,1,0,1,0.5,2.8
+open-data-risp,"Open Data RISP, the Spanish Open Data community",-,,http://creativecommons.org/licenses/by-nc/2.0/,"<p>
+The <a href=""http://red.gnoss.com/en/community/OpenData"">Open Data RISP / Spanish Open Data Community</a> is a space to discuss issues related to the opening of the public data and reuse. This group is open to any participant with a minimum of interest in the subject. The community is being coordinated by the W3C with the help of the main initiatives in Spain and its re-users (citizens and companies). Open Data RISP offers a selection of 30 resources (November 2012).
+</p>
+
+<p>
+La <a href=""http://red.gnoss.com/comunidad/OpenData"">comunidad de Trabajo Open Data en España / Open Data RISP</a>  es un espacio para discutir temas relacionados con la apertura de datos de la administración pública y sobre su reutilización. Este grupo es abierto a cualquier participante con un mínimo de interés sobre el tema y está siendo coordinado desde la Oficina del W3C y con el impulso de las principales iniciativas RISP en España y sus reutilizadores (ciudadanía y empresas infomediarias). Open Data RISP ofrece una selección de 30 recursos (Noviembre 2012).
+</p>",http://red.gnoss.com/comunidad/OpenData,FALSE,Web:http://red.gnoss.com/comunidad/OpenData Name:GNOSS Team Email:gnoss@gnoss.com,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,0,1,0.75,0,1,0,1,0.5,2.8
+Swift,Swift Vocabulary,Available,https://alma.uni.lu/sparql,http://www.opendefinition.org/licenses/cc-by-sa,The Swift Vocabulary is an SKOS-based vocabulary about the Swift programming language.,http://purl.org/lu/uni/alma/swift,"Name: absent, email: mustafa.sepehrian@gmail.com",Web:http://purl.org/lu/uni/alma/swift Name:Christian Grévisse Email:christian.grevisse@uni.lu,1,0.270050761,1,0.89,1,1,0.86,1,1,1,1,1,1,1,0,1,0.75,0,1,0,1,0.5,3.11
+npm,NPM,-,,http://www.opendefinition.org/licenses/cc-by,Semantified version of the [NPM respository](https://www.npmjs.com/),https://github.com/LinkedSoftwareDependencies/npm-extraction-server,FALSE,Web:https://github.com/LinkedSoftwareDependencies/npm-extraction-server Name:Linked Software Dependencies maintainers Email:ruben.taelman@ugent.be,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,1,1,0,1,0.75,0,1,0,1,0.5,2.53
+klappstuhlclub,Klappstuhlclub,-,,FALSE,"##Klappstuhlclub
+http://klappstuhlclub.de 
+The Klappstuhlclub (Folding chair club) is meeting every week (mostly Wednesday evening) in cities around the globe. The focus is on Germany currently (Leipzig over 300 meetings, Berlin over 200 meetings), but also Lisbon, France and USA.
+
+### Get involved
+Please email if:  
+1. You want to join the Klappstuhlclub or you want to create a Klappstuhlclub in your city . (kurzum@googlemail.com)
+2. You want to know how we made a simple Wordpress blog Linked Data ready and all that. (hellmann@informatik.uni-leipzig.de )
+
+### License 
+Data is protected for privacy issues.
+
+### Semantic Wiki Wordpress
+The data was created with a Wordpress plugin see
+http://bitbucket.org/aksw/rdf2wp/overview
+
+Each Blogpost is available as Linked Data. User enter data the same way as in Wikipedia infoboxes (with a Wiki template)
+
+SPARQL endpoint (Virtuoso) is here:
+http://klappstuhlclub.de/sparql",http://klappstuhlclub.de,FALSE,Web:http://klappstuhlclub.de Name:Sebastian Hellmann Email:,1,0,1,0.56,1,1,0.76,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.26
+my-family-lineage,My Family Lineage,-,http://futurewavehosting.com:3030/my-family-lineage/sparql,http://www.opendefinition.org/licenses/odc-by,"<h2>My Family Lineage</h2>
+<h3>Note: We have added Content Negotiation</h3>
+<p>The addition of content negotiation, allows for serving RDF to clients that request RDF and HTML for clients that request html pages.</p> 
+<p><strong>""My Family Lineage""</strong> is a Genealogy Application using MediaWiki and the Semantic MediaWiki Bundle.  In addition, we use the Fuseki Triple Store which has a SPARQL query form available at: http://futurewavehosting.com:3030 
+where one would use the Control Panel and select the dataset my-family-lineage.  The website is community driven and through the import of GEDCOM files (Genealogical Data Communication) wiki pages are created, an accompanying RDF file is created and the data is added to the triple store. </p><br />
+<p> We use the latest GEDCOM standard version 5.5 which is used by various Genealogy software applications.  </p>
+
+<p>We have a void file available at: http://my-family-lineage.com/void.ttl 
+which provides information about vocabularies used, licensing, example resources, and link sets.  </p>
+
+<p>We collect information about Places that correspond to events in an individual/person's life or in the life of a family.  It is here that there are the most triples linking to other data sets that are part of the current LOD Cloud.  Nearly 50,000 triples describe Places, of those over 7300 triples are links to external data sets, including dbpedia, geonames, freebase and yago.</p>
+
+<p>We have included a great deal of information from public genealogy (GEDCOM) files including the genealogy of famous people, e.g. royalty, US Presidents, Authors like Stephen King and more. </p>",http://my-family-lineage.com/wiki/Main_Page,FALSE,Web:http://my-family-lineage.com/wiki/Main_Page Name:Bruce Whealton Email:bruce@whealton.info,1,0,1,0.89,1,1,0.82,1,1,0,1,0.75,1,1,1,1,1,1,1,0,1,0.75,3.32
+arthroscopy,Arthroscopy community,-,,http://creativecommons.org/licenses/by-nc/2.0/,"<p> The arthroscopy community is the adecuate space for all those who take part on the arthroscopic surgical procedures of the locomotor system. Its meaning is to create and share knowledge concerning the answers to the current and effective matters on these kind of arthroscopic proceedings: surgical, anesthesic, rehabilitative or even organizing ones.</p>
+<p>The arthroscopy community works with <a href=""http://gnoss.com/"">GNOSS software (RIAM Intelearning Lab)</a>. RIAM is a company that develops semantic technology for the creation of specialized networks and linked markets. It includes a facet-based search engine and enriched contexts. Both are developments by GNOSS.</p>
+
+<p> Portal de Artroscopia es un espacio de aprendizaje para todas las personas que participan en los procedimientos quirúrgicos artroscópicos del aparato locomotor. El propósito es generar y compartir conocimiento sobre las soluciones a los problemas reales y concretos en este tipo procedimientos, sean estos quirúrgicos, de anestesia, de rehabilitación o de organización. </p><p> Portal de Artroscopia trabaja con <a href=""http://gnoss.com/"">software de GNOSS (RIAM Intelearning Lab)</a>. RIAM es una compañía que desarrolla tecnología semántica para la creación de redes especializadas y mercados enlazados. El proyecto Incluye un buscador facetado y contextos enriquecidos. Ambos son desarrollos de GNOSS.
+</p>",http://gnoss.com/comunidad/Arthroscopy,FALSE,Web:http://gnoss.com/comunidad/Arthroscopy Name:GNOSS Team Email:gnoss@gnoss.com,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,0,1,0.75,0,1,0,1,0.5,2.8
+athelia-rfid,"Athelia RFID, a global knowledge network of RFID technology",-,,http://creativecommons.org/licenses/by-nc/2.0/,"<a href=""http://athelia.com/"">Athelia Solutions</a>
+, a company specialized in tracking solutions based on RFID technology (Radio Frequency Identification) and Mobile Data Capture, renewed its digital identity with a global knowledge network designed to share content and opinion about RFID technology in Oil & Gas, Food & Beverage, Energy & Utilities and Healthcare. The online global network of Athelia includes a professional community, called
+<a href=""http://community.athelia.com/en/community/atheliacommunity"">Athelia Community</a>
+, and a
+<a href=""http://athelia.com/en/community/atheliasolutions"">portfolio of services and solutions</a>
+of the company.
+</p>
+<p>
+<p> It is focused on specialists in this field: users of technologies for traceability solutions, suppliers, technicians, engineers, researchers, consultants and journalists, among others, of those sectors in which Athelia is reference in identification and traceability.</p>",http://athelia.com,FALSE,Web:http://athelia.com Name:GNOSS Team Email:gnoss@gnoss.com,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,0,1,0.75,0,1,0,1,0.5,2.8
+greekchildrensartmuseum,Greek Children Art  Museum dataset,-,http://ct-linkdata.aegean.gr/gcam/sparql,http://www.opendefinition.org/licenses/cc-by,"The ""LD-project"" deals with the creation of cultural Open Linked Data (LOD), based on the artifacts of Greek Children Art Museum, in Greece, Athens. It was created in the frame of Master Thesis of MSc. students, Marini Efstathia and Chondrogianni Maria, in Cultural Informatics postgraduate program at the Department of Cultural Technology and Communication of the University of the Aegean.
+Links to published datasets : 
+Wikidata: 151 links,
+DBpedia: 489 links,
+WikiArt: 17 links,
+MoMA: 2 links,
+Others (Wikimedia Commons, Benaki Museum, SearchCulture.org, etc.) with 1 link each: 15 links,
+Total 674,
+DCAT Description: https://www.childrensartmuseum.gr/LD-project/",https://www.childrensartmuseum.gr/LD-project/,"Name: absent, email: kotis.kostas@gmail.com",Web:https://www.childrensartmuseum.gr/LD-project/ Name:Sotiris Angelis Email:sotiris@aegean.gr,1,0,1,0.89,1,1,0.82,1,1,0,1,0.75,1,1,1,1,1,1,1,0,1,0.75,3.32
+lotico,Lotico,-,,FALSE,"A social network of active Lotico Semantic Web community members, provided as RDF via resolvable URIs and a SPARQL endpoint.",http://www.lotico.com/,FALSE,Web:http://www.lotico.com/ Name:Marco Neumann Email:marco.neumann@gmail.com,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,1,1,0.75,1,1,0,1,0.75,3.03
+PREJUST4WOMAN_PROJECT,PREJUST4WOMEN Knowledge Graph,-,https://github.com/khaoulafatima/PJ4W/blob/PREJUST%2B%2B%2B%2B%2B.py/PJ4W_SPARQL_endpoint./PREJUS4W.py,http://www.opendefinition.org/licenses/cc-by,"The PREJUST4WOMEN Knowledge Graphs provide structured representations of legal cases related to violence against women, sourced from judgments of the European Court of Human Rights (ECHR). These KGs were developed using two complementary approaches: a bottom-up methodology and an LLM-based approach, leveraging advanced NLP techniques for KG construction. The KGs are designed to support predictive justice, legal reasoning, and enhanced accessibility to legal knowledge for humans and machines. This dataset offers a structured framework for documenting and analyzing cases of violence against women, including types of violence, the involved parties, and legal outcomes. It captures detailed information about the incidents, providing a comprehensive view of the legal ramifications and facilitating in-depth research and analysis in the field of gender-based violence. Published datasets include legal metadata, competency questions, and connections to external resources.",https://github.com/khaoulafatima/PJ4W,"Name: absent, email: amafatima.zahra@gmail.com","Web:https://github.com/khaoulafatima/PJ4W Name:Claudia d'Amato, Giuseppe Rubini, Didio Franceso, Francioso Donato, Fatima Zahra Amara, Nicola Fanizzi Email:claudia.damato@uniba.it",1,0,1,0.89,1,1,0.82,1,1,0,1,0.75,1,1,1,1,1,1,1,0,1,0.75,3.32
+john-goodwins-family-tree,John Goodwin's Family Tree,-,http://api.talis.com/stores/jgoodwin-genealogy/services/sparql,FALSE,Data about John Goodwin's family tree.,http://www.johngoodwin.me.uk/family/,FALSE,Web:http://www.johngoodwin.me.uk/family/ Name:John Goodwin Email:John.Goodwin@ordnancesurvey.co.uk,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.28
+rubentaelman,Ruben Taelman's Data,-,,FALSE,Personal website of Ruben Taelman annotated with RDFa.,https://github.com/rubensworks/rubensworks.net,FALSE,Web:https://github.com/rubensworks/rubensworks.net Name: Email:ruben.taelman@ugent.be,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+ASCDC-AS-NTUE-School-Art-Textbooks,Archive of the Art Textbooks of Elementary and Public Schools in the Japanese Colonial Period (AS-NTUE-School-Art-Textbooks),Restricted access to the endpoint,,http://www.opendefinition.org/licenses/cc-zero,"The LOD dataset of ASCDC_Archive of the Art Textbooks of Elementary and Public Schools in the Japanese Colonial Period (AS-NTUE-School-Art-Textbooks) was created by the Academia Sinica Center for Digital Cultures (ASCDC) and based on the metadata from the “Archive of the Art Textbooks of Elementary and Public Schools in the Japanese Colonial Period” (日治時代台灣小公學校美術教課書數位典藏收集計畫) in the “Taiwan Union Catalog” (數位典藏與數位學習聯合目錄, https://catalog.digitalarchives.tw/Organization/List.jsp?CID=55514). Originally, the metadata was established by the National Taipei University of Education Department of Digital Technology Design (國立臺北教育大學數位科技設計學系) in Taiwan (ROC). It provides information on the art textbooks of elementary schools published during Japanese Rule and can serve as a database for the study of Taiwan’s art education in the public schools of the early 20th century. Containing 1,849 data records and 59,209 triples, the textual content within the LOD dataset is licensed under the Creative Commons Attribution (CC 0), while the digitized items are under CC-BY-NC-SA.",https://data.ascdc.tw/en/data.php,"Name: absent, email: tnh2045@gmail.com","Web:https://data.ascdc.tw/en/data.php Name:Dr. Shu-Jiun Sophy Chen (Academia Sinica Center for Digital Cultures, Taiwan R.O.C.) Email:sophy@gate.sinica.edu.tw",1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,1,1,0,1,0.75,0,1,0,1,0.5,2.53
+upper-ontology,Super Ontology,-,,http://www.opendefinition.org/licenses/cc-zero,"The super ontology as is the theme of this paper describes the structure of the universe and 
+defines the concept of reality. Reality is defined to have an existence that is known as truth.  All objects existing in this world come under the purview of this ontology. All entities belonging to this universe are permanent but undergo countless changes continuously. No destruction takes place during these changes. This ontology is a high-level and Domain independent upper ontology. This ontology is based on a unit of knowledge.",https://sonika-malik.github.io/super-ontology/sup_proton.xml,"Name: absent, email: sonika.malik@gmail.com",Web:https://sonika-malik.github.io/super-ontology/sup_proton.xml Name:Sonika Malik Email:sonika.malik@gmail.com,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,0,1,0.75,0,1,0,1,0.5,2.8

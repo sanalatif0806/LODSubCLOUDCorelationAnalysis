@@ -1,0 +1,108 @@
+# SPDX-FileCopyrightText: 2020 PANGAEA (https://www.pangaea.de/)
+#
+# SPDX-License-Identifier: MIT
+
+# coding: utf-8
+
+# flake8: noqa
+from __future__ import absolute_import
+
+# import models into model package
+from fuji_server.models.api import API
+from fuji_server.models.api_output import APIOutput
+from fuji_server.models.any_of_fair_results_results_items import AnyOfFAIRResultsResultsItems
+from fuji_server.models.body import Body
+from fuji_server.models.code_provenance import CodeProvenance
+from fuji_server.models.code_provenance_output import CodeProvenanceOutput
+from fuji_server.models.community_endorsed_standard import CommunityEndorsedStandard
+from fuji_server.models.community_endorsed_standard_output import CommunityEndorsedStandardOutput
+from fuji_server.models.community_endorsed_standard_output_inner import CommunityEndorsedStandardOutputInner
+from fuji_server.models.component_identifier import ComponentIdentifier
+from fuji_server.models.component_identifier_output import ComponentIdentifierOutput
+from fuji_server.models.core_metadata import CoreMetadata
+from fuji_server.models.core_metadata_output import CoreMetadataOutput
+from fuji_server.models.data_access_level import DataAccessLevel
+from fuji_server.models.data_access_output import DataAccessOutput
+from fuji_server.models.data_content_metadata import DataContentMetadata
+from fuji_server.models.data_content_metadata_output import DataContentMetadataOutput
+from fuji_server.models.data_content_metadata_output_inner import DataContentMetadataOutputInner
+from fuji_server.models.data_file_format import DataFileFormat
+from fuji_server.models.data_file_format_output import DataFileFormatOutput
+from fuji_server.models.data_file_format_output_inner import DataFileFormatOutputInner
+from fuji_server.models.data_provenance import DataProvenance
+from fuji_server.models.data_provenance_output import DataProvenanceOutput
+from fuji_server.models.data_provenance_output_inner import DataProvenanceOutputInner
+from fuji_server.models.debug import Debug
+from fuji_server.models.development_metadata import DevelopmentMetadata
+from fuji_server.models.development_metadata_output import DevelopmentMetadataOutput
+from fuji_server.models.fair_result_common import FAIRResultCommon
+from fuji_server.models.fair_result_common_score import FAIRResultCommonScore
+from fuji_server.models.fair_result_evaluation_criterium import FAIRResultEvaluationCriterium
+from fuji_server.models.fair_results import FAIRResults
+from fuji_server.models.formal_metadata import FormalMetadata
+from fuji_server.models.formal_metadata_output import FormalMetadataOutput
+from fuji_server.models.formal_metadata_output_inner import FormalMetadataOutputInner
+from fuji_server.models.harvest import Harvest
+from fuji_server.models.harvest_results import HarvestResults
+from fuji_server.models.harvest_results_metadata import HarvestResultsMetadata
+from fuji_server.models.identifier_included import IdentifierIncluded
+from fuji_server.models.identifier_included_output import IdentifierIncludedOutput
+from fuji_server.models.identifier_included_output_inner import IdentifierIncludedOutputInner
+from fuji_server.models.license import License
+from fuji_server.models.license_output import LicenseOutput
+from fuji_server.models.license_output_inner import LicenseOutputInner
+from fuji_server.models.metadata_preserved import MetadataPreserved
+from fuji_server.models.metadata_preserved_output import MetadataPreservedOutput
+from fuji_server.models.metric import Metric
+from fuji_server.models.metrics import Metrics
+from fuji_server.models.output_core_metadata_found import OutputCoreMetadataFound
+from fuji_server.models.output_search_mechanisms import OutputSearchMechanisms
+from fuji_server.models.persistence import Persistence
+from fuji_server.models.persistence_output import PersistenceOutput
+from fuji_server.models.persistence_output_inner import PersistenceOutputInner
+from fuji_server.models.related_resource import RelatedResource
+from fuji_server.models.related_resource_output import RelatedResourceOutput
+from fuji_server.models.related_resource_output_inner import RelatedResourceOutputInner
+from fuji_server.models.requirements import Requirements
+from fuji_server.models.requirements_output import RequirementsOutput
+from fuji_server.models.searchable import Searchable
+from fuji_server.models.searchable_output import SearchableOutput
+from fuji_server.models.semantic_vocabulary import SemanticVocabulary
+from fuji_server.models.semantic_vocabulary_output import SemanticVocabularyOutput
+from fuji_server.models.semantic_vocabulary_output_inner import SemanticVocabularyOutputInner
+from fuji_server.models.standardised_protocol_data import StandardisedProtocolData
+from fuji_server.models.standardised_protocol_data_output import StandardisedProtocolDataOutput
+from fuji_server.models.standardised_protocol_metadata import StandardisedProtocolMetadata
+from fuji_server.models.standardised_protocol_metadata_output import StandardisedProtocolMetadataOutput
+from fuji_server.models.test_case import TestCase
+from fuji_server.models.test_case_output import TestCaseOutput
+from fuji_server.models.unique_persistent_identifier_software import UniquePersistentIdentifierSoftware
+from fuji_server.models.unique_persistent_identifier_software_output import UniquePersistentIdentifierSoftwareOutput
+from fuji_server.models.uniqueness import Uniqueness
+from fuji_server.models.uniqueness_output import UniquenessOutput
+from fuji_server.models.version_identifier import VersionIdentifier
+from fuji_server.models.version_identifier_output import VersionIdentifierOutput
+
+from importlib.metadata import version
+from pathlib import Path
+import tomllib  # Python 3.12 built-in
+
+__version__ = "0.0.0"  # fallback
+
+try:
+    pyproject_path = Path(__file__).resolve().parent.parent / "pyproject.toml"
+    with open(pyproject_path, "rb") as f:
+        pyproject = tomllib.load(f)
+        # PEP 621 style
+        if "project" in pyproject and "version" in pyproject["project"]:
+            __version__ = pyproject["project"]["version"]
+        # Poetry style
+        elif "tool" in pyproject and "poetry" in pyproject["tool"]:
+            __version__ = pyproject["tool"]["poetry"]["version"]
+except Exception as e:
+    print(f"Could not read version from pyproject.toml: {e}")
+
+print(__version__)
+
+
+# __version__ = version("fuji")
