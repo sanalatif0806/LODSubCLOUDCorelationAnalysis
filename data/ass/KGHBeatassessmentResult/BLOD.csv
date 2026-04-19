@@ -1,0 +1,1315 @@
+KG id,KG name,Dataset URL,F1-M Unique and persistent ID,F1-D URIs dereferenceability,F2a-M - Metadata availability via standard primary sources,F2b-M Metadata availability for all the attributes covered in the FAIR score computation,F3-M Data referrable via a DOI,F4-M Metadata registered in a searchable engine,F score,A1-D Working access point(s),A1-M Metadata availability via working primary sources,A1.2 Authentication & HTTPS support,A2-M Registered in search engines,A score,R1.1 Machine- or human-readable license retrievable via any primary source,R1.2 Publisher information such as authors-contributors-publishers and sources,R1.3-D Data organized in a standardized way,R1.3-M Metadata are described with VoID/DCAT predicates,R score,I1-D Standard & open representation format,I1-M Metadata are described with VoID/DCAT predicates,I2 Use of FAIR vocabularies,I3-D Degree of connection,I score,FAIR score
+bio2rdf-chembl,Bio2RDF::Chembl,http://chembl.bio2rdf.org/,1,0,1,0.89,1,1,0.82,1,1,0,1,0.75,1,1,1,1,1,1,1,0,1,0.75,3.32
+fu-berlin-drugbank,DrugBank,http://www4.wiwiss.fu-berlin.de/drugbank/,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.28
+bio2rdf-goa,Bio2RDF::Goa,http://goa.bio2rdf.org/,1,0,1,1,1,1,0.83,1,1,1,1,1,1,1,1,1,1,1,1,0.181818182,1,0.8,3.63
+bio2rdf-homologene,Bio2RDF::Homologene,http://homologene.bio2rdf.org/,1,0,1,1,1,1,0.83,1,1,1,1,1,1,1,1,1,1,1,1,0.181818182,1,0.8,3.63
+bio2rdf-irefindex,Bio2RDF::Irefindex,http://irefindex.bio2rdf.org/,1,0,1,1,1,1,0.83,1,1,1,1,1,1,1,1,1,1,1,1,0.181818182,1,0.8,3.63
+bio2rdf-mesh,Bio2RDF::Mesh,http://mesh.bio2rdf.org/,1,0,1,1,1,1,0.83,1,1,1,1,1,1,1,1,1,1,1,1,0.181818182,1,0.8,3.63
+bio2rdf-ndc,Bio2RDF::Ndc,http://ndc.bio2rdf.org/,1,0,1,1,1,1,0.83,1,1,1,1,1,1,1,1,1,1,1,1,0.181818182,1,0.8,3.63
+bio2rdf-pharmgkb,Bio2RDF::Pharmgkb,http://pharmgkb.bio2rdf.org/,1,0,1,1,1,1,0.83,1,1,1,1,1,1,1,1,1,1,1,1,0.181818182,1,0.8,3.63
+bio2rdf-orphanet,Bio2RDF::Orphanet,http://orphanet.bio2rdf.org/,1,0,1,1,1,1,0.83,1,1,1,1,1,1,1,1,1,1,1,1,0.181818182,1,0.8,3.63
+bio2rdf-sabiork,Bio2RDF::Sabiork,http://sabiork.bio2rdf.org/,1,0,1,0.89,1,1,0.82,1,1,0,1,0.75,1,1,1,1,1,1,1,0,1,0.75,3.32
+bio2rdf-sider,Bio2RDF::Sider,http://sider.bio2rdf.org/,1,0,1,1,1,1,0.83,1,1,1,1,1,1,1,1,1,1,1,1,0.181818182,1,0.8,3.63
+bio2rdf-taxon,bio2rdf-taxon,absent,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.55
+bio2rdf-wormbase,Bio2RDF::Wormbase,http://wormbase.bio2rdf.org/,1,0,1,1,1,1,0.83,1,1,1,1,1,1,1,1,1,1,1,1,0.181818182,1,0.8,3.63
+bioportal-mccl_x1,Cell line ontology,http://bioportal.bioontology.org/ontologies/1245,1,0,1,0.56,1,1,0.76,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.26
+bioportal-apo,Ascomycete phenotype ontology,http://bioportal.bioontology.org/ontologies/1222,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.28
+bioportal-nmr,NMR-instrument specific component of metabolomics investigations,http://bioportal.bioontology.org/ontologies/1033,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.28
+bioportal-sio,SemanticScience Integrated Ontology,http://bioportal.bioontology.org/ontologies/1532,1,0,1,0.89,1,1,0.82,1,1,0,1,0.75,1,1,0,1,0.75,0,1,0,1,0.5,2.82
+bioportal-fypo,Fission Yeast Phenotype Ontology,http://bioportal.bioontology.org/ontologies/1689,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.28
+bioportal-mod,Protein modification,http://bioportal.bioontology.org/ontologies/1041,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.28
+bioportal-imr,Molecule role (INOH Protein name/family name ontology),http://bioportal.bioontology.org/ontologies/1029,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.28
+bioportal-nif_cell,NIF Cell,http://bioportal.bioontology.org/ontologies/1402,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.28
+bioportal-dc_cl,Dendritic cell,http://bioportal.bioontology.org/ontologies/1144,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.28
+bioportal-wbphenotype,C. elegans phenotype,http://bioportal.bioontology.org/ontologies/1067,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.28
+jita,JITA Classification System of Library and Information Science,http://www.destin-informatique.com/ASKOSI/Wiki.jsp?page=JITA%20Maintenance,1,0,1,0.89,1,1,0.82,1,1,0,1,0.75,1,1,1,1,1,1,1,0,1,0.75,3.32
+bioportal-efo,Experimental Factor Ontology,http://bioportal.bioontology.org/ontologies/1136,1,0,1,0.56,1,1,0.76,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.26
+bioportal-aeo,Anatomical Entity Ontology,http://bioportal.bioontology.org/ontologies/1568,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.28
+bioportal-rex,Physico-chemical process,http://bioportal.bioontology.org/ontologies/1043,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.28
+bioportal-geospecies,GeoSpecies Ontology,http://bioportal.bioontology.org/ontologies/1247,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.28
+bioportal-chebi,Chemical entities of biological interest,http://bioportal.bioontology.org/ontologies/1007,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.28
+bioportal-rnao,RNA ontology,http://bioportal.bioontology.org/ontologies/1500,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.28
+bioportal-lipro,Lipid Ontology,http://bioportal.bioontology.org/ontologies/1183,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.28
+bioportal-mao,Multiple alignment,http://bioportal.bioontology.org/ontologies/1026,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.28
+bioportal-hao,Hymenoptera Anatomy Ontology,http://bioportal.bioontology.org/ontologies/1362,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.28
+bioportal-fbdv,Drosophila development,http://bioportal.bioontology.org/ontologies/1016,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.28
+bioportal-fbbt,Drosophila gross anatomy,http://bioportal.bioontology.org/ontologies/1015,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.28
+bioportal-bto,BRENDA tissue / enzyme source,http://bioportal.bioontology.org/ontologies/1005,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.28
+bioportal-ncbitaxon,NCBI organismal classification,http://bioportal.bioontology.org/ontologies/1132,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.28
+bioportal-pw,Pathway ontology,http://bioportal.bioontology.org/ontologies/1035,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.28
+bioportal-ogi,Ontology for Genetic Interval,http://bioportal.bioontology.org/ontologies/1100,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.28
+bioportal-ev,eVOC (Expressed Sequence Annotation for Humans),http://bioportal.bioontology.org/ontologies/1013,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.28
+bioportal-ehdaa,"Human developmental anatomy, abstract version",http://bioportal.bioontology.org/ontologies/1021,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.28
+bioportal-mmo,Measurement Method Ontology,http://bioportal.bioontology.org/ontologies/1584,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.28
+bioportal-ido,Infectious Disease Ontology,http://bioportal.bioontology.org/ontologies/1092,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.28
+bioportal-cheminf,Chemical Information Ontology,http://bioportal.bioontology.org/ontologies/1444,1,0,1,0.78,1,1,0.8,0,1,0,1,0.5,1,1,0,1,0.75,0,1,0,1,0.5,2.55
+bioportal-npo,NanoParticle Ontology,http://bioportal.bioontology.org/ontologies/1083,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.28
+chempedia-rdf,ChemPedia RDF,http://figshare.com/articles/ChemPedia_as_RDF/681678,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,0,1,0.75,0,1,0,0,0.25,2.55
+bioportal-mego,MeGO,http://bioportal.bioontology.org/ontologies/1257,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.28
+addgene,Addgene,http://www.addgene.org/,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.28
+bioportal-exo,ExO,http://bioportal.bioontology.org/ontologies/1575,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.28
+bioportal-uo,Units of measurement,http://bioportal.bioontology.org/ontologies/1112,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.28
+bioportal-pato,Phenotypic quality,http://bioportal.bioontology.org/ontologies/1107,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.28
+kupkb,Kidney and Urinary Pathway Knowledge Base,absent,1,0,1,0.56,1,1,0.76,0,1,0,1,0.5,0,0,1,1,0.5,1,1,0,1,0.75,2.51
+entrez_gene,Entrez Gene,http://www.ncbi.nlm.nih.gov/gene,1,0,1,0.56,1,1,0.76,0,1,0,1,0.5,0,1,1,1,0.75,1,1,0,1,0.75,2.76
+bioportal-mcbcc,Breast tissue cell lines,http://bioportal.bioontology.org/ontologies/1438,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.28
+bioportal-oboe,OBOE,http://bioportal.bioontology.org/ontologies/1524,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.28
+bioportal-snpo,SNP-Ontology,http://bioportal.bioontology.org/ontologies/1058,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.28
+bioportal-sao,Subcellular Anatomy Ontology (SAO),http://bioportal.bioontology.org/ontologies/1068,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.28
+fu-berlin-stitch,STITCH: Chemical-Protein Interactions,http://www4.wiwiss.fu-berlin.de/stitch/,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,1,1,0,1,0.75,0,1,0,1,0.5,2.53
+bioportal-cl,Cell type,http://bioportal.bioontology.org/ontologies/1006,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.28
+bioportal-bp,BioPAX,http://bioportal.bioontology.org/ontologies/1522,1,0,1,0.78,1,1,0.8,0,1,0,1,0.5,1,1,0,1,0.75,0,1,0,1,0.5,2.55
+bioportal-bdo,Bone Dysplasia Ontology,http://bioportal.bioontology.org/ontologies/1613,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.28
+biosamples-rdf,BioSamples RDF,absent,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,0,1,1,1,0.75,1,1,0,1,0.75,3.05
+bioportal-ecg,Electrocardiography Ontology,http://bioportal.bioontology.org/ontologies/1146,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.28
+fu-berlin-dailymed,DailyMed,http://www4.wiwiss.fu-berlin.de/dailymed/,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,0,1,1,1,0.75,1,1,0,1,0.75,2.78
+PGxLOD,PGxLOD,https://pgxlod.loria.fr/,1,0,1,0.78,1,1,0.8,1,1,1,1,1,1,1,0,1,0.75,0,1,0,1,0.5,3.05
+gene-expression-atlas-rdf,Gene Expression Atlas RDF,absent,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,0,1,1,1,0.75,1,1,0,1,0.75,3.05
+yale_senselab,Yale Senselab,http://neuroweb.med.yale.edu/senselab/,1,0,1,0.56,1,1,0.76,0,1,0,1,0.5,0,1,1,1,0.75,1,1,0,0,0.5,2.51
+linkedct,LinkedCT,http://linkedct.org/,1,0,1,0.89,1,1,0.82,1,1,0,1,0.75,1,1,1,1,1,1,1,0,1,0.75,3.32
+arrayexpress-e-afmx-1,"Transcription profiling of human, chimp and mouse brain",absent,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,0,0.25,2.28
+biolod-pdb,BioLOD for Protein Data Bank Japan,http://biolod.org/database/ria1i/Protein_Data_Bank,1,0,1,0.78,1,1,0.8,0,1,0,1,0.5,1,1,0,1,0.75,0,1,0,1,0.5,2.55
+bioportal-omit,Ontology for MicroRNA Target Prediction,http://bioportal.bioontology.org/ontologies/1505,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.28
+bioportal-icf_x1,"International Classification of Functioning, Disability and Health (ICF)",http://bioportal.bioontology.org/ontologies/1411,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.28
+cz-sidc-drug-ingredients,Active ingredients of medicinal products available in Czech Republic,http://linked.opendata.cz/resource/dataset/sukl/drug-ingredients,1,0,1,0.78,1,1,0.8,0,1,0,1,0.5,1,1,0,1,0.75,0,1,0,1,0.5,2.55
+chem2bio2rdf,Chem2Bio2RDF,http://chem2bio2rdf.org,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.28
+Naturopathy,Naturopathy Knowledge Graph (Ontology and Dataset) - RDF distribution of the naturopathy dataset.,http://sensormeasurement.appspot.com/dataset/naturopathy-dataset,1,0,1,0.89,1,1,0.82,1,1,0,1,0.75,1,1,1,1,1,1,1,0,1,0.75,3.32
+bioportal-mdr,MedDRA,http://bioportal.bioontology.org/ontologies/1422,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.28
+bioportal-spto,Solanaceae Phenotype Ontology,http://bioportal.bioontology.org/ontologies/3029,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.28
+bioportal-ddi,Ontology for Drug Discovery Investigations,http://bioportal.bioontology.org/ontologies/1540,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.28
+Hermos,Hermos,https://mcbu-semanticweb-lab.github.io/hermos/,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,0,1,0.75,0,1,0,0,0.25,2.55
+bioportal-mpath,Mouse pathology,http://bioportal.bioontology.org/ontologies/1031,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.28
+bioportal-jerm,SysMO-JERM,http://bioportal.bioontology.org/ontologies/1488,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.28
+bioportal-phare,PHARE,http://bioportal.bioontology.org/ontologies/1550,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.28
+disgenet,DisGeNET,http://ibi.imim.es/,1,0,1,0.89,1,1,0.82,1,1,0,1,0.75,1,1,1,1,1,1,1,0,1,0.75,3.32
+cz-sidc-drugs,Medicinal products marketed in Czech Republic,http://linked.opendata.cz/resource/dataset/sukl/drugs,1,0,1,0.78,1,1,0.8,0,1,0,1,0.5,1,1,0,1,0.75,0,1,0,1,0.5,2.55
+cz-eh-1-atc,ATC groups,http://linked.opendata.cz/resource/dataset/atc,1,0,1,0.78,1,1,0.8,0,1,0,1,0.5,1,1,0,1,0.75,0,1,0,1,0.5,2.55
+bioportal-nigo,Neural-Immune Gene Ontology,http://bioportal.bioontology.org/ontologies/1539,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.28
+PubChem RDF,PubChem RDF,https://pubchem.ncbi.nlm.nih.gov/,1,0,1,0.78,1,0,0.63,1,0,0,0,0.25,1,1,1,1,1,1,1,0,0,0.5,2.38
+bioportal-tmo,Translational Medicine Ontology,http://bioportal.bioontology.org/ontologies/1461,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.28
+bioportal-gro,Cereal Plant Development,http://bioportal.bioontology.org/ontologies/1047,1,0,1,0.56,1,1,0.76,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,0,0.25,2.01
+bioportal-unitsontology,Units Ontology,http://bioportal.bioontology.org/ontologies/1650,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.28
+bioportal-ogmd,Ontology of Glucose Metabolism Disorder,http://bioportal.bioontology.org/ontologies/1085,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.28
+bioportal-nddf,National Drug Data File,http://bioportal.bioontology.org/ontologies/1424,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.28
+bioportal-mo,MGED Ontology,http://bioportal.bioontology.org/ontologies/1131,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.28
+bioportal-ms,Mass spectrometry,http://bioportal.bioontology.org/ontologies/1105,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.28
+linked-drugs,LinkedDrugs: Linked Drug Product Data on a Global Scale,absent,1,0,1,0.78,1,1,0.8,0,1,0,1,0.5,1,1,0,1,0.75,0,1,0,1,0.5,2.55
+ontobeef-domain,OntoBeef Domain,http://onto.beef.org.pl/ontobeef,1,0,1,0.78,1,1,0.8,0,1,0,1,0.5,1,1,0,1,0.75,0,1,0,1,0.5,2.55
+bioportal-ndfrt,National Drug File,http://bioportal.bioontology.org/ontologies/1352,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.28
+bioportal-ontoorpha,Orphanet Ontology of Rare Diseases,http://bioportal.bioontology.org/ontologies/1586,1,0,1,0.78,1,1,0.8,0,1,0,1,0.5,1,1,0,1,0.75,0,1,0,1,0.5,2.55
+bioportal-air,AI/RHEUM,http://bioportal.bioontology.org/ontologies/1430,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.28
+bioportal-bcgo,Breast Cancer Grading Ontology,http://bioportal.bioontology.org/ontologies/1304,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.28
+ogolod,Orthology and Diseases Information - OGO,http://miuras.inf.um.es/~ogo/ogolod.html,1,0,1,0.78,1,1,0.8,0,1,0,1,0.5,1,1,0,1,0.75,0,1,0,1,0.5,2.55
+bioportal-hugo,HUGO,http://bioportal.bioontology.org/ontologies/1528,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.28
+bioportal-neomark,Neomark Oral Cancer Ontology,http://bioportal.bioontology.org/ontologies/1686,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.28
+bioportal-pdq,Physician Data Query,http://bioportal.bioontology.org/ontologies/1349,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.28
+bioportal-cogat,Cognitive Atlas,http://bioportal.bioontology.org/ontologies/1633,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.28
+bio2rdf-affymetrix,Affymetrix,http://affymetrix.bio2rdf.org/,1,0,1,1,1,1,0.83,1,1,1,1,1,1,1,1,1,1,1,1,0.181818182,1,0.8,3.63
+bio2rdf-clinicaltrials,ClinicalTrials.gov,http://clinicaltrials.bio2rdf.org/,1,0,1,1,1,1,0.83,1,1,1,1,1,1,1,1,1,1,1,1,0.181818182,1,0.8,3.63
+bio2rdf-ctd,Comparative ToxicogenomicsÂ ,http://ctd.bio2rdf.org/,1,0,1,1,1,1,0.83,1,1,1,1,1,1,1,1,1,1,1,1,0.181818182,1,0.8,3.63
+bio2rdf-dbsnp,Database of single nucleotide polymorphism,http://dbsnp.bio2rdf.org/,1,0,1,1,1,1,0.83,1,1,1,1,1,1,1,1,1,1,1,1,0.181818182,1,0.8,3.63
+bio2rdf-genage,GenAge: The Ageing Gene Database,http://genage.bio2rdf.org/,1,0,1,1,1,1,0.83,1,1,1,1,1,1,1,1,1,1,1,1,0.181818182,1,0.8,3.63
+bio2rdf-gendr,GenDR: The Dietary Restriction Gene Database,http://gendr.bio2rdf.org/,1,0,1,1,1,1,0.83,1,1,1,1,1,1,1,1,1,1,1,1,0.181818182,1,0.8,3.63
+bio2rdf-hgnc,HUGO Gene Nomenclature CommitteeÂ ,http://hgnc.bio2rdf.org/,1,0,1,1,1,1,0.83,1,1,1,1,1,1,1,1,1,1,1,1,0.181818182,1,0.8,3.63
+bio2rdf-interpro,"Integrated resource of protein families, domains and functional sites",http://interpro.bio2rdf.org/,1,0,1,1,1,1,0.83,1,1,1,1,1,1,1,1,1,1,1,1,0.181818182,1,0.8,3.63
+bio2rdf-iproclass,Integrated Protein Knowledgebase,http://iproclass.bio2rdf.org/,1,0,1,1,1,1,0.83,1,1,1,1,1,1,1,1,1,1,1,1,0.181818182,1,0.8,3.63
+bio2rdf-kegg,Kyoto Encyclopedia of Genes and Genomes,https://www.genome.jp/kegg,1,0,1,1,1,1,0.83,1,1,1,1,1,1,1,1,1,1,1,1,0.181818182,1,0.8,3.63
+bio2rdf-linkedspl,Linked Structured Product Label,http://linkedspl.bio2rdf.org/,1,0,1,0.89,1,1,0.82,1,1,1,1,1,1,1,1,1,1,1,1,0.181818182,0,0.55,3.37
+bio2rdf-lsr,The Life Science Resource Registry,http://lsr.bio2rdf.org/,1,0,1,1,1,1,0.83,1,1,1,1,1,1,1,1,1,1,1,1,0.181818182,1,0.8,3.63
+bio2rdf-ncbigene,NCBI Gene,http://ncbigene.bio2rdf.org/,1,0,1,1,1,1,0.83,1,1,1,1,1,1,1,1,1,1,1,1,0.181818182,1,0.8,3.63
+bio2rdf-omim,Online Mendelian Inheritance in Man,http://omim.bio2rdf.org/,1,0,1,1,1,1,0.83,1,1,1,1,1,1,1,1,1,1,1,1,0.181818182,1,0.8,3.63
+bio2rdf-pathwaycommons,Pathway Commons,http://pathwaycommons.bio2rdf.org/,1,0,1,0.89,1,1,0.82,1,1,1,1,1,1,1,1,1,1,1,1,0.181818182,0,0.55,3.37
+bio2rdf-reactome,Reactome - a curated knowledgebase of biological pathways,https://reactome.org,1,0,1,0.78,1,1,0.8,1,1,1,0,0.75,1,1,0,1,0.75,0,1,0.181818182,1,0.55,2.85
+bio2rdf-sgd,Saccharomyces Genome Database,http://sgd.bio2rdf.org/,1,0,1,1,1,1,0.83,1,1,1,1,1,1,1,1,1,1,1,1,0.181818182,1,0.8,3.63
+bio2rdf-bioportal,BioPortal,http://bioportal.bio2rdf.org/,1,0,1,1,1,1,0.83,1,1,1,1,1,1,1,1,1,1,1,1,0.181818182,1,0.8,3.63
+lincs-cloview,LINCS Cell Line Ontology View,https://lincsproject.org/,0,0.201365188,1,0.33,0,0,0.26,1,1,1,0,0.75,0,1,0,1,0.5,0,1,0,0,0.25,1.76
+lthido,Linked Terminologies for Human Infectious Diseases,https://bioportal.bioontology.org/ontologies/LTHIDO,0,0.197952218,1,0.33,0,0,0.25,1,1,1,0,0.75,0,1,0,1,0.5,0,1,0,0,0.25,1.75
+ndf-rt,National Drug File - Reference Terminology,https://www.nlm.nih.gov/research/umls/sourcereleasedocs/current/NDFRT/,1,0,1,0.33,0,1,0.56,0.5,1,0,1,0.62,0,1,0,1,0.5,0,1,0,0,0.25,1.93
+ogg-at,Ontology of Genes and Genomes - Arabidopsis,http://purl.obolibrary.org/obo/ogg,0,0.204778157,1,0.44,0,0,0.27,1,1,1,0,0.75,1,1,0,1,0.75,0,1,0,0,0.25,2.02
+ogg-bru,Ontology of Genes and Genomes - Brucella,http://purl.obolibrary.org/obo/ogg,0,0.204778157,1,0.44,0,0,0.27,1,1,1,0,0.75,1,1,0,1,0.75,0,1,0,0,0.25,2.02
+ogg-dm,Ontology of Genes and Genomes - Drosophila,http://purl.obolibrary.org/obo/ogg,0,0.204778157,1,0.44,0,0,0.27,1,1,1,0,0.75,1,1,0,1,0.75,0,1,0,0,0.25,2.02
+ogg-sc,Ontology of Genes and Genomes - Yeast,http://purl.obolibrary.org/obo/ogg,0,0.204778157,1,0.44,0,0,0.27,1,1,1,0,0.75,1,1,0,1,0.75,0,1,0,0,0.25,2.02
+reo,Radiological Events Ontology,https://bioportal.bioontology.org/ontologies/REO,0,0,1,0.33,0,0,0.22,0,0,0,0,0,0,1,0,1,0.5,0,1,0,0,0.25,0.97
+sdgio,Sustainable Development Goals Interface Ontology,https://bioportal.bioontology.org/ontologies/SDGIO,0,0,1,0.33,0,0,0.22,0,0,0,0,0,0,1,0,1,0.5,0,1,0,0,0.25,0.97
+uberon-basic,Uberon Basic,http://uberon.github.io/,0,0,1,0.44,0,0,0.24,0,0,0,0,0,1,1,0,1,0.75,0,1,0,0,0.25,1.24
+uberon_collected_metazoa,Uberon Collected Metazoa,http://uberon.github.io/,0,0,1,0.44,0,0,0.24,0,0,0,0,0,1,1,0,1,0.75,0,1,0,0,0.25,1.24
+uberon_depictions,Uberon Depictions,http://uberon.github.io/,0,0,1,0.44,0,0,0.24,0,0,0,0,0,1,1,0,1,0.75,0,1,0,0,0.25,1.24
+xl,Xenopus Anatomy Ontology,https://bioportal.bioontology.org/ontologies/XL,0,0.201365188,1,0.33,0,0,0.26,1,1,1,0,0.75,0,1,0,1,0.5,0,1,0,0,0.25,1.76
+evorao,European Viral Outbreak Response Alliance Ontology,http://www.evocontology.org/,1,0,1,0.44,1,0,0.57,0,0,0,0,0,0,1,0,1,0.5,0,1,0,0,0.25,1.32
+ictv,ICTV Virus Taxonomy,https://talk.ictvonline.org/,0,0,1,0.33,0,0,0.22,0,0,0,0,0,0,1,0,1,0.5,0,1,0,0,0.25,0.97
+uniprotrdfs,UniProt RDF Schema,https://www.uniprot.org/,0,0,1,0.33,0,0,0.22,0,0,0,0,0,0,1,0,1,0.5,0,1,0,0,0.25,0.97
+addicto,Addiction Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+dhba,Developing Human Brain Atlas Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+hba,Human Brain Atlas Ontology,absent,1,0,1,0.33,1,0,0.56,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,1.06
+lipidmaps,LIPID MAPS,https://www.lipidmaps.org/,0,0,1,0.33,0,0,0.22,1,1,1,0,0.75,0,1,0,1,0.5,0,1,0,0,0.25,1.72
+cao,Chemical Analysis Metadata Platform (ChAMP) Ontology version 0.2,absent,1,0,1,0.33,1,0,0.56,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,1.06
+phi,PHI-base Ontology,http://www.phi-base.org/,0,0,1,0.33,0,0,0.22,0,0,0,0,0,0,1,0,1,0.5,0,1,0,0,0.25,0.97
+msio,Metabolomics Standards Initiative Ontology (MSIO),absent,1,0,1,0.33,1,0,0.56,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,1.06
+pride,Proteomics Identification Database Ontology,https://www.ebi.ac.uk/pride/,1,0,1,0.44,1,0,0.57,0,0,0,0,0,0,1,0,1,0.5,0,1,0,0,0.25,1.32
+unimod,Unimod protein modification database for mass spectrometry,http://www.unimod.org/,0,0,1,0.33,0,0,0.22,0,0,0,0,0,0,1,0,1,0.5,0,1,0,0,0.25,0.97
+hcao,Human Cell Atlas Ontology,absent,1,0,1,0.33,1,0,0.56,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,1.06
+bcio,The Behaviour Change Intervention Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+covoc,CoVoc Coronavirus Vocabulary,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+snomed,SNOMED CT (International Edition),https://www.snomed.org/,0,0,1,0.33,0,0,0.22,0,0,0,0,0,0,1,0,1,0.5,0,1,0,0,0.25,0.97
+ehda,"Human developmental anatomy, timed version",http://genex.hgu.mrc.ac.uk/,1,0,1,0.56,1,0,0.59,0,0,0,0,0,1,1,0,1,0.75,0,1,0,0,0.25,1.59
+flu,Influenza Ontology,http://purl.obolibrary.org/obo/flu/,1,0,1,0.56,1,0,0.59,0,0,0,0,0,1,1,0,1,0.75,0,1,0,0,0.25,1.59
+loggerhead,Loggerhead nesting,http://www.mesquiteproject.org/ontology/Loggerhead/index.html,0,0,1,0.44,0,0,0.24,0,0,0,0,0,1,1,0,1,0.75,0,1,0,0,0.25,1.24
+pd_st,Platynereis stage ontology,http://4dx.embl.de/platy,1,0,1,0.56,1,0,0.59,0,0,0,0,0,1,1,0,1,0.75,0,1,0,0,0.25,1.59
+propreo,Proteomics data and process provece,http://lsdis.cs.uga.edu/projects/glycomics/propreo/,1,0,1,0.56,1,0,0.59,0,0,0,0,0,1,1,0,1,0.75,0,1,0,0,0.25,1.59
+resid,Protein covalent bond,http://www.ebi.ac.uk/RESID/,1,0,1,0.56,1,0,0.59,0,0,0,0,0,1,1,0,1,0.75,0,1,0,0,0.25,1.59
+sopharm,Suggested Ontology for Pharmacogenomics,http://www.loria.fr/~coulet/sopharm2.0_description.php,0,0,1,0.44,0,0,0.24,0,0,0,0,0,1,1,0,1,0.75,0,1,0,0,0.25,1.24
+tahe,Terminology of Anatomy of Human Embryology,https://www.ucl.ac.uk/anatomy,0,0,1,0.44,0,0,0.24,0,0,0,0,0,1,1,0,1,0.75,0,1,0,0,0.25,1.24
+tahh,Terminology of Anatomy of Human Histology,https://www.ucl.ac.uk/anatomy,1,0,1,0.56,1,0,0.59,0,0,0,0,0,1,1,0,1,0.75,0,1,0,0,0.25,1.59
+bci,Brain-Computer Interface Ontology,https://lov.linkeddata.es/dataset/lov/vocabs/bci,0,0,1,0.44,0,0,0.24,0,0,0,0,0,1,1,0,1,0.75,0,1,0,0,0.25,1.24
+biol,Biological Taxonomy Ontology,https://lov.linkeddata.es/dataset/lov/vocabs/biol,0,0,1,0.44,0,0,0.24,0,0,0,0,0,1,1,0,1,0.75,0,1,0,0,0.25,1.24
+biopax,BioPAX Ontology,https://lov.linkeddata.es/dataset/lov/vocabs/biopax,0,0,1,0.44,0,0,0.24,0,0,0,0,0,1,1,0,1,0.75,0,1,0,0,0.25,1.24
+biotop,Biology Upper-Level Ontology,https://lov.linkeddata.es/dataset/lov/vocabs/biotop,0,0,1,0.44,0,0,0.24,0,0,0,0,0,1,1,0,1,0.75,0,1,0,0,0.25,1.24
+cochrane,Cochrane Core Ontology,https://lov.linkeddata.es/dataset/lov/vocabs/cochrane,0,0,1,0.44,0,0,0.24,0,0,0,0,0,1,1,0,1,0.75,0,1,0,0,0.25,1.24
+cocoon,Cocoon Ontology,https://lov.linkeddata.es/dataset/lov/vocabs/cocoon,0,0,1,0.44,0,0,0.24,0,0,0,0,0,1,1,0,1,0.75,0,1,0,0,0.25,1.24
+dataid,DataID Core Vocabulary,https://lov.linkeddata.es/dataset/lov/vocabs/dataid,0,0,1,0.44,0,0,0.24,0,0,0,0,0,1,1,0,1,0.75,0,1,0,0,0.25,1.24
+dbm,DBM Ontology,https://lov.linkeddata.es/dataset/lov/vocabs/dbm,0,0,1,0.44,0,0,0.24,0,0,0,0,0,1,1,0,1,0.75,0,1,0,0,0.25,1.24
+dbpedia-owl,DBpedia Ontology,https://lov.linkeddata.es/dataset/lov/vocabs/dbpedia-owl,0,0,1,0.44,0,0,0.24,0,0,0,0,0,1,1,0,1,0.75,0,1,0,0,0.25,1.24
+hifm,HIFM Ontology,https://lov.linkeddata.es/dataset/lov/vocabs/hifm,0,0,1,0.44,0,0,0.24,0,0,0,0,0,1,1,0,1,0.75,0,1,0,0,0.25,1.24
+hosp,Healthcare Provider Ontology,https://lov.linkeddata.es/dataset/lov/vocabs/hosp,0,0,1,0.44,0,0,0.24,0,0,0,0,0,1,1,0,1,0.75,0,1,0,0,0.25,1.24
+incident,RESC Incident Ontology,https://lov.linkeddata.es/dataset/lov/vocabs/incident,0,0,1,0.44,0,0,0.24,0,0,0,0,0,1,1,0,1,0.75,0,1,0,0,0.25,1.24
+lsc,Linked Science Core Ontology,https://lov.linkeddata.es/dataset/lov/vocabs/lsc,0,0,1,0.44,0,0,0.24,0,0,0,0,0,1,1,0,1,0.75,0,1,0,0,0.25,1.24
+ofo,OFO (Open Food Ontology),https://lov.linkeddata.es/dataset/lov/vocabs/ofo,0,0,1,0.44,0,0,0.24,0,0,0,0,0,1,1,0,1,0.75,0,1,0,0,0.25,1.24
+omnlc,OMN Lifecycle Ontology,https://lov.linkeddata.es/dataset/lov/vocabs/omnlc,0,0,1,0.44,0,0,0.24,0,0,0,0,0,1,1,0,1,0.75,0,1,0,0,0.25,1.24
+person,Person Ontology,https://lov.linkeddata.es/dataset/lov/vocabs/person,0,0,1,0.44,0,0,0.24,0,0,0,0,0,1,1,0,1,0.75,0,1,0,0,0.25,1.24
+pext,PROTONext Ontology,https://lov.linkeddata.es/dataset/lov/vocabs/pext,0,0,1,0.44,0,0,0.24,0,0,0,0,0,1,1,0,1,0.75,0,1,0,0,0.25,1.24
+phdd,PHDD Ontology,https://lov.linkeddata.es/dataset/lov/vocabs/phdd,0,0,1,0.44,0,0,0.24,0,0,0,0,0,1,1,0,1,0.75,0,1,0,0,0.25,1.24
+pimsii,PIMS-II Ontology,https://lov.linkeddata.es/dataset/lov/vocabs/pimsii,0,0,1,0.33,0,0,0.22,0,0,0,0,0,0,1,0,1,0.5,0,1,0,0,0.25,0.97
+plink,PersonLink Ontology,https://lov.linkeddata.es/dataset/lov/vocabs/plink,0,0,1,0.33,0,0,0.22,0,0,0,0,0,0,1,0,1,0.5,0,1,0,0,0.25,0.97
+pmofn,PREMON Functional Ontology,https://lov.linkeddata.es/dataset/lov/vocabs/pmofn,0,0,1,0.44,0,0,0.24,0,0,0,0,0,1,1,0,1,0.75,0,1,0,0,0.25,1.24
+pmonb,PREMON Neural Behavior Ontology,https://lov.linkeddata.es/dataset/lov/vocabs/pmonb,0,0,1,0.44,0,0,0.24,0,0,0,0,0,1,1,0,1,0.75,0,1,0,0,0.25,1.24
+pmopb,PREMON Physical Behavior Ontology,https://lov.linkeddata.es/dataset/lov/vocabs/pmopb,0,0,1,0.44,0,0,0.24,0,0,0,0,0,1,1,0,1,0.75,0,1,0,0,0.25,1.24
+pmovn,PREMON Visual Neuroscience Ontology,https://lov.linkeddata.es/dataset/lov/vocabs/pmovn,0,0,1,0.44,0,0,0.24,0,0,0,0,0,1,1,0,1,0.75,0,1,0,0,0.25,1.24
+s4ehaw,SAREF4EHAW (eHealth and Ageing Well) Extension,https://lov.linkeddata.es/dataset/lov/vocabs/s4ehaw,0,0,1,0.44,0,0,0.24,0,0,0,0,0,1,1,0,1,0.75,0,1,0,0,0.25,1.24
+sbeo,SBEO (Systems Biology Evidence Ontology),https://lov.linkeddata.es/dataset/lov/vocabs/sbeo,0,0,1,0.44,0,0,0.24,0,0,0,0,0,1,1,0,1,0.75,0,1,0,0,0.25,1.24
+scip,Scientific People Ontology,https://lov.linkeddata.es/dataset/lov/vocabs/scip,0,0,1,0.33,0,0,0.22,0,0,0,0,0,0,1,0,1,0.5,0,1,0,0,0.25,0.97
+scoro,SCORO (Scientific Communication Roles) Ontology,https://lov.linkeddata.es/dataset/lov/vocabs/scoro,0,0,1,0.44,0,0,0.24,0,0,0,0,0,1,1,0,1,0.75,0,1,0,0,0.25,1.24
+tax,EU Taxonomy Ontology,https://lov.linkeddata.es/dataset/lov/vocabs/tax,0,0,1,0.44,0,0,0.24,0,0,0,0,0,1,1,0,1,0.75,0,1,0,0,0.25,1.24
+taxon,Biodiversity Taxon Ontology,https://lov.linkeddata.es/dataset/lov/vocabs/taxon,0,0,1,0.33,0,0,0.22,0,0,0,0,0,0,1,0,1,0.5,0,1,0,0,0.25,0.97
+wikibase,Wikidata Ontology,https://lov.linkeddata.es/dataset/lov/vocabs/wikibase,0,0,1,0.44,0,0,0.24,0,0,0,0,0,1,1,0,1,0.75,0,1,0,0,0.25,1.24
+mammalian-phenotype-ontology,Mammalian Phenotype Ontology,http://obofoundry.org/ontology/mp.html,0,0,1,0.44,0,0,0.24,0,0,0,0,0,1,1,0,1,0.75,0,1,0,0,0.25,1.24
+drosophila-anatomy-developmental-ontology,Drosophila Anatomy & Developmental Ontology,http://obofoundry.org/ontology/fbbt.html,0,0,1,0.44,0,0,0.24,0,0,0,0,0,1,1,0,1,0.75,0,1,0,0,0.25,1.24
+geno-ontology,GENO Ontology,http://obofoundry.org/ontology/geno.html,0,0,1,0.44,0,0,0.24,0,0,0,0,0,1,1,0,1,0.75,0,1,0,0,0.25,1.24
+sem-prov-ontologies,Semi‑PROV Ontologies,https://dataoneorg.github.io/sem-prov-ontologies,0,0,1,0.44,0,0,0.24,0,0,0,0,0,1,1,0,1,0.75,0,1,0,0,0.25,1.24
+microbe_masst,microbe_masst,-,0,0,1,0.44,0,0,0.24,0,0,0,0,0,1,1,0,1,0.75,0,1,0,0,0.25,1.24
+semanticchemistry,semanticchemistry,http://semanticchemistry.github.io/semanticchemistry,0,0,1,0.44,0,0,0.24,0,0,0,0,0,1,1,0,1,0.75,0,1,0,0,0.25,1.24
+monarch-disease-ontology-retired,Monarch Disease Ontology (retired),-,0,0,1,0.44,0,0,0.24,0,0,0,0,0,1,1,0,1,0.75,0,1,0,0,0.25,1.24
+hspo-ontology,HSO‑Ontology,-,0,0,1,0.44,0,0,0.24,0,0,0,0,0,1,1,0,1,0.75,0,1,0,0,0.25,1.24
+environmental-exposure-ontology,Environmental Exposure Ontology,http://obofoundry.org/ontology/exo.html,0,0,1,0.44,0,0,0.24,0,0,0,0,0,1,1,0,1,0.75,0,1,0,0,0.25,1.24
+mental-functioning-ontology,Mental Functioning Ontology,-,0,0,1,0.44,0,0,0.24,0,0,0,0,0,1,1,0,1,0.75,0,1,0,0,0.25,1.24
+diamond,DIAMOND,-,0,0,1,0.44,0,0,0.24,0,0,0,0,0,1,1,0,1,0.75,0,1,0,0,0.25,1.24
+genealogical-trees,Genealogical Trees,-,0,0,1,0.33,0,0,0.22,0,0,0,0,0,0,1,0,1,0.5,0,1,0,0,0.25,0.97
+bio-attribute-ontology,Bio‑Attribute Ontology,http://obofoundry.org/ontology/oba.html,0,0,1,0.44,0,0,0.24,0,0,0,0,0,1,1,0,1,0.75,0,1,0,0,0.25,1.24
+behavior-ontology,Behavior Ontology,http://obofoundry.org/ontology/nbo.html,0,0,1,0.44,0,0,0.24,0,0,0,0,0,1,1,0,1,0.75,0,1,0,0,0.25,1.24
+joint-food-ontology-wg,Joint Food Ontology WG,-,0,0,1,0.33,0,0,0.22,0,0,0,0,0,0,1,0,1,0.5,0,1,0,0,0.25,0.97
+disease-ontology,Disease Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+osdu-ontology,OSDU Ontology,-,0,0,1,0.44,0,0,0.24,0,0,0,0,0,1,1,0,1,0.75,0,1,0,0,0.25,1.24
+crop-ontology,Crop Ontology,http://www.cropontology.org/,0,0,1,0.44,0,0,0.24,0,0,0,0,0,1,1,0,1,0.75,0,1,0,0,0.25,1.24
+humandiseaseontology,Human Disease Ontology,http://disease-ontology.org/,0,0,1,0.44,0,0,0.24,0,0,0,0,0,1,1,0,1,0.75,0,1,0,0,0.25,1.24
+human-phenotype-ontology,Human Phenotype Ontology,https://hpo.jax.org/app/,0,0,1,0.44,0,0,0.24,0,0,0,0,0,1,1,0,1,0.75,0,1,0,0,0.25,1.24
+go-ontology,Gene Ontology,http://geneontology.org/,0,0,1,0.44,0,0,0.24,0,0,0,0,0,1,1,0,1,0.75,0,1,0,0,0.25,1.24
+cell-ontology,Cell Ontology,http://obofoundry.org/ontology/cl.html,0,0,1,0.44,0,0,0.24,0,0,0,0,0,1,1,0,1,0.75,0,1,0,0,0.25,1.24
+plant-ontology,Plant-ontology,absent,0,0,1,0.33,0,0,0.22,0,0,0,0,0,1,0,0,1,0.5,0,1,0,0,0.25,0.97
+ontie,ONTIE,absent,0,0,1,0.33,0,0,0.22,0,0,0,0,0,1,0,0,1,0.5,0,1,0,0,0.25,0.97
+auto,Auto,absent,0,0,1,0.33,0,0,0.22,0,0,0,0,0,1,0,0,1,0.5,0,1,0,0,0.25,0.97
+plant-stress-ontology,Plant-stress-ontology,absent,0,0,1,0.33,0,0,0.22,0,0,0,0,0,1,0,0,1,0.5,0,1,0,0,0.25,0.97
+foodbiomarkerontology,FoodBiomarkerOntology,absent,0,0,1,0.33,0,0,0.22,0,0,0,0,0,1,0,0,1,0.5,0,1,0,0,0.25,0.97
+obsolete-hdo,Obsolete-hdo,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+rsc-cmo,Rsc-cmo,absent,0,0,1,0.33,0,0,0.22,0,0,0,0,0,1,0,0,1,0.5,0,1,0,0,0.25,0.97
+bbc-wildlife,Bbc-wildlife,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+mcog-core,Mcog-core,absent,0,0,1,0.33,0,0,0.22,0,0,0,0,0,1,0,0,1,0.5,0,1,0,0,0.25,0.97
+flybase-controlled-vocabulary,Flybase-controlled-vocabulary,absent,0,0,1,0.33,0,0,0.22,0,0,0,0,0,1,0,0,1,0.5,0,1,0,0,0.25,0.97
+plant-experimental-conditions-ontology,Plant-experimental-conditions-ontology,absent,0,0,1,0.33,0,0,0.22,0,0,0,0,0,1,0,0,1,0.5,0,1,0,0,0.25,0.97
+developmental-stage-ontologies,Developmental-stage-ontologies,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+zebrafish-phenotype-ontology,Zebrafish-phenotype-ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+fungal-anatomy-ontology,Fungal-anatomy-ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+hetontology,Hetontology,absent,0,0,1,0.33,0,0,0.22,0,0,0,0,0,1,0,0,1,0.5,0,1,0,0,0.25,0.97
+mobio,Mobio,absent,0,0,1,0.33,0,0,0.22,0,0,0,0,0,1,0,0,1,0.5,0,1,0,0,0.25,0.97
+sfwo,Sfwo,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+nfdi4plants_ontology,Nfdi4plants_ontology,absent,0,0,1,0.33,0,0,0.22,0,0,0,0,0,1,0,0,1,0.5,0,1,0,0,0.25,0.97
+gene-ontology,Gene-Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+conso,Conso,absent,0,0,1,0.33,0,0,0.22,0,0,0,0,0,1,0,0,1,0.5,0,1,0,0,0.25,0.97
+human_phenotype_ontology,Human Phenotype Ontology,HPO,0,0,1,0.33,0,0,0.22,0,0,0,0,0,0,1,0,1,0.5,0,1,0,0,0.25,0.97
+healthont,HealthOnt,absent,0,0,1,0.33,0,0,0.22,0,0,0,0,0,1,0,0,1,0.5,0,1,0,0,0.25,0.97
+heron-ontology,HERON-Ontology,absent,0,0,1,0.33,0,0,0.22,0,0,0,0,0,1,0,0,1,0.5,0,1,0,0,0.25,0.97
+ontologyandqahealth,OntologyAndQAHealth,absent,0,0,1,0.33,0,0,0.22,0,0,0,0,0,1,0,0,1,0.5,0,1,0,0,0.25,0.97
+diagnosis_support,Diagnosis_support,absent,0,0,1,0.33,0,0,0.22,0,0,0,0,0,1,0,0,1,0.5,0,1,0,0,0.25,0.97
+codmo,CoDMO,absent,1,0,1,0.44,1,0,0.57,0,0,0,0,0,1,0,0,1,0.5,0,1,0,0,0.25,1.32
+miaf-ontology,MIAF-Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+ontology_deb,DEB Ontology,https://projectdebbie.org/,0,0,1,0.33,0,0,0.22,0,0,0,0,0,0,1,0,1,0.5,0,1,0,0,0.25,0.97
+ontology-covid-patients,Ontology for COVID-19 Patients,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+tibb-nabawi,Tibb Nabawi Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+toxicology-ontology,Toxicology Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+gliomarker,Gliomarker,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+clinical_trial_ontology,Clinical Trial Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+clinreason,ClinReason,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+cdt-ontology,CDT Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+autocoo,AutoCOO,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+ecmo,ECMO Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+ontology-of-clinical-research,Ontology of Clinical Research,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+pacco,PACCO,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+obci,OBCI,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+ontology-of-traditional-chinese-medicine,Ontology of Traditional Chinese Medicine,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+bim-biomedical-image-ontology,BIM Biomedical Image Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+debio,DEBIO,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+bioportal,BioPortal,https://bioportal.bioontology.org/,0,0,1,0.33,0,0,0.22,0,0,0,0,0,0,1,0,1,0.5,0,1,0,0,0.25,0.97
+obi-ontology.org,OBI Ontology,http://obi-ontology.org/,1,0,1,0.56,1,0,0.59,0,0,0,0,0,1,1,0,1,0.75,0,1,0,0,0.25,1.59
+yggdrasil,Yggdrasil,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+hpo-explorer,HPO Explorer,https://hpo.jax.org/,0,0,1,0.33,0,0,0.22,0,0,0,0,0,0,1,0,1,0.5,0,1,0,0,0.25,0.97
+gene_ontology,Gene_Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+pathogenesis-gene-ontology,Pathogenesis Gene Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+geneontology.jl,GeneOntology.jl,absent,0,0,1,0.33,0,0,0.22,0,0,0,0,0,1,0,0,1,0.5,0,1,0,0,0.25,0.97
+geneontologygraphdb,GeneOntologyGraphDB,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+bacteria-ontologia,Bacteria Ontologia,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+gene_onotology_obo_tools,Gene_Ontology_OBO_Tools,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+zeogs_github,ZEOGS,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+ogg-core,OGG-Core,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+pcpannotationassessment,PCPAnnotationAssessment,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+do2go_mouse,DO2GO_Mouse,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+go2cell,GO2Cell,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+dataset_gene_ontology_term,Dataset Gene Ontology Term,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+genes-data,Genes-Data,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+gene-ontology-classification-of-protein-sequence,Gene Ontology Classification of Protein Sequence,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+sepsis_gene_knowledgegraph_ontology,Sepsis Gene KnowledgeGraph Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+gocluster,GOCluster,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+regeneration-in-drosophila-melanogaster,Regeneration in Drosophila Melanogaster,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+ppi-research,PPI-Research,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+clusterprofiler,ClusterProfiler,https://www.bioconductor.org/,0,0,1,0.44,0,0,0.24,0,0,0,0,0,1,1,0,1,0.75,0,1,0,0,0.25,1.24
+go-rdf,GO-RDF,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+gograph,GOgraph,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+geneontologynextgeneration,GeneOntologyNextGeneration,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+gopher,GOPHER,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+bayesgo2do,BayesGO2DO,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+gene-ontology-database,Gene Ontology Database,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+basic-gene-ontology,Basic Gene Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+wbo-gene-ontology,WBO Gene Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+gene-pleiotropy,Gene Pleiotropy,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+gene-ontology-enrichment,Gene Ontology Enrichment,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+bluegenes-gene-ontology,BlueGenes Gene Ontology,http://targetmine.mizuguchilab.org/,0,0,1,0.33,0,0,0.22,0,0,0,0,0,0,1,0,1,0.5,0,1,0,0,0.25,0.97
+bacteria-ontology,Bacteria Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+go_ltr,GO_LTR,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+ogg-bacteria,OGG-Bacteria,http://ogg-ontology.org ,1,0,1,0.44,1,0,0.57,0,0,0,0,0,0,1,0,1,0.5,0,1,0,0,0.25,1.32
+ensembl_to_go,Ensembl_to_GO,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+ontologyclassgenerator,OntologyClassGenerator,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+geneontology,geneOntology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+phewas-sd,PHEWAS-SD,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+goo,GOO,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+go-analysis,GO-Analysis,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+gdo,GDO,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+gosum,GOSUM,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+goenrichment.jl,GOEnrichment.jl,absent,0,0,1,0.33,0,0,0.22,0,0,0,0,0,1,0,0,1,0.5,0,1,0,0,0.25,0.97
+gow,GOW,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+bulk_rna_sequencing,bulk_RNA_sequencing,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+page_mpo,PAGE_MPO,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+goal2.0,GOAL2.0,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+clustering_on_gene_annotations,Clustering_on_Gene_Annotations,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+pslg-server,PSLG-Server,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+viral,Viral,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+binf,BINF,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+geneexpression-dataparser,GeneExpression-DataParser,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+10x_human_cerebellum_organoid,10x_Human_Cerebellum_Organoid,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+tissuephenomicsontology,TissuePhenomicsOntology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+htao,HTAO,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+cellfinder,CellFinder,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+gombo,GOMBO,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+cellxgene-ontology-guide,cellxgene-ontology-guide,https://cellxgene.cziscience.com/,0,0,1,0.33,0,0,0.22,0,0,0,0,0,0,1,0,1,0.5,0,1,0,0,0.25,0.97
+zebrafish-anatomical-ontology,Zebrafish Anatomical Ontology,https://zfin.org/,0,0,1,0.44,0,0,0.24,0,0,0,0,0,1,1,0,1,0.75,0,1,0,0,0.25,1.24
+scdo-ontology,SCDO-Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+domain-sofc,domain-SOFC,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+scatlas,scATLAS,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+whole_human_brain_ontology,Whole Human Brain Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+biological_co_analysis,biological_CO_analysis,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+cmeo,CMEO,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+oncocl,OncoCL,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+peroman,PerOMan,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+obo_parser,OBO Parser,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+phenostacks,PhenoStacks,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+human-phenotype-challenge,Human Phenotype Challenge,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+hpo_mp_matching,HPO-MP Matching,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+hpo_study_04_12_2020,HPO Study,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+human-developmental-anatomy-ontology,Human Developmental Anatomy Ontology,http://uberon.github.io/,0,0,1,0.44,0,0,0.24,0,0,0,0,0,1,1,0,1,0.75,0,1,0,0,0.25,1.24
+myupheno1,uPheno,http://upheno.org/,0,0,1,0.33,0,0,0.22,0,0,0,0,0,0,1,0,1,0.5,0,1,0,0,0.25,0.97
+homology-ontology,Homology Ontology,https://bgee.org/,0,0.2,1,0.56,0,0,0.29,1,1,1,0,0.75,1,1,0,1,0.75,0,1,0,1,0.5,2.29
+infectious-disease-ontology,Infectious Disease Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+diseases-ontology,Diseases Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+neurological-disease-ontology,Neurological Disease Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+diseasedriversontology,Disease Drivers Ontology,http://www.disease-ontology.org/,0,0,1,0.33,0,0,0.22,0,0,0,0,0,0,1,0,1,0.5,0,1,0,0,0.25,0.97
+dermatology,Dermatology Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+idoschisto,IDOSCHISTO,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+diseaseontology,Disease Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+idomen,IDOMEN,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+ohboi_human_bacterial_infectious_disease_ontology_semtech_an,OhBOI,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+viraldiseasesanddrugs,Viral Diseases and Drugs,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+disease-ontology_human-disease-ontology,Disease Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+diseasesontology,DiseaseOntology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+do-master-table,DO Master Table,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+disease-incidence-ontology,Disease Incidence Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+crohn-ontology,Crohn Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+radipo,RaDiPO,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+pido,PIDO,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+rice-pest-disease-ontology,Rice Pest Disease Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+yado,YADO,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+cancerdiseaseontology,Cancer Disease Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+eyediseaseontology,Eye Disease Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+infectious-diseases-ontology,Infectious Diseases Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+ocular-disease-ontology,Ocular Disease Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+cardiovasculardiseasesontology,Cardiovascular Diseases Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+huma_disease_ontology,Huma Disease Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+ovd,OVD,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+animal-disease-symptom-ontology,Animal Disease Symptom Ontology,absent,1,0,1,0.33,1,0,0.56,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,1.06
+bacteria-infectious-disease-ontology,Bacteria Infectious Disease Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+adni_ontology,ADNI Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+ordi,ORDI,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+hcdo,HCDO,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+ntdo,NTDO,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+bcontology,BContology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+covid-19-ontology,COVID-19 Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+odao,ODAO,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+opioiddrugontology.github.io,Opioid Drug Ontology,https://opioiddrugontology.github.io/,0,0,1,0.33,0,0,0.22,0,0,0,0,0,0,1,0,1,0.5,0,1,0,0,0.25,0.97
+uc_fooddruginteractionontology,Food-Drug Interaction Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+dibo-ontology,DIBO Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+dibo,DIBO,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+breast_cancer_ontology,Breast Cancer Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+covid19-epidemiology-ontology,COVID-19 Epidemiology Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+vfb-scrnaseq-ontology,VFB scRNAseq Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+orsa,ORSA,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+ucva,Unwarranted Clinical Variation Analysis With Contextual Factors,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+jso,JS Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+mirapie,MInimal Requirements for Automated Provece Information Enrichment in biomedical research,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+pghdprov,Context and Provece Based Standardized Patient Generated Health Data Shared with an Electronic Health Record,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+koio,Knowledge Object Implementation Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+datahub,RADx Data Hub Ontology,http://datahub.io,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.28
+genevieve,Charlotte,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+gdco,Data Collection Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+tm-other-factors,Traditional Medicine Other Factors Value Set,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+rdao,Rare Diseases Awareness Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+hfo,Heart Failure Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+gfvo,Genomic Feature and Variation Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+g4-dsip,Group 4-Data Science in Practice,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+fisho,Fish Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+simon,Simple Measurement Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+injurytypes,Injury Types,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+cst,Cancer Staging Terms,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+cstd,Clinical smell and taste disorders,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+vimm,In Vitro Methodologies Ontology for MAATrica metric,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+ontopbm,Ontology for Process-Based Modeling of Dynamical Systems (OntoPBM),absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+icd11-bodysystem,Body System Terms from ICD11,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+vodanadiseases,VODANADiseases,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+iso19115mi,ISO 19115 Metadata Information,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+bim,Biomedical Image Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+hmis033b,HMIS 033,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+rda-issuance,RDA Mode of Issuance,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+typon,Microbial Typing Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+test-m4m20-pav,test-m4m20-subjects-pav,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+neudigs,Neuroscience Domain Insight Graph,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+opde,OPD-Ethiopia,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+opdt,opd_test,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+ncod,NCoD,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+lc-media,Library of Congress Media Types Scheme,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+rnprio,Research Network and Patient Registry Inventory Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+nnd_nd,NND_Neuropathological_Diagnosis,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+iso19115id,ISO 19115 Identification Information,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+rdo,Reusable Biodiversity Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+testex,test1,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+ahso,Animal Health Surveillance Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+imobo,Intelligent Medicine oriented Biobank Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+rao,Rheumatoid Arthritis ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+covidcrfrapid,WHO COVID-19 Rapid Version CRF semantic data model,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+ogroup,Orthologous Group Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+cokpme,COKPME - COVID19 Ontology for analyzing the Karnataka Private Medical Establishments Data  ,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+odht,Digital Health Technologies,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+iso19115pr,ISO 19115 Codelists,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+pgxo,PGxO,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+top-menelas,Menelas Project Top-Level Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+vodaigeria,VODAIGERIA,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+infrarisk,InfraRisk Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+wc,Whole-cell modeling ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+vvmm,In Vivo Methodologies Ontology for MAATrica metric,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+gamuts,Radiology Gamuts Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+ecosim,ecosim ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+aura,KB_Bio_101,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+frmo,Fall Risk Management Ontology ,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+plio,Protein-ligand interaction ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+flyglycodb,FlyGlycoDB,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+ldbase,LDbase,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+admin,Nurse Administrator,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+hivhpvstom,HIVHPVStom,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+fplx,FamPlex,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+epso,Epilepsy and Seizure Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+epie,Epigenetic Entity,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+epip,Epigenetic Process,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+land-surface,Land Surface classifiers,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+panda,Probabilistic Knowledge Assembly Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+nnd_ch,NND_Clinical_history,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+dsip,Pharmacy mock data,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+lcdgt,Library of Congress Demographic Group Terms,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+sugarbind,SugarBind,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+omv,Ontology Metadata Vocabulary,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+apaocuemploy,APA Occupational and Employment cluster,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+glyco,Glycomics Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+tm-const,Traditional Medicine Constitution Value Set,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+cdmonto,Common Diabetes Medications Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+rgd,RRB Group D,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+gbol,GBOL,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+tp_rel_fam,Relation familiales,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+allergidoc,Allergy Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+haroreado,Halocynthia roretzi Anatomy and Development Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+cmr-qa,Cardiovascular Magnetic Resoce Quality Assessment Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+neomark4,"Neomark Oral Cancer Ontology, version 4",absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+pmd,Persian Medicine Diseases Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+pmdo,Parkinson and Movement Disorder Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+comodi,COMODI,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+e-ppo,Enhanced Personal Profile Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+sos,emergÃªncia,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+chd,Congenital Heart Defects Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+boshi,boshra,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+idg_gl,IDG gene list,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+gco,Genome Component Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+zonmw-generic,ZonMw Generic Terms,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+extract,EXTeRnAl Conditions Taxonomy (EXTRACT),absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+vodana-mpa,VODANA-MIGRANTS-PRESS ARTICLES,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+hmado,Human Microbiome Associated Disease Ontology ,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+ontokbcf,Ontological Knowledge Base Model for Cystic Fibrosis,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+electrica,"Ontology for ELEctronic tool for Clinicians, Trainers and Researchers In Child Abuse",absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+covid19-ibo,Covid19 Impact on Banking Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+rctv2,Read Clinical Terminology Version 2,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+dhmo,RADx Data Hub Metadata Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+medeon,Medical Error Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+npokb,Neuron Phenotype Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+dsip2324_demo,DSIP2324_Demonstration,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+apaonto,Psychology Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+vodanamflcode,VODANAFACILITIESLIST,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+cisaviado,Ciona savignyi Anatomy and Development Ontology ,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+cso,Clinical Study Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+asdf,testiiii1,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+ontosinasc,Ontology of Information System on Live Births,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+cidoc-crm,CIDOC Conceptual Reference Model,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+roo,Radiation Oncology Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+sty,Semantic Types Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+covid-19-ont-pm,COVID-19OntologyInPatternMedicine,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+nmdco,NMDC Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+ogr,Ontology of Geographical Region,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+iso19115ex,ISO 19115 Extent Information,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+ontodm-kdd,Ontology of Data Mining Investigations,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+esfo,Enzyme Structure Function Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+sbol,Synthetic Biology Open Language Visual Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+gdoa,Graphic Descriptor Ontology Anatomy Extension,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+mello-d,MEdical LifeLog Ontology for people with Disability,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+fire,Fire Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+ecm4m-md-vocabs,EarthCube M4M Metadata Vocabulary,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+patit,Placental Investigative Technique,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+itemas,Medical Technology Innovation in healthcare centers,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+senso,Sensitive Data Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+bof,Biodiversity Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+uganda_diseases,Uganda_diseases,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+taon,Therapeutic Antibody Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+spo,Skin Physiology Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+oborel,Relations Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+xeo,XEML Environment Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+doves,Digital medicine Outcomes Value Set (DOVeS) Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+bpforms,"Ontology of chemically concrete, composable DNA, RNA, and protein residue and crosslinks",absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+datacite,SPAR DataCite Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+marc-relators,MARC Code List for Relators,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+fdc-gdmt,Ontology for Generic Dataset Metadata Template,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+ontotox,Chemotherapy Toxicities Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+pma,Portfolio Management Application,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+sto-draft,The Stroke Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+bto-provo,Brinell Test Ontology-PROVO,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+dct,DC Terms,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+into,Indian Terrorism Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+henecon,Head and Neck Cancer Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+ecso,The Ecosystem Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+gpml,Graphical Pathway Markup Language,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+olam,Ontology of Laboratory Animal Medicine,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+olas,Ontology of Laboratory Animal Science,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+paino,Pain Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+o-rextech,OSIRIS-REx Analytical Technique,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+fdsajfahsjk,OWL_XML_Tool5,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+bhn,Biologie Hors Nomenclature,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+brain-cof,Computational Ontology Framework for Brain Profiles,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+pnado,Pneumonia Diagnosis Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+ontoad,Bilingual Ontology of Alzheimer's Disease and Related Diseases,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+hrdo,Disease core ontology applied to Rare Diseases,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+cdpeo,Chronic Disease Patient Education Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+elter_cl,eLTER Controlled Lists,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+matrrockigneous,Material Rock Igneouus,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+bms-lm,BioMedical Study Lifecycle Management,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+opdre,OPD Regitry Ethiopia,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+pmo-speed,PMO Playing Speed Vocabulary,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+idoden,Dengue Fever Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+birthonto,BirthOnto: Birth Data Analysis,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+meo,Metagenome and Microbes Environmental Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+idem,IDEM: wInD Energy Models Taxonomy,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+dilon,Dietary lifestyle ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+fmpm,Food Matrix for Predictive Microbiology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+patct,Placental Cell Type,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+hiv,HIV ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+dsip1v,DSIP1_vocabulary,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+suicideo,suicideonto,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+smash,SMASH Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+gvo,Genome Variation Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+ibd,Indian Biodiversity Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+iso19115dtc,ISO 19115 Date Type Code,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+onl-mr-da,Magnetic Resoce Dataset Acquisition Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+bipom,Biological interlocked Process Ontology for metabolism,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+entity,ISO-15926-2_2003_entityMembership,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+mco4mcre,Multiplex Classification Ontology for the MultiCaRe Experiment,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+rdl,RDL,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+surgical,Nurse Surgical,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+radxtt-mvreasons,RADx Tiger Team Missing Value Reasons,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+omco,OligoMetastatic Cancer Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+bpt,Biological Pathway Taxonomy,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+cho,ChemoOnto,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+bmt,Biomedical Topics,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+weave,WEAVE: Wind Energy ActiVitiEs,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+mnr,Material Natural Resource ,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+elig,Eligibility Feature Hierarchy,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+asdpto,Autism Spectrum Disorder Phenotype Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+legalapa,legalapa,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+deb,"Devices, Experimental scaffolds and Biomaterials Ontology",absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+apro,Ancient Poet Resource Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+cabro,Computer Assisted Brain Injury Rehabilitation Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+helifit,HeLiFit-Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+i2sv,Integration and Implementation Sciences Vocabulary,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+ochv,Ontology of Consumer Health Vocabulary,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+gro-cpd,Cereal Plant Development Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+nifsubcell,Neuroscience Information Framework (NIF) Subcellular Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+nmosp,NeuroMorpho.Org species ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+hamidehsgh,Inherited Retinal Dystrophy,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+mim,Molecular Interaction Map,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+sepon,Sepsis Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+tma,Tissue Microarray Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+nero,Named Entity Recognition Ontology ,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+n-cdoh,Non Clinical Determits of Health,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+ocdm,Ontology of Craniofacial Development and Malformation,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+cedarpc,CEDAR Provisional Classes,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+wsm-library,MWS,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+mnv,VODANA Migrants,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+nist_gel,NIST Genome Editing Lexicon,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+fast-formgenre,FAST (Faceted Application of Subject Terminology) FormGenre facet,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+galen,Galen Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+biomodels,BioModels Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+pregonto,Pregcy Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+url,URL ONTOLOGY,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+exon,Experimental Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+dcat-fdc,Data Catalog Vocabulary (DCAT),absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+poem,Psychometric Ontology of Experiences and Measures,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+ofl, A comprehensive ontology of flaps in reconstructive surgery,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+sd3,Simulation Delivery and Documentation Deviations,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+be,Bioentities,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+ontolurgences,Emergency care ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+test_cbi,test_cbi,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+adcad,Arctic Data Center Academic Disciplines Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+decide,DECIDE ONTOLOGY,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+iso19115roles,ISO 19115 Role Codes,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+pso_2,PatientSafetyOntologyRevisted,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+ontodm-algorithm,OntoDM-core/algorithms,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+vfb_drivers,vfb_drivers,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+lifo,Life Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+phy,physiotherapy,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+dermo,Human Dermatological Disease Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+msv,Metagenome Sample Vocabulary,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+pp,Pipeline Patterns Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+pe,Pulmonary Embolism Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+pu,Test Dataset,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+ngsonto,NGS ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+dsip7,DSIP_FieldLab_7,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+creno,"Culture, Race, Ethnicity and Nationality Ontology",absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+ddss,Health_ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+apatandt,APA Tests and Testing cluster,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+cto-ndd,Clinical Trials Ontology - Neurodegenerative Diseases,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+umms,FirstOntologyForUMMS,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+tml,trasformative machine learning metadata,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+peao,Plant Experimental Assay Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+soho,Social Determits of Health Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+pe-o,Pre-eclampsia Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+neicbeer,The NeIC PaRI beer vocabulary,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+cmdo,Clinical MetaData Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+hhearvs,HHEAR Value Sets,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+sasap,The State of Alaska's Salmon and People Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+bctt,Behaviour Change Technique Taxonomy,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+hivhpvschistosom,HIVHPVSchistosomiasis,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+iobc,Interlinking Ontology for Biological Concepts,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+fast-event,FAST (Faceted Application of Subject Terminology) Event,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+nio,Neuropsychological Integrative Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+glycordf,GlycoRDF,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+syriandrugs,Syrian Drugs and medicines,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+ipd,injury process description ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+mads-rdf,Metadata Authority Description Schema in RDF,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+rsa,Reference Sequence Annotation,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+icd-o-3,"International Classification of Diseases for Oncology, 3rd edition",absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+dreamdnpto,Dementia-Related Emotional And Mood Disturbance Non-Pharmacological Treatment Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+npi,Non-Pharmacological Interventions (NPIs),absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+bflc,LC BIBFRAME 2.0 Vocabulary Extension,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+hhear,Human Health Exposure Analysis Resource,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+hhearp,HHEAR Properties,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+sarsmutonto,Ontology for SARS-CoV-2  lineages and mutations,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+ecp,Electronic Care Plan,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+bcsr-onto,Breast cancer screening recommendation ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+lpt,Livestock Product Trait Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+orcs,Ontology for Representing CDM Semantics,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+genai,Generative AI Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+pharmgkb,PharmGKB Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+gdmt,Generic Dataset Metadata Template Vocabulary,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+cdo,Chinese Diabetes Mellitus Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+cdoh,Commercial determit of Health Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+adicap,Association pour le DÃ©veloppement de l'Informatique en Cytologie et Anatomie Pathologique,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+cohsi2termsweekx,cohsi2termsweekx,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+dmto,Diabetes Mellitus Treatment Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+tm-mer,Traditional Medicine Meridian Value Sets,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+mamo-scr-onto,Mammography Screening Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+comet,LinkML Common Metadata Elements and Terms,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+bero,Biological and Environmental Research Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+drmo,Dental Restorative Material Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+assaynode,Assaynode,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+neic-onto,Unoffical NeIC Organisation Vocabulary,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+nic,Nursing Interventions Classification,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+contsonto,Continuity of care,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+momcare,MomCareVocabulary,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+peo_ontology,Prompt Engineering Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+iso19115srs,ISO 19115 Reference Systems,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+iso19115tcc,ISO 19115 Topic Categories,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+m4m-21-variables,M4M.21 FAIRWare Variables,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+pbpko,Physiologically Based Pharmacokinetic ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+trak,Taxonomy for Rehabilitation of Knee Conditions,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+kenyaanc,kenyaancfile,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+inbiodiv,An Ontology for Indian Biodiversity Knowledge Management,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+canont,Upper-Level Cancer Ontology ,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+dcat3,DCAT3,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+m4m-21-subjects,M4M.21 FAIRWare Subjects,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+hio,Hearing Impairment Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+option-ontology,Optimization Algorithm Benchmarking Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+vrd,Vaccineresearchdata,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+bcs8,Breast Cancer Staging - 8th Edition,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+bcs7,Breast Cancer Staging - 7th Edition,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+aspect,"ASPECT: wind energy vAriableS, ParametErs and ConsTants",absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+brazi,"Estados, Municipios, Bairros e RegiÃµes do Brasil",absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+bci-o,Brain-Computer Interaction (BCI) Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+dseo,Data Science Education Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+ho,Histological Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+hc,Habronattus Courtship Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+oco,OpenCareOntology ,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+apaeducluster,Educational Cluster,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+proj,Project ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+zahrahaddad,????????,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+qudt2,"Quantities, Units, Dimensions and Types (QUDT) Schema - Version 2.0",absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+gmm,GoMapMan,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+my_syriancinema,MWS-WSM Syrian Cinema Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+reproduce-me,REPRODUCE-ME,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+dccdfv,Dublin Core Collection Description Frequency Vocabulary,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+premedonto,Precision Medicine Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+ontosim,The Ontology of Information System on Mortality,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+zonmw-content,ZonMW COVID-19,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+apatreatment,APA Treatment Cluster,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+melo,Melanoma Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+glycocoo,GlycoConjugate Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+m4m19-subs,M4M19 Subjects,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+issva,International Society for the Study of Vascular Anomalies (ISSVA) Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+phfumiado,Phallusia fumigata Anatomy and Development Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+patel,Archana Patel,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+evi,Evidence Graph Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+ontodm-core,Ontology of Core Data Mining Entities,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+dsip8,DSIP8REFUGEE,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+agromop,Control de Cacao,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+sco_f23,Syrian Cinema Ontology - ahmad - F23,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+rocknrolltest,ROCK-N-ROLL-TEST,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+hcm-d,Home Cage Monitoring definition,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+fitbit,Fitbit Vocabulary,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+optimal,OPTImAL: An ontology for patient adherence modeling in physical activity domain,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+tcdo,Traditional Chinese Drug Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+ooevv,Ontology of Experimental Variables and Values,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+ontriscal,Ontology of Risk Stratification in Mental Health,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+diab,BioMedBridges Diabetes Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+dfo,Databank Family Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+brct,Brain Region & Cell Type terminology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+ctgo,Clinical Trials Gov Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+gender,Gender Identity,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+aceso,Adverse Childhood Experiences Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+cryoem,Cryo Electron Microscopy,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+hivmt,HIVMutation,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+ethanc,ETHANC,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+dsipfl7,DSIP_Fieldlab_7,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+plosthes,PLOS Thesaurus,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+go-plus,go-plus,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+wear,WEAR: Wind Energy mAteRials Taxonomy,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+datacite-vocab,DATACITE V4.4,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+vodana-migrants,VODANA MIGRANTS VOCABULARY,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+mineral,Material Mineral,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+ckdo,Chronic Kidney Disease Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+hdmponto,HierarchicalDMProcessOnto,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+onstr,Ontology for Newborn Screening Follow-up and Translational Research,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+hcodonont,HGeneCodonOntology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+vodanacovid,VODANA-COVIDTERMS,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+test_a,TEST_A,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+pcalion,Prostate Cancer Lifestyle Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+mono,Monogenean Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+macroalgaetraits,Macroalgae Traits Thesaurus,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+mosaic,The MOSAiC Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+bcteo,Bone and Cartilage Tissue Engineering Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+triage,Nurse triage,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+socpres,Social Prescribing Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+mcr_tx,MultiCaRe Taxonomy,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+sp_ontology,SmartPITeS Proyect Ontology for Complex Chronic Patients,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+ontoparon_social,"Ontology of amyotrophic  lateral sclerosis, social module",absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+nddo,Neurodegenerative Disease Data Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+opd-nambobi,SELECTED OTHER PRIORITY DISEASES UNDER IDSR (INTEGRATED DISEASE SURVEILLANCE AND RESPONSES),absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+lbo,Livestock Breed Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+lungmap-mouse,Anatomic Ontology for Mouse Lung Maturation,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+incentive,INCENTIVE Community Controlled Vocabulary,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+ontopsychia,"OntoPsychia, social module",absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+ml_mcr_tx,MultiCaRe Taxonomy (ML Labels),absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+nihss,National Institutes of Health Stroke Scale Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+ros,Radiation Oncology Structures Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+allergydetector,Allergy Detector II,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+nhsqi2009,NHS Quality Indicators,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+hord,Holistic Ontology of Rare Diseases,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+hasco,Human-Aware Science Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+envthes,"Thesaurus for long-term ecological research, monitoring, experiments",absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+geosparql,GeoSPARQL,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+mvaont,Mosquito Vector Association Ontology with Biocontrol Agents,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+legalapatest2,apalegal,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+agrocymac,Control y Monitoreo de afecciones en los cultivos,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+gecco,COVID-19 Common Datamodel,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+lsfc,LSFC,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+lsfo,Lifestyle Factor Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+hmislab0115,HMIS LAB 011 5,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+pino,Pregcy Information Needs Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+mio,Myocardial Infarction Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+hsclo38,Homo sapiens Chromosomal Location Ontology for GRCh38,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+lcgft,Library of Congress Genre/Form Thesaurus for Library and Archival Materials,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+infra-en,Infrastructure,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+koro,Knowledge Object Reference Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+eol,Environment Ontology for Livestock,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+bsao,Botryllus schlosseri anatomy and development ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+hupson,Human Physiology Simulation Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+farmaci,FARMACI AIFA,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+tp4,Oualid,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+ai,Artificial Intelligence,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+sse,Surgical Secondary Events,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+pghd-bp,PGHD Auxillary - BP,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+evs,Exposure Value Set,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+intveetype,Interviewee Type,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+hcdr,Homelessness and Clinical Data Recording,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+inverseroles,ISO-15926-2_2003_inverseRoles,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+preo,Presence Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+i-adopt,I-ADOPT Framework Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+mltx,Machine Learning Methodology Taxonomy Mapping,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+pseudo,Pseudogene,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+dermlex,Dermatology Lexicon,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+ibo,Imaging Biomarker Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+phenx,PhenX Phenotypic Terms,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+smo,Syrian Movies Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+apastatistical,APA Statistical Cluster,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+partumdo,postpartum depression ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+matrrock,Material Rock,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+strong,STress ONtoloGy,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+adher_intcare_en,Adherence and Integrated Care,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+ontopneumo,Ontology of Pneumology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+sco_v1,Sustainability Core Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+ontoparon,"Ontology of Amyotrophic Lateral Sclerosis, all modules",absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+fldlb3,FIELDLAB3_2023_2,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+tron,Tribolium Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+kusiima,naava,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+jerm,Just Enough Results Model Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+nln,NLighten Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+chear,Children's Health Exposure Analysis Resource,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+bao-gpcr,G Protein-Coupled Receptor BioAssays Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+cptac,CPTAC Proteomics Pipeline Infrastructure Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+paco,Physical Activity Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+heio,Regional Healthcare System Interoperability and Information Exchange Measurement Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+abd,Anthology of Biosurveillance Diseases,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+nccnehr,NCCN EHR Oncology Categories,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+mstde,Minimal Standard Terminology of Digestive Endoscopy,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+m4m-20-subjects,M4M.20 FAIRWare Subjects,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+lungmap_h_cell,Cell Ontology for Human Lung Maturation,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+pdon,Parkinson's Disease Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+iso639-1,ISO 639-1: Codes for the Representation of Names of Languages - Part 1: Two-letter codes for languages,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+iso639-2,ISO 639-2: Codes for the Representation of Names of Languages,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+tco,Thyroid Cancer Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+tst7,FIELDLAB3_2023,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+lungmap_m_cell,Cell Ontology for Mouse Lung Maturation,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+idqa,Image and Data Quality Assessment Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+eld,EthiopianListOfDiseases,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+iceci,International Classification of  External Causes of Injuries,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+iso19115con,ISO 19115 Constraints Information,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+id-amr,Infectious Diseases and Antimicrobial Resistance,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+patmhc,Placental Maternal Health Conditions,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+neurobrg,NeuroBridge Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+ontotoxnuc,Ontology of Nuclear Toxicity,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+regn_bro,REGN_BRO,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+bridg,Biomedical Research Integrated Domain Group Model,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+m4m19-vars,M4M19 Variables,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+fns-h,FNS-Harmony,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+ncco,Nursing Care Coordination Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+ad-drop,Alzheimer Disease Relevance Ontology by Process,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+mchvodanaterms,MCHVODANATERMS,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+edda_pt,EDDA Publication Types Taxonomy,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+mdm,Mapping of Drug Names and MeSH 2022,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+svu_mws_wsm,Syrian Cinema Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+adalab-meta,AdaLab-meta ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+exact,An ontology for experimental actions,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+rvo,Research Variable Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+library,wsm24,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+lc-carriers,Library of Congress Carriers Scheme,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+iso19115cc,ISO 19115 Common Classes,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+iso19115ci,ISO 19115 Citation Information,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+stmso,symptomatic treatment of multiple sclerosis ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+ddiem,Drug Database for Inborn Errors of Metabolism (DDIEM) Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+adar,Autism DSM-ADI-R ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+lion,LipidOntology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+covid19,COVID-19 Surveillance Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+phylont,Phylogenetic Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+fast-event-skos,FAST (Faceted Application of Subject Terminology) Event Facet,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+iso19108to,ISO 19108 Temporal Objects,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+longcovid,Long Covid Phenotype Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+ahol,Animal Health Ontology for Livestock,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+cyto,CYTOKINE,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+aio,Artificial Intelligence Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+radmo,RADx Metadata Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+vdot,Viral Disease Ontology Trunk,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+hp_o,Hypersensitivity pneumonitis ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+pesont,Preposition_enabled Spatial Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+phenomeblast,PhenomeBLAST Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+three-st,3-Step Theory of suicide,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+hspo,Health and Social Person-centric Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+doccc,Diagnosis Ontology of Clinical Care Classification,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+vodana-general,VODANATERMS,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+opdront,OPD Register Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+medicalinfo,mymedicalinformation,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+hecon,HECON: Health Condition Evolution Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+bto-bfo,Brinell Test Ontology-BFO,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+vodanethiopia_or,ETHIOPIA_OUTPATIENT,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+kgcl,Knowledge Graph Change Language,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+bifo,Biofilm Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+oto, Obesity Tracking Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+ird,Inherited Retinal Dystrophies,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+irdg,Data harmonization ontology for cross border malaria surveillance ,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+sst,SATUSEHAT Thesis,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+snmi,"Systematized Nomenclature of Medicine, International Version",absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+esso,Epilepsy Syndrome Seizure Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+ecdo,Elderly Care Dementia Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+brso,Biological Resource Schema Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+haauraado,Halocynthia aurantium Anatomy and Development Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+onl-tasks,Cognitive Reserves Assessment Tasks,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+mera,Medical Educational Resource Aggregator,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+inbancido,Assessment of Indian Economy During Covid-19 ,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+etanc,ETHIOPIANC,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+bno,Bionutrition Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+cwd,Consumer Wearable Device,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+doremus-keys,Doremus List of Keys,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+pathlex,Anatomic Pathology Lexicon,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+bcon,Breast Cancer Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+bt-ontology,BrainTeaser Ontology (BTO),absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+iso-annotations,ISO-15926-2_2003_annotations,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+fdt-o,FAIR Data Train Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+hero,Healthcare Monitoring and Emergency Response Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+home,Health Ontology for Minority Equity,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+ciinteado,Ciona intestinalis Anatomy and Development Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+procchemical,Chemical Process,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+iso-15926-2_2003,ISO-15926-2_2003_oil,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+bcmo,Breast Cancer-Microbiome Ontology ,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+ccon,Cerrado concepts and plant community dynamics,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+lda,Ontology of Language Disorder in Autism,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+sk,Digital Forensic,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+metpo,METPO,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+incentive-vars,INCENTIVE Variables,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+wsio,Web-Service Interaction Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+soil-prof,Soil Profile classifiers,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+gfo-bio,General Formal Ontology for Biology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+carre,CARRE Risk Factor ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+landform,Landform classifiers,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+opdzimbabwe,OPDZimbabwe,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+ontovip,Medical image simulation,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+lungmap-human,Anatomic Ontology for Human Lung Maturation,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+payor,Payor,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+dsipf7,DSIP FiledLab7 ,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+onlira,Ontology of Liver for Radiology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+bko,Bricks ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+medo,Mouse Experimental Design Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+sdoed,Social Determits of Education Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+episem,Epilepsy Semiology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+sedi,Semantic DICOM Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+gmo,Growth Medium Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+zonmw-admin-md,ZonMW Administrative Metadata Vocabulary,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+moc,Material Organic Compound,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+nemo,Neural ElectroMagnetic Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+m4m-20-variables,M4M.20 FAIRWare Variables,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+repos,repository,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+hravs,HuBMAP Research Attributes Value Set,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+case-base-onto,Case-base ontology for gastric dystemperament in Persian medicine,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+onl-msa,Mental State Assessment,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+xref-funder-reg,CrossRef Funder Registry,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+dikb,Drug Interaction Knowledge Base Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+ebp,EmpowerBP,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+sleep,SLEEP ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+henegeo,Head and Neck Cancer - Clinical and Gene Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+uhc-metadata,UHC Metadata,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+fenics,Functional Electrophysiology Nomenclature for Ion Channels,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+vodana-mi,VODANA-MIGRANTS-INTERVIEWS,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+dmdsont,Diabetes Mellitus Diagnosis and Support Ontology ,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+chr,Monochrom,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+chro,Chromatin Regulator Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+como,Context and Measurement Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+mco4hke,Multiplex Classification Ontology for the HyperKvasir Experiment,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+copdo,COPD Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+hivo004,HIVOntologymain.owl,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+ccont,Cell Culture Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+vodan_anc,VODAN ANC Vocabulary ,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+g-prov,Guideline Provece,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+bto_ontology,Brain Tumour Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+mccl,Cell Line Ontology [by Mahadevan],absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+mccv,Microbial Culture Collection Vocabulary,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+bllm,Large Language Model Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+drpsnpto,Dementia-Related Psychotic Symptoms Non-Pharmacological Treatment Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+goldterms,GOLD Ecosystem Classification,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+piero,Enzyme Reaction Ontology for annotating Partial Information of chemical transformation,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+fcc1,Fernald Community Cohort N,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+fo,Fern Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+fg,FAIR Genomes,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+cu-vo,Venom Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+sato,SATO (IDEAS expAnded wiTh BCIO): workflow for designers of patient-centered mobile health behaviour change intervention applications,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+orex-sam,OSIRIS-REx sample type,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+scio,Spinal Cord Injury Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+admf,alzhaimer dessiese main factors,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+admo,Alzheimer Disease Map Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+rnrmu,RNRMU,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+edem-connectonto,eDEM-Connect: Ontology of Dementia-related Agitation and Relationship between Informal Caregivers and Persons with Dementia,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+cn,computer network,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+gff-m4m,GO FAIR M4M,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+pdo_cas,Plant Diversity Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+emo,Enzyme Mechanism Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+qudt2-1,"Quantities, Units, Dimensions and Types (QUDT Version 2.1)",absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+rpo,Resource of Asian Primary Immunodeficiency Diseases (RAPID) Phenotype Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+syrian-cinema,Syrian Cinema,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+pts,Pathway Terminology System,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+exmo,Exercise Medicine Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+lico,Liver Case Ontology (LiCO),absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+matr,Material,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+mini-fast-1,mini fast test,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+neumore,Neural Motor Recovery Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+panet,PaN Experimental technique,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+envs_variables,ENVS variables,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+snomedct,SNOMED CT,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+fit_bit,Fitbit Vocabularies ,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+icw,International Classification of Wellness,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+ogco,OriGinal Chemical Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+insname,VODANAINSNAMES,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+ontoreplicov,OntoRepliCov,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+nidm-results,NIDM-Results,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+hivcrs,HIVCompoundRels,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+dloro,Dependency Layered Ontology for Radiation Oncology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+gffo,Genetic Feature Format Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+nro,NeuralReprogrammingOntology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+rh-mesh,Robert Hoehndorf Version of MeSH,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+intvmode,Interview Mode,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+cohsi2study,cohsi2study,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+fast-chrono,FAST (Faceted Access of Subject Terminology) Chronological Facet,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+ibio,IndianBiodiversity,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+adher_intcare_sp,Adherence and Integrated Care in Spanish,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+edda,EDDA Study Designs Taxonomy,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+patgv,Placental Genetic Variance,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+eso_c,Epilepsy Semiology Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+hns,HNS_Ontolgoy,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+mixs,Minimal Information about any Sequence Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+mooccuado,Molgula occulta Anatomy and Development Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+fish-ast,FISH Archaeological Sciences Thesaurus,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+mpo,Microbial Phenotype Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+cseo,Cigarette Smoke Exposure Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+bp-metadata,BioPortal Metadata Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+obs,OntoBioStat,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+ito,Intelligence Task Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+leo,Living Environment Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+adalab,AdaLab ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+mepo,Mapping of Epilepsy Ontologies,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+arcrc,Arctic Report Card,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+csso,Clinical Signs and Symptoms Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+apadisorders,Disorders cluster,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+sweet,Semantic Web for Earth and Environment Technology Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+eo1,Example Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+satusehatthesis,SatuSehatThesis,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+mwla,Medical Web Lifestyle Aggregator,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+fgnhns,FoodGroupNHNS,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+m,May,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+mm,mm,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+pmo,Performed Music Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+ftc,Functional Therapeutic Chemical Classification System,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+ifar,Fanconi Anemia Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+onl-dp,Dataset processing,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+cpro,Computer-Based Patient Record Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+altproton,An Ontology for integration and interoperability of multi-aspect data of Protein food production chains,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+inbio,Invasion Biology Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+ik,Irabi kassim,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+vodanauganda,VODANAUGANDA,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+pcao,Prostate Cancer Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+gb,GlycanBind,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+fall,MyOntoServiceFull_FallDetection,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+hed,Hierarchical Event Descriptors,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+regn_go,REGN_GO,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+bclion,Breast Cancer Lifestyle Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+simm,In Silico Methodologies Ontology for MAATrica metric,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+tdwgspec,TDWG Specimen LSID Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+matrcompound,Material Compound,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+fast-title,FAST (Faceted Application of Subject Terminology) Title Facet,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+dranpto,Dementia-Related Agitation Non-Pharmacological Treatment Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+phage,Phylogenetics Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+fast-genreform,FAST (Faceted Access of Subject Terminology) GenreForm,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+phmammado,Phallusia mammillata Anatomy and Development Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+emif-ad,EMIF-AD ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+neio,Neural Electronic Interface Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+hgnc-nr,HGNC New Releases Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+bibframe,BIBFRAME 2.0,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+metabus,metaBUS controlled vocabulary for organizational and applied psychology research,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+hivhpvfgs,"HIV, HPV, FGS vocabulary",absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+bibliotek-o,The Biblioteko Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+pcmo,Pediatric Consultation and Monitoring Ontology ,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+pghd_connect,PGHD_CONNECT,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+ctu_beready_gem,CTU Bern BEReady Gemeinden,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+ego,Epigenome Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+pplc,Placental Pathology Lesion Classification,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+marc-languages,MARC List for Languages,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+pvonto,Pharmacovigilance Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+pmapp-pmo,PMO Precision Medicine Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+iaml-mop,IAML Medium of Performance Vocabulary,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+atom,Atlas Ontology Model,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+atol,Animal Trait Ontology for Livestock,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+m4m-char,M4M-CHAR,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+vodanakenya,VODANA KENYA,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+nlmvs,NIH NLM Value Sets,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+rda-content,RDA Content type,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+ichom-proms-pcb,ICHOM Set Pregcy and Childbirth,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+bdpm,Base de DonnÃ©es Publique des MÃ©dicaments,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+opb,Ontology of Physics for Biology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+iso19115,ISO 19115,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+iso19110,ISO 19110 Methodology for Feature Cataloguing,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+falls,falls prevention ,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+biomo,Biological Observation Matrix Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+sdoho,social determits of health ontology-TaoLab,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+gcbo,Global Code Book Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+hoip,Homeostasis imbalance process ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+cedarvs,CEDAR Value Sets,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+ope,Ontology of Physical Exercises,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+moocciado,Molgula occidentalis Anatomy and Development Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+obi_iee,The Ontology for Biomedical Investigation based Inner Ear Electrophysiology ,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+neo,Neurologic Examination Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+apaneurocluster,APA Neuro Cluster,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+materialsmine,MaterialsMine Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+iso-food,A formal representation of the knowledge within the domain of Isotopes for Food Science,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+dsip_fl_7,DSIP_FL_7,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+mooculado,Molgula oculata Anatomy and Development Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+orex-wg,OSIRIS-REx sample analysis workgroups,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+nmobr,NeuroMorpho.Org brain region ontologies,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+paymentmode,Payment Mode,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+thesisdemo,thesisdemo,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+ofsmr,Open Predictive Microbiology Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+four-m_vocabs,AGE-FRIENDLY 4M VOCABULARY,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+acvd_ontology,Atherosclerotic Cerebrovascular Disease Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+fasto,HL7 FHIR and SSN ontology based Type 1 Diabetes Mellitus Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+svu_mws_wsm_f23,MWS-WSM-F23 Syrian Cinema Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+hoom,HPO - ORDO Ontological Module,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+tephram4mexample,Tephra M4M Example,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+ethopd,Ethiopian OPD,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+bin,Body in Numbers project terminology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+insecth,insectH,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+infection_trans,Infection Transmission Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+hivhpv,HIVHPV,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+endoh,Environmental Determits of Health,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+biodivthes,Biodiversity Thesaurus,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+d3o,DSMZ Digital Diversity Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+nxdx,Test NXDX,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+wetaxtopics,NEAT: wiNd Energy tAxonomy of Topics,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+wweca,Women with Epilepsy of Child-bearing Age Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+bio2rdf-pubmed,PubMed,http://pubmed.bio2rdf.org/,1,0,1,1,1,1,0.83,1,1,1,1,1,1,1,0,1,0.75,0,1,0.181818182,1,0.55,3.13
+pco,Population and Community Ontology,https://www.ebi.ac.uk/ols4/ontologies/pco,0,0,1,0.44,0,0,0.24,0,0,0,0,0,1,1,0,1,0.75,0,1,0,0,0.25,1.24
+ccfo,Human Reference Atlas Common Coordinate Framework Ontology,https://humanatlas.io/ccf-ontology,0,0,1,0.44,0,0,0.24,0,0,0,0,0,1,1,0,1,0.75,0,1,0,0,0.25,1.24
+uniprot,UniProt Core Ontology,http://www.uniprot.org/,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,0,1,1,1,0.75,1,1,0,1,0.75,3.05
+sibo,Social Insect Behavior Ontology,https://www.ebi.ac.uk/ols4/ontologies/sibo,0,0,1,0.33,0,0,0.22,0,0,0,0,0,0,1,0,1,0.5,0,1,0,0,0.25,0.97
+rexo,Regulation of Gene Expression Ontolology,https://www.ebi.ac.uk/ols4/ontologies/rexo,0,0,1,0.33,0,0,0.22,0,0,0,0,0,0,1,0,1,0.5,0,1,0,0,0.25,0.97
+reto,Regulation of Transcription Ontology,https://www.ebi.ac.uk/ols4/ontologies/reto,0,0,1,0.33,0,0,0.22,0,0,0,0,0,0,1,0,1,0.5,0,1,0,0,0.25,0.97
+dcm,DICOM Controlled Terminology,http://dicom.nema.org/medical/dicom/current/output/chtml/part16/chapter_D.html,0,0,1,0.33,0,0,0.22,0,0,0,0,0,0,1,0,1,0.5,0,1,0,0,0.25,0.97
+bco,Biological Collections Ontology,https://www.ebi.ac.uk/ols4/ontologies/bco,0,0,1,0.44,0,0,0.24,0,0,0,0,0,1,1,0,1,0.75,0,1,0,0,0.25,1.24
+foodon,The FoodOn Food Ontology,https://foodon.org/,0,0,1,0.44,0,0,0.24,0,0,0,0,0,1,1,0,1,0.75,0,1,0,0,0.25,1.24
+bfo,Basic Formal Ontology,http://ifomis.org/bfo/,0,0,1,0.33,0,0,0.22,0,0,0,0,0,0,1,0,1,0.5,0,1,0,0,0.25,0.97
+mirnao,,absent,0,0,1,0.33,0,0,0.22,0,0,0,0,0,1,0,0,1,0.5,0,1,0,0,0.25,0.97
+ncro,Non-coding RNA Ontology,http://omnisearch.soc.southalabama.edu/w/index.php/Ontology,0,0,1,0.33,0,0,0.22,0,0,0,0,0,0,1,0,1,0.5,0,1,0,0,0.25,0.97
+fbsp,Fly taxonomy,http://www.flybase.org/,0,0,1,0.33,0,0,0.22,0,0,0,0,0,0,1,0,1,0.5,0,1,0,0,0.25,0.97
+dinto,Drug-drug Interaction Ontology,absent,0,0,1,0.33,0,0,0.22,0,0,0,0,0,1,0,0,1,0.5,0,1,0,0,0.25,0.97
+fbcv,FlyBase Controlled Vocabulary (FBcv),https://www.ebi.ac.uk/ols4/ontologies/fbcv,0,0,1,0.44,0,0,0.24,0,0,0,0,0,1,1,0,1,0.75,0,1,0,0,0.25,1.24
+dron,The Drug Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+osci,,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+ado,Alzheimer's Disease Ontology,absent,0,0,1,0.33,0,0,0.22,0,0,0,0,0,1,0,0,1,0.5,0,1,0,0,0.25,0.97
+owl,The OWL 2 Schema vocabulary (OWL 2),absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+coid,Combined Ontology for Inflammatory Diseases,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+dpo,Drosophila Phenotype Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+ecao,The Echinoderm Anatomy and Development Ontology,https://www.ebi.ac.uk/ols4/ontologies/ecao,0,0,1,0.33,0,0,0.22,0,0,0,0,0,0,1,0,1,0.5,0,1,0,0,0.25,0.97
+disdriv,Disease Drivers Ontology,http://www.disease-ontology.org,0,0,1,0.44,0,0,0.24,0,0,0,0,0,1,1,0,1,0.75,0,1,0,0,0.25,1.24
+doid,Human Disease Ontology,http://www.disease-ontology.org,0,0,1,0.44,0,0,0.24,0,0,0,0,0,1,1,0,1,0.75,0,1,0,0,0.25,1.24
+txpo,Toxic Process Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+cto,Clinical Trials Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+cctoo,Cancer Care: Treatment Outcome Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+ncit,National Cancer Institute Thesaurus,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+mondo,Mondo Disease Ontology,https://monarch-initiative.github.io/mondo,0,0,1,0.33,0,0,0.22,0,0,0,0,0,0,1,0,1,0.5,0,1,0,0,0.25,0.97
+nomen,NOMEN - A nomenclatural ontology for biological names,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+apollo_sv,Apollo Structured Vocabulary (Apollo-SV),absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+icdo,International Classification of Diseases Ontology,https://github.com/icdo/ICDO,1,0,1,0.44,1,0,0.57,0,0,0,0,0,0,1,0,1,0.5,0,1,0,0,0.25,1.32
+tads,Tick Anatomy Ontology,https://www.vectorbase.org/ontology-browser,1,0,1,0.44,1,0,0.57,0,0,0,0,0,0,1,0,1,0.5,0,1,0,0,0.25,1.32
+uberon,Uberon multi-species anatomy ontology,http://uberon.org,1,0,1,0.56,1,0,0.59,0,0,0,0,0,1,1,0,1,0.75,0,1,0,0,0.25,1.59
+chiro,CHEBI Integrated Role Ontology,https://github.com/obophenotype/chiro,1,0,1,0.44,1,0,0.57,0,0,0,0,0,0,1,0,1,0.5,0,1,0,0,0.25,1.32
+chebi,CHEBI,http://www.ebi.ac.uk/chebi,1,0,1,0.44,1,0,0.57,0,0,0,0,0,0,1,0,1,0.5,0,1,0,0,0.25,1.32
+oce,Ontology of Chemical Elements,https://github.com/ontologyofchemicalelements,1,0,1,0.56,1,0,0.59,0,0,0,0,0,1,1,0,1,0.75,0,1,0,0,0.25,1.59
+bioportal-bootstrep,Gene Regulation Ontology,http://bioportal.bioontology.org/ontologies/1106,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.28
+idomal,Malaria Ontology,https://www.vectorbase.org/ontology-browser,1,0,1,0.44,1,0,0.57,0,0,0,0,0,0,1,0,1,0.5,0,1,0,0,0.25,1.32
+ido,Infectious Disease Ontology,absent,1,0,1,0.56,1,0,0.59,0,0,0,0,0,1,1,0,1,0.75,0,1,0,0,0.25,1.59
+veo,Visualized Emotion Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+cido,CIDO: Ontology of Coronavirus Infectious Disease,https://github.com/cido-ontology/cido,1,0,1,0.56,1,0,0.59,0,0,0,0,0,1,1,0,1,0.75,0,1,0,0,0.25,1.59
+cbo,Cell Behavior Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+ktao,Kidney Tissue Atlas Ontology,https://github.com/KPMP/KTAO,1,0,1,0.44,1,0,0.57,0,0,0,0,0,0,1,0,1,0.5,0,1,0,0,0.25,1.32
+geno,Genotype Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+bcgo,Beta Cell Genomics Ontology,https://github.com/obi-bcgo/bcgo,1,0,1,0.56,1,0,0.59,0,0,0,0,0,1,1,0,1,0.75,0,1,0,0,0.25,1.59
+ino,Interaction Network Ontology,https://github.com/INO-ontology/ino,1,0,1,0.44,1,0,0.57,0,0,0,0,0,0,1,0,1,0.5,0,1,0,0,0.25,1.32
+hino,HINO: Human Interaction Network Ontology,http://www.ino-ontology.org/hino.php,1,0,1,0.44,1,0,0.57,0,0,0,0,0,0,1,0,1,0.5,0,1,0,0,0.25,1.32
+oostt,Ontology of Organizational Structures of Trauma centers and Trauma systems,https://github.com/OOSTT/OOSTT,1,0,1,0.44,1,0,0.57,0,0,0,0,0,0,1,0,1,0.5,0,1,0,0,0.25,1.32
+ons,Ontology for Nutritional Studies,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+mco,Microbial Conditions Ontology,https://github.com/microbial-conditions-ontology/microbial-conditions-ontology,1,0,1,0.44,1,0,0.57,0,0,0,0,0,0,1,0,1,0.5,0,1,0,0,0.25,1.32
+pdro,The Prescription of Drugs Ontology,https://github.com/OpenLHS/PDRO,1,0,1,0.56,1,0,0.59,0,0,0,0,0,1,1,0,1,0.75,0,1,0,0,0.25,1.59
+pcl,Provisional Cell Ontology,https://github.com/obophenotype/provisional_cell_ontology,1,0,1,0.56,1,0,0.59,0,0,0,0,0,1,1,0,1,0.75,0,1,0,0,0.25,1.59
+pdumdv,,absent,0,0,1,0.33,0,0,0.22,0,0,0,0,0,1,0,0,1,0.5,0,1,0,0,0.25,0.97
+hom,Homology Ontology,https://github.com/BgeeDB/homology-ontology,1,0,1,0.44,1,0,0.57,0,0,0,0,0,0,1,0,1,0.5,0,1,0,0,0.25,1.32
+afo,Allotrope Merged Ontology Suite,https://www.allotrope.org/ontologies,1,0,1,0.56,1,0,0.59,0,0,0,0,0,1,1,0,1,0.75,0,1,0,0,0.25,1.59
+enm,eoMapper Ontology,http://www.eomapper.net/,1,0,1,0.44,1,0,0.57,0,0,0,0,0,0,1,0,1,0.5,0,1,0,0,0.25,1.32
+ddpheno,Dictyostelium Discoideum Phenotype Ontology,http://dictybase.org/,1,0,1,0.56,1,0,0.59,0,0,0,0,0,1,1,0,1,0.75,0,1,0,0,0.25,1.59
+dideo,Drug-drug Interaction and Drug-drug Interaction Evidence Ontology,https://github.com/DIDEO/DIDEO,1,0,1,0.44,1,0,0.57,0,0,0,0,0,0,1,0,1,0.5,0,1,0,0,0.25,1.32
+eco,Evidence & Conclusion Ontology,https://www.evidenceontology.org,1,0,1,0.56,1,0,0.59,0,0,0,0,0,1,1,0,1,0.75,0,1,0,0,0.25,1.59
+ecocore,An ontology of core ecological entities,https://github.com/EcologicalSemantics/ecocore,1,0,1,0.56,1,0,0.59,0,0,0,0,0,1,1,0,1,0.75,0,1,0,0,0.25,1.59
+ao,Asthma Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+hao,Hymenoptera Anatomy Ontology,http://hymao.org,1,0,1,0.44,1,0,0.57,0,0,0,0,0,0,1,0,1,0.5,0,1,0,0,0.25,1.32
+hsapdv,Human Developmental Stages Ontology,absent,0,0,1,0.33,0,0,0.22,0,0,0,0,0,1,0,0,1,0.5,0,1,0,0,0.25,0.97
+hso,Health Surveillance Ontology,https://w3id.org/hso,1,0,1,0.56,1,0,0.59,0,0,0,0,0,1,1,0,1,0.75,0,1,0,0,0.25,1.59
+htn,Hypertension Ontology,https://github.com/aellenhicks/htn_owl,1,0,1,0.44,1,0,0.57,0,0,0,0,0,0,1,0,1,0.5,0,1,0,0,0.25,1.32
+chmo,Chemical Methods Ontology,https://github.com/rsc-ontologies/rsc-cmo,1,0,1,0.56,1,0,0.59,0,0,0,0,0,1,1,0,1,0.75,0,1,0,0,0.25,1.59
+olobo,OLOBO: Ontology for Linking and Integrating Open Biological and Biomedical Ontologies,https://github.com/biomedontology/olobo,1,0,1,0.44,1,0,0.57,0,0,0,0,0,0,1,0,1,0.5,0,1,0,0,0.25,1.32
+pico,Pathogen-related Informed Consent Ontology,http://data.cochrane.org/ontologies/pico/,1,0,1,0.56,1,0,0.59,0,0,0,0,0,1,1,0,1,0.75,0,1,0,0,0.25,1.59
+maxo,Medical Action Ontology,https://github.com/monarch-initiative/MAxO,1,0,1,0.56,1,0,0.59,0,0,0,0,0,1,1,0,1,0.75,0,1,0,0,0.25,1.59
+fbbt,Drosophila Anatomy Ontology,http://obofoundry.org/ontology/fbbt.html,1,0,1,0.56,1,0,0.59,0,0,0,0,0,1,1,0,1,0.75,0,1,0,0,0.25,1.59
+fbdv,Drosophila Developmental Ontology,http://obofoundry.org/ontology/fbdv.html,1,0,1,0.56,1,0,0.59,0,0,0,0,0,1,1,0,1,0.75,0,1,0,0,0.25,1.59
+bto,BRENDA Tissue Ontology,http://www.brenda-enzymes.org,1,0,1,0.56,1,0,0.59,0,0,0,0,0,1,1,0,1,0.75,0,1,0,0,0.25,1.59
+ncbitaxon,NCBI organismal classification,https://github.com/obophenotype/ncbitaxon,1,0,1,0.56,1,0,0.59,0,0,0,0,0,1,1,0,1,0.75,0,1,0,0,0.25,1.59
+pw,Pathway ontology,http://rgd.mcw.edu/rgdweb/ontology/search.html,1,0,1,0.44,1,0,0.57,0,0,0,0,0,0,1,0,1,0.5,0,1,0,0,0.25,1.32
+ogi,Ontology for Genetic Interval,https://code.google.com/p/ontology-for-genetic-interval/,1,0,1,0.44,1,0,0.57,0,0,0,0,0,0,1,0,1,0.5,0,1,0,0,0.25,1.32
+ev,eVOC (Expressed Sequence Annotation for Humans),-,1,0,1,0.44,1,0,0.57,0,0,0,0,0,0,1,0,1,0.5,0,1,0,0,0.25,1.32
+ehdaa2,Human developmental anatomy,https://github.com/obophenotype/human-developmental-anatomy-ontology,1,0,1,0.44,1,0,0.57,0,0,0,0,0,0,1,0,1,0.5,0,1,0,0,0.25,1.32
+mmo,Measurement Method Ontology,https://rgd.mcw.edu/rgdweb/ontology/view.html?acc_id=MMO:0000000,1,0,1,0.44,1,0,0.57,0,0,0,0,0,0,1,0,1,0.5,0,1,0,0,0.25,1.32
+ido;_vido;_cido,Infectious Disease Ontology,"https://github.com/infectious-disease-ontology-extensions/VIDO, https://github.com/cido-ontology/cido",1,0,1,0.56,1,0,0.59,0,0,0,0,0,1,1,0,1,0.75,0,1,0,0,0.25,1.59
+genepio,Genomic Epidemiology Ontology,http://genepio.org/,1,0,1,0.56,1,0,0.59,0,0,0,0,0,1,1,0,1,0.75,0,1,0,0,0.25,1.59
+epio,Epilepsy Ontology,https://github.com/SCAI-BIO/EpilepsyOntology,1,0,1,0.56,1,0,0.59,0,0,0,0,0,1,1,0,1,0.75,0,1,0,0,0.25,1.59
+cl,Cell Ontology,https://obophenotype.github.io/cell-ontology/,1,0,1,0.56,1,0,0.59,0,0,0,0,0,1,1,0,1,0.75,0,1,0,0,0.25,1.59
+cheminf,Chemical Information Ontology,https://github.com/semanticchemistry/semanticchemistry,1,0,1,0.56,1,0,0.59,0,0,0,0,0,1,1,0,1,0.75,0,1,0,0,0.25,1.59
+mido,Mycosis Infectious Disease Ontology,-,1,0,1,0.44,1,0,0.57,0,0,0,0,0,0,1,0,1,0.5,0,1,0,0,0.25,1.32
+vido,Vaccine Investigation and Design Ontology,absent,0,0,1,0.33,0,0,0.22,0,0,0,0,0,1,0,0,1,0.5,0,1,0,0,0.25,0.97
+idocovid19,The COVID-19 Infectious Disease Ontology,https://github.com/infectious-disease-ontology-extensions/ido-covid-19,1,0,1,0.44,1,0,0.57,0,0,0,0,0,0,1,0,1,0.5,0,1,0,0,0.25,1.32
+lib,MWS-WSM,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+of,OntoFood,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+cs,Coping Strategies for Adverse Drug Events Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+xlmod,HUPO-PSI cross-linking and derivatization reagents controlled vocabulary,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+colao,Coleoptera Anatomy Ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+gaz,,absent,0,0,1,0.33,0,0,0.22,0,0,0,0,0,1,0,0,1,0.5,0,1,0,0,0.25,0.97
+dcterms,DCMI Metadata Terms: properties in /terms/ namespace,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+dicom,Healthcare Vocabulary,absent,0,0,1,0.33,0,0,0.22,0,0,0,0,0,1,0,0,1,0.5,0,1,0,0,0.25,0.97
+ero,eagle-i resource ontology,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+cro,Clinical Relation Ontology,absent,0,0,1,0.33,0,0,0.22,0,0,0,0,0,1,0,0,1,0.5,0,1,0,0,0.25,0.97
+psdo,Patient Safety Data Ontology,absent,0,0,1,0.33,0,0,0.22,0,0,0,0,0,1,0,0,1,0.5,0,1,0,0,0.25,0.97
+taxrank,Taxonomic Rank Ontology,absent,0,0,1,0.33,0,0,0.22,0,0,0,0,0,1,0,0,1,0.5,0,1,0,0,0.25,0.97
+hra,Human Reference Atlas,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+mro,Defen,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+iao,Information Artifact Ontology (IAO),absent,0,0,1,0.33,0,0,0.22,0,0,0,0,0,1,0,0,1,0.5,0,1,0,0,0.25,0.97
+ocd,OCD ontology,absent,1,0,1,0.89,1,1,0.82,1,1,0,1,0.75,1,1,0,1,0.75,0,1,0,1,0.5,2.82
+cco,Cell Cycle Ontology,absent,0,0,1,0.33,0,0,0.22,0,0,0,0,0,1,0,0,1,0.5,0,1,0,0,0.25,0.97
+chemrof,CHEMROF,-,1,0,1,0.44,1,0,0.57,0,0,0,0,0,0,1,0,1,0.5,0,1,0,0,0.25,1.32
+amphx,Amphioxus Development and Anatomy Ontology,https://github.com/EBISPOT/amphx_ontology,1,0,1,0.56,1,0,0.59,0,0,0,0,0,1,1,0,1,0.75,0,1,0,0,0.25,1.59
+dto,Drug Target Ontology,-,1,0,1,0.44,1,0,0.57,0,0,0,0,0,0,1,0,1,0.5,0,1,0,0,0.25,1.32
+carolio,Caroli's Disease and Syndrome Ontology,-,1,0,1,0.44,1,0,0.57,0,0,0,0,0,0,1,0,1,0.5,0,1,0,0,0.25,1.32
+odnae,Ontology of Drug Neuropathy Adverse Events,https://github.com/odnae,1,0,1,0.44,1,0,0.57,0,0,0,0,0,0,1,0,1,0.5,0,1,0,0,0.25,1.32
+oae,Ontology of Adverse Events,https://github.com/OAE-ontology/OAE/,1,0,1,0.56,1,0,0.59,0,0,0,0,0,1,1,0,1,0.75,0,1,0,0,0.25,1.59
+iceo,Integrative and Conjugative Element Ontology,https://github.com/ontoice/ICEO,1,0,1,0.44,1,0,0.57,0,0,0,0,0,0,1,0,1,0.5,0,1,0,0,0.25,1.32
+orth,Orthology Ontology,http://purl.org/net/orth,1,0,1,0.44,1,0,0.57,0,0,0,0,0,0,1,0,1,0.5,0,1,0,0,0.25,1.32
+fbbi,Biological Imaging Methods Ontology,http://cellimagelibrary.org/,1,0,1,0.44,1,0,0.57,0,0,0,0,0,0,1,0,1,0.5,0,1,0,0,0.25,1.32
+cmo,Clinical Measurement Ontology,http://rgd.mcw.edu/rgdweb/ontology/search.html,1,0,1,0.44,1,0,0.57,0,0,0,0,0,0,1,0,1,0.5,0,1,0,0,0.25,1.32
+go,Gene Ontology,http://geneontology.org/,1,0,1,0.56,1,0,0.59,0,0,0,0,0,1,1,0,1,0.75,0,1,0,0,0.25,1.59
+hancestro,Human Ancestry Ontology,https://ebispot.github.io/hancestro/,1,0,1,0.56,1,0,0.59,0,0,0,0,0,1,1,0,1,0.75,0,1,0,0,0.25,1.59
+ico,Informed Consent Ontology,https://github.com/ICO-ontology/ICO,1,0,1,0.56,1,0,0.59,0,0,0,0,0,1,1,0,1,0.75,0,1,0,0,0.25,1.59
+pr,PRotein Ontology,http://proconsortium.org,1,0,1,0.56,1,0,0.59,0,0,0,0,0,1,1,0,1,0.75,0,1,0,0,0.25,1.59
+proco,PROcess Chemistry Ontology,https://github.com/proco-ontology/PROCO,1,0,1,0.56,1,0,0.59,0,0,0,0,0,1,1,0,1,0.75,0,1,0,0,0.25,1.59
+miapa,MIAPA Ontology,http://www.evoio.org/wiki/MIAPA,1,0,1,0.44,1,0,0.57,0,0,0,0,0,0,1,0,1,0.5,0,1,0,0,0.25,1.32
+vo,Vaccine Ontology,https://violinet.org/vaccineontology,1,0,1,0.56,1,0,0.59,0,0,0,0,0,1,1,0,1,0.75,0,1,0,0,0.25,1.59
+fideo,Food Interactions with Drugs Evidence Ontology,https://gitub.u-bordeaux.fr/erias/fideo,1,0,1,0.56,1,0,0.59,0,0,0,0,0,1,1,0,1,0.75,0,1,0,0,0.25,1.59
+ohmi,Ontology of Host-Microbiome Interactions,https://github.com/ohmi-ontology/ohmi,1,0,1,0.56,1,0,0.59,0,0,0,0,0,1,1,0,1,0.75,0,1,0,0,0.25,1.59
+ohd,Oral Health and Disease Ontology,https://purl.obolibrary.org/obo/ohd/home,1,0,1,0.56,1,0,0.59,0,0,0,0,0,1,1,0,1,0.75,0,1,0,0,0.25,1.59
+mop,Molecular Process Ontology,https://github.com/rsc-ontologies/rxno,1,0,1,0.44,1,0,0.57,0,0,0,0,0,0,1,0,1,0.5,0,1,0,0,0.25,1.32
+eupath,VEuPathDB Ontology,https://github.com/VEuPathDB-ontology/VEuPathDB-ontology,1,0,1,0.44,1,0,0.57,0,0,0,0,0,0,1,0,1,0.5,0,1,0,0,0.25,1.32
+spd,Spider Ontology,http://research.amnh.org/atol/files/,1,0,1,0.44,1,0,0.57,0,0,0,0,0,0,1,0,1,0.5,0,1,0,0,0.25,1.32
+pato,Phenotype And Trait Ontology,https://github.com/pato-ontology/pato/,1,0,1,0.56,1,0,0.59,0,0,0,0,0,1,1,0,1,0.75,0,1,0,0,0.25,1.59
+cdno,Compositional Dietary Nutrition Ontology,https://cdno.info/,1,0,1,0.56,1,0,0.59,0,0,0,0,0,1,1,0,1,0.75,0,1,0,0,0.25,1.59
+gecko,Genomics Cohorts Knowledge Ontology,https://github.com/IHCC-cohorts/GECKO,1,0,1,0.56,1,0,0.59,0,0,0,0,0,1,1,0,1,0.75,0,1,0,0,0.25,1.59
+bspo,Biological Spatial Ontology,https://github.com/obophenotype/biological-spatial-ontology,1,0,1,0.56,1,0,0.59,0,0,0,0,0,1,1,0,1,0.75,0,1,0,0,0.25,1.59
+epo,Epidemiology Ontology,https://code.google.com/p/epidemiology-ontology/,1,0,1,0.44,1,0,0.57,0,0,0,0,0,0,1,0,1,0.5,0,1,0,0,0.25,1.32
+oarcs,Ontology of Arthropod Circulatory Systems,https://github.com/aszool/oarcs,1,0,1,0.44,1,0,0.57,0,0,0,0,0,0,1,0,1,0.5,0,1,0,0,0.25,1.32
+ovae,Ontology of Vaccine Adverse Events,http://www.violinet.org/ovae/,1,0,1,0.44,1,0,0.57,0,0,0,0,0,0,1,0,1,0.5,0,1,0,0,0.25,1.32
+phipo,Pathogen Host Interaction Phenotype Ontology,https://github.com/PHI-base/phipo,1,0,1,0.56,1,0,0.59,0,0,0,0,0,1,1,0,1,0.75,0,1,0,0,0.25,1.59
+vbo,Vertebrate Breed Ontology,https://github.com/monarch-initiative/vertebrate-breed-ontology,1,0,1,0.56,1,0,0.59,0,0,0,0,0,1,1,0,1,0.75,0,1,0,0,0.25,1.59
+vt,Vertebrate Trait Ontology,https://github.com/AnimalGenome/vertebrate-trait-ontology,1,0,1,0.44,1,0,0.57,0,0,0,0,0,0,1,0,1,0.5,0,1,0,0,0.25,1.32
+fovt,FuTRES Ontology of Vertebrate Traits,https://github.com/futres/fovt,1,0,1,0.56,1,0,0.59,0,0,0,0,0,1,1,0,1,0.75,0,1,0,0,0.25,1.59
+fobi,Food-Biomarker Ontology,https://github.com/pcastellanoescuder/FoodBiomarkerOntology,1,0,1,0.44,1,0,0.57,0,0,0,0,0,0,1,0,1,0.5,0,1,0,0,0.25,1.32
+gexo,Gene Expression Ontology,http://www.semantic-systems-biology.org/apo,1,0,1,0.44,1,0,0.57,0,0,0,0,0,0,1,0,1,0.5,0,1,0,0,0.25,1.32
+lepao,Lepidoptera Anatomy Ontology,https://github.com/insect-morphology/lepao,1,0,1,0.44,1,0,0.57,0,0,0,0,0,0,1,0,1,0.5,0,1,0,0,0.25,1.32
+flopo,Flora Phenotype Ontology,https://github.com/flora-phenotype-ontology/flopoontology,1,0,1,0.44,1,0,0.57,0,0,0,0,0,0,1,0,1,0.5,0,1,0,0,0.25,1.32
+fma,Foundational Model of Anatomy,http://si.washington.edu/projects/fma,1,0,1,0.44,1,0,0.57,0,0,0,0,0,0,1,0,1,0.5,0,1,0,0,0.25,1.32
+obi,Ontology for Biomedical Investigations,http://obi-ontology.org,1,0,1,0.56,1,0,0.59,0,0,0,0,0,1,1,0,1,0.75,0,1,0,0,0.25,1.59
+obib,Ontology for Biobanking,https://github.com/biobanking/biobanking,1,0,1,0.56,1,0,0.59,0,0,0,0,0,1,1,0,1,0.75,0,1,0,0,0.25,1.59
+micro,Ontology of Prokaryotic Phenotypic and Metabolic Characters,https://github.com/carrineblank/MicrO,1,0,1,0.44,1,0,0.57,0,0,0,0,0,0,1,0,1,0.5,0,1,0,0,0.25,1.32
+vso,Vital Sign Ontology,http://www.heppnetz.de/ontologies/vso/ns.owl,1,0,1,0.44,1,0,0.57,0,0,0,0,0,0,1,0,1,0.5,0,1,0,0,0.25,1.32
+ogg,Ontology of Genes and Genomes,https://bitbucket.org/hegroup/ogg,1,0,1,0.56,1,0,0.59,0,0,0,0,0,1,1,0,1,0.75,0,1,0,0,0.25,1.59
+omit,Ontology for MIRNA Target,http://omit.cis.usouthal.edu/,1,0,1,0.44,1,0,0.57,0,0,0,0,0,0,1,0,1,0.5,0,1,0,0,0.25,1.32
+caro,Common Anatomy Reference Ontology,https://github.com/obophenotype/caro/,1,0,1,0.56,1,0,0.59,0,0,0,0,0,1,1,0,1,0.75,0,1,0,0,0.25,1.59
+nbo,Neuro Behavior Ontology,https://github.com/obo-behavior/behavior-ontology/,1,0,1,0.56,1,0,0.59,0,0,0,0,0,1,1,0,1,0.75,0,1,0,0,0.25,1.59
+mi,Molecular Interactions Controlled Vocabulary,https://github.com/HUPO-PSI/psi-mi-CV,1,0,1,0.44,1,0,0.57,0,0,0,0,0,0,1,0,1,0.5,0,1,0,0,0.25,1.32
+biolink,Biolink Model,absent,0,0,1,0.22,0,0,0.2,0,0,0,0,0,0,0,0,1,0.25,0,1,0,0,0.25,0.7
+ocimido,Ocular Immune-Mediated Inflammatory Diseases Ontology,-,1,0,1,0.44,1,0,0.57,0,0,0,0,0,0,1,0,1,0.5,0,1,0,0,0.25,1.32
+opmi,Ontology of Precision Medicine and Investigation,https://github.com/OPMI/opmi,1,0,1,0.56,1,0,0.59,0,0,0,0,0,1,1,0,1,0.75,0,1,0,0,0.25,1.59
+do,byo Disease Ontology,-,1,0,1,0.44,1,0,0.57,0,0,0,0,0,0,1,0,1,0.5,0,1,0,0,0.25,1.32
+gsso,"Gender, Sex, and Sexual Orientation ontology",https://gsso.research.cchmc.org/,1,0,1,0.56,1,0,0.59,0,0,0,0,0,1,1,0,1,0.75,0,1,0,0,0.25,1.59
+rxno,Name Reaction Ontology,https://github.com/rsc-ontologies/rxno,1,0,1,0.44,1,0,0.57,0,0,0,0,0,0,1,0,1,0.5,0,1,0,0,0.25,1.32
+cob,Core Ontology for Biology and Biomedicine,https://obofoundry.org/COB/,1,0,1,0.56,1,0,0.59,0,0,0,0,0,1,1,0,1,0.75,0,1,0,0,0.25,1.59
+ocmr,Ontology of Chinese Medicine for Rheumatism,https://github.com/biomedontology/ocmr,1,0,1,0.44,1,0,0.57,0,0,0,0,0,0,1,0,1,0.5,0,1,0,0,0.25,1.32
+edam-bioimaging,EDAM Bioimaging Ontology,-,1,0,1,0.44,1,0,0.57,0,0,0,0,0,0,1,0,1,0.5,0,1,0,0,0.25,1.32
+sepio,Scientific Evidence and Provece Information Ontology,https://github.com/monarch-initiative/SEPIO-ontology,1,0,1,0.44,1,0,0.57,0,0,0,0,0,0,1,0,1,0.5,0,1,0,0,0.25,1.32
+rbo,Radiation Biology Ontology,https://github.com/Radiobiology-Informatics-Consortium/RBO,1,0,1,0.44,1,0,0.57,0,0,0,0,0,0,1,0,1,0.5,0,1,0,0,0.25,1.32
+symp,Symptom Ontology,http://symptomontologywiki.igs.umaryland.edu/mediawiki/index.php/Main_Page,1,0,1,0.44,1,0,0.57,0,0,0,0,0,0,1,0,1,0.5,0,1,0,0,0.25,1.32
+ogsf,Ontology of Genetic Susceptibility Factor,https://github.com/linikujp/OGSF,1,0,1,0.56,1,0,0.59,0,0,0,0,0,1,1,0,1,0.75,0,1,0,0,0.25,1.59
+ocvdae,Ontology of Cardiovascular Drug Adverse Events,-,1,0,1,0.56,1,0,0.59,0,0,0,0,0,1,1,0,1,0.75,0,1,0,0,0.25,1.59
+codo,CODO: an Ontology for collection and analysis of COviD-19 data,-,1,0,1,0.44,1,0,0.57,0,0,0,0,0,0,1,0,1,0.5,0,1,0,0,0.25,1.32
+covid-19,COVID-19 Ontology,-,1,0,1,0.44,1,0,0.57,0,0,0,0,0,0,1,0,1,0.5,0,1,0,0,0.25,1.32
+obiws,Bioinformatics Web Service Ontology,-,1,0,1,0.44,1,0,0.57,0,0,0,0,0,0,1,0,1,0.5,0,1,0,0,0.25,1.32
+mpio/mpio,Minimum PDDI Information Ontology,-,1,0,1,0.44,1,0,0.57,0,0,0,0,0,0,1,0,1,0.5,0,1,0,0,0.25,1.32
+oba/oba,Ontology of Biological Attributes,-,1,0,1,0.56,1,0,0.59,0,0,0,0,0,1,1,0,1,0.75,0,1,0,0,0.25,1.59
+aro/aro,Antibiotic Resistance Ontology,-,1,0,1,0.44,1,0,0.57,0,0,0,0,0,0,1,0,1,0.5,0,1,0,0,0.25,1.32
+modsci/modsci,ModSci (Modular Science) Ontology,-,1,0,1,0.56,1,0,0.59,0,0,0,0,0,1,1,0,1,0.75,0,1,0,0,0.25,1.59
+scdo/scdo,Sickle Cell Disease Ontology,-,1,0,1,0.44,1,0,0.57,0,0,0,0,0,0,1,0,1,0.5,0,1,0,0,0.25,1.32
+bmont/bmont,The Biomarker Ontology,-,1,0,1,0.44,1,0,0.57,0,0,0,0,0,0,1,0,1,0.5,0,1,0,0,0.25,1.32
+cmpo/cmpo,Cellular microscopy phenotype ontology,http://www.ebi.ac.uk/cmpo,1,0,1,0.44,1,0,0.57,0,0,0,0,0,0,1,0,1,0.5,0,1,0,0,0.25,1.32
+ngbo/ngbo,Next Generation Biobanking Ontology,-,1,0,1,0.56,1,0,0.59,0,0,0,0,0,1,1,0,1,0.75,0,1,0,0,0.25,1.59
+cvdo/cvdo,Cardiovascular Disease Ontology,-,1,0,1,0.56,1,0,0.59,0,0,0,0,0,1,1,0,1,0.75,0,1,0,0,0.25,1.59
+exo,Exposure ontology (ExO),-,1,0,1,0.44,1,0,0.57,0,0,0,0,0,0,1,0,1,0.5,0,1,0,0,0.25,1.32
+labo/labo,clinical LABoratory Ontology,-,1,0,1,0.44,1,0,0.57,0,0,0,0,0,0,1,0,1,0.5,0,1,0,0,0.25,1.32
+vio,Vaccine Investigation Ontology,-,1,0,1,0.44,1,0,0.57,0,0,0,0,0,0,1,0,1,0.5,0,1,0,0,0.25,1.32
+cteno/cteno,Ctenophore Ontology,-,1,0,1,0.44,1,0,0.57,0,0,0,0,0,0,1,0,1,0.5,0,1,0,0,0.25,1.32
+ceph/ceph,Cephalopod Ontology,-,1,0,1,0.44,1,0,0.57,0,0,0,0,0,0,1,0,1,0.5,0,1,0,0,0.25,1.32
+aero,Adverse Event Reporting Ontology,-,1,0,1,0.44,1,0,0.57,0,0,0,0,0,0,1,0,1,0.5,0,1,0,0,0.25,1.32
+xco,Experimental condition ontology,-,1,0,1,0.44,1,0,0.57,0,0,0,0,0,0,1,0,1,0.5,0,1,0,0,0.25,1.32
+sbo,Systems Biology Ontology,-,1,0,1,0.44,1,0,0.57,0,0,0,0,0,0,1,0,1,0.5,0,1,0,0,0.25,1.32
+vsao,Vertebrate Skeletal Anatomy Ontology,-,1,0,1,0.44,1,0,0.57,0,0,0,0,0,0,1,0,1,0.5,0,1,0,0,0.25,1.32
+bao,BioAssay Ontology,,,,,,,,,,,,,,,,,,,,,,,,
+ipr,Protein Domains,http://www.ebi.ac.uk/interpro/index.html,,,,,,,,,,,,,,,,,,,,,,,
+vhog,Vertebrate Homologous Ontology Group Ontology,http://berkeleybop.org/,,,,,,,,,,,,,,,,,,,,,,,

@@ -1,0 +1,250 @@
+id,KG name,Dataset URL,F1-M Unique and persistent ID,F1-D URIs dereferenceability,F2a-M - Metadata availability via standard primary sources,F2b-M Metadata availability for all the attributes covered in the FAIR score computation,F3-M Data referrable via a DOI,F4-M Metadata registered in a searchable engine,F score,A1-D Working access point(s),A1-M Metadata availability via working primary sources,A1.2 Authentication & HTTPS support,A2-M Registered in search engines,A score,R1.1 Machine- or human-readable license retrievable via any primary source,R1.2 Publisher information such as authors-contributors-publishers and sources,R1.3-D Data organized in a standardized way,R1.3-M Metadata are described with VoID/DCAT predicates,R score,I1-D Standard & open representation format,I1-M Metadata are described with VoID/DCAT predicates,I2 Use of FAIR vocabularies,I3-D Degree of connection,I score,FAIR score
+news-100-nif-ner-corpus,News-100 NIF NER Corpus,absent,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,1,1,1,1,1,0,1,0.75,3.3
+dbpedia,DBpedia,http://dbpedia.org/,,,,,,,,,,,,,,,,,,,,,,,
+dbpedia-es,DBpedia in Spanish,http://es.dbpedia.org,,,,,,,,,,,,,,,,,,,,,,,
+dbpedia-nl,DBpedia in Dutch,http://nl.dbpedia.org,1,0,1,0.78,1,1,0.8,0,1,0,1,0.5,1,1,0,1,0.75,0,1,0,1,0.5,2.55
+dbpedia-abstract-corpus,DBpedia abstract corpus,absent,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,1,1,0,1,0.75,0,1,0,1,0.5,2.53
+universal-dependencies-treebank-croatian,Universal Dependencies Treebank Croatian,https://github.com/UniversalDependencies/UD_Croatian,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,1,1,1,1,1,0,1,0.75,3.3
+olia,OLiA,http://purl.org/olia,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,1,1,1,1,1,0,1,0.75,3.3
+w3c-wordnet,WordNet 2.0 (W3C),http://www.w3.org/TR/wordnet-rdf,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,1,1,1,1,1,0,1,0.75,3.3
+sli_galnet_rdf,"SLI Galnet, the Galician wordnet, at version 3.0.26,  in RDF format",http://sli.uvigo.gal/download/SLI_Galnet/SLI_Galnet_RDF_3.0.26.tar.gz,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,1,1,0,1,0.75,0,1,0,1,0.5,2.53
+lemonuby,lemonUby,absent,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,1,0,1,1,0.75,1,1,0,1,0.75,3.03
+wordnet-rdf,WordNet-RDF,absent,1,0,1,0.56,1,1,0.76,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.26
+omwn-iwn,ItalWordnet WordNet (as part of Open Multilingual WordNet),http://compling.hss.ntu.edu.sg/omw/,1,0,1,0.78,1,1,0.8,0,1,0,1,0.5,1,1,0,1,0.75,0,1,0,1,0.5,2.55
+gemeenschappelijke-thesaurus-audiovisuele-archieven,Gemeenschappelijke Thesaurus Audiovisuele Archieven ? Common Thesaurus Audiovisual Archives,http://data.beeldengeluid.nl/gtaa/GTAA,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,0,1,0.75,0,1,0,1,0.5,2.8
+universal-dependencies-treebank-japanese,Universal Dependencies Treebank Japanese,https://github.com/UniversalDependencies/UD_Japanese,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,1,1,1,1,1,0,1,0.75,3.3
+clld-wals,CLLD-WALS,http://wals.info,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,1,1,1,1,1,0,1,0.75,3.3
+lexvo,Lexvo,http://www.lexvo.org,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,1,1,1,1,1,0,1,0.75,3.3
+omwn-jpn,Japanese WordNet (as part of Open Multilingual WordNet),http://compling.hss.ntu.edu.sg/omw/,1,0,1,0.78,1,1,0.8,0,1,0,1,0.5,1,1,0,1,0.75,0,1,0,1,0.5,2.55
+universal-dependencies-treebank-czech,Universal Dependencies Treebank Czech,https://github.com/UniversalDependencies/UD_Czech,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,1,1,1,1,1,0,1,0.75,3.3
+universal-dependencies-treebank-bulgarian,Universal Dependencies Treebank Bulgarian,https://github.com/UniversalDependencies/UD_Bulgarian,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,1,1,1,1,1,0,1,0.75,3.3
+clld-afbo,CLLD-afbo,http://afbo.info,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,1,1,1,1,1,0,1,0.75,3.3
+clld-glottolog,CLLD-GLOTTOLOG,http://glottolog.org,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,1,1,0.75,1,1,0,1,0.75,3.03
+gold,General Ontology of Linguistic Description,absent,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,1,0,0,1,0.5,0,1,0,1,0.5,2.53
+xwn,Open Multilingual Wordnet,http://casta-net.jp/~kuribayashi/multi/,1,0,1,0.56,1,1,0.76,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.26
+universal-dependencies-treebank-spanish-ancora,Universal Dependencies Treebank Spanish-AnCora,https://github.com/UniversalDependencies/UD_Spanish-AnCora,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,1,1,0.75,1,1,0,1,0.75,3.03
+universal-dependencies-treebank-portuguese,Universal Dependencies Treebank Portuguese,https://github.com/UniversalDependencies/UD_Portuguese,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,1,1,0,1,0.75,0,1,0,1,0.5,2.53
+iwn,IWN,absent,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,1,1,1,1,1,0,1,0.75,3.3
+simple,SIMPLE,absent,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,0,1,0.75,0,1,0,1,0.5,2.8
+ietflang,ietflang,absent,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,1,1,0,1,0.75,0,1,0,1,0.5,2.53
+ids,Intercontinental Dictionary Series,http://lingweb.eva.mpg.de/ids/,1,0,1,0.78,1,1,0.8,0,1,0,1,0.5,1,1,0,1,0.75,0,1,0,1,0.5,2.55
+EtymologicalDictionaryofLatin,Etymological Dictionary of Latin in LiLa,http://lila-erc.eu/data/lexicalResources/BrillEDL/Lexicon,1,0,1,0.89,1,1,0.82,1,1,0,1,0.75,1,1,0,1,0.75,0,1,0,1,0.5,2.82
+LemmaBank,LiLa Lemma Bank,http://lila-erc.eu/data/id/lemma/LemmaBank,1,0,1,0.89,1,1,0.82,1,1,0,1,0.75,1,1,0,1,0.75,0,1,0,1,0.5,2.82
+universal-dependencies-treebank-irish,Universal Dependencies Treebank Irish,https://github.com/UniversalDependencies/UD_Irish,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,0,1,0.75,0,1,0,1,0.5,2.8
+LatinWordnetLiLa,Latin WordNet Revision in LiLa,http://lila-erc.eu/data/lexicalResources/LatinWordNet/Lexicon,1,0,1,0.89,1,1,0.82,1,1,0,1,0.75,1,1,0,1,0.75,0,1,0,1,0.5,2.82
+universal-dependencies-treebank-czech-cltt,Universal Dependencies Treebank Czech-CLTT,https://github.com/UniversalDependencies/UD_Czech-CLTT,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,1,1,1,1,1,0,1,0.75,3.3
+universal-dependencies-treebank-hebrew,Universal Dependencies Treebank Hebrew,https://github.com/UniversalDependencies/UD_Hebrew,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,1,1,1,1,1,0,1,0.75,3.3
+omwn-fra,WOLF WordNet (as part of Open Multilingual WordNet),http://compling.hss.ntu.edu.sg/omw/,1,0,1,0.78,1,1,0.8,0,1,0,1,0.5,1,1,0,1,0.75,0,1,0,1,0.5,2.55
+apertium-rdf-en-gl,Apertium RDF EN-GL,absent,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,1,1,0.75,1,1,0,1,0.75,3.03
+babelnet,BabelNet,absent,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,0,1,1,1,0.75,1,1,0,1,0.75,2.78
+lexinfo,lexinfo,http://lexinfo.net/,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+geological-survey-of-austria-thesaurus,Geological Survey of Austria (GBA) - Thesaurus,http://resource.geolba.ac.at/,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,4
+universal-dependencies-treebank-ancient-greek,Universal Dependencies Treebank Ancient_Greek,https://github.com/UniversalDependencies/UD_Ancient_Greek,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,1,1,1,1,1,0,1,0.75,3.3
+universal-dependencies-treebank-catalan,Universal Dependencies Treebank Catalan,https://github.com/UniversalDependencies/UD_Catalan,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,1,1,0.75,1,1,0,1,0.75,3.03
+wiktionary-dbpedia-org,wiktionary.dbpedia.org,http://wiktionary.dbpedia.org,1,0,1,0.78,1,1,0.8,0,1,0,1,0.5,1,1,0,1,0.75,0,1,0,1,0.5,2.55
+ontos-news-portal,Ontos News Portal,http://news.ontos.com,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,1,1,1,1,1,1,1,0,1,0.75,3.03
+zhishi-me,Zhishi.me,http://zhishi.me,1,0,1,0.78,1,1,0.8,0,1,0,1,0.5,1,1,0,1,0.75,0,1,0,1,0.5,2.55
+omwn-bul,BulTreeBank WordNet (as part of Open Multilingual WordNet),http://compling.hss.ntu.edu.sg/omw/,1,0,1,0.78,1,1,0.8,0,1,0,1,0.5,1,1,0,1,0.75,0,1,0,1,0.5,2.55
+olac,OLAC Metadata,http://www.language-archives.org/archive_records.php,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,1,1,0,1,0.75,0,1,0,1,0.5,2.53
+VelezIndexTotiusArtis,Velez (1744) Index Totius Artis in LiLa,http://lila-erc.eu/data/lexicalResources/LatinPortuguese/Velez/Lexicon,1,0,1,0.89,1,1,0.82,1,1,0,1,0.75,1,1,0,1,0.75,0,1,0,1,0.5,2.82
+LASLA,LASLA corpus in LiLa,https://lila-erc.eu/data/corpora/Lasla/id/corpus,1,0,1,0.89,1,1,0.82,1,1,0,1,0.75,1,1,0,1,0.75,0,1,0,1,0.5,2.82
+AugustiniConfessiones,Augustini Confessiones in LiLa,http://lila-erc.eu/data/corpora/CIRCSELatinLibrary/id/corpus/Confessiones,1,0,1,0.89,1,1,0.82,1,1,0,1,0.75,1,1,0,1,0.75,0,1,0,1,0.5,2.82
+CompHistSem,Computational Historical Semantics in LiLa,http://lila-erc.eu/data/corpora/CompHistSem/id/corpus,1,0,1,0.89,1,1,0.82,1,1,0,1,0.75,1,1,0,1,0.75,0,1,0,1,0.5,2.82
+CorpusFibonacci,Corpus Fibonacci in LiLa,http://lila-erc.eu/data/corpora/CorpusFibonacci/id/corpus,1,0,1,0.89,1,1,0.82,1,1,0,1,0.75,1,1,0,1,0.75,0,1,0,1,0.5,2.82
+DanteLatinLoanwords,Dante Latin Loanwords in LiLa,http://lila-erc.eu/data/lexicalResources/DanteLatinLoanwords/Lexicon,1,0,1,0.89,1,1,0.82,1,1,0,1,0.75,1,1,0,1,0.75,0,1,0,1,0.5,2.82
+IGVLL,Index Graecorum Vocabulorum in LiLa,http://lila-erc.eu/data/lexicalResources/IGVLL/Lexicon,1,0,1,0.89,1,1,0.82,1,1,0,1,0.75,1,1,0,1,0.75,0,1,0,1,0.5,2.82
+IndexThomisticusTreebank,Index Thomisticus Treebank in LiLa,http://lila-erc.eu/data/corpora/ITTB/id/corpus,1,0,1,0.89,1,1,0.82,1,1,0,1,0.75,1,1,0,1,0.75,0,1,0,1,0.5,2.82
+LatinAffectus,LatinAffectus in LiLa,http://lila-erc.eu/data/lexicalResources/LatinAffectus/Lexicon,1,0,1,0.89,1,1,0.82,1,1,0,1,0.75,1,1,0,1,0.75,0,1,0,1,0.5,2.82
+universal-dependencies-treebank-finnish,Universal Dependencies Treebank Finnish,https://github.com/UniversalDependencies/UD_Finnish,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,0,1,0.75,0,1,0,1,0.5,2.8
+eurosentiment,EuroSentiment,absent,1,0,1,0.78,1,1,0.8,0,1,0,1,0.5,1,1,0,1,0.75,0,1,0,1,0.5,2.55
+bll-thesaurus,Bibliography of Linguistic Literature (BLL) Thesaurus,http://data.linguistik.de/bll,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,0,1,0.75,0,1,0,1,0.5,2.8
+omwn-heb,Hebrew WordNet (as part of Open Multilingual WordNet),http://compling.hss.ntu.edu.sg/omw/,1,0,1,0.78,1,1,0.8,0,1,0,1,0.5,1,1,0,1,0.75,0,1,0,1,0.5,2.55
+premon,PreMOn (Predicate Model for Ontologies),http://premon.fbk.eu,1,0,1,0.89,1,1,0.82,1,1,0,1,0.75,1,1,0,1,0.75,0,1,0,1,0.5,2.82
+lime,Linguistic Metadata (LIME) vocabulary,absent,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,1,1,0,1,0.75,0,1,0,1,0.5,2.53
+isocat,ISOcat,http://www.isocat.org,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,1,1,0,1,0.75,0,1,0,1,0.5,2.53
+vu-wordnet,WordNet 3.0 (VU Amsterdam),http://semanticweb.cs.vu.nl/lod/wn30/,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,1,1,1,1,1,0,1,0.75,3.3
+omwn-cwn,Chinese WordNet (as part of Open Multilingual WordNet),http://compling.hss.ntu.edu.sg/omw/,1,0,1,0.78,1,1,0.8,0,1,0,1,0.5,1,1,0,1,0.75,0,1,0,1,0.5,2.55
+ssf,Lexicon of Syntactic and Semantic Framework,http://www.ss-framework.com,1,0.089468779,1,0.89,1,1,0.83,1,1,1,1,1,1,1,0,1,0.75,0,1,0,1,0.5,3.08
+stw-thesaurus-for-economics,STW Thesaurus for Economics,http://zbw.eu/stw,1,0.8582,1,1,1,1,0.98,1,1,1,1,1,1,1,1,1,1,1,1,0.4,1,0.85,3.83
+gesis-thesoz,TheSoz Thesaurus for the Social Sciences (GESIS),http://lod.gesis.org/thesoz/,1,0,1,0.78,1,1,0.8,0,1,0,1,0.5,1,1,1,1,1,1,1,0,1,0.75,3.05
+fu-berlin-euraxess,EURAXESS - Researchers in Motion,http://www4.wiwiss.fu-berlin.de/euraxess/,1,0,1,0.56,1,1,0.76,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.26
+swefn-rdf,SweFN-RDF,absent,1,0,1,0.89,1,1,0.82,1,1,0,1,0.75,1,1,1,1,1,1,1,0,1,0.75,3.32
+open-data-thesaurus,Open Data Thesaurus,http://vocabulary.semantic-web.at/PoolParty/wiki/OpenData,1,0,1,1,1,1,0.83,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,3.83
+masc,Manually Annotated Sub-Corpus (MASC) of the Open American National Corpus,http://www.anc.org/MASC/Home.html,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,1,1,0.75,1,1,0,1,0.75,3.03
+omwn-als,Albanet WordNet (as part of Open Multilingual WordNet),http://compling.hss.ntu.edu.sg/omw/,1,0,1,0.78,1,1,0.8,0,1,0,1,0.5,1,1,0,1,0.75,0,1,0,1,0.5,2.55
+apertium-rdf-en-ca,Apertium RDF EN-CA,absent,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,1,1,0.75,1,1,0,1,0.75,3.03
+panlex,PanLex,http://panlex.org,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.28
+UDante,UDante in LiLa,http://lila-erc.eu/data/corpora/UDante/id/corpus,1,0,1,0.89,1,1,0.82,1,1,0,1,0.75,1,1,0,1,0.75,0,1,0,1,0.5,2.82
+universal-dependencies-treebank-swedish-lines,Universal Dependencies Treebank Swedish-LinES,https://github.com/UniversalDependencies/UD_Swedish-LinES,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,0,1,0.75,0,1,0,1,0.5,2.8
+apertium-rdf-eu-en,Apertium RDF EU-EN,absent,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,1,1,0.75,1,1,0,1,0.75,3.03
+environmental-applications-reference-thesaurus,EARTh,http://thesaurus.iia.cnr.it/index.php/vocabularies/earth,1,0,1,0.89,1,1,0.82,1,1,0,1,0.75,1,1,1,1,1,1,1,0,1,0.75,3.32
+gemet,GEneral Multilingual Environmental Thesaurus,http://www.eionet.europa.eu/gemet/,1,0,1,0.89,1,1,0.82,1,1,0,1,0.75,1,1,1,1,1,1,1,0,1,0.75,3.32
+thist,ThIST,http://purl.org/NET/ThISTWebPage,1,0,1,0.89,1,1,0.82,1,1,0,1,0.75,1,1,1,1,1,1,1,0,1,0.75,3.32
+umthes,UMTHES,https://sns.uba.de/umthes/,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,0,1,0.75,0,1,0,1,0.5,2.8
+multext-east,Multext-East,http://nl.ijs.si/ME/V4/,1,0,1,0.56,1,1,0.76,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.26
+apertium-rdf-eu-es,Apertium RDF EU-ES,absent,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,1,1,0.75,1,1,0,1,0.75,3.03
+clld-wold,CLLD-WOLD,http://wold.clld.org,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,1,1,1,1,1,0,1,0.75,3.3
+universal-dependencies-treebank-galician,Universal Dependencies Treebank Galician,https://github.com/UniversalDependencies/UD_Galician,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,1,1,1,1,1,0,1,0.75,3.3
+universal-dependencies-treebank-turkish,Universal Dependencies Treebank Turkish,https://github.com/UniversalDependencies/UD_Turkish,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,1,1,1,1,1,0,1,0.75,3.3
+clld-apics,CLLD-APICS,http://apics-online.info,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,1,1,1,1,1,0,1,0.75,3.3
+clld-sails,CLLD-SAILS,http://sails.clld.org,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,1,1,1,1,1,0,1,0.75,3.3
+wn-wiki-instances,Wordnet-Wikipedia/DBpedia instance mapping,https://github.com/jmccrae/wn-wiki-instances,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,0,1,0.75,0,1,0,1,0.5,2.8
+gwa-ili,Global WordNet Association Interlingual Index,https://github.com/globalwordnet/ili,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,0,1,0.75,0,1,0,1,0.5,2.8
+universal-dependencies-treebank-hindi,Universal Dependencies Treebank Hindi,https://github.com/UniversalDependencies/UD_Hindi,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,1,1,1,1,1,0,1,0.75,3.3
+clean-energy-data-reegle,Linked Clean Energy Data (reegle.info),http://data.reegle.info/,1,0,1,0.89,1,1,0.82,1,1,0,1,0.75,1,1,0,1,0.75,0,1,0,1,0.5,2.82
+phoible,Phonetics Information Base and Lexicon (PHOIBLE),http://phoible.org,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.55
+iate-rdf,IATE RDF,absent,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,1,0,1,1,0.75,1,1,0,1,0.75,3.03
+universal-dependencies-treebank-swedish,Universal Dependencies Treebank Swedish,https://github.com/UniversalDependencies/UD_Swedish,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,0,1,0.75,0,1,0,1,0.5,2.8
+universal-dependencies-treebank-spanish,Universal Dependencies Treebank Spanish,https://github.com/UniversalDependencies/UD_Spanish,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,1,1,1,1,1,0,1,0.75,3.3
+universal-dependencies-treebank-swedish-sign-language,Universal Dependencies Treebank Swedish_Sign_Language,https://github.com/UniversalDependencies/UD_Swedish_Sign_Language,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,1,1,1,1,1,0,1,0.75,3.3
+pleiades,Pleiades,http://pleiades.stoa.org/,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,1,1,1,1,1,0,1,0.75,3.3
+omwn-pol,plWordNet WordNet (as part of Open Multilingual WordNet),http://compling.hss.ntu.edu.sg/omw/,1,0,1,0.78,1,1,0.8,0,1,0,1,0.5,1,1,0,1,0.75,0,1,0,1,0.5,2.55
+apertium-rdf-eo-en,Apertium RDF EO-EN,absent,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,1,1,0.75,1,1,0,1,0.75,3.03
+apertium-rdf-eo-fr,Apertium RDF EO-FR,absent,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,1,1,0.75,1,1,0,1,0.75,3.03
+zhishi-lemon,zhishi.lemon,absent,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,1,1,0,1,0.75,0,1,0,1,0.5,2.53
+wikilinks-rdf-nif,Wikilinks RDF/NIF,absent,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,1,1,0,1,0.75,0,1,0,1,0.5,2.53
+fiesta,FiESTA,absent,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,1,1,0,1,0.75,0,1,0,1,0.5,2.53
+universal-dependencies-treebank-polish,Universal Dependencies Treebank Polish,https://github.com/UniversalDependencies/UD_Polish,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,1,1,0.75,1,1,0,1,0.75,3.03
+universal-dependencies-treebank-czech-cac,Universal Dependencies Treebank Czech-CAC,https://github.com/UniversalDependencies/UD_Czech-CAC,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,1,1,1,1,1,0,1,0.75,3.3
+omwn-nor,Norwegian WordNet (as part of Open Multilingual WordNet),http://compling.hss.ntu.edu.sg/omw/,1,0,1,0.78,1,1,0.8,0,1,0,1,0.5,1,1,0,1,0.75,0,1,0,1,0.5,2.55
+universal-dependencies-treebank-gothic,Universal Dependencies Treebank Gothic,https://github.com/UniversalDependencies/UD_Gothic,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,0,1,0.75,0,1,0,1,0.5,2.8
+omwn-ita,MultiWordNet WordNet (as part of Open Multilingual WordNet),http://compling.hss.ntu.edu.sg/omw/,1,0,1,0.78,1,1,0.8,0,1,0,1,0.5,1,1,0,1,0.75,0,1,0,1,0.5,2.55
+universal-dependencies-treebank-romanian,Universal Dependencies Treebank Romanian,https://github.com/UniversalDependencies/UD_Romanian,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,1,1,1,1,1,0,1,0.75,3.3
+universal-dependencies-treebank-indonesian,Universal Dependencies Treebank Indonesian,https://github.com/UniversalDependencies/UD_Indonesian,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,1,1,1,1,1,0,1,0.75,3.3
+apertium-rdf-oc-ca,Apertium RDF OC-CA,absent,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,1,1,0.75,1,1,0,1,0.75,3.03
+alpino-rdf,ALPINO RDF Treebank,absent,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,1,0,0,1,0.5,0,1,0,1,0.5,2.28
+omwn-ron,Romanian WordNet (as part of Open Multilingual WordNet),http://compling.hss.ntu.edu.sg/omw/,1,0,1,0.78,1,1,0.8,0,1,0,1,0.5,1,1,0,1,0.75,0,1,0,1,0.5,2.55
+rkb-explorer-wordnet,WordNet (RKBExplorer),http://wordnet.rkbexplorer.com,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.28
+lingvoj,lingvoj ? Languages of the World (Multilingual RDF Descriptions),http://www.lingvoj.org/,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,1,1,0.75,1,1,0,1,0.75,3.03
+omwn-fin,FinnWordNet WordNet (as part of Open Multilingual WordNet),http://compling.hss.ntu.edu.sg/omw/,1,0,1,0.78,1,1,0.8,0,1,0,1,0.5,1,1,0,1,0.75,0,1,0,1,0.5,2.55
+greek-wordnet,Greek Wordnet,absent,1,0,1,0.78,1,1,0.8,0,1,0,1,0.5,1,1,0,1,0.75,0,1,0,1,0.5,2.55
+emn,EMN,absent,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,1,1,1,1,1,0,1,0.75,3.3
+apertium-rdf-fr-es,Apertium RDF FR-ES,absent,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,1,1,0.75,1,1,0,1,0.75,3.03
+universal-dependencies-treebank-sanskrit,Universal Dependencies Treebank Sanskrit,https://github.com/UniversalDependencies/UD_Sanskrit,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,1,1,1,1,1,0,1,0.75,3.3
+apertium-rdf,Apertium RDF,absent,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,1,1,0.75,1,1,0,1,0.75,3.03
+dbpedia-spotlight-nif-ner-corpus,DBpedia Spotlight NIF NER Corpus,absent,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,1,1,1,1,1,0,1,0.75,3.3
+fao-geopolitical-ontology,FAO geopolitical ontology,http://www.fao.org/countryprofiles/geoinfo.asp?lang=en,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,1,1,1,1,1,0,1,0.75,3.3
+omwn-slk,Slovak WordNet (as part of Open Multilingual WordNet),http://compling.hss.ntu.edu.sg/omw/,1,0,1,0.78,1,1,0.8,0,1,0,1,0.5,1,1,0,1,0.75,0,1,0,1,0.5,2.55
+universal-dependencies-treebank-english-esl,Universal Dependencies Treebank English-ESL,https://github.com/UniversalDependencies/UD_English-ESL,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,1,1,1,1,1,0,1,0.75,3.3
+omwn-msa,Wordnet WordNet (as part of Open Multilingual WordNet),http://compling.hss.ntu.edu.sg/omw/,1,0,1,0.78,1,1,0.8,0,1,0,1,0.5,1,1,0,1,0.75,0,1,0,1,0.5,2.55
+tds,TDS,absent,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,0,1,0.75,0,1,0,1,0.5,2.8
+polymath-virtual-library,Polymath Virtual Library (Authority data) - Fundación Ignacio Larramendi,http://www.larramendi.es/i18n/estaticos/contenido.cmd?pagina=estaticos/bibliotecaIL,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,1,1,0,1,0.75,0,1,0,1,0.5,2.53
+masc-bn-nif,MASC-BN-NIF,absent,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+socialsemweb-thesaurus,Social Semantic Web Thesaurus,http://vocabulary.semantic-web.at/PoolParty/wiki/semweb,1,0.921787709,1,1,1,1,0.99,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,3.99
+omwn-hrv,Croatian WordNet (as part of Open Multilingual WordNet),http://compling.hss.ntu.edu.sg/omw/,1,0,1,0.78,1,1,0.8,0,1,0,1,0.5,1,1,0,1,0.75,0,1,0,1,0.5,2.55
+isocat-metadata,ISOcat-metadata,absent,1,0,1,0.56,1,1,0.76,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.26
+de-gaap-ontology-lexicon,de-gaap-ontology-lexicon,absent,1,0,1,0.56,1,1,0.76,0,1,0,1,0.5,0,1,1,1,0.75,1,1,0,1,0.75,2.76
+language-authority-list, Language Name Authority List ,,,,,,,,,,,,,,,,,,,,,,,,
+omwn-cow,Chinese WordNet (as part of Open Multilingual WordNet),http://compling.hss.ntu.edu.sg/omw/,1,0,1,0.78,1,1,0.8,0,1,0,1,0.5,1,1,0,1,0.75,0,1,0,1,0.5,2.55
+brown-corpus-in-rdf-nif,Brown Corpus in RDF/NIF,absent,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,1,1,0,1,0.75,0,1,0,1,0.5,2.53
+universal-dependencies-treebank-tamil,Universal Dependencies Treebank Tamil,https://github.com/UniversalDependencies/UD_Tamil,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,1,1,1,1,1,0,1,0.75,3.3
+geowordnet,GeoWordNet,http://geowordnet.semanticmatching.org/,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,0,1,0.75,0,1,0,1,0.5,2.8
+universal-dependencies-treebank-kazakh,Universal Dependencies Treebank Kazakh,https://github.com/UniversalDependencies/UD_Kazakh,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,1,1,1,1,1,0,1,0.75,3.3
+jrc-names-mlode,JRC-Names-MLODE,https://ec.europa.eu/jrc/en/language-technologies/jrc-names,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,0,1,1,1,0.75,1,1,0,1,0.75,3.05
+universal-dependencies-treebank-russian,Universal Dependencies Treebank Russian,https://github.com/UniversalDependencies/UD_Russian,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,1,1,1,1,1,0,1,0.75,3.3
+omwn-slv,sloWNet WordNet (as part of Open Multilingual WordNet),http://compling.hss.ntu.edu.sg/omw/,1,0,1,0.78,1,1,0.8,0,1,0,1,0.5,1,1,0,1,0.75,0,1,0,1,0.5,2.55
+apertium-rdf-es-ca,Apertium RDF ES-CA,absent,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,1,1,0.75,1,1,0,1,0.75,3.03
+xlid-lexica,xLiD-Lexica,absent,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.28
+LewisShort,Lewis and Short Latin-English Dictionary in LiLa,http://lila-erc.eu/data/lexicalResources/LewisShort/Lexicon,1,0,1,0.89,1,1,0.82,1,1,0,1,0.75,1,1,0,1,0.75,0,1,0,1,0.5,2.82
+reuters-128-nif-ner-corpus,Reuters-128 NIF NER Corpus,absent,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,1,1,1,1,1,0,1,0.75,3.3
+universal-dependencies-treebank-galician-treegal,Universal Dependencies Treebank Galician-TreeGal,https://github.com/UniversalDependencies/UD_Galician-TreeGal,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+asjp,Automated Similarity Judgment Program lexical data,cldbstest.eva.mpg.de/asjp,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,0,1,0.75,0,1,0,1,0.5,2.8
+english-wordnet,English WordNet,https://en-word.net,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,1,1,1,1,1,0,1,0.75,3.3
+pdev-lemon,PDEV-Lemon,absent,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,1,1,0.75,1,1,0,1,0.75,3.03
+universal-dependencies-treebank-german,Universal Dependencies Treebank German,https://github.com/UniversalDependencies/UD_German,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,0,1,0.75,0,1,0,1,0.5,2.8
+apertium-rdf-en-es,Apertium RDF EN-ES,absent,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,1,1,0.75,1,1,0,1,0.75,3.03
+apertium-rdf-fr-ca,Apertium RDF FR-CA,absent,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,1,1,0.75,1,1,0,1,0.75,3.03
+lodac-bdls,LODAC BDLS,http://lod.ac/wiki/LODAC_BDLS,1,0,1,0.89,1,1,0.82,1,1,0,1,0.75,1,1,0,1,0.75,0,1,0,1,0.5,2.82
+universal-dependencies-treebank-coptic,Universal Dependencies Treebank Coptic,https://github.com/UniversalDependencies/UD_Coptic,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,1,1,1,1,1,0,1,0.75,3.3
+universal-dependencies-treebank-english,Universal Dependencies Treebank English,https://github.com/UniversalDependencies/UD_English,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,1,1,1,1,1,0,1,0.75,3.3
+framebase-schema,FrameBase schema,http://www.framebase.org/,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,0,1,0.75,0,1,0,1,0.5,2.8
+dbnary,dbnary,http://kaiko.getalp.org/about-dbnary,1,0.2,1,0.89,1,1,0.85,1,1,1,1,1,1,1,0,1,0.75,0,1,0,1,0.5,3.1
+universal-dependencies-treebank-latin-proiel,Universal Dependencies Treebank Latin-PROIEL,https://github.com/UniversalDependencies/UD_Latin-PROIEL,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,1,1,1,1,1,0,1,0.75,3.3
+cornetto,Cornetto1.2,http://www2.let.vu.nl/oz/cltl/cornetto/,1,0,1,0.56,1,1,0.76,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.26
+apertium-rdf-ca-it,Apertium RDF CA-IT,absent,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,1,1,0.75,1,1,0,1,0.75,3.03
+omwn-tha,Thai WordNet (as part of Open Multilingual WordNet),http://compling.hss.ntu.edu.sg/omw/,1,0,1,0.78,1,1,0.8,0,1,0,1,0.5,1,1,0,1,0.75,0,1,0,1,0.5,2.55
+universal-dependencies-treebank-dutch-lassysmall,Universal Dependencies Treebank Dutch-LassySmall,https://github.com/UniversalDependencies/UD_Dutch-LassySmall,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,1,1,1,1,1,0,1,0.75,3.3
+universal-dependencies-treebank-portuguese-br,Universal Dependencies Treebank Portuguese-BR,https://github.com/UniversalDependencies/UD_Portuguese-BR,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,1,1,1,1,1,0,1,0.75,3.3
+universal-dependencies-treebank-french,Universal Dependencies Treebank French,https://github.com/UniversalDependencies/UD_French,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,1,1,1,1,1,0,1,0.75,3.3
+universal-dependencies-treebank-uyghur,Universal Dependencies Treebank Uyghur,https://github.com/UniversalDependencies/UD_Uyghur,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,1,1,1,1,1,0,1,0.75,3.3
+universal-dependencies-treebank-latin,Universal Dependencies Treebank Latin,https://github.com/UniversalDependencies/UD_Latin,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,0,1,0.75,0,1,0,1,0.5,2.8
+universal-dependencies-treebank-norwegian,Universal Dependencies Treebank Norwegian,https://github.com/UniversalDependencies/UD_Norwegian-Bokmaal,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,1,1,1,1,1,0,1,0.75,3.3
+universal-dependencies-treebank-english-lines,Universal Dependencies Treebank English-LinES,https://github.com/UniversalDependencies/UD_English-LinES,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,1,1,1,1,1,0,1,0.75,3.3
+PrinParLat,PrinParLat in LiLa,http://lila-erc.eu/data/lexicalResources/prinparlat/Lexicon,1,0,1,0.89,1,1,0.82,1,1,0,1,0.75,1,1,0,1,0.75,0,1,0,1,0.5,2.82
+omwn-nld,Open WordNet (as part of Open Multilingual WordNet),http://compling.hss.ntu.edu.sg/omw/,1,0,1,0.78,1,1,0.8,0,1,0,1,0.5,1,1,0,1,0.75,0,1,0,1,0.5,2.55
+apertium-rdf-es-ast,Apertium RDF ES-AST,absent,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,1,1,0.75,1,1,0,1,0.75,3.03
+apertium-rdf-oc-es,Apertium RDF OC-ES,absent,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,1,1,0.75,1,1,0,1,0.75,3.03
+universal-dependencies-treebank-hungarian,Universal Dependencies Treebank Hungarian,https://github.com/UniversalDependencies/UD_Hungarian,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,0,1,0.75,0,1,0,1,0.5,2.8
+catalan-eurowordnet-lemon-lexicon-3-0,Catalan EuroWordNet-lemon lexicon (3.0),absent,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,1,0,0,1,0.5,0,1,0,1,0.5,2.53
+universal-dependencies-treebank-estonian,Universal Dependencies Treebank Estonian,https://github.com/UniversalDependencies/UD_Estonian,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,1,1,1,1,1,0,1,0.75,3.3
+olia-discourse,OLiA Discourse,absent,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,0,1,0.75,0,1,0,1,0.5,2.8
+universal-dependencies-treebank-vietnamese,Universal Dependencies Treebank Vietnamese,https://github.com/UniversalDependencies/UD_Vietnamese,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,1,1,1,1,1,0,1,0.75,3.3
+mlsa,MLSA - A Multi-layered Reference Corpus for German Sentiment Analysis,http://iggsa.sentimental.li/index.php/downloads/,1,0,1,0.78,1,1,0.8,0,1,0,1,0.5,1,1,0,1,0.75,0,1,0,1,0.5,2.55
+kore-50-nif-ner-corpus,KORE 50 NIF NER Corpus,absent,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,1,1,1,1,1,0,1,0.75,3.3
+Latin_Vallex2.0,Latin Vallex 2.0 in LiLa,http://lila-erc.eu/data/lexicalResources/LatinVallex/Lexicon,1,0,1,0.89,1,1,0.82,1,1,0,1,0.75,1,1,0,1,0.75,0,1,0,1,0.5,2.82
+omwn-eng,Princeton WordNet (as part of Open Multilingual WordNet),http://compling.hss.ntu.edu.sg/omw/,1,0,1,0.78,1,1,0.8,0,1,0,1,0.5,1,1,0,1,0.75,0,1,0,1,0.5,2.55
+basque-eurowordnet-lemon-lexicon-3-0,Basque EuroWordNet-lemon lexicon (3.0),absent,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,1,0,0,1,0.5,0,1,0,1,0.5,2.53
+LucaniPharsalia,Lucani Pharsalia in LiLa,http://lila-erc.eu/data/corpora/CIRCSELatinLibrary/id/corpus/Pharsalia,1,0,1,0.89,1,1,0.82,1,1,0,1,0.75,1,1,0,1,0.75,0,1,0,1,0.5,2.82
+universal-dependencies-treebank-slovak,Universal Dependencies Treebank Slovak,https://github.com/UniversalDependencies/UD_Slovak,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,1,1,1,1,1,0,1,0.75,3.3
+apertium-rdf-es-ro,Apertium RDF ES-RO,absent,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,1,1,0.75,1,1,0,1,0.75,3.03
+universal-dependencies-treebank-portuguese-bosque,Universal Dependencies Treebank Portuguese-Bosque,https://github.com/UniversalDependencies/UD_Portuguese-Bosque,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,1,1,1,1,1,0,1,0.75,3.3
+framester,Framester,https://w3id.org/framester,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,0,1,0.75,0,1,0,1,0.5,2.8
+universal-dependencies-treebank-finnish-ftb,Universal Dependencies Treebank Finnish-FTB,https://github.com/UniversalDependencies/UD_Finnish-FTB,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,1,1,1,1,1,0,1,0.75,3.3
+open-bantu-isixhosa-lexicon,Open Bantu isiXhosa Lexicon,https://github.com/MMoOn-Project/OpenBantu/tree/master/xho,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,0,1,0.75,0,1,0,1,0.5,2.8
+sentiws,SentimentWortschatz,http://asv.informatik.uni-leipzig.de/download/sentiws.html,1,0,1,0.78,1,1,0.8,0,1,0,1,0.5,1,1,0,1,0.75,0,1,0,1,0.5,2.55
+clld-ewave,CLLD-EWAVE,http://ewave-atlas.org,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,1,1,1,1,1,0,1,0.75,3.3
+universal-dependencies-treebank-old-church-slavonic,Universal Dependencies Treebank Old_Church_Slavonic,https://github.com/UniversalDependencies/UD_Old_Church_Slavonic,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,1,1,1,1,1,0,1,0.75,3.3
+clld-phoible,CLLD-PHOIBLE,http://phoible.org,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,1,1,1,1,1,0,1,0.75,3.3
+omwn-ell,Greek WordNet (as part of Open Multilingual WordNet),http://compling.hss.ntu.edu.sg/omw/,1,0,1,0.78,1,1,0.8,0,1,0,1,0.5,1,1,0,1,0.75,0,1,0,1,0.5,2.55
+NLW,Neulateinische Wortliste in LiLa,http://lila-erc.eu/data/lexicalResources/NLW/Lexicon,1,0,1,0.89,1,1,0.82,1,1,0,1,0.75,1,1,0,1,0.75,0,1,0,1,0.5,2.82
+galician-eurowordnet-lemon-lexicon-3-0,Galician EuroWordNet-lemon lexicon (3.0),absent,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,1,0,0,1,0.5,0,1,0,1,0.5,2.53
+omwn-fas,Persian WordNet (as part of Open Multilingual WordNet),http://compling.hss.ntu.edu.sg/omw/,1,0,1,0.78,1,1,0.8,0,1,0,1,0.5,1,1,0,1,0.75,0,1,0,1,0.5,2.55
+muninn-world-war-i,Muninn World War I,rdf.muninn-project.org,1,0,1,0.89,1,1,0.82,1,1,0,1,0.75,1,1,0,1,0.75,0,1,0,1,0.5,2.82
+WordFormationLatin,Word Formation Latin (WFL) in LiLa,https://lila-erc.eu/data/lexicalResources/WFL/Lexicon,1,0,1,0.89,1,1,0.82,1,1,0,1,0.75,1,1,0,1,0.75,0,1,0,1,0.5,2.82
+saldo-rdf,SALDO-RDF,absent,1,0,1,0.89,1,1,0.82,1,1,0,1,0.75,1,1,0,1,0.75,0,1,0,1,0.5,2.82
+universal-dependencies-treebank-arabic,Universal Dependencies Treebank Arabic,https://github.com/UniversalDependencies/UD_Arabic,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,1,1,1,1,1,0,1,0.75,3.3
+universal-dependencies-treebank-basque,Universal Dependencies Treebank Basque,https://github.com/UniversalDependencies/UD_Basque,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,1,1,1,1,1,0,1,0.75,3.3
+glottolog,Glottolog,http://glottolog.org,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,1,1,1,1,1,0,1,0.75,3.3
+universal-dependencies-treebank-dutch,Universal Dependencies Treebank Dutch,https://github.com/UniversalDependencies/UD_Dutch,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,1,1,1,1,1,0,1,0.75,3.3
+saldom-rdf,SALDOM-RDF,absent,1,0,1,0.89,1,1,0.82,1,1,0,1,0.75,1,1,1,1,1,1,1,0,1,0.75,3.32
+omwn-arb,Arabic WordNet (as part of Open Multilingual WordNet),http://compling.hss.ntu.edu.sg/omw/,1,0,1,0.78,1,1,0.8,0,1,0,1,0.5,1,1,0,1,0.75,0,1,0,1,0.5,2.55
+Querolus,Querolus in LiLa,http://lila-erc.eu/data/corpora/Querolus/id/citationUnit/QuerolussiveAulularia,1,0,1,0.89,1,1,0.82,1,1,0,1,0.75,1,1,0,1,0.75,0,1,0,1,0.5,2.82
+omwn-dan,DanNet WordNet (as part of Open Multilingual WordNet),http://compling.hss.ntu.edu.sg/omw/,1,0,1,0.78,1,1,0.8,0,1,0,1,0.5,1,1,0,1,0.75,0,1,0,1,0.5,2.55
+linked-hypernyms,linked hypernyms,absent,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,0,1,0.75,0,1,0,1,0.5,2.8
+copyrighttermbank,CopyrightTermBank,absent,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,1,1,1,1,1,0,1,0.75,3.3
+universal-dependencies-treebank-russian-syntagrus,Universal Dependencies Treebank Russian-SynTagRus,https://github.com/UniversalDependencies/UD_Russian-SynTagRus,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,0,1,0.75,0,1,0,1,0.5,2.8
+gemet-annotated,gemet-annotated,absent,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,1,1,1,1,1,1,1,0,1,0.75,3.03
+rss-500-nif-ner-corpus,RSS-500 NIF NER CORPUS,absent,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,1,1,1,1,1,0,1,0.75,3.3
+apertium-rdf-eo-ca,Apertium RDF EO-CA,absent,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,1,1,0.75,1,1,0,1,0.75,3.03
+universal-dependencies-treebank-greek,Universal Dependencies Treebank Greek,https://github.com/UniversalDependencies/UD_Greek,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,0,1,0.75,0,1,0,1,0.5,2.8
+lemonwiktionary,LemonWiktionary,absent,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,1,0,1,1,0.75,1,1,0,1,0.75,3.03
+omwn-mcr,Multilingual Central Repository (as part of Open Multilingual WordNet),http://compling.hss.ntu.edu.sg/omw/,1,0,1,0.78,1,1,0.8,0,1,0,1,0.5,1,1,0,1,0.75,0,1,0,1,0.5,2.55
+wold,World Loanword Database,http://wold.livingsources.org/,1,0,1,0.78,1,1,0.8,0,1,0,1,0.5,1,1,1,1,1,1,1,0,1,0.75,3.05
+omwn-por,OpenWN-PT WordNet (as part of Open Multilingual WordNet),http://compling.hss.ntu.edu.sg/omw/,1,0,1,0.78,1,1,0.8,0,1,0,1,0.5,1,1,0,1,0.75,0,1,0,1,0.5,2.55
+parole-simple-lexinfo-ontology-lexicons,Parole/Simple 'lexinfo' Ontology & lexicons,http://gilmere.upf.edu/corpus_data/ParoleSimpleOntology/ParoleOntology.html,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,1,1,1,1,1,0,1,0.75,3.3
+universal-dependencies-treebank-slovenian,Universal Dependencies Treebank Slovenian,https://github.com/UniversalDependencies/UD_Slovenian,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,1,1,1,1,1,0,1,0.75,3.3
+chat-game-corpus,Chat Game corpus,absent,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,1,1,0,1,0.75,0,1,0,1,0.5,2.53
+apertium-rdf-es-gl,Apertium RDF ES-GL,absent,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,1,1,0.75,1,1,0,1,0.75,3.03
+universal-dependencies-treebank-ancient-greek-proiel,Universal Dependencies Treebank Ancient_Greek-PROIEL,https://github.com/UniversalDependencies/UD_Ancient_Greek-PROIEL,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,0,1,0.75,0,1,0,1,0.5,2.8
+CLaSSES,Corpus for Latin Sociolinguistic Studies on Epigraphic textS (CLaSSES) in LiLa,http://lila-erc.eu/data/corpora/CLaSSES/id/corpus,1,0,1,0.89,1,1,0.82,1,1,0,1,0.75,1,1,0,1,0.75,0,1,0,1,0.5,2.82
+universal-dependencies-treebank-slovenian-sst,Universal Dependencies Treebank Slovenian-SST,https://github.com/UniversalDependencies/UD_Slovenian-SST,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,1,1,1,1,1,0,1,0.75,3.3
+omwn-isl,IceWordNet WordNet (as part of Open Multilingual WordNet),http://compling.hss.ntu.edu.sg/omw/,1,0,1,0.78,1,1,0.8,0,1,0,1,0.5,1,1,0,1,0.75,0,1,0,1,0.5,2.55
+universal-dependencies-treebank-latin-ittb,Universal Dependencies Treebank Latin-ITTB,https://github.com/UniversalDependencies/UD_Latin-ITTB,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,1,1,1,1,1,0,1,0.75,3.3
+universal-dependencies-treebank-japanese-ktc,Universal Dependencies Treebank Japanese-KTC,https://github.com/UniversalDependencies/UD_Japanese-KTC,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,0,1,0.75,0,1,0,1,0.5,2.8
+universal-dependencies-treebank-chinese,Universal Dependencies Treebank Chinese,https://github.com/UniversalDependencies/UD_Chinese,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,0,1,0.75,0,1,0,1,0.5,2.8
+apertium-rdf-pt-ca,Apertium RDF PT-CA,absent,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,1,1,0.75,1,1,0,1,0.75,3.03
+associations,associations,https://w3id.org/associations,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,1,1,1,1,1,0,1,0.75,3.3
+omwn-swe,Swedish WordNet (as part of Open Multilingual WordNet),http://compling.hss.ntu.edu.sg/omw/,1,0,1,0.78,1,1,0.8,0,1,0,1,0.5,1,1,0,1,0.75,0,1,0,1,0.5,2.55
+mexico,MExiCo,absent,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,1,1,0,1,0.75,0,1,0,1,0.5,2.53
+universal-dependencies-treebank-danish,Universal Dependencies Treebank Danish,https://github.com/UniversalDependencies/UD_Danish,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,0,1,0.75,0,1,0,1,0.5,2.8
+germlex,Linked Old Germanic Dictionaries,absent,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,1,1,0,1,0.75,0,1,0,1,0.5,2.53
+LARK,Lark,http://ws.nju.edu.cn/adj2sp/,1,0,1,0.78,1,1,0.8,0,1,0,1,0.5,1,1,0,1,0.75,0,1,0,1,0.5,2.55
+apertium-rdf-eo-es,Apertium RDF EO-ES,absent,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,1,1,0.75,1,1,0,1,0.75,3.03
+apertium-rdf-es-an,Apertium RDF ES-AN,absent,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,1,1,0.75,1,1,0,1,0.75,3.03
+universal-dependencies-treebank-persian,Universal Dependencies Treebank Persian,https://github.com/UniversalDependencies/UD_Persian,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,0,1,0.75,0,1,0,1,0.5,2.8
+apertium-rdf-es-pt,Apertium RDF ES-PT,absent,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,1,1,0.75,1,1,0,1,0.75,3.03
+apertium-rdf-pt-gl,Apertium RDF PT-GL,absent,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,1,1,0.75,1,1,0,1,0.75,3.03
+universal-dependencies-treebank-ukrainian,Universal Dependencies Treebank Ukrainian,https://github.com/UniversalDependencies/UD_Ukrainian,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,1,1,1,1,1,0,1,0.75,3.3
+asit,Atlante Sintattico d'Italia (ASIt),http://purl.org/asit/alld,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,0,1,0.75,0,1,0,1,0.5,2.8
+universal-dependencies-treebank-latvian,Universal Dependencies Treebank Latvian,https://github.com/UniversalDependencies/UD_Latvian,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,1,1,1,1,1,0,1,0.75,3.3
+universal-dependencies-treebank-italian,Universal Dependencies Treebank Italian,https://github.com/UniversalDependencies/UD_Italian,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,1,1,1,1,1,0,1,0.75,3.3

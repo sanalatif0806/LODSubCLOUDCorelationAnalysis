@@ -1,0 +1,73 @@
+id,KG name,Dataset URL,F1-M Unique and persistent ID,F1-D URIs dereferenceability,F2a-M - Metadata availability via standard primary sources,F2b-M Metadata availability for all the attributes covered in the FAIR score computation,F3-M Data referrable via a DOI,F4-M Metadata registered in a searchable engine,F score,A1-D Working access point(s),A1-M Metadata availability via working primary sources,A1.2 Authentication & HTTPS support,A2-M Registered in search engines,A score,R1.1 Machine- or human-readable license retrievable via any primary source,R1.2 Publisher information such as authors-contributors-publishers and sources,R1.3-D Data organized in a standardized way,R1.3-M Metadata are described with VoID/DCAT predicates,R score,I1-D Standard & open representation format,I1-M Metadata are described with VoID/DCAT predicates,I2 Use of FAIR vocabularies,I3-D Degree of connection,I score,FAIR score
+miguiadeviajes-gnoss,"Mi Guía de Viajes, colección de guías de viaje para viajeros (GNOSS)",http://miguiadeviajes.net,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,0,1,0.75,0,1,0,1,0.5,2.8
+dbpedia,DBpedia,http://dbpedia.org/,,,,,,,,,,,,,,,,,,,,,,,
+interactivemaps-gnoss,"Interactive Maps, a collection of interactive flash maps (GNOSS)",http://mapasinteractivos.didactalia.net/comunidad/mapasflashinteractivos,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,0,1,0.75,0,1,0,1,0.5,2.8
+didactalia,"Didactalia, índice de recursos educativos para profesores, padres y alumnos (GNOSS)",http://didactalia.net,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,1,1,1,1,1,0,1,0.75,3.3
+flickr-wrappr,flickr? wrappr,http://www4.wiwiss.fu-berlin.de/flickrwrappr,1,0,1,0.56,1,1,0.76,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.26
+revyu,Revyu.com - Review Anything,http://revyu.com/,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.28
+https:www.childrensartmuseum.grLD-project,Greek Children Art  Museum dataset,https://www.childrensartmuseum.gr/LD-project/,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,0,1,0.75,0,1,0,1,0.5,2.8
+wikidata,Wikidata,https://www.wikidata.org/,1,1,1,0.89,1,1,0.98,1,1,1,1,1,1,1,1,1,1,1,1,0,1,0.75,3.73
+rubenverborgh,Ruben Verborgh's data,https://data.verborgh.org/ruben,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,0,1,0.75,0,1,0,1,0.5,2.8
+red-uno-internacional-santillana,Red Uno Internacional (Santillana),http://reduno-internacional.com/en/community/unoi,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,0,1,0.75,0,1,0,1,0.5,2.8
+abc,SummerOlympics,http://www.semanticweb.org/acer/ontologies/2021/11/untitled-ontology-6,1,0,1,0.78,1,1,0.8,0.5,1,0,1,0.62,1,1,0,1,0.75,0,1,0,1,0.5,2.67
+ineverycrea,"IneveryCREA, la comunidad de la creatividad educativa",http://ineverycrea.net/,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,0,1,0.75,0,1,0,1,0.5,2.8
+ineverycrea-argentina,"IneveryCREA Argentina, la comunidad de la creatividad educativa",http://ineverycrea.net/en/community/ineverycreaargentina,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,1,1,1,1,1,0,1,0.75,3.3
+ASCDC-Qing-Secret-Societies,Dataset of the Qing Secret Societies (Sect of the Shifokou Wangs' Clan),https://www1.ihp.sinica.edu.tw/en/Fellows/Shu-Jiun_Chen,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,0,1,0.75,0,1,0,1,0.5,2.8
+ASCDC-DQOT,Database of Qing Official Titles (DQOT),https://data.ascdc.tw/en/data.php,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,1,1,0,1,0.75,0,1,0,1,0.5,2.53
+ASCDC_-_DNB,Database of Names and Biographies (DNB),https://data.ascdc.tw/en/data.php,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,1,1,0,1,0.75,0,1,0,1,0.5,2.53
+green-competitiveness-gnoss,Green Competitiveness (GNOSS),http://red.gnoss.com/en/community/greencompetitiveness,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,0,1,0.75,0,1,0,1,0.5,2.8
+aegp-spanish-textile-and-clothing-association,"AEGP, Spanish Textile and Clothing Association",http://red.gnoss.com/comunidad/buscaempresas,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,0,1,0.75,0,1,0,1,0.5,2.8
+rism,Répertoire International des Sources Musicales - RISM,absent,1,1,1,0.78,1,1,0.96,1,1,1,1,1,1,1,0,1,0.75,0,1,0,1,0.5,3.21
+cpv-2008,CPV 2008,http://www.josemalvarez.es/web/2011/11/16/product-scheme-classifications/,1,0,1,0.78,1,1,0.8,0,1,0,1,0.5,1,1,0,1,0.75,0,1,0,1,0.5,2.55
+naics-2012,NAICS 2012,http://www.josemalvarez.es/web/2011/11/16/product-scheme-classifications/,1,0,1,0.78,1,1,0.8,0,1,0,1,0.5,1,1,0,1,0.75,0,1,0,1,0.5,2.55
+openlinksw-dataspaces,openlinksw dataspaces,absent,1,0,1,0.44,1,1,0.74,0,1,0,1,0.5,0,0,0,1,0.25,0,1,0,1,0.5,1.99
+semanlink,semanlink,absent,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+apache,apache,absent,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,1,0,0,1,0.5,0,1,0,1,0.5,2.53
+prefix-cc,prefix.cc,http://prefix.cc/,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,1,1,1,1,1,0,1,0.75,3.3
+semanticweb-org,semanticweb.org,http://semanticweb.org/,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,1,1,1,1,1,1,1,0,1,0.75,3.03
+typepad,typepad,absent,1,0,1,0.44,1,1,0.74,0,1,0,1,0.5,0,0,0,1,0.25,0,1,0,1,0.5,1.99
+wordpress,wordpress,absent,1,0,1,0.56,1,1,0.76,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.51
+myopenlink-dataspaces,myopenlink dataspaces,absent,1,0,1,0.56,1,1,0.76,1,1,0,1,0.75,0,0,0,1,0.25,0,1,0,1,0.5,2.26
+universidad-de-cuenca-linkeddata,Universidad de Cuenca - LinkedData,absent,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,0,1,0.75,0,1,0,1,0.5,2.8
+deustotech,DeustoTech (Deusto Institute of Technology),http://deusto.gnoss.com,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,0,1,0.75,0,1,0,1,0.5,2.8
+dblp-deusto-gnoss,DBLP Research Groups (University of Deusto-GNOSS),http://researchgroups.gnoss.com,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,0,1,0.75,0,1,0,1,0.5,2.8
+deustoentrepreneurship,Deusto Entrepreneurship: sharing business knowledge,http://deusto.gnoss.com/en/community/deustoEntrepreneurship,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,0,1,0.75,0,1,0,1,0.5,2.8
+yovisto,Yovisto - academic video search,http://www.yovisto.com/ontology/,1,0,1,0.89,1,1,0.82,1,1,0,1,0.75,1,1,1,1,1,1,1,0,1,0.75,3.32
+utpl-lod,Universidad Técnica Particular de Loja - Linked Open Data,absent,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,1,1,0,1,0.75,0,1,0,1,0.5,2.53
+berlios,berlios,absent,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+linkedmarkmail,LinkedMarkMail,http://linkedmarkmail.wikier.org/,1,0,1,0.56,1,1,0.76,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.26
+rdfohloh,RDFohloh,http://rdfohloh.wikier.org,1,0,1,0.56,1,1,0.76,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.26
+roceeh-road,ROCEEH Out of Africa Database (ROAD),https://www.hadw-bw.de/en/research/research-center/roceeh,1,0,1,0.67,1,1,0.78,1,1,1,1,1,1,1,0,1,0.75,0,1,0,1,0.5,3.03
+elviajero,El Viajero's tourism dataset,http://webenemasuno.linkeddata.es/,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,0,1,1,1,0.75,1,1,0,1,0.75,3.05
+ce4r,CE4R Knowledge Centre Corporate Excellence – Centre for Reputation Leadership,http://corporateexcellence.net/en/community/patronato,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,0,1,0.75,0,1,0,1,0.5,2.8
+newborn-photography-maternity-photoshoot-shivani-goyal,Shivani Goyal Photography,https://shivanigoyalphotography.com/,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,0,1,0.75,0,1,0,1,0.5,2.8
+prospects-and-trends-gnoss,Prospects and Trends (GNOSS),http://gnoss.com/comunidad/prospectivatecnologica,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,0,1,0.75,0,1,0,1,0.5,2.8
+gnoss-com-a-social-and-semantic-platform,"GNOSS.com, a Social and Semantic Platform",http://gnoss.com/en/home,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,0,1,0.75,0,1,0,1,0.5,2.8
+museosespania-gnoss,"Museos de España, colección de museos públicos y privados españoles (GNOSS)",http://museos.gnoss.com/comunidad/mismuseos/,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,1,1,1,1,1,0,1,0.75,3.3
+ichoose,ichoose,absent,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,0,1,1,0.5,1,1,0,1,0.75,2.78
+ASCDC_-_CCP_Archive,"Dataset of the Chen Cheng-po’s Paintings and Documents (CCP) in the Taiwan Archive Information System (TAIS- ITH/ASCDC) at the Institute of Taiwan History, Academia Sinica",https://data.ascdc.tw/en/data.php,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,1,1,0,1,0.75,0,1,0,1,0.5,2.53
+ASCDC-IHP-WCD,Database of the Han Wooden Slips Character Dictionary (WCD),https://data.ascdc.tw/en/data.php,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,1,1,0,1,0.75,0,1,0,1,0.5,2.53
+ASCDC-_NTM-Formosan-Aborigines,The National Taiwan Museum's Formosan Aborigines Collections Digitizing Project (NTM-Formosan-Aborigines),https://data.ascdc.tw/en/data.php,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,1,1,0,1,0.75,0,1,0,1,0.5,2.53
+AntiqueCarsCollection,Antique Cars Collection (Linked Cars),http://linkedcars.mywebcommunity.org/Main.html,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,1,1,0,1,0.75,0,1,0,1,0.5,2.53
+twarql,Twarql,http://wiki.knoesis.org/index.php/Twarql,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.28
+the-living-lod-cloud,The Living LOD Cloud,absent,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,1,1,1,1,1,0,1,0.75,3.3
+proyectoapadrina,"Proyecto Apadrina,  Marketing Punto de Venta",http://gnoss.com/comunidad/MPV-APADRINA,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,0,1,0.75,0,1,0,1,0.5,2.8
+ASCDC-Linked-Taiwan-Artists,Linked Taiwan Artists (LTA),https://linkedart.ascdc.tw/index.php,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,1,1,0,1,0.75,0,1,0,1,0.5,2.53
+garnicaplywood,Garnica Plywood Catalogue,http://products.garnicaplywood.com/comunidad/garnicacatalogo,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,0,1,0.75,0,1,0,1,0.5,2.8
+my-experiment,myExperiment,http://www.myexperiment.org,1,0,1,0.89,1,1,0.82,1,1,0,1,0.75,1,1,1,1,1,1,1,0,1,0.75,3.32
+artenuevosmedios-gnoss,Entornos interactivos. Arte en los nuevos medios (GNOSS),http://gnoss.com/comunidad/Interactivos,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,0,1,0.75,0,1,0,1,0.5,2.8
+biblioteca-escolar-digital-cita,Biblioteca Escolar Digital CITA,http://red.gnoss.com/comunidad/Biblioteca-Escolar-Digital,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,0,1,0.75,0,1,0,1,0.5,2.8
+open-data-risp,"Open Data RISP, the Spanish Open Data community",http://red.gnoss.com/comunidad/OpenData,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,0,1,0.75,0,1,0,1,0.5,2.8
+Swift,Swift Vocabulary,http://purl.org/lu/uni/alma/swift,1,0.270050761,1,0.89,1,1,0.86,1,1,1,1,1,1,1,0,1,0.75,0,1,0,1,0.5,3.11
+npm,NPM,https://github.com/LinkedSoftwareDependencies/npm-extraction-server,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,1,1,0,1,0.75,0,1,0,1,0.5,2.53
+klappstuhlclub,Klappstuhlclub,http://klappstuhlclub.de,1,0,1,0.56,1,1,0.76,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.26
+my-family-lineage,My Family Lineage,http://my-family-lineage.com/wiki/Main_Page,1,0,1,0.89,1,1,0.82,1,1,0,1,0.75,1,1,1,1,1,1,1,0,1,0.75,3.32
+arthroscopy,Arthroscopy community,http://gnoss.com/comunidad/Arthroscopy,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,0,1,0.75,0,1,0,1,0.5,2.8
+athelia-rfid,"Athelia RFID, a global knowledge network of RFID technology",http://athelia.com,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,0,1,0.75,0,1,0,1,0.5,2.8
+greekchildrensartmuseum,Greek Children Art  Museum dataset,https://www.childrensartmuseum.gr/LD-project/,1,0,1,0.89,1,1,0.82,1,1,0,1,0.75,1,1,1,1,1,1,1,0,1,0.75,3.32
+lotico,Lotico,http://www.lotico.com/,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,1,1,0.75,1,1,0,1,0.75,3.03
+PREJUST4WOMAN_PROJECT,PREJUST4WOMEN Knowledge Graph,https://github.com/khaoulafatima/PJ4W,1,0,1,0.89,1,1,0.82,1,1,0,1,0.75,1,1,1,1,1,1,1,0,1,0.75,3.32
+john-goodwins-family-tree,John Goodwin's Family Tree,http://www.johngoodwin.me.uk/family/,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.28
+rubentaelman,Ruben Taelman's Data,https://github.com/rubensworks/rubensworks.net,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+ASCDC-AS-NTUE-School-Art-Textbooks,Archive of the Art Textbooks of Elementary and Public Schools in the Japanese Colonial Period (AS-NTUE-School-Art-Textbooks),https://data.ascdc.tw/en/data.php,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,1,1,0,1,0.75,0,1,0,1,0.5,2.53
+upper-ontology,Super Ontology,https://sonika-malik.github.io/super-ontology/sup_proton.xml,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,0,1,0.75,0,1,0,1,0.5,2.8

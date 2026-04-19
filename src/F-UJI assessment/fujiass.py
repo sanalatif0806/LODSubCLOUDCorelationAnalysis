@@ -7,23 +7,17 @@ from pathlib import Path
 # -----------------------------
 # CONFIG
 
-# ── Paths ────────────────────────────────────────────────────────────────────
-BASE_DIR     = Path(__file__).parent          # src/
-DATA_DIR     = BASE_DIR.parent.parent            # project root (one level up from src/)
+BASE_DIR     = Path(__file__).parent
+DATA_DIR     = BASE_DIR.parent.parent
 print(BASE_DIR)
 print(DATA_DIR)
 FAIR_FILE    = DATA_DIR / "data" /"ass"/ "KGHBeatassessmentResult"/"FAIRASSInput"/ "2025-04-27.csv"
 SUBCLOUD_DIR = DATA_DIR / "data" /"LODsubclouds"
-OUTPUT_DIR     =DATA_DIR/ "data" / "ass" / "F-UJIassessmentResult"
+OUTPUT_DIR   = DATA_DIR/ "data" / "ass" / "F-UJIassessmentResult"
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
-
-
-OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
-
 
 DEBUG_RESPONSE = OUTPUT_DIR / "debug_first_response.json"
 
-# Local F-UJI server
 FUJI_API      = "http://localhost:1071/fuji/api/v1/evaluate"
 FUJI_USER     = "marvel"
 FUJI_PASSWORD = "wonderwoman"
@@ -32,29 +26,45 @@ REQUEST_DELAY = 3
 TIMEOUT       = 120
 LOD_BASE_URL  = "https://lod-cloud.net/dataset/"
 
+# -----------------------------
+# DESIRED COLUMNS
+# -----------------------------
+DESIRED_COLUMNS = [
+    "id", "url",
+    "FsF_A1_01M_1_earned", "FsF_A1_01M_earned",
+    "FsF_A1_02MD_1_earned", "FsF_A1_02MD_2_earned", "FsF_A1_02MD_earned",
+    "FsF_A1_1_01MD_1_earned", "FsF_A1_1_01MD_2_earned", "FsF_A1_1_01MD_earned",
+    "FsF_A1_2_01MD_1_earned", "FsF_A1_2_01MD_2_earned", "FsF_A1_2_01MD_earned",
+    "FsF_F1_01MD_1_earned", "FsF_F1_01MD_2_earned", "FsF_F1_01MD_earned",
+    "FsF_F1_02MD_1_earned", "FsF_F1_02MD_2_earned", "FsF_F1_02MD_4_earned",
+    "FsF_F1_02MD_5_earned", "FsF_F1_02MD_earned",
+    "FsF_F2_01M_2_earned", "FsF_F2_01M_3_earned", "FsF_F2_01M_earned",
+    "FsF_F3_01M_2_earned", "FsF_F3_01M_earned",
+    "FsF_F4_01M_1_earned", "FsF_F4_01M_earned",
+    "FsF_I1_01M_1_earned", "FsF_I1_01M_2_earned", "FsF_I1_01M_earned",
+    "FsF_I2_01M_2_earned", "FsF_I2_01M_earned",
+    "FsF_I3_01M_1_earned", "FsF_I3_01M_2_earned", "FsF_I3_01M_earned",
+    "FsF_R1_01M_1_earned", "FsF_R1_01M_2_earned", "FsF_R1_01M_3_earned", "FsF_R1_01M_earned",
+    "FsF_R1_1_01M_1_earned", "FsF_R1_1_01M_earned",
+    "FsF_R1_2_01M_1_earned", "FsF_R1_2_01M_2_earned", "FsF_R1_2_01M_earned",
+    "FsF_R1_3_01M_1_earned", "FsF_R1_3_01M_3_earned", "FsF_R1_3_01M_earned",
+    "FsF_R1_3_02D_1_earned", "FsF_R1_3_02D_earned",
+    "score_earned_A", "score_earned_A1", "score_earned_A1_1", "score_earned_A1_2",
+    "score_earned_F", "score_earned_F1", "score_earned_F2", "score_earned_F3", "score_earned_F4",
+    "score_earned_FAIR",
+    "score_earned_I", "score_earned_I1", "score_earned_I2", "score_earned_I3",
+    "score_earned_R", "score_earned_R1", "score_earned_R1_1", "score_earned_R1_2", "score_earned_R1_3",
+]
 
 # -----------------------------
 # EXTRACT SUMMARY SCORES
 # -----------------------------
 def extract_summary_scores(summary: dict, url: str) -> dict:
-    score_earned  = summary.get("score_earned", {})
-    score_total   = summary.get("score_total", {})
-    score_percent = summary.get("score_percent", {})
-    status_total  = summary.get("status_total", {})
-    status_passed = summary.get("status_passed", {})
-    maturity      = summary.get("maturity", {})
-
+    score_earned = summary.get("score_earned", {})
     result = {"url": url}
-
-    for key in score_earned:
+    for key, value in score_earned.items():
         safe_key = key.replace(".", "_")
-        result[f"score_earned_{safe_key}"]  = score_earned.get(key)
-        result[f"score_total_{safe_key}"]   = score_total.get(key)
-        result[f"score_percent_{safe_key}"] = score_percent.get(key)
-        result[f"status_total_{safe_key}"]  = status_total.get(key)
-        result[f"status_passed_{safe_key}"] = status_passed.get(key)
-        result[f"maturity_{safe_key}"]      = maturity.get(key)
-
+        result[f"score_earned_{safe_key}"] = value
     return result
 
 
@@ -97,20 +107,16 @@ def evaluate_with_fuji(url: str, save_debug: bool = False) -> dict | None:
             metric_id = raw_id.replace("-", "_").replace(".", "_")
             score_block = metric.get("score", {})
 
-            result[f"{metric_id}_earned"]   = score_block.get("earned", 0)
-            result[f"{metric_id}_total"]    = score_block.get("total", 0)
-            result[f"{metric_id}_maturity"] = metric.get("maturity", 0)
-            result[f"{metric_id}_status"]   = metric.get("test_status", "")
+            result[f"{metric_id}_earned"] = score_block.get("earned", 0)
 
             for test_id, test_data in metric.get("metric_tests", {}).items():
                 clean_test_id = test_id.replace("-", "_").replace(".", "_")
                 test_score = test_data.get("metric_test_score", {})
-                result[f"{clean_test_id}_earned"]   = test_score.get("earned", 0)
-                result[f"{clean_test_id}_total"]    = test_score.get("total", 0)
-                result[f"{clean_test_id}_status"]   = test_data.get("metric_test_status", "")
-                result[f"{clean_test_id}_maturity"] = test_data.get("metric_test_maturity", 0)
+                result[f"{clean_test_id}_earned"] = test_score.get("earned", 0)
 
-        return result
+        # Filter to only desired columns (fill missing with None)
+        filtered = {col: result.get(col, None) for col in DESIRED_COLUMNS if col != "id"}
+        return filtered
 
     except Exception as e:
         print(f"   ⚠️ Error: {e}")
@@ -175,9 +181,11 @@ for sc_path in subcloud_files:
     df_failed  = pd.DataFrame(failed)
 
     if not df_results.empty:
-        base_cols  = ["id", "url"]
-        other_cols = [c for c in df_results.columns if c not in base_cols]
-        df_results = df_results[base_cols + sorted(other_cols)]
+        # Ensure all desired columns exist, in order
+        for col in DESIRED_COLUMNS:
+            if col not in df_results.columns:
+                df_results[col] = None
+        df_results = df_results[DESIRED_COLUMNS]
 
     df_results.to_csv(OUTPUT_DIR / f"{topic}.csv",        index=False, encoding="utf-8")
     df_failed.to_csv( OUTPUT_DIR / f"{topic}_failed.csv", index=False, encoding="utf-8")
