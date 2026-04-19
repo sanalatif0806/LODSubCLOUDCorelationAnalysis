@@ -1,0 +1,48 @@
+id,KG name,Dataset URL,F1-M Unique and persistent ID,F1-D URIs dereferenceability,F2a-M - Metadata availability via standard primary sources,F2b-M Metadata availability for all the attributes covered in the FAIR score computation,F3-M Data referrable via a DOI,F4-M Metadata registered in a searchable engine,F score,A1-D Working access point(s),A1-M Metadata availability via working primary sources,A1.2 Authentication & HTTPS support,A2-M Registered in search engines,A score,R1.1 Machine- or human-readable license retrievable via any primary source,R1.2 Publisher information such as authors-contributors-publishers and sources,R1.3-D Data organized in a standardized way,R1.3-M Metadata are described with VoID/DCAT predicates,R score,I1-D Standard & open representation format,I1-M Metadata are described with VoID/DCAT predicates,I2 Use of FAIR vocabularies,I3-D Degree of connection,I score,FAIR score
+the-view-from,The View From,http://theviewfrom.org/,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.28
+dbpedia,DBpedia,http://dbpedia.org/,,,,,,,,,,,,,,,,,,,,,,,
+geonames-semantic-web,GeoNames Semantic Web,http://www.geonames.org/ontology/,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,0,1,0.75,0,1,0,1,0.5,2.8
+linkedgeodata,LinkedGeoData,http://linkedgeodata.org/,,,,,,,,,,,,,,,,,,,,,,,
+fishes-of-texas,Fishes of Texas,http://data.fishesoftexas.org,1,0,1,0.56,1,1,0.76,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.26
+thist,ThIST,http://purl.org/NET/ThISTWebPage,1,0,1,0.89,1,1,0.82,1,1,0,1,0.75,1,1,1,1,1,1,1,0,1,0.75,3.32
+environmental-applications-reference-thesaurus,EARTh,http://thesaurus.iia.cnr.it/index.php/vocabularies/earth,1,0,1,0.89,1,1,0.82,1,1,0,1,0.75,1,1,1,1,1,1,1,0,1,0.75,3.32
+oceandrilling-janusamp,Ocean Drilling - Janus Age Models,http://chronos.org/janusAmp/,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.55
+oceandrilling-codices,Ocean Drilling - Codices,http://data.oceandrilling.org/codices/,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.55
+norwegian-geo-divisions,Norwegian geo-divisions,http://data.lenka.no/,1,0,1,0.89,1,1,0.82,1,1,0,1,0.75,1,1,1,1,1,1,1,0,1,0.75,3.32
+eventseer,Eventseer,http://redux.eventseer.net/,1,0,1,0.78,1,1,0.8,0,1,0,1,0.5,1,1,1,1,1,1,1,0,1,0.75,3.05
+Smart_POI_dataset,Smart Points Of Interest @PSNC,https://www.foodie-cloud.org/fct/,,,,,,,,,,,,,,,,,,,,,,,
+los_metar,Weather Stations,http://www.linkedopenservices.org/services/geo/SpatialResources/point/ICAO/,1,0,1,0.56,1,1,0.76,0,1,0,1,0.5,0,1,1,1,0.75,1,1,0,1,0.75,2.76
+pleiades,Pleiades,http://pleiades.stoa.org/,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,1,1,1,1,1,0,1,0.75,3.3
+riese,RDFizing and Interlinking the EuroStat Data Set Effort,http://riese.joanneum.at/data/,1,0,1,0.56,1,1,0.76,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.26
+oceandrilling-forams,Ocean Drilling - Forams,http://data.oceandrilling.org/linkeddata.html,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.55
+world-wide-web-foundation,World Wide Web Foundation,http://data.webfoundation.org,1,0,1,0.56,1,1,0.76,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.26
+fao-geopolitical-ontology,FAO geopolitical ontology,http://www.fao.org/countryprofiles/geoinfo.asp?lang=en,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,1,1,1,1,1,0,1,0.75,3.3
+taiwan-geographic-names,Taiwan geographic names,absent,1,0,1,0.78,1,1,0.8,0,1,0,1,0.5,1,1,1,1,1,1,1,0,1,0.75,3.05
+GTS-ont,Geological Timescale Ontology,https://github.com/CGI-IUGS/timescale-ont,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,0,1,0.75,0,1,0,1,0.5,2.8
+linked-uspto-patent-data,USPTO Patent data,http://aksw.org/Projects/USPatents.html,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,1,1,0,1,0.75,0,1,0,1,0.5,2.53
+statusnet-ldn-fai-net,statusnet-ldn-fai-net,absent,1,0,1,0.44,1,1,0.74,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.24
+geolinkeddata,GeoLinkedData,http://geo.linkeddata.es/,1,0,1,0.78,1,1,0.8,0,1,0,1,0.5,1,1,0,1,0.75,0,1,0,1,0.5,2.55
+grrp,Accommodations in Piedmont (LinkedOpenData.it),http://www.linkedopendata.it/datasets/grrp,1,0,1,0.78,1,1,0.8,0,1,0,1,0.5,1,1,1,1,1,1,1,0,1,0.75,3.05
+geological-survey-of-austria-thesaurus,Geological Survey of Austria (GBA) - Thesaurus,http://resource.geolba.ac.at/,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,4
+statusnet-hii-co-il,statusnet-hii-co-il,absent,1,0,1,0.44,1,1,0.74,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.24
+osm-semantic-network,OSM Semantic Network,http://wiki.openstreetmap.org/wiki/OSM_Semantic_Network,1,0,1,0.78,1,1,0.8,0,1,0,1,0.5,1,1,1,1,1,1,1,0,1,0.75,3.05
+linked-logainm,Linked Logainm,absent,1,0.5044,1,0.89,1,1,0.9,1,1,1,1,1,1,1,0,1,0.75,0,1,0,1,0.5,3.15
+yahoo_geoplanet,Yahoo Geoplanet RDF,http://kasabi.com/dataset/yahoo-geoplanet,1,0,1,0.89,1,1,0.82,1,1,0,1,0.75,1,1,1,1,1,1,1,0,1,0.75,3.32
+ordnance-survey-linked-data,Ordnance Survey Linked Data,http://data.ordnancesurvey.co.uk/,1,0,1,0.89,1,1,0.82,1,1,0,1,0.75,1,1,1,1,1,1,1,0,1,0.75,3.32
+telegraphis,Telegraphis Linked Data,http://telegraphis.net/data/,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,0,1,1,1,0.75,1,1,0,1,0.75,3.05
+GTS,Geological Timescale,https://github.com/CGI-IUGS/timescale-data,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,0.75,0,1,0,1,0.5,3.25
+Earthquake,Emergency situation,https://raw.githubusercontent.com/sonia04021991/Ontology,1,0,1,0.89,1,1,0.82,1,1,0,1,0.75,1,1,0,1,0.75,0,1,0,1,0.5,2.82
+grrt,Accommodations in Tuscany (LinkedOpenData.it),http://www.linkedopendata.it/datasets/grrt,1,0,1,0.78,1,1,0.8,0,1,0,1,0.5,1,1,1,1,1,1,1,0,1,0.75,3.05
+statusnet-coreyavis-com,statusnet-coreyavis-com,absent,1,0,1,0.44,1,1,0.74,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.24
+greek-administrative-geography,greek-administrative-geography,absent,1,0,1,0.44,1,1,0.74,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.24
+geowordnet,GeoWordNet,http://geowordnet.semanticmatching.org/,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,0,1,0.75,0,1,0,1,0.5,2.8
+eea-vocabularies,EEA Vocabularies,absent,1,0,1,0.78,1,1,0.8,0.5,1,0,1,0.62,1,1,1,1,1,1,1,0,1,0.75,3.17
+Earthquake_case,ESO,https://github.com/sonia04021991/earthquake-KG,1,0,1,0.89,1,1,0.82,1,1,0,1,0.75,1,1,0,1,0.75,0,1,0,1,0.5,2.82
+lobid-organisations,lobid-organisations,http://lobid.org/organisation,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.55
+Uganda-Disasters-rdf-data_,Uganda Disasters,http://ld4du.optimistcarter.com,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,1,1,0,1,0.75,0,1,0,1,0.5,2.53
+linkedcrowdsourceddata,Linked Crowdsourced Data,absent,1,0,1,0.78,1,1,0.8,0,1,0,1,0.5,1,1,0,1,0.75,0,1,0,1,0.5,2.55
+openmobilenetwork,OpenMobileNetwork,http://www.openmobilenetwork.org,1,0,1,0.89,1,1,0.82,1,1,0,1,0.75,1,1,0,1,0.75,0,1,0,1,0.5,2.82
+uk-postcodes,UK Postcodes,http://www.uk-postcodes.com/,1,0,1,0.56,1,1,0.76,0,1,0,1,0.5,1,1,0,1,0.75,0,1,0,1,0.5,2.51
+nuts-geovocab,NUTS (GeoVocab),http://nuts.geovocab.org/,1,0,1,0.56,1,1,0.76,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.26
+near,Near,http://beta.kasabi.com/dataset/near,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,1,1,1,1,1,0,1,0.75,3.3
+knoesis-linked-sensor-data,Linked Sensor Data (Kno.e.sis),http://wiki.knoesis.org/index.php/SSW_Datasets,1,0,1,0.78,1,1,0.8,0,1,0,1,0.5,1,1,1,1,1,1,1,0,1,0.75,3.05

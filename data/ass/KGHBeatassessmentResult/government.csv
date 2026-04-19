@@ -1,0 +1,196 @@
+id,KG name,Dataset URL,F1-M Unique and persistent ID,F1-D URIs dereferenceability,F2a-M - Metadata availability via standard primary sources,F2b-M Metadata availability for all the attributes covered in the FAIR score computation,F3-M Data referrable via a DOI,F4-M Metadata registered in a searchable engine,F score,A1-D Working access point(s),A1-M Metadata availability via working primary sources,A1.2 Authentication & HTTPS support,A2-M Registered in search engines,A score,R1.1 Machine- or human-readable license retrievable via any primary source,R1.2 Publisher information such as authors-contributors-publishers and sources,R1.3-D Data organized in a standardized way,R1.3-M Metadata are described with VoID/DCAT predicates,R score,I1-D Standard & open representation format,I1-M Metadata are described with VoID/DCAT predicates,I2 Use of FAIR vocabularies,I3-D Degree of connection,I score,FAIR score
+opendatacommunities-dev-local-authority-services,opendatacommunities-dev-local-authority-services,absent,1,0,1,0.44,1,1,0.74,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.24
+esd-standards,ESD Standards: Controlled lists for the UK public sector,http://standards.esd.org.uk/,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+opendatacommunities-transparency-impact-indicators-troubled-families,opendatacommunities-transparency-impact-indicators-troubled-families,absent,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+reference-data-gov-uk,reference.data.gov.uk,http://reference.data.gov.uk/,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.28
+statistics-data-gov-uk,statistics.data.gov.uk,http://statistics.data.gov.uk/,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.28
+open-energy-info-wiki,OpenEI - Open Energy Info,http://en.openei.org/,,,,,,,,,,,,,,,,,,,,,,,
+dbpedia,DBpedia,http://dbpedia.org/,,,,,,,,,,,,,,,,,,,,,,,
+cz-cuzk-legal-relationships-documents,Code lists of the legal relationships and documents,http://ruian.linked.opendata.cz/resource/dataset/cuzk/pravni-vztahy-listiny,1,0,1,0.78,1,1,0.8,0,1,0,1,0.5,1,1,1,1,1,1,1,0,1,0.75,3.05
+cz-cuzk-cadastre-offices,Cadastre offices from Czech land registry,http://ruian.linked.opendata.cz/resource/dataset/cuzk/pracoviste-resortu,1,0,1,0.78,1,1,0.8,0,1,0,1,0.5,1,1,1,1,1,1,1,0,1,0.75,3.05
+govtrack,GovTrack.us U.S Congress Legislative Data,http://www.govtrack.us,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.28
+opendatacommunities-homelessness-households-accommodated-temporary-housing-types,opendatacommunities-homelessness-households-accommodated-temporary-housing-types,absent,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+english-index-of-multiple-deprivation-ranking-2010,English Index of Multiple Deprivation Ranking 2010,http://opendatacommunities.org/data/imd-rank-2010,1,0,1,0.89,1,1,0.82,1,1,1,1,1,1,1,1,1,1,1,1,0,1,0.75,3.57
+odc-lsoa,Open Data Communities - Lower layer Super Output Areas,http://opendatacommunities.org/datasets/geography,1,0,1,0.89,1,1,0.82,1,1,1,1,1,1,1,0,1,0.75,0,1,0,1,0.5,3.07
+uk-legislation-api,UK Legislation,http://www.legislation.gov.uk/,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,0,1,0.75,0,1,0,1,0.5,2.8
+fu-berlin-eurostat,Eurostat in RDF (FU Berlin),http://www4.wiwiss.fu-berlin.de/eurostat/,1,0,1,0.56,1,1,0.76,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.26
+eurostat-rdf,Eurostat RDF datasets,http://ec.europa.eu/eurostat/ramon/rdfdata/,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,1,1,0,1,0.75,0,1,0,1,0.5,2.53
+cipfa,CIPFA,http://www.cipfa.org.uk,1,0,1,0.44,1,1,0.74,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.24
+cz-cenia-irz-chemicals,Chemicals reported to the Integrated register of pollution,http://linked.opendata.cz/resource/dataset/cenia-irz-chemicals,1,0,1,0.78,1,1,0.8,0,1,0,1,0.5,1,1,0,1,0.75,0,1,0,1,0.5,2.55
+cz-cenia-pollution,Integrated pollution registry,http://linked.opendata.cz/resource/dataset/cenia.cz/irz,1,0,1,0.78,1,1,0.8,0,1,0,1,0.5,1,1,0,1,0.75,0,1,0,1,0.5,2.55
+opendatacommunities-homelessness-acceptances-per-1000,opendatacommunities-homelessness-acceptances-per-1000,absent,1,0,1,0.44,1,1,0.74,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.24
+cz-czso-job-applicants-and-unemployment-rate,Job applicants and unemployment rate in regions of Czech Republic,http://data.czso.cz/resource/dataset/job-applicants-and-unemployment-rate,1,0,1,0.89,1,1,0.82,1,1,0,1,0.75,1,1,1,1,1,1,1,0,1,0.75,3.32
+cz-ruian,"Registry of territorial identification, addresses and real estate of the Czech Republic",https://ruian.linked.opendata.cz/zdroj/datová-sada/rúian,1,0.8532,1,0.89,1,1,0.96,1,1,1,1,1,1,1,0,1,0.75,0,1,0,1,0.5,3.21
+data-gov-uk-time-intervals,data.gov.uk Time Intervals,http://www.epimorphics.com/web/wiki/using-interval-set-uris-statistical-data,1,0,1,0.56,1,1,0.76,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.26
+education-data-gov-uk,education.data.gov.uk,http://education.data.gov.uk/,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,0,1,1,1,0.75,1,1,0,1,0.75,3.05
+research-data-gov-uk,research.data.gov.uk,http://research.data.gov.uk/,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.28
+government-web-integration-for-linked-data,GovWILD - Government Web Integration for Linked Data,http://govwild.hpi-web.de/project/govwild-sources.html,1,0,1,0.78,1,1,0.8,0,1,0,1,0.5,1,1,1,1,1,1,1,0,1,0.75,3.05
+opendatacommunities-wellbeing-lsoa-happy-yesterday-mean,opendatacommunities-wellbeing-lsoa-happy-yesterday-mean,absent,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+transport-data-gov-uk,transport.data.gov.uk,http://transport.data.gov.uk/,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,0,1,1,1,0.75,1,1,0,1,0.75,3.05
+opendatacommunities-transparency-impact-indicators-households-in-temporary-accommodation,opendatacommunities-transparency-impact-indicators-households-in-temporary-accommodation,absent,1,0,1,0.44,1,1,0.74,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.24
+london-gazette,The London Gazette - Gazettes Data,http://www.london-gazette.co.uk/mashup/gazettesdata.htm,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.28
+opendatacommunities-imd-rank-2010,opendatacommunities-imd-rank-2010,absent,1,0,1,0.44,1,1,0.74,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.24
+opendatacommunities-societal-wellbeing-deprivation-imd-rank-2010,opendatacommunities-societal-wellbeing-deprivation-imd-rank-2010,absent,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+opendatascotland-simd-crime-rank,opendatascotland-simd-crime-rank,absent,1,0,1,0.44,1,1,0.74,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.24
+gemet,GEneral Multilingual Environmental Thesaurus,http://www.eionet.europa.eu/gemet/,1,0,1,0.89,1,1,0.82,1,1,0,1,0.75,1,1,1,1,1,1,1,0,1,0.75,3.32
+umthes,UMTHES,https://sns.uba.de/umthes/,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,0,1,0.75,0,1,0,1,0.5,2.8
+cz-ctia-focus,Focus of the Czech Trade Inspection Authority's inspections,http://linked.opendata.cz/resource/dataset/coi.cz/zamereni,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,0,1,1,1,0.75,1,1,0,1,0.75,2.78
+cz-ctia-inspections,Inspections of the Czech Trade Inspection Authority,http://linked.opendata.cz/resource/dataset/coi.cz/kontroly,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,0,1,1,1,0.75,1,1,0,1,0.75,2.78
+cz-czso-regions,Structure of regions of Czech Republic according to Czech Statistical Office,http://data.czso.cz/resource/dataset/regions,1,0,1,0.78,1,1,0.8,0,1,0,1,0.5,1,1,0,1,0.75,0,1,0,1,0.5,2.55
+cz-ovm-agendas,Agendas of institutions of public power of the Czech Republic,http://linked.opendata.cz/resource/dataset/seznam.gov.cz/agendy,1,0,1,0.78,1,1,0.8,0,1,0,1,0.5,1,1,0,1,0.75,0,1,0,1,0.5,2.55
+cz-ovm,Institutions of public power of the Czech Republic,https://linked.opendata.cz/zdroj/datová-sada/ovm,1,0.096,1,1,1,1,0.85,1,1,1,1,1,1,1,1,1,1,1,1,0.529411765,1,0.88,3.73
+ocd,Italian Chamber of Deputies - official dataset,absent,1,0,1,0.89,1,1,0.82,1,1,1,1,1,1,1,0,1,0.75,0,1,0,1,0.5,3.07
+opendatacommunities-impact-indicators-energy-efficiency-new-builds,opendatacommunities-impact-indicators-energy-efficiency-new-builds,absent,1,0,1,0.44,1,1,0.74,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.24
+prelex,PreLex,http://prelex.publicdata.eu/,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.55
+environment-agency-bathing-water-quality,Environment Agency Bathing Water Quality,,,,,,,,,,,,,,,,,,,,,,,,
+cz-ic,Czech Business Entity identification numbers and names,https://linked.opendata.cz/zdroj/datová-sada/seznam-ič,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,0,1,1,1,0.75,1,1,0,1,0.75,3.05
+opendatascotland-simd-health-rank,opendatascotland-simd-health-rank,absent,1,0,1,0.44,1,1,0.74,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.24
+enakting-mortality,EnAKTing Mortality Dataset,http://mortality.psi.enakting.org/,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,1,1,0,1,0.75,0,1,0,1,0.5,2.53
+public-spending-in-greece,Public Spending in Greece,http://publicspending.medialab.ntua.gr/en/index.php,1,0,1,0.78,1,1,0.8,0,1,0,1,0.5,1,1,1,1,1,1,1,0,1,0.75,3.05
+imf-linked-data,International Monetary Fund (IMF) Linked Data,absent,1,0,1,0.78,1,1,0.8,0,1,0,1,0.5,1,1,1,1,1,1,1,0,1,0.75,3.05
+bfs-linked-data,Bundesamt für Statistik (BFS) - Swiss Federal Statistical Office (FSO) Linked Data,http://bfs.270a.info/,1,0,1,0.78,1,1,0.8,0,1,0,1,0.5,1,1,1,1,1,1,1,0,1,0.75,3.05
+ecb-linked-data,European Central Bank (ECB) Linked Data,http://ecb.270a.info/,1,0,1,0.78,1,1,0.8,0,1,0,1,0.5,1,1,1,1,1,1,1,0,1,0.75,3.05
+fao-linked-data,Food and Agriculture Organization of the United Nations (FAO) Linked Data,http://fao.270a.info/,1,0,1,0.78,1,1,0.8,0,1,0,1,0.5,1,1,1,1,1,1,1,0,1,0.75,3.05
+transparency-linked-data,Transparency International Linked Data,http://transparency.270a.info/,1,0,1,0.78,1,1,0.8,0,1,0,1,0.5,1,1,0,1,0.75,0,1,0,1,0.5,2.55
+world-bank-linked-data,World Bank Linked Data,http://worldbank.270a.info/,1,0,1,0.78,1,1,0.8,0,1,0,1,0.5,1,1,1,1,1,1,1,0,1,0.75,3.05
+opendatacommunities-wellbeing-worthwhile-mean,opendatacommunities-wellbeing-worthwhile-mean,absent,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+dataturcyl-lod-for-tourists-in-castilla-y-leon-spain,DATATURCYL - LOD for tourists in Castilla y León (Spain),absent,1,0,1,0.78,1,1,0.8,0,1,0,1,0.5,1,1,0,1,0.75,0,1,0,1,0.5,2.55
+cz-czso-unemployment-rate,Unemployment rate in regions of Czech republic,http://data.czso.cz/resource/dataset/unemployment-rate,1,0,1,0.89,1,1,0.82,1,1,0,1,0.75,1,1,1,1,1,1,1,0,1,0.75,3.32
+linkedspending,LinkedSpending: OpenSpending becomes Linked Open Data,http://linkedspending.aksw.org/,1,0,1,0.78,1,1,0.8,0,1,0,1,0.5,1,1,0,1,0.75,0,1,0,1,0.5,2.55
+eu-agencies-bodies,EU Agencies and decentralized bodies (Agencies),http://agencies.publicdata.eu/,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.55
+tip,TIP,absent,1,0,1,0.56,1,1,0.76,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.26
+cz-ctia-confiscations,Confiscations of the Czech Trade Inspection Authority,http://linked.opendata.cz/resource/dataset/coi.cz/zajisteni,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,0,1,1,1,0.75,1,1,0,1,0.75,2.78
+opendatacommunities-transparency-impact-indicators-affordable-housing-starts,opendatacommunities-transparency-impact-indicators-affordable-housing-starts,absent,1,0,1,0.44,1,1,0.74,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.24
+opendatacommunities-societal-wellbeing-deprivation-imd-employment-score-2010,opendatacommunities-societal-wellbeing-deprivation-imd-employment-score-2010,absent,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+opendatacommunities-societal-wellbeing-deprivation-imd-rank-la-2010,opendatacommunities-societal-wellbeing-deprivation-imd-rank-la-2010,absent,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+opendatacommunities-transparency-input-indicators-local-authority-funding-from-government-grant,opendatacommunities-transparency-input-indicators-local-authority-funding-from-government-grant,absent,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+the-eurostat-linked-data,The Eurostat Linked Data,http://eurostat.linked-statistics.org/,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,0,1,1,1,0.75,1,1,0,1,0.75,2.78
+opendatacommunities-households-projections-totalhouseolds,opendatacommunities-households-projections-totalhouseolds,absent,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+cz-sao-audited-subjects,Audited subjects of Supreme Audit Office of the Czech Republic,http://data.nku.cz/resource/dataset/audited-subjects,1,0,1,0.89,1,1,0.82,1,1,0,1,0.75,1,1,1,1,1,1,1,0,1,0.75,3.32
+cz-ares-or,Data about business entities from the ARES system - business registry of the Czech Republic,http://linked.opendata.cz/resource/dataset/ares/or,1,0,1,0.78,1,1,0.8,0,1,0,1,0.5,1,1,0,1,0.75,0,1,0,1,0.5,2.55
+opendatacommunities-households-projections-population,opendatacommunities-households-projections-population,absent,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+2000-us-census-rdf,2000 U.S. Census in RDF (rdfabout.com),http://www.rdfabout.com/demo/census/,1,0,1,0.78,1,1,0.8,0,1,0,1,0.5,1,1,0,1,0.75,0,1,0,1,0.5,2.55
+opendatascotland-simd-income-rank,opendatascotland-simd-income-rank,absent,1,0,1,0.44,1,1,0.74,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.24
+AISHE,All India Survey of Higher Education,http://www.ronuphdswaishe.org/,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,1,1,0,1,0.75,0,1,0,1,0.5,2.53
+opendatacommunities-imd-environment-rank-2010,opendatacommunities-imd-environment-rank-2010,absent,1,0,1,0.44,1,1,0.74,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.24
+zaragoza_turruta,zaragoza_turruta,absent,1,0,1,0.33,1,1,0.72,0,1,0,1,0.5,0,0,0,1,0.25,0,1,0,1,0.5,1.97
+zaragoza-datosabiertos,Datos Abiertos de Zaragoza,http://www.zaragoza.es/ciudad/risp/presentacion.htm,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,1,1,0.75,1,1,0,1,0.75,3.03
+linked-nuts,Linked NUTS,http://nuts.psi.enakting.org/,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,1,1,0,1,0.75,0,1,0,1,0.5,2.53
+hellenic-police,Hellenic Police,http://greek-lod.math.auth.gr/police/,1,0,1,0.78,1,1,0.8,0,1,0,1,0.5,1,1,1,1,1,1,1,0,1,0.75,3.05
+diavgeia,Diavgeia,http://opendata.diavgeia.gov.gr/?lang=en,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,1,1,1,1,1,1,1,0,1,0.75,3.03
+enakting-crime,EnAKTing Crime Dataset,http://crime.psi.enakting.org/,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,1,1,0,1,0.75,0,1,0,1,0.5,2.53
+kallikratis-municipalities,Kallikratis municipalities,http://greek-lod.math.auth.gr/kalikratis/,1,0,1,0.78,1,1,0.8,0,1,0,1,0.5,1,1,0,1,0.75,0,1,0,1,0.5,2.55
+linked-eurostat,Linked Eurostat (OntologyCentral),http://ontologycentral.com/2009/01/eurostat/,1,0,1,0.56,1,1,0.76,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.26
+opendatacommunities-societal-wellbeing-deprivation-imd-rank-2007,opendatacommunities-societal-wellbeing-deprivation-imd-rank-2007,absent,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+eea-rod,EEA Reporting Obligations Database,http://rod.eionet.europa.eu/,1,0,1,0.89,1,1,0.82,1,1,0,1,0.75,1,1,1,1,1,1,1,0,1,0.75,3.32
+ecb-statistics-linked-data,European Central Bank Statistics (PublicData.eu),http://ecb.publicdata.eu,1,0,1,0.89,1,1,0.82,1,1,0,1,0.75,1,1,0,1,0.75,0,1,0,1,0.5,2.82
+eionet-rdf,EIONET RDF Data,http://rdfdata.eionet.europa.eu/,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+clean-energy-data-reegle,Linked Clean Energy Data (reegle.info),http://data.reegle.info/,1,0,1,0.89,1,1,0.82,1,1,0,1,0.75,1,1,0,1,0.75,0,1,0,1,0.5,2.82
+opendatacommunities-imd-income-rank-la-2010,opendatacommunities-imd-income-rank-la-2010,absent,1,0,1,0.44,1,1,0.74,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.24
+opendatacommunities-societal-wellbeing-deprivation-imd-income-rank-la-2010,opendatacommunities-societal-wellbeing-deprivation-imd-income-rank-la-2010,absent,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+FADN_(2019),Farm Accountancy Data Network (FADN) linked dataset from 2019 @PSNC,https://www.foodie-cloud.org/fct/,,,,,,,,,,,,,,,,,,,,,,,
+opendatacommunities-wellbeing-happy-yesterday-standard-deviation,opendatacommunities-wellbeing-happy-yesterday-standard-deviation,absent,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+openlylocal,Openly Local :: Making Local Government More Transparent,http://openlylocal.com/,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,0,1,0.75,0,1,0,1,0.5,2.8
+opencorporates,OpenCorporates - The Open Database Of The Corporate World,http://opencorporates.com/,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,0,1,0.75,0,1,0,1,0.5,2.8
+esd-toolkit,ESD-Toolkit,http://standards.esd-toolkit.eu/EuOverview.aspx,1,0,1,0.56,1,1,0.76,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.26
+aragodbpedia,AragoDBPedia,https://opendata.aragon.es,1,0.9752,1,0.89,1,1,0.98,1,1,1,1,1,1,1,0,1,0.75,0,1,0,1,0.5,3.23
+ei2a,Aragon Interoperable Information Structure EI2A - aragon open data,https://opendata.aragon.es,1,0.9712,1,0.89,1,1,0.98,1,1,1,1,1,1,1,0,1,0.75,0,1,0,1,0.5,3.23
+n-lex-as-linked-data,N-Lex as Linked Data,http://n-lex.publicdata.eu/,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.55
+unodc,UNODC - Statistics on criminal justice,http://unodc.publicdata.eu/,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.55
+opendatascotland-graph-education-pupils-by-school-and-datazone,opendatascotland-graph-education-pupils-by-school-and-datazone,absent,1,0,1,0.44,1,1,0.74,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.24
+renewable_energy_generators,Renewable Energy Generators,http://kasabi.com/dataset/renewable-energy-generators,1,0,1,0.89,1,1,0.82,1,1,0,1,0.75,1,1,1,1,1,1,1,0,1,0.75,3.32
+courts-thesaurus,Courts thesaurus,http://vocabulary.wolterskluwer.de/,1,0,1,0.78,1,1,0.8,0,1,0,1,0.5,1,1,1,1,1,1,1,0,1,0.75,3.05
+opendatacommunities-imd-score-2010,opendatacommunities-imd-score-2010,absent,1,0,1,0.44,1,1,0.74,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.24
+opendatacommunities-societal-wellbeing-deprivation-imd-score-2010,opendatacommunities-societal-wellbeing-deprivation-imd-score-2010,absent,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+cz-vavai-evaluation-2013,Evaluation of VaVaI results for 2013,http://linked.opendata.cz/resource/dataset/vavai/evaluation/2013,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.28
+cz-vavai-results,Results of R&D,http://linked.opendata.cz/resource/dataset/vavai/results,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.28
+opendatacommunities-societal-wellbeing-deprivation-imd-health-score-2010,opendatacommunities-societal-wellbeing-deprivation-imd-health-score-2010,absent,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+cz-czso-demography-in-regions-czech-republic-age-categories,Number of inhabitants in districts of Czech Republic in 5year age categories,http://data.czso.cz/resource/dataset/demography-in-regions-czech-republic-age-categories,1,0,1,0.89,1,1,0.82,1,1,0,1,0.75,1,1,1,1,1,1,1,0,1,0.75,3.32
+cht,Cultural Heritage Thesaurus,https://data.cultureelerfgoed.nl/,1,0.966819222,1,1,1,1,0.99,1,1,1,1,1,1,1,0,1,0.75,0,1,1,1,0.75,3.49
+lichfield-spending,Lichfield District Council - Spending,http://spending.lichfielddc.gov.uk,1,0,1,0.78,1,1,0.8,0,1,0,1,0.5,1,1,0,1,0.75,0,1,0,1,0.5,2.55
+eprtr,European Pollutant Release and Transfer Register (E-PRTR),http://prtr.ec.europa.eu/,1,0,1,0.78,1,1,0.8,0.5,1,0,1,0.62,1,1,1,1,1,1,1,0,1,0.75,3.17
+world-factbook-fu-berlin,World Factbook (FU Berlin),http://www4.wiwiss.fu-berlin.de/factbook/,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,0,1,1,1,0.75,1,1,0,1,0.75,2.78
+linked-edgar,Linked EDGAR (OntologyCentral),http://edgarwrap.ontologycentral.com/,1,0,1,0.56,1,1,0.76,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.26
+sec-rdfabout,U.S. Securities and Exchange Commission Corporate Ownership RDF Data (rdfabout),http://www.rdfabout.com/demo/sec/,1,0,1,0.78,1,1,0.8,0,1,0,1,0.5,1,1,0,1,0.75,0,1,0,1,0.5,2.55
+European_Patent_Information,EPO patents,https://www.epo.org/linked-data/,1,0,1,0.89,1,1,0.82,1,1,1,1,1,1,1,0,1,0.75,0,1,0,1,0.5,3.07
+CPC,Cooperative Patent Classification,https://www.epo.org/linked-data/,1,0,1,0.89,1,1,0.82,1,1,1,1,1,1,1,0,1,0.75,0,1,0,1,0.5,3.07
+cz-vavai-projects,R&D Projects,http://linked.opendata.cz/resource/dataset/vavai/projects,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.28
+cz-vavai-organizations,Organizations active in R&D,http://linked.opendata.cz/resource/dataset/vavai/organizations,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.28
+cz-vavai-programmes,R&D Programmes,http://linked.opendata.cz/resource/dataset/vavai/programmes,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.28
+cz-vavai-tenders,Tenders in R&D,http://linked.opendata.cz/resource/dataset/vavai/tenders,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.28
+opendatacommunities-input-indicators-local-authority-funding-from-government-grant,opendatacommunities-input-indicators-local-authority-funding-from-government-grant,absent,1,0,1,0.44,1,1,0.74,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.24
+opendatacommunities-impact-indicators-housing-starts,opendatacommunities-impact-indicators-housing-starts,absent,1,0,1,0.44,1,1,0.74,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.24
+opendatacommunities-transparency-impact-indicators-housing-starts,opendatacommunities-transparency-impact-indicators-housing-starts,absent,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+cz-orders,Registry of contracts of the Czech Republic - Orders,http://linked.opendata.cz/resource/dataset/seznam.gov.cz/rejstriky/objednavky,1,0,1,0.78,1,1,0.8,0,1,0,1,0.5,1,1,0,1,0.75,0,1,0,1,0.5,2.55
+cz-souhrnne-typy-ovm,Summary types of Czech institutions of public power,https://linked.opendata.cz/zdroj/datová-sada/souhrnné-typy-ovm,1,0.0986,1,1,1,1,0.85,1,1,1,1,1,1,1,1,1,1,1,1,0.529411765,1,0.88,3.73
+agrinepaldata,AgriNepalData,absent,1,0,1,0.78,1,1,0.8,0,1,0,1,0.5,1,1,0,1,0.75,0,1,0,1,0.5,2.55
+finnish-municipalities,Finnish municipalities and regional classifications,http://onki.fi/en/browser/overview/kunnat,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,0,1,0.75,0,1,0,1,0.5,2.8
+opendatacommunities-service-expenditure,opendatacommunities-service-expenditure,absent,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+eu-institutions,Institutions and Bodies of the European Union,http://institutions.publicdata.eu/,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,0,1,0.75,0,1,0,1,0.5,2.8
+cz-ctia-bans,Bans of the Czech Trade Inspection Authority,http://linked.opendata.cz/resource/dataset/coi.cz/zakazy,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,0,1,1,1,0.75,1,1,0,1,0.75,2.78
+opendatascotland-simd-employment-rank,opendatascotland-simd-employment-rank,absent,1,0,1,0.44,1,1,0.74,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.24
+english-index-of-multiple-deprivation-score-2010,English Index of Multiple Deprivation Score 2010,http://opendatacommunities.org/datasets/imd-score-2010,1,0,1,0.89,1,1,0.82,1,1,1,1,1,1,1,0,1,0.75,0,1,0,1,0.5,3.07
+eurobarometer-standard,Standard Eurobarometer,http://eurobarometer.publicdata.eu,1,0,1,0.89,1,1,0.82,1,1,0,1,0.75,1,1,0,1,0.75,0,1,0,1,0.5,2.82
+cablegate,cablegate,http://www.wikileaks.ch/cablegate.html,1,0,1,0.67,1,1,0.78,0.5,1,0,1,0.62,0,1,1,1,0.75,1,1,0,1,0.75,2.9
+biographical-directory-of-the-united-states-congress,Biographical Directory of the United States Congress,http://bioguide.congress.gov/biosearch/biosearch.asp,1,0,1,0.78,1,1,0.8,0,1,0,1,0.5,1,1,0,1,0.75,0,1,0,1,0.5,2.55
+opendatacommunities-transparency-impact-indicators-neighbourhood-plans,opendatacommunities-transparency-impact-indicators-neighbourhood-plans,absent,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+eu-parliament-media,EU Parliament Media Library,http://eupmedia.publicdata.eu/,1,0,1,0.89,1,1,0.82,1,1,0,1,0.75,1,1,0,1,0.75,0,1,0,1,0.5,2.82
+eu-who-is-who,EU Who Is Who,http://whoiswho.publicdata.eu/,1,0,1,0.89,1,1,0.82,1,1,0,1,0.75,1,1,0,1,0.75,0,1,0,1,0.5,2.82
+cz-czso-deaths-by-selected-causes-of-death,Deaths by selected causes of death in regions of Czech Republic,http://data.czso.cz/resource/dataset/deaths-by-selected-causes-of-death,1,0,1,0.89,1,1,0.82,1,1,0,1,0.75,1,1,1,1,1,1,1,0,1,0.75,3.32
+iati-as-linked-data,IATI as Linked Data,absent,1,0,1,0.89,1,1,0.82,1,1,0,1,0.75,1,1,0,1,0.75,0,1,0,1,0.5,2.82
+opendatacommunities-impact-indicators-affordable-housing-starts,opendatacommunities-impact-indicators-affordable-housing-starts,absent,1,0,1,0.44,1,1,0.74,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.24
+opendatascotland-simd-geographic-access-rank,opendatascotland-simd-geographic-access-rank,absent,1,0,1,0.44,1,1,0.74,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.24
+datos-bcn-cl,Datos.bcn.cl,https://datos.bcn.cl/es/,,,,,,,,,,,,,,,,,,,,,,,
+patents-data-gov-uk,patents.data.gov.uk,http://patents.data.gov.uk/,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.28
+cz-vavai-funding-providers,State funding providers,http://linked.opendata.cz/resource/dataset/vavai/funding-providers,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.28
+ceo,Linked Data Cultural Heritage Agency of the Netherlands,https://linkeddata.cultureelerfgoed.nl/,1,0.0048,1,0.67,1,1,0.78,1,1,1,1,1,1,1,0,1,0.75,0,1,0,1,0.5,3.03
+data-incubator-nasa,NASA Space Flight & Astronaut data in RDF,http://kasabi.com/dataset/nasa,1,0,1,0.89,1,1,0.82,1,1,0,1,0.75,1,1,1,1,1,1,1,0,1,0.75,3.32
+opendatacommunities-societal-wellbeing-deprivation-imd-housing-rank-la-2010,opendatacommunities-societal-wellbeing-deprivation-imd-housing-rank-la-2010,absent,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+congresspeople,2011 US Congress People,http://www.contactingthecongress.org/,1,0,1,0.56,1,1,0.76,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.26
+frb-linked-data,Federal Reserve Board (FRB) Linked Data,absent,1,0,1,0.78,1,1,0.8,0,1,0,1,0.5,1,1,1,1,1,1,1,0,1,0.75,3.05
+oecd-linked-data,Organisation for Economic Co-operation and Development (OECD) Linked Data,http://oecd.270a.info/,1,0,1,0.78,1,1,0.8,0,1,0,1,0.5,1,1,1,1,1,1,1,0,1,0.75,3.05
+uis-linked-data,UNESCO Institute for Statistics (UIS) Linked Data,absent,1,0,1,0.78,1,1,0.8,0,1,0,1,0.5,1,1,1,1,1,1,1,0,1,0.75,3.05
+opendatacommunities-net-additional-dwellings,opendatacommunities-net-additional-dwellings,absent,1,0,1,0.44,1,1,0.74,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.24
+hellenic-fire-brigade,Hellenic Fire Brigade,http://greek-lod.math.auth.gr/fire-brigade/,1,0,1,0.78,1,1,0.8,0,1,0,1,0.5,1,1,1,1,1,1,1,0,1,0.75,3.05
+semantic-xbrl,Semantic XBRL Financial Data,http://rhizomik.net/semanticxbrl/,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,0,1,0.75,0,1,0,1,0.5,2.8
+cz-czso-average-salaries,Average salaries in regions of Czech republic,http://data.czso.cz/resource/dataset/average-salaries,1,0,1,0.89,1,1,0.82,1,1,0,1,0.75,1,1,1,1,1,1,1,0,1,0.75,3.32
+opendatascotland-simd-housing-rank,opendatascotland-simd-housing-rank,absent,1,0,1,0.44,1,1,0.74,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.24
+opendatacommunities-transparency-input-indicators-local-authorities-working-with-troubled-families,opendatacommunities-transparency-input-indicators-local-authorities-working-with-troubled-families,absent,1,0,1,0.44,1,1,0.74,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.24
+opendatacommunities-societal-wellbeing-deprivation-imd-employment-rank-la-2010,opendatacommunities-societal-wellbeing-deprivation-imd-employment-rank-la-2010,absent,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+opendatacommunities-societal-wellbeing-deprivation-imd-health-rank-la-2010,opendatacommunities-societal-wellbeing-deprivation-imd-health-rank-la-2010,absent,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+twc-logd,TWC: Linking Open Government Data,http://logd.tw.rpi.edu,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,1,1,0,1,0.75,0,1,0,1,0.5,2.53
+opendatacommunities-households-social-lettings-general-needs-lettings-prp-household-composition,opendatacommunities-households-social-lettings-general-needs-lettings-prp-household-composition,absent,1,0,1,0.44,1,1,0.74,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.24
+eumida-linked-data,EUMIDA as Linked Data,http://eumida.publicdata.eu/,1,0,1,0.89,1,1,0.82,1,1,0,1,0.75,1,1,0,1,0.75,0,1,0,1,0.5,2.82
+asn-us,ASN:US,http://asn.jesandco.org,1,0,1,0.89,1,1,0.82,1,1,0,1,0.75,1,1,1,1,1,1,1,0,1,0.75,3.32
+cz-sao-check-actions,Inspections of the Supreme Audit Office of the Czech Republic,http://data.nku.cz/resource/dataset/check-actions,1,0,1,0.89,1,1,0.82,1,1,0,1,0.75,1,1,1,1,1,1,1,0,1,0.75,3.32
+opendatacommunities-households-social-lettings-general-needs-lettings-prp-number-bedrooms,opendatacommunities-households-social-lettings-general-needs-lettings-prp-number-bedrooms,absent,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+opendatacommunities-imd-crime-rank-2010,opendatacommunities-imd-crime-rank-2010,absent,1,0,1,0.44,1,1,0.74,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.24
+cz-ares-rzp,Data about Czech business entities from the ARES system - Trade Licensing Register,http://linked.opendata.cz/resource/dataset/ares/rzp,1,0,1,0.78,1,1,0.8,0,1,0,1,0.5,1,1,0,1,0.75,0,1,0,1,0.5,2.55
+cz-sao-check-actions-law,List of laws used in inspection reports of SAO,http://data.nku.cz/resource/dataset/check-actions-law,1,0,1,0.89,1,1,0.82,1,1,0,1,0.75,1,1,1,1,1,1,1,0,1,0.75,3.32
+traffic-scotland,Traffic Scotland,http://seobook.blog.com,1,0,1,0.78,1,1,0.8,0,1,0,1,0.5,1,1,0,1,0.75,0,1,0,1,0.5,2.55
+rkb-explorer-cordis,Community R&D Information Service (CORDIS) (RKBExplorer),http://cordis.rkbexplorer.com,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.28
+data-cnr-it,Open Data from the Italian National Research Council,http://data.cnr.it/site/,1,0,1,0.89,1,1,0.82,1,1,0,1,0.75,1,1,1,1,1,1,1,0,1,0.75,3.32
+eurovoc,EuroVoc,,,,,,,,,,,,,,,,,,,,,,,,
+business-data-gov-uk,business.data.gov.uk,http://business.data.gov.uk/,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.28
+abs-linked-data,Australian Bureau of Statistics (ABS) Linked Data,absent,1,0,1,0.78,1,1,0.8,0,1,0,1,0.5,1,1,1,1,1,1,1,0,1,0.75,3.05
+bis-linked-data,Bank for International Settlements (BIS) Linked Data,absent,1,0,1,0.78,1,1,0.8,0,1,0,1,0.5,1,1,1,1,1,1,1,0,1,0.75,3.05
+opendatascotland-simd-education-rank,opendatascotland-simd-education-rank,absent,1,0,1,0.44,1,1,0.74,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.24
+cz-ctia-sanctions,Sanctions of the Czech Trade Inspection Authority,http://linked.opendata.cz/resource/dataset/coi.cz/sankce,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.28
+rechtspraak,Rechtspraak.nl,http://www.best-project.nl,1,0,1,0.78,1,1,0.8,0,1,0,1,0.5,1,1,0,1,0.75,0,1,0,1,0.5,2.55
+nomenclator-asturias,Nomenclator Asturias,http://www.josemalvarez.es/web/2011/11/01/nomenclator-asturias-2010/,1,0,1,0.78,1,1,0.8,0,1,0,1,0.5,1,1,0,1,0.75,0,1,0,1,0.5,2.55
+cz-czso-job-applicants,Job applicants in regions of Czech Republic,http://data.czso.cz/resource/dataset/job-applicants,1,0,1,0.89,1,1,0.82,1,1,0,1,0.75,1,1,1,1,1,1,1,0,1,0.75,3.32
+cz-czso-social-service-facilities,Social service facilities and nursing in districts of Czech republic,http://data.czso.cz/resource/dataset/social-service-facilities,1,0,1,0.89,1,1,0.82,1,1,0,1,0.75,1,1,1,1,1,1,1,0,1,0.75,3.32
+cz-fulfillments,Registry of contracts of the Czech Republic - Financial fulfillments,http://linked.opendata.cz/resource/dataset/seznam.gov.cz/rejstriky/plneni,1,0,1,0.78,1,1,0.8,0,1,0,1,0.5,1,1,0,1,0.75,0,1,0,1,0.5,2.55
+opendatacommunities-impact-indicators-planning-applications-granted,opendatacommunities-impact-indicators-planning-applications-granted,absent,1,0,1,0.44,1,1,0.74,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.24
+istat-immigration,ISTAT Immigration (LinkedOpenData.it),http://www.linkedopendata.it/datasets/istat-immigration,1,0,1,0.78,1,1,0.8,0,1,0,1,0.5,1,1,1,1,1,1,1,0,1,0.75,3.05
+cz-vavai-research-plans,Institutional research plans,http://linked.opendata.cz/resource/dataset/vavai/research-plans,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.28
+opendatacommunities-housing-market,opendatacommunities-housing-market,absent,1,0,1,0.44,1,1,0.74,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.24
+corporate-body,Corporate Body Named Authority List ,,,,,,,,,,,,,,,,,,,,,,,,
+cz-czso-selected-indicators-of-public-health,Selected public health indicators in regions of Czech republic,http://data.czso.cz/resource/dataset/selected-indicators-of-public-health,1,0,1,0.89,1,1,0.82,1,1,0,1,0.75,1,1,1,1,1,1,1,0,1,0.75,3.32
+opendatacommunities-households-accommodated-per-1000,opendatacommunities-households-accommodated-per-1000,absent,1,0,1,0.44,1,1,0.74,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.24
+opendatacommunities-societal-wellbeing-deprivation-imd-education-rank-la-2010,opendatacommunities-societal-wellbeing-deprivation-imd-education-rank-la-2010,absent,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+cz-contracts,Registry of contracts of the Czech Republic - Contracts,http://linked.opendata.cz/resource/dataset/seznam.gov.cz/rejstriky/smlouvy,1,0,1,0.78,1,1,0.8,0,1,0,1,0.5,1,1,0,1,0.75,0,1,0,1,0.5,2.55
+opendatacommunities-households-2008,opendatacommunities-households-2008,absent,1,0,1,0.44,1,1,0.74,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.24
+fu-berlin-cordis,Community Research and Development Information Service (CORDIS),http://www4.wiwiss.fu-berlin.de/cordis/,1,0,1,0.56,1,1,0.76,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.26
+linked-stockindex,Linked Index,absent,1,0,1,0.44,1,1,0.74,0,1,0,1,0.5,0,0,0,1,0.25,0,1,0,1,0.5,1.99
+opendatascotland-graph-simd-rank,opendatascotland-graph-simd-rank,absent,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53

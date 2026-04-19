@@ -1,0 +1,361 @@
+id,KG name,Dataset URL,F1-M Unique and persistent ID,F1-D URIs dereferenceability,F2a-M - Metadata availability via standard primary sources,F2b-M Metadata availability for all the attributes covered in the FAIR score computation,F3-M Data referrable via a DOI,F4-M Metadata registered in a searchable engine,F score,A1-D Working access point(s),A1-M Metadata availability via working primary sources,A1.2 Authentication & HTTPS support,A2-M Registered in search engines,A score,R1.1 Machine- or human-readable license retrievable via any primary source,R1.2 Publisher information such as authors-contributors-publishers and sources,R1.3-D Data organized in a standardized way,R1.3-M Metadata are described with VoID/DCAT predicates,R score,I1-D Standard & open representation format,I1-M Metadata are described with VoID/DCAT predicates,I2 Use of FAIR vocabularies,I3-D Degree of connection,I score,FAIR score
+bioportal-nmr,NMR-instrument specific component of metabolomics investigations,http://bioportal.bioontology.org/ontologies/1033,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-acgt,Cancer Research and Management ACGT Master Ontology,http://bioportal.bioontology.org/ontologies/1130,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-aero,Adverse Event Reporting ontology,http://bioportal.bioontology.org/ontologies/1580,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,0,1,0.75,0,1,0,1,0.5,2.8
+bioportal-bao,BioAssay Ontology,http://bioportal.bioontology.org/ontologies/1533,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-bdo,Bone Dysplasia Ontology,http://bioportal.bioontology.org/ontologies/1613,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-bfo,Basic Formal Ontology,http://bioportal.bioontology.org/ontologies/1332,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-birnlex,BIRNLex,http://bioportal.bioontology.org/ontologies/1089,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-canco,Cancer Chemoprevention Ontology,http://bioportal.bioontology.org/ontologies/3030,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-cao,CAO,http://bioportal.bioontology.org/ontologies/1582,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-cheminf,Chemical Information Ontology,http://bioportal.bioontology.org/ontologies/1444,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,0,1,0.75,0,1,0,1,0.5,2.8
+bioportal-clo,Cell Line Ontology,http://bioportal.bioontology.org/ontologies/1314,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-cogpo,Cognitive Paradigm Ontology,http://bioportal.bioontology.org/ontologies/1560,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-ddi,Ontology for Drug Discovery Investigations,http://bioportal.bioontology.org/ontologies/1540,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-ecg,Electrocardiography Ontology,http://bioportal.bioontology.org/ontologies/1146,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-ero,eagle-i research resource ontology,http://bioportal.bioontology.org/ontologies/3016,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-flu,Influenza Ontology,http://bioportal.bioontology.org/ontologies/1417,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-hpio,Host Pathogen Interactions Ontology,http://bioportal.bioontology.org/ontologies/1569,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-iao,Information Artifact Ontology,http://bioportal.bioontology.org/ontologies/1393,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-ido,Infectious Disease Ontology,http://bioportal.bioontology.org/ontologies/1092,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-idobru,Brucellosis Ontology,http://bioportal.bioontology.org/ontologies/1537,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-idomal,Malaria Ontology,http://bioportal.bioontology.org/ontologies/1311,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-ino,Interaction Network Ontology,http://bioportal.bioontology.org/ontologies/1515,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-lnc,Logical Observation Identifier Names and Codes,http://bioportal.bioontology.org/ontologies/1350,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-mf,Mental Functioning Ontology,http://bioportal.bioontology.org/ontologies/3002,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-mfoem,Emotion Ontology,http://bioportal.bioontology.org/ontologies/1666,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-miro,Mosquito insecticide resistance,http://bioportal.bioontology.org/ontologies/1077,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-ncit,NCI Thesaurus,http://bioportal.bioontology.org/ontologies/1032,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-nemo_x1,Neural ElectroMagnetic Ontologies,http://bioportal.bioontology.org/ontologies/1321,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-nif,NIFSTD,http://bioportal.bioontology.org/ontologies/1084,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-nif_cell,NIF Cell,http://bioportal.bioontology.org/ontologies/1402,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-nif_dysfunction,NIF Dysfunction,http://bioportal.bioontology.org/ontologies/1381,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-npo,NanoParticle Ontology,http://bioportal.bioontology.org/ontologies/1083,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-oae,Ontology of Adverse Events (OAE),http://bioportal.bioontology.org/ontologies/1489,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-obi,Ontology for Biomedical Investigations,http://bioportal.bioontology.org/ontologies/1123,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-odgi,Ontology for disease genetic investigation,http://bioportal.bioontology.org/ontologies/1086,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-ogi,Ontology for Genetic Interval,http://bioportal.bioontology.org/ontologies/1100,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-ogms,Ontology for General Medical Science,http://bioportal.bioontology.org/ontologies/1414,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-omrse,Ontology of Medically Related Social Entities,http://bioportal.bioontology.org/ontologies/1565,1,0,1,0.56,1,1,0.76,0,1,0,1,0.5,1,1,0,1,0.75,0,1,0,1,0.5,2.51
+bioportal-ontodm,Ontology of Data Mining,http://bioportal.bioontology.org/ontologies/1638,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-opl,Ontology for Parasite LifeCycle,http://bioportal.bioontology.org/ontologies/1190,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-rcd,"Read Codes, Clinical Terms Version 3 (CTV3)",http://bioportal.bioontology.org/ontologies/1427,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-rid,RadLex,http://bioportal.bioontology.org/ontologies/1057,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-rnao,RNA ontology,http://bioportal.bioontology.org/ontologies/1500,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-sao,Subcellular Anatomy Ontology (SAO),http://bioportal.bioontology.org/ontologies/1068,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-sdo,Sleep Domain Ontology,http://bioportal.bioontology.org/ontologies/1651,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-sio,SemanticScience Integrated Ontology,http://bioportal.bioontology.org/ontologies/1532,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,0,1,0.75,0,1,0,1,0.5,2.8
+bioportal-snomedct,SNOMED Clinical Terms,http://bioportal.bioontology.org/ontologies/1353,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-sopharm,Suggested Ontology for Pharmacogenomics,http://bioportal.bioontology.org/ontologies/1061,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-teo,Time Event Ontology,http://bioportal.bioontology.org/ontologies/3042,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-tmo,Translational Medicine Ontology,http://bioportal.bioontology.org/ontologies/1461,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-vo,Vaccine Ontology,http://bioportal.bioontology.org/ontologies/1172,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-dc_cl,Dendritic cell,http://bioportal.bioontology.org/ontologies/1144,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-bto,BRENDA tissue / enzyme source,http://bioportal.bioontology.org/ontologies/1005,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-cco,Cell Cycle Ontology,http://bioportal.bioontology.org/ontologies/1507,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-cl,Cell type,http://bioportal.bioontology.org/ontologies/1006,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-csp,"CRISP Thesaurus, 2006",http://bioportal.bioontology.org/ontologies/1526,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-efo,Experimental Factor Ontology,http://bioportal.bioontology.org/ontologies/1136,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-ev,eVOC (Expressed Sequence Annotation for Humans),http://bioportal.bioontology.org/ontologies/1013,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-imr,Molecule role (INOH Protein name/family name ontology),http://bioportal.bioontology.org/ontologies/1029,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-ma,Mouse adult gross anatomy,http://bioportal.bioontology.org/ontologies/1000,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-mccl_x1,Cell line ontology,http://bioportal.bioontology.org/ontologies/1245,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-mesh-owl,MESH Thesaurus (OWL version),http://bioportal.bioontology.org/ontologies/3019,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-msh,Medical Subject Headings,http://bioportal.bioontology.org/ontologies/1351,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-omim,Online Mendelian Inheritance in Man,http://bioportal.bioontology.org/ontologies/1348,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-pr,PRotein Ontology (PRO),http://bioportal.bioontology.org/ontologies/1062,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-tao,Teleost Anatomy Ontology,http://bioportal.bioontology.org/ontologies/1110,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-uberon,Uber anatomy ontology,http://bioportal.bioontology.org/ontologies/1404,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-vhog,vertebrate Homologous Organ Groups,http://bioportal.bioontology.org/ontologies/1574,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-xao,Xenopus anatomy and development,http://bioportal.bioontology.org/ontologies/1095,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-zfa,Zebrafish anatomy and development,http://bioportal.bioontology.org/ontologies/1051,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bio2rdf-gendr,Bio2RDF::Gendr,http://gendr.bio2rdf.org/,1,0,1,1,1,1,0.83,1,1,1,1,1,1,1,1,1,1,1,1,0.181818182,1,0.8,3.63
+bio2rdf-ncbigene,Bio2RDF::Ncbigene,http://ncbigene.bio2rdf.org/,1,0,1,1,1,1,0.83,1,1,1,1,1,1,1,1,1,1,1,1,0.181818182,1,0.8,3.63
+bio2rdf-pubmed,Bio2RDF::Pubmed,http://pubmed.bio2rdf.org/,1,0,1,1,1,1,0.83,1,1,1,1,1,1,1,0,1,0.75,0,1,0.181818182,1,0.55,3.13
+bio2rdf-taxonomy,Bio2RDF::Taxonomy,http://taxonomy.bio2rdf.org/,1,0,1,1,1,1,0.83,1,1,1,1,1,1,1,1,1,1,1,1,0.181818182,1,0.8,3.63
+bio2rdf-wormbase,Bio2RDF::Wormbase,http://wormbase.bio2rdf.org/,1,0,1,1,1,1,0.83,1,1,1,1,1,1,1,1,1,1,1,1,0.181818182,1,0.8,3.63
+bioportal-bp,BioPAX,http://bioportal.bioontology.org/ontologies/1522,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,0,1,0.75,0,1,0,1,0.5,2.8
+bioportal-chem2bio2owl,Systems Chemical Biology/Chemogenomics,http://bioportal.bioontology.org/ontologies/1615,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-dikb-evidence,DIKB-Evidence-Ontology,http://bioportal.bioontology.org/ontologies/1672,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-mi,Protein-protein interaction,http://bioportal.bioontology.org/ontologies/1040,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-sbo,Systems Biology,http://bioportal.bioontology.org/ontologies/1046,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-roleo,Role Ontology,http://bioportal.bioontology.org/ontologies/1538,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-hl7,Health Level Seven,http://bioportal.bioontology.org/ontologies/1343,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-icnp,International Classification for Nursing Practice,http://bioportal.bioontology.org/ontologies/1401,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+eagle-i-dartmouth,eagle-i @ Dartmouth College,http://dartmouth.eagle-i.net,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.28
+bioportal-bro_x1,Biomedical Resource Ontology,http://bioportal.bioontology.org/ontologies/1104,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-go_x2,Gene Ontology,http://bioportal.bioontology.org/ontologies/1070,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-ncbitaxon,NCBI organismal classification,http://bioportal.bioontology.org/ontologies/1132,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-ocre,Ontology of Clinical Research (OCRe),http://bioportal.bioontology.org/ontologies/1076,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-so_x1,Sequence types and features,http://bioportal.bioontology.org/ontologies/1109,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-swo,Software Ontology,http://bioportal.bioontology.org/ontologies/1413,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-vivo,VIVO,http://bioportal.bioontology.org/ontologies/1699,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-mo,MGED Ontology,http://bioportal.bioontology.org/ontologies/1131,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-ep,Cardiac Electrophysiology Ontology,http://bioportal.bioontology.org/ontologies/1142,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-jerm,SysMO-JERM,http://bioportal.bioontology.org/ontologies/1488,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-oboe-sbc,OBOE SBC,http://bioportal.bioontology.org/ontologies/1523,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-pato,Phenotypic quality,http://bioportal.bioontology.org/ontologies/1107,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-pma,PMA 2010,http://bioportal.bioontology.org/ontologies/1497,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-uo,Units of measurement,http://bioportal.bioontology.org/ontologies/1112,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+eagle-i-utsa,eagle-i @ University of Texas at San Antonio,http://utsa.eagle-i.net,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.28
+bioportal-bootstrep,Gene Regulation Ontology,http://bioportal.bioontology.org/ontologies/1106,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-bt,BioTop,http://bioportal.bioontology.org/ontologies/1134,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,0,1,0.75,0,1,0,1,0.5,2.8
+bioportal-chebi,Chemical entities of biological interest,http://bioportal.bioontology.org/ontologies/1007,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-gfo-bio,General Formal Ontology: Biology,http://bioportal.bioontology.org/ontologies/1440,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-gro_x2,Gene Regulation Ontology,http://bioportal.bioontology.org/ontologies/1082,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-neomark,Neomark Oral Cancer Ontology,http://bioportal.bioontology.org/ontologies/1686,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-pedterm,Pediatric Terminology,http://bioportal.bioontology.org/ontologies/1640,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-sep,Sample processing and separation techniques,http://bioportal.bioontology.org/ontologies/1044,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-snpo,SNP-Ontology,http://bioportal.bioontology.org/ontologies/1058,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-vt,Vertebrate Trait Ontology,http://bioportal.bioontology.org/ontologies/1659,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-cmo,Clinical Measurement Ontology,http://bioportal.bioontology.org/ontologies/1583,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-go_x1,Gene Ontology Extension,http://bioportal.bioontology.org/ontologies/1506,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-mdr,MedDRA,http://bioportal.bioontology.org/ontologies/1422,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-mp,Mammalian phenotype,http://bioportal.bioontology.org/ontologies/1025,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-nigo,Neural-Immune Gene Ontology,http://bioportal.bioontology.org/ontologies/1539,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-basic-vertebrate-gross-anatomy,Basic Vertebrate Anatomy,http://bioportal.bioontology.org/ontologies/1056,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-bcgo,Breast Cancer Grading Ontology,http://bioportal.bioontology.org/ontologies/1304,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-ndfrt,National Drug File,http://bioportal.bioontology.org/ontologies/1352,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-phare,PHARE,http://bioportal.bioontology.org/ontologies/1550,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-rs,Rat Strain Ontology,http://bioportal.bioontology.org/ontologies/1150,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-sitbac,Situation-Based Access Control,http://bioportal.bioontology.org/ontologies/1237,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+eagle-i-psm,eagle-i @ Ponce School of Medicine,http://psm.eagle-i.net/,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.28
+bioportal-adw,Animal natural history and life history,http://bioportal.bioontology.org/ontologies/1530,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-eo,Plant environmental conditions,http://bioportal.bioontology.org/ontologies/1036,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-fbbi,Biological imaging methods,http://bioportal.bioontology.org/ontologies/1023,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-fbsp,Fly taxonomy,http://bioportal.bioontology.org/ontologies/1064,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-fda-meddevice,FDA Medical Devices (2010),http://bioportal.bioontology.org/ontologies/1576,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-icd9cm,International Classification of Diseases,http://bioportal.bioontology.org/ontologies/1101,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-icpc2p,ICPC-2 PLUS,http://bioportal.bioontology.org/ontologies/1429,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-medlineplus,MedlinePlus Health Topics,http://bioportal.bioontology.org/ontologies/1347,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-mmo,Measurement Method Ontology,http://bioportal.bioontology.org/ontologies/1584,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-ms,Mass spectrometry,http://bioportal.bioontology.org/ontologies/1105,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-natpro,Natural Products Ontology,http://bioportal.bioontology.org/ontologies/3004,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-ontodt,Ontology of General Purpose Datatypes,http://bioportal.bioontology.org/ontologies/1588,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-pdq,Physician Data Query,http://bioportal.bioontology.org/ontologies/1349,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-propreo,Proteomics data and process provenance,http://bioportal.bioontology.org/ontologies/1039,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-tto,Teleost taxonomy,http://bioportal.bioontology.org/ontologies/1081,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-vandf,VANDF,http://bioportal.bioontology.org/ontologies/1527,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-who,WHO Adverse Reaction Terminology,http://bioportal.bioontology.org/ontologies/1354,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-air,AI/RHEUM,http://bioportal.bioontology.org/ontologies/1430,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-bho,Bleeding History Phenotype,http://bioportal.bioontology.org/ontologies/1116,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-cst,COSTART,http://bioportal.bioontology.org/ontologies/1341,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-ctcae,Common Terminology Criteria for Adverse Events,http://bioportal.bioontology.org/ontologies/1415,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-ctx,Cerebrotendinous xanthomatosis,http://bioportal.bioontology.org/ontologies/3025,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-doid,Human disease ontology,http://bioportal.bioontology.org/ontologies/1009,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-fhho,Family Health History Ontology,http://bioportal.bioontology.org/ontologies/1126,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-hlth_indics,HEALTH_INDICATORS,http://bioportal.bioontology.org/ontologies/1581,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-hp_x1,Human Phenotype Ontology,http://bioportal.bioontology.org/ontologies/1125,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-icd10,ICD10,http://bioportal.bioontology.org/ontologies/1516,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-icd10cm,ICD10CM,http://bioportal.bioontology.org/ontologies/1553,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-icpc,International Classification of Primary Care,http://bioportal.bioontology.org/ontologies/1344,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-mpath,Mouse pathology,http://bioportal.bioontology.org/ontologies/1031,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-ontoorpha,Orphanet Ontology of Rare Diseases,http://bioportal.bioontology.org/ontologies/1586,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,0,1,0.75,0,1,0,1,0.5,2.8
+bioportal-shr,Student Health Record,http://bioportal.bioontology.org/ontologies/1665,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-sso,Syndromic Surveillance Ontology,http://bioportal.bioontology.org/ontologies/1394,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-tm-signs-and-sympts,Traditional Medicine Signs and Symptoms Value Set,http://bioportal.bioontology.org/ontologies/1572,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+linkedct,LinkedCT,http://linkedct.org/,1,0,1,0.89,1,1,0.82,1,1,0,1,0.75,1,1,1,1,1,1,1,0,1,0.75,3.32
+dbpedia,DBpedia,http://dbpedia.org/,,,,,,,,,,,,,,,,,,,,,,,
+fu-berlin-dailymed,DailyMed,http://www4.wiwiss.fu-berlin.de/dailymed/,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.28
+fu-berlin-diseasome,Diseasome,http://www4.wiwiss.fu-berlin.de/diseasome/,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.28
+fu-berlin-drugbank,DrugBank,http://www4.wiwiss.fu-berlin.de/drugbank/,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.28
+tcmgenedit_dataset,TCMGeneDIT Dataset,http://code.google.com/p/junsbriefcase/wiki/TGDdataset,1,0,1,0.78,1,1,0.8,0,1,0,1,0.5,1,1,0,1,0.75,0,1,0,1,0.5,2.55
+bioportal-atmo,African Traditional Medicine,http://bioportal.bioontology.org/ontologies/1099,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-mcbcc,Breast tissue cell lines,http://bioportal.bioontology.org/ontologies/1438,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-mccl,Cell line ontology,http://bioportal.bioontology.org/ontologies/1541,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-ogmd,Ontology of Glucose Metabolism Disorder,http://bioportal.bioontology.org/ontologies/1085,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-omit,Ontology for MicroRNA Target Prediction,http://bioportal.bioontology.org/ontologies/1505,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+eagle-i-cdrewu,eagle-i @ Charles R. Drew University,http://cdrewu.eagle-i.net,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.28
+hito,HITO,https://hitontology.eu/,1,0.92177351,1,0.89,1,1,0.97,1,1,1,1,1,1,1,1,1,1,1,1,0,1,0.75,3.72
+snik,SNIK,https://www.snik.eu,1,0.847769554,1,0.89,1,1,0.96,1,1,1,1,1,1,1,1,1,1,1,1,0,1,0.75,3.71
+bioportal-thesaurus,thesaurus,http://bioportal.bioontology.org/ontologies/3034,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-mthch,Metathesaurus CPT Hierarchical Terms,http://bioportal.bioontology.org/ontologies/1510,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-cpt,Current Procedural Terminology,http://bioportal.bioontology.org/ontologies/1504,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-apo,Ascomycete phenotype ontology,http://bioportal.bioontology.org/ontologies/1222,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-cogat,Cognitive Atlas,http://bioportal.bioontology.org/ontologies/1633,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-fao,Fungal gross anatomy,http://bioportal.bioontology.org/ontologies/1019,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-fbbt,Drosophila gross anatomy,http://bioportal.bioontology.org/ontologies/1015,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-gro_x1,Cereal plant gross anatomy,http://bioportal.bioontology.org/ontologies/1001,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-iev,Event (INOH pathway ontology),http://bioportal.bioontology.org/ontologies/1011,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-ixno,IxnO,http://bioportal.bioontology.org/ontologies/1614,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-mego,MeGO,http://bioportal.bioontology.org/ontologies/1257,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-po,Plant Anatomy,http://bioportal.bioontology.org/ontologies/1108,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-po_x2,Plant Ontology,http://bioportal.bioontology.org/ontologies/1587,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-pw,Pathway ontology,http://bioportal.bioontology.org/ontologies/1035,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-rex,Physico-chemical process,http://bioportal.bioontology.org/ontologies/1043,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-soy,SoyOntology,http://bioportal.bioontology.org/ontologies/3028,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-to,Plant Trait Ontology,http://bioportal.bioontology.org/ontologies/1037,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-vao,Vertebrate Anatomy Ontology,http://bioportal.bioontology.org/ontologies/1555,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-ypo,Yeast phenotypes,http://bioportal.bioontology.org/ontologies/1115,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-ehda,"Human developmental anatomy, timed version",http://bioportal.bioontology.org/ontologies/1022,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-envo,Environment Ontology,http://bioportal.bioontology.org/ontologies/1069,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-mfo,Medaka fish anatomy and development,http://bioportal.bioontology.org/ontologies/1027,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-nddf,National Drug Data File,http://bioportal.bioontology.org/ontologies/1424,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-rxnorm,RxNORM,http://bioportal.bioontology.org/ontologies/1423,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+chembl-rdf,ChEMBL RDF,absent,1,0,1,0.89,1,1,0.82,1,1,0,1,0.75,1,1,1,1,1,1,1,0,1,0.75,3.32
+uniprotkb,UniProtKB,https://www.uniprot.org/uniprot/,1,0.2,1,0.78,1,1,0.83,1,1,1,1,1,1,1,1,1,1,1,1,0,1,0.75,3.58
+bioportal-ato,Amphibian taxonomy,http://bioportal.bioontology.org/ontologies/1370,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-taxrank,Taxonomic rank vocabulary,http://bioportal.bioontology.org/ontologies/1419,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+taxonconcept,TaxonConcept Knowledge Base,http://lod.taxonconcept.org/,1,0,1,0.89,1,1,0.82,1,1,0,1,0.75,1,1,1,1,1,1,1,0,1,0.75,3.32
+eunis,European Nature Information System,http://eunis.eea.europa.eu,1,0,1,0.89,1,1,0.82,1,1,0,1,0.75,1,1,1,1,1,1,1,0,1,0.75,3.32
+geospecies,GeoSpecies Knowledge Base,http://lod.geospecies.org/,1,0,1,0.89,1,1,0.82,1,1,0,1,0.75,1,1,1,1,1,1,1,0,1,0.75,3.32
+uniprot,UniProt,http://www.uniprot.org/,1,0.2,1,0.78,1,1,0.83,1,1,1,1,1,0,1,1,1,0.75,1,1,0,1,0.75,3.33
+fu-berlin-medicare,MediCare,http://www4.wiwiss.fu-berlin.de/medicare/,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.28
+bioportal-aao,Amphibian gross anatomy,http://bioportal.bioontology.org/ontologies/1090,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-aeo,Anatomical Entity Ontology,http://bioportal.bioontology.org/ontologies/1568,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-bila,Bilateria anatomy,http://bioportal.bioontology.org/ontologies/1114,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-ehdaa,"Human developmental anatomy, abstract version",http://bioportal.bioontology.org/ontologies/1021,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-ehdaa2,"Human developmental anatomy, abstract version, v2",http://bioportal.bioontology.org/ontologies/1517,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-hao,Hymenoptera Anatomy Ontology,http://bioportal.bioontology.org/ontologies/1362,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-icf_x1,"International Classification of Functioning, Disability and Health (ICF)",http://bioportal.bioontology.org/ontologies/1411,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-mat,Minimal anatomical terminology,http://bioportal.bioontology.org/ontologies/1152,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-unitsontology,Units Ontology,http://bioportal.bioontology.org/ontologies/1650,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-wbbt,C. elegans gross anatomy,http://bioportal.bioontology.org/ontologies/1048,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+eagle-i-harvard,eagle-i @ Harvard University,http://harvard.eagle-i.net,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.28
+bioportal-lipro,Lipid Ontology,http://bioportal.bioontology.org/ontologies/1183,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-gfo,General Formal Ontology,http://bioportal.bioontology.org/ontologies/1439,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-aba,ABA Adult Mouse Brain,http://bioportal.bioontology.org/ontologies/1290,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-exo,ExO,http://bioportal.bioontology.org/ontologies/1575,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-mao,Multiple alignment,http://bioportal.bioontology.org/ontologies/1026,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+taxonconcept-assets,taxonconcept-assets,absent,1,0,1,0.56,1,1,0.76,1,1,0,1,0.75,0,0,1,1,0.5,1,1,0,1,0.75,2.76
+bio2rdf-clinicaltrials,Bio2RDF::Clinicaltrials,http://clinicaltrials.bio2rdf.org/,1,0,1,1,1,1,0.83,1,1,1,1,1,1,1,1,1,1,1,1,0.181818182,1,0.8,3.63
+bio2rdf-dbsnp,Bio2RDF::Dbsnp,http://dbsnp.bio2rdf.org/,1,0,1,1,1,1,0.83,1,1,1,1,1,1,1,1,1,1,1,1,0.181818182,1,0.8,3.63
+bioportal-nonrctontology,Non Randomized Controlled Trials Ontology,http://bioportal.bioontology.org/ontologies/3012,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-diagnosticont,Diagnostic Ontology,http://bioportal.bioontology.org/ontologies/3013,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-rctontology,Randomized Controlled Trials (RCT) Ontology,http://bioportal.bioontology.org/ontologies/1676,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-fbcv,FlyBase Controlled Vocabulary,http://bioportal.bioontology.org/ontologies/1017,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-bspo,Spatial Ontology,http://bioportal.bioontology.org/ontologies/1078,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-tads,Tick gross anatomy,http://bioportal.bioontology.org/ontologies/1065,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-tgma,Mosquito gross anatomy,http://bioportal.bioontology.org/ontologies/1030,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-wbphenotype,C. elegans phenotype,http://bioportal.bioontology.org/ontologies/1067,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+agrovoc,AGROVOC,http://www.fao.org/agrovoc/,1,0.999,1,0.89,1,1,0.98,1,1,1,1,1,1,1,0,1,0.75,0,1,0,1,0.5,3.23
+bio2rdf-mesh,Bio2RDF::Mesh,http://mesh.bio2rdf.org/,1,0,1,1,1,1,0.83,1,1,1,1,1,1,1,1,1,1,1,1,0.181818182,1,0.8,3.63
+bioportal-fypo,Fission Yeast Phenotype Ontology,http://bioportal.bioontology.org/ontologies/1689,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-spto,Solanaceae Phenotype Ontology,http://bioportal.bioontology.org/ontologies/3029,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-amino-acid,Amino Acid,http://bioportal.bioontology.org/ontologies/1054,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-cdao,Comparative Data Analysis Ontology,http://bioportal.bioontology.org/ontologies/1128,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-mcv,MIxS Controlled Vocabularies,http://bioportal.bioontology.org/ontologies/3000,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-spd,Spider Ontology,http://bioportal.bioontology.org/ontologies/1091,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+eagle-i-utep,eagle-i @ University of Texas at El Paso,http://utep.eagle-i.net,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.28
+heartfailure,Meriterm Heart Failure Multilingual Terminology,absent,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,1,1,0,1,0.75,0,1,0,1,0.5,2.53
+biosamples-rdf,BioSamples RDF,absent,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,0,1,1,1,0.75,1,1,0,1,0.75,3.05
+gene-expression-atlas-rdf,Gene Expression Atlas RDF,absent,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.55
+chemdb-thermochemistry,chemdb thermochemistry dataset,http://chemdc.casdc.cn/,1,0.9998,1,0.67,1,1,0.94,1,1,1,1,1,1,1,0,1,0.75,0,1,0,1,0.5,3.19
+eagle-i-vanderbilt,eagle-i @ Vanderbilt University,http://eagle-i.ea.vanderbilt.edu,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.28
+SCBG-Data,SCBG Data,http://semweb.csdb.cn/scbg,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,1,1,0,1,0.75,0,1,0,1,0.5,2.53
+bio2rdf-ctd,Bio2RDF::Ctd,http://ctd.bio2rdf.org/,1,0,1,1,1,1,0.83,1,1,1,1,1,1,1,1,1,1,1,1,0.181818182,1,0.8,3.63
+bio2rdf-ndc,Bio2RDF::Ndc,http://ndc.bio2rdf.org/,1,0,1,1,1,1,0.83,1,1,1,1,1,1,1,1,1,1,1,1,0.181818182,1,0.8,3.63
+UniProt,UniProt,https://www.uniprot.org/,1,0,1,0.89,1,1,0.82,1,1,1,1,1,1,1,0,1,0.75,0,1,0,1,0.5,3.07
+eagle-i-jsu,eagle-i @ Jackson State University,http://jsu.eagle-i.net,1,0,1,0.78,1,1,0.8,0,1,0,1,0.5,1,1,0,1,0.75,0,1,0,1,0.5,2.55
+bioportal-icd10pcs,ICD-10-PCS,http://bioportal.bioontology.org/ontologies/1425,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-geospecies,GeoSpecies Ontology,http://bioportal.bioontology.org/ontologies/1247,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+traditional-korean-medicine,Traditional Korean Medicine Ontology,http://tkm.kiom.re.kr,1,0,1,0.78,1,1,0.8,0,1,0,1,0.5,1,1,1,1,1,1,1,0,1,0.75,3.05
+eagle-i-ccny-cuny,eagle-i @ The City College of New York,http://ccny-cuny.eagle-i.net,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.28
+bioportal-fma,Foundational Model of Anatomy,http://bioportal.bioontology.org/ontologies/1053,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-pko,PKO_Re,http://bioportal.bioontology.org/ontologies/1409,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+biomodels-rdf,BioModels RDF,absent,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,0,1,1,0.75,1,1,0,1,0.75,3.05
+taxref-ld,TAXREF-LD: Linked Data French Taxonomic Register,https://github.com/frmichel/taxref-ld/,,,,,,,,,,,,,,,,,,,,,,,
+ckan,Comprehensive Knowledge Archive Network,http://www.ckan.net/,1,0,1,0.78,1,1,0.8,0,1,0,1,0.5,1,1,0,1,0.75,0,1,0,1,0.5,2.55
+t4gm-info,Thesaurus for Graphic Materials (t4gm.info),http://www.t4gm.info/,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,1,1,0,1,0.75,0,1,0,1,0.5,2.53
+university-plymouth-reading-lists,University of Plymouth Reading Lists,http://lists.lib.plymouth.ac.uk/,1,0,1,0.56,1,1,0.76,0,1,0,1,0.5,1,1,0,1,0.75,0,1,0,1,0.5,2.51
+bio2rdf-lsr,Bio2RDF::Lsr,http://lsr.bio2rdf.org/,1,0,1,1,1,1,0.83,1,1,1,1,1,1,1,1,1,1,1,1,0.181818182,1,0.8,3.63
+Covid-on-the-Web,Covid-on-the-Web Dataset,https://github.com/Wimmics/CovidOnTheWeb,,,,,,,,,,,,,,,,,,,,,,,
+entrez_gene,Entrez Gene,http://www.ncbi.nlm.nih.gov/gene,1,0,1,0.56,1,1,0.76,0,1,0,1,0.5,0,1,1,1,0.75,1,1,0,1,0.75,2.76
+eagle-i-cau,eagle-i @ Clark Atlanta University,http://cau.eagle-i.net/,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.28
+tcga-roadmap,TCGA Roadmap,http://tcga.github.com/Roadmap/,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,0,1,1,1,0.75,1,1,0,1,0.75,2.78
+bio2rdf-sabiork,Bio2RDF::Sabiork,http://sabiork.bio2rdf.org/,1,0,1,0.89,1,1,0.82,1,1,0,1,0.75,1,1,1,1,1,1,1,0,1,0.75,3.32
+bioportal-icps,ICPS Network,http://bioportal.bioontology.org/ontologies/1509,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-po_x1,Plant Growth and Development Stage,http://bioportal.bioontology.org/ontologies/1038,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-xco,Experimental Conditions Ontology,http://bioportal.bioontology.org/ontologies/1585,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-cno,Computational Neuroscience Ontology,http://bioportal.bioontology.org/ontologies/3003,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-epileponto,Epilepsy,http://bioportal.bioontology.org/ontologies/1639,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-imgt,IMGT-ONTOLOGY,http://bioportal.bioontology.org/ontologies/1491,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-lhn,Loggerhead nesting,http://bioportal.bioontology.org/ontologies/1024,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-mhc,MaHCO - An MHC Ontology,http://bioportal.bioontology.org/ontologies/1088,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-mod,Protein modification,http://bioportal.bioontology.org/ontologies/1041,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-neomarkontology,Neomark Oral Cancer-Centred Ontology,http://bioportal.bioontology.org/ontologies/1501,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-peo,Parasite Experiment Ontology,http://bioportal.bioontology.org/ontologies/1335,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-pmr,Physical Medicine and Rehabilitation,http://bioportal.bioontology.org/ontologies/3015,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-sbro,Smoking Behavior Risk Ontology,http://bioportal.bioontology.org/ontologies/1249,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-tok,TOK_Ontology,http://bioportal.bioontology.org/ontologies/1418,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+chemdb-basicInfo,chemdb  dataset,http://semweb.csdb.cn/chemdb,1,0.9998,1,0.67,1,1,0.94,1,1,1,1,1,1,1,0,1,0.75,0,1,0,1,0.5,3.19
+bio2rdf-omim,Bio2RDF::Omim,http://omim.bio2rdf.org/,1,0,1,1,1,1,0.83,1,1,1,1,1,1,1,1,1,1,1,1,0.181818182,1,0.8,3.63
+bio2rdf-mgi,Bio2RDF::Mgi,http://mgi.bio2rdf.org/,1,0,1,1,1,1,0.83,1,1,1,1,1,1,1,1,1,1,1,1,0.181818182,1,0.8,3.63
+bio2rdf-orphanet,Bio2RDF::Orphanet,http://orphanet.bio2rdf.org/,1,0,1,1,1,1,0.83,1,1,1,1,1,1,1,1,1,1,1,1,0.181818182,1,0.8,3.63
+fu-berlin-sider,SIDER: Side Effect Resource,http://www4.wiwiss.fu-berlin.de/sider/,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.28
+fu-berlin-stitch,STITCH: Chemical-Protein Interactions,http://www4.wiwiss.fu-berlin.de/stitch/,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,1,1,0,1,0.75,0,1,0,1,0.5,2.53
+bioportal-ddanat,Dictyostelium discoideum anatomy,http://bioportal.bioontology.org/ontologies/1008,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-oboe,OBOE,http://bioportal.bioontology.org/ontologies/1524,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+linked-tcga,Linked TCGA,absent,1,0,1,0.78,1,1,0.8,0,1,0,1,0.5,1,1,0,1,0.75,0,1,0,1,0.5,2.55
+bio2rdf-affymetrix,Bio2RDF::Affymetrix,http://affymetrix.bio2rdf.org/,1,0,1,1,1,1,0.83,1,1,1,1,1,1,1,1,1,1,1,1,0.181818182,1,0.8,3.63
+bio2rdf-hgnc,Bio2RDF::Hgnc,http://hgnc.bio2rdf.org/,1,0,1,1,1,1,0.83,1,1,1,1,1,1,1,1,1,1,1,1,0.181818182,1,0.8,3.63
+bio2rdf-homologene,Bio2RDF::Homologene,http://homologene.bio2rdf.org/,1,0,1,1,1,1,0.83,1,1,1,1,1,1,1,1,1,1,1,1,0.181818182,1,0.8,3.63
+bioportal-wbls,C. elegans development,http://bioportal.bioontology.org/ontologies/1049,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bio2rdf-irefindex,Bio2RDF::Irefindex,http://irefindex.bio2rdf.org/,1,0,1,1,1,1,0.83,1,1,1,1,1,1,1,1,1,1,1,1,0.181818182,1,0.8,3.63
+bio2rdf-sgd,Bio2RDF::Sgd,http://sgd.bio2rdf.org/,1,0,1,1,1,1,0.83,1,1,1,1,1,1,1,1,1,1,1,1,0.181818182,1,0.8,3.63
+organic-edunet,Organic Edunet Linked Open Data,http://data.organic-edunet.eu/,1,0,1,0.89,1,1,0.82,1,1,0,1,0.75,1,1,1,1,1,1,1,0,1,0.75,3.32
+bioportal-repo,Reproductive trait and phenotype ontology,http://bioportal.bioontology.org/ontologies/1552,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+sparql-endpoint-status,SPARQL Endpoint Status,http://labs.mondeca.com/sparqlEndpointsStatus/endpoint/endpoint.html,1,0,1,0.78,1,1,0.8,0,1,0,1,0.5,1,1,0,1,0.75,0,1,0,1,0.5,2.55
+bio2rdf-iproclass,Bio2RDF::Iproclass,http://iproclass.bio2rdf.org/,1,0,1,0.89,1,1,0.82,1,1,0,1,0.75,1,1,1,1,1,1,1,0,1,0.75,3.32
+bioportal-hcpcs,HCPCS,http://bioportal.bioontology.org/ontologies/1529,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bio2rdf-biomodels,Bio2RDF::Biomodels,http://biomodels.bio2rdf.org/,1,0,1,1,1,1,0.83,1,1,1,1,1,1,1,1,1,1,1,1,0.181818182,1,0.8,3.63
+bio2rdf-interpro,Bio2RDF::Interpro,http://interpro.bio2rdf.org/,1,0,1,1,1,1,0.83,1,1,1,1,1,1,1,1,1,1,1,1,0.181818182,1,0.8,3.63
+bio2rdf-goa,Bio2RDF::Goa,http://goa.bio2rdf.org/,1,0,1,1,1,1,0.83,1,1,1,1,1,1,1,1,1,1,1,1,0.181818182,1,0.8,3.63
+bioportal-fbdv,Drosophila development,http://bioportal.bioontology.org/ontologies/1016,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bio2rdf-omim-resources,bio2rdf-omim-resources,absent,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bio2rdf-pharmgkb,Bio2RDF::Pharmgkb,http://pharmgkb.bio2rdf.org/,1,0,1,1,1,1,0.83,1,1,1,1,1,1,1,1,1,1,1,1,0.181818182,1,0.8,3.63
+bio2rdf-drugbank,Bio2RDF::Drugbank,http://drugbank.bio2rdf.org/,1,0,1,1,1,1,0.83,1,1,1,1,1,1,1,1,1,1,1,1,0.181818182,1,0.8,3.63
+eagle-i-alaska,eagle-i @ University of Alaska Fairbanks,http://alaska.eagle-i.net,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.28
+eagle-i-hunter-cuny,eagle-i @ Hunter College,http://hunter-cuny.eagle-i.net,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.28
+cz-eh-1-atc,ATC groups,http://linked.opendata.cz/resource/dataset/atc,1,0,1,0.78,1,1,0.8,0,1,0,1,0.5,1,1,0,1,0.75,0,1,0,1,0.5,2.55
+bioportal-mddb,Master Drug Data Base,http://bioportal.bioontology.org/ontologies/1426,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-co_wheat,Wheat trait,http://bioportal.bioontology.org/ontologies/1545,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+cz-sidc-drug-ingredients,Active ingredients of medicinal products available in Czech Republic,http://linked.opendata.cz/resource/dataset/sukl/drug-ingredients,1,0,1,0.78,1,1,0.8,0,1,0,1,0.5,1,1,0,1,0.75,0,1,0,1,0.5,2.55
+cz-sidc-drugs,Medicinal products marketed in Czech Republic,http://linked.opendata.cz/resource/dataset/sukl/drugs,1,0,1,0.78,1,1,0.8,0,1,0,1,0.5,1,1,0,1,0.75,0,1,0,1,0.5,2.55
+bioportal-carelex,CareLex,http://bioportal.bioontology.org/ontologies/3008,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+bioportal-teddy,Terminology for the Description of Dynamics,http://bioportal.bioontology.org/ontologies/1407,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+eagle-i-meharry,eagle-i @ Meharry Medical College,http://meharry.eagle-i.net,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.28
+plant-specimen,digitized plant specimen,http://semweb.csdb.cn/plant,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,1,1,0,1,0.75,0,1,0,1,0.5,2.53
+kupkb,Kidney and Urinary Pathway Knowledge Base,absent,1,0,1,0.56,1,1,0.76,0,1,0,1,0.5,0,0,1,1,0.5,1,1,0,1,0.75,2.51
+eagle-i-howard,eagle-i @ Howard University,http://howard.eagle-i.net,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.28
+chem2bio2rdf,Chem2Bio2RDF,http://chem2bio2rdf.org,1,0,1,0.56,1,1,0.76,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.26
+bio2rdf-taxon,bio2rdf-taxon,absent,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+CoLChina_sp2000,Catalogue of Life in China 2003 Edition,http://semweb.csdb.cn/ioz,1,0,1,0.67,1,1,0.78,0.5,1,0,1,0.62,1,1,0,1,0.75,0,1,0,1,0.5,2.65
+bioportal-hugo,HUGO,http://bioportal.bioontology.org/ontologies/1528,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+eagle-i-hawaii,eagle-i @ University of Hawai’i at Mānoa,http://hawaii.eagle-i.net,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.28
+farmbio-chembl,ChEMBL-RDF (@ Uppsala University),https://github.com/egonw/chembl.rdf,1,0,1,0.89,1,1,0.82,1,1,0,1,0.75,1,1,1,1,1,1,1,0,1,0.75,3.32
+eagle-i-uccaribe,eagle-i @ Universidad Central del Caribe,http://uccaribe.eagle-i.net,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.28
+arrayexpress_e-mtab-104,Transcription profiling of rat bladder after inoculation with bladder cancer cells,absent,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,0,1,1,1,0.75,1,1,0,1,0.75,3.05
+eagle-i-xula,eagle-i @ Xavier University of Louisiana,http://xula.eagle-i.net,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.28
+reactome-rdf,Reactome RDF,absent,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,0,1,1,1,0.75,1,1,0,1,0.75,3.05
+eagle-i-montana,eagle-i @ Montana State University,http://montana.eagle-i.net,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.28
+allie-abbreviation-and-long-form-database-in-life-science,Allie Abbreviation And Long Form Database in Life Science,http://allie.dbcls.jp/,1,0.815,1,1,1,1,0.97,1,1,1,1,1,1,1,1,1,1,1,1,0.5,1,0.88,3.85
+lodac-bdls,LODAC BDLS,http://lod.ac/wiki/LODAC_BDLS,1,0,1,0.89,1,1,0.82,1,1,0,1,0.75,1,1,0,1,0.75,0,1,0,1,0.5,2.82
+sandre,Taxons ,http://sandre.eaufrance.fr/,1,0.275675676,1,0.89,1,1,0.86,1,1,1,1,1,1,1,0,1,0.75,0,1,0,1,0.5,3.11
+foodpedia,FOODpedia - Linked Data Dataset about Food Products and Ingredients,http://foodpedia.tk,1,0,1,0.78,1,1,0.8,0,1,0,1,0.5,1,1,0,1,0.75,0,1,0,1,0.5,2.55
+eagle-i-msm,eagle-i @ Morehouse School of Medicine,http://msm.eagle-i.net,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.28
+Naturopathy,Naturopathy Knowledge Graph (Ontology and Dataset) - RDF distribution of the naturopathy dataset.,http://sensormeasurement.appspot.com/dataset/naturopathy-dataset,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,1,1,1,1,1,0,1,0.75,3.3
+bio2rdf-bioportal,Bio2RDF::Bioportal,http://bioportal.bio2rdf.org/,1,0,1,1,1,1,0.83,1,1,1,1,1,1,1,1,1,1,1,1,0.181818182,1,0.8,3.63
+bio2rdf-chembl,Bio2RDF::Chembl,http://chembl.bio2rdf.org/,1,0,1,0.89,1,1,0.82,1,1,0,1,0.75,1,1,1,1,1,1,1,0,1,0.75,3.32
+bio2rdf-sider,Bio2RDF::Sider,http://sider.bio2rdf.org/,1,0,1,1,1,1,0.83,1,1,1,1,1,1,1,1,1,1,1,1,0.181818182,1,0.8,3.63
+chemdb-phaseTransition,chemdb phase transition dataset,http://chemdc.casdc.cn/,1,0.9992,1,0.67,1,1,0.94,1,1,1,1,1,1,1,0,1,0.75,0,1,0,1,0.5,3.19
+eagle-i-ohsu,eagle-i @ Oregon Health and Science University,http://ohsu.eagle-i.net,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.28
+entice-graph,ENTICE Educational Episodes Knowledge Graph,https://data.entice.eu/,1,0,1,0.78,1,1,0.8,0,1,0,1,0.5,1,1,0,1,0.75,0,1,0,1,0.5,2.55
+eagle-i-upr,eagle-i@ University of Puerto Rico - Medical Sciences Campus,http://upr.eagle-i.net,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.28
+eagle-i-tuskegee,eagle-i @ Tuskegee University,http://tuskegee.eagle-i.net,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.28
+PGxLOD,PGxLOD,https://pgxlod.loria.fr/,,,,,,,,,,,,,,,,,,,,,,,
+ogolod,Orthology and Diseases Information - OGO,http://miuras.inf.um.es/~ogo/ogolod.html,1,0,1,0.78,1,1,0.8,0,1,0,1,0.5,1,1,0,1,0.75,0,1,0,1,0.5,2.55
+eagle-i-famu,eagle-i @ Florida Agricultural and Mechanical University,http://famu.eagle-i.net,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.28
+taxonconcept-occurences,taxonconcept-occurences,absent,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,1,1,0.75,1,1,0,1,0.75,3.03
+micro-coronavirus,Coronavirus dataset,http://semweb.csdb.cn/micro,1,0.9614,1,0.67,1,1,0.94,1,1,1,1,1,1,1,0,1,0.75,0,1,0,1,0.5,3.19
+disgenet,DisGeNET,http://ibi.imim.es/,1,0,1,0.89,1,1,0.82,1,1,0,1,0.75,1,1,1,1,1,1,1,0,1,0.75,3.32
+linked-life-data,Linked Life Data,http://linkedlifedata.com/,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.28
+PubChem_RDF,PubChem RDF,https://pubchem.ncbi.nlm.nih.gov/,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,1,1,1,1,1,0,1,0.75,3.3
+http:sensormeasurement.appspot.comdatasetnaturopathy-dataset,Naturopathy knowledge Graph (Ontology and Dataset) - RDF distribution of the naturopathy dataset.,http://sensormeasurement.appspot.com/dataset/naturopathy-dataset,1,0,1,0.89,1,1,0.82,1,1,0,1,0.75,1,1,1,1,1,1,1,0,1,0.75,3.32
+issa-agritrop,ISSA Agritrop Dataset,https://github.com/issa-project/issa-pipeline,1,0,1,0.89,1,1,0.82,1,1,0,1,0.75,1,1,0,1,0.75,0,1,0,1,0.5,2.82
+nextprot,neXtProt,https://www.nextprot.org/,1,0,1,0.67,1,1,0.78,0.5,1,0,1,0.62,1,1,0,1,0.75,0,1,0,1,0.5,2.65
+chemdb-estimatedProperties,chemdb estimated properties dataset,http://chemdc.casdc.cn/,1,0.961,1,0.67,1,1,0.94,1,1,1,1,1,1,1,0,1,0.75,0,1,0,1,0.5,3.19
+ASCDC-AS-TFD-Fish-Species,Taiwan Fauna Database Research: Taiwan Digital Fish Species Database (AS-TFD-Fish-Species),https://data.ascdc.tw/en/data.php,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,1,1,0,1,0.75,0,1,0,1,0.5,2.53
+bio2rdf-genage,Bio2RDF::Genage,http://genage.bio2rdf.org/,1,0,1,1,1,1,0.83,1,1,1,1,1,1,1,1,1,1,1,1,0.181818182,1,0.8,3.63
+nvs,NERC Vocabulary Server 2.0,http://vocab.nerc.ac.uk/,1,0,1,0.89,1,1,0.82,1,1,0,1,0.75,1,1,1,1,1,1,1,0,1,0.75,3.32
+eagle-i-tsu,eagle-i @ Texas Southern University,http://tsu.eagle-i.net,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.28

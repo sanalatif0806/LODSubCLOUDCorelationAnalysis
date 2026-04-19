@@ -1,0 +1,38 @@
+id,KG name,Dataset URL,F1-M Unique and persistent ID,F1-D URIs dereferenceability,F2a-M - Metadata availability via standard primary sources,F2b-M Metadata availability for all the attributes covered in the FAIR score computation,F3-M Data referrable via a DOI,F4-M Metadata registered in a searchable engine,F score,A1-D Working access point(s),A1-M Metadata availability via working primary sources,A1.2 Authentication & HTTPS support,A2-M Registered in search engines,A score,R1.1 Machine- or human-readable license retrievable via any primary source,R1.2 Publisher information such as authors-contributors-publishers and sources,R1.3-D Data organized in a standardized way,R1.3-M Metadata are described with VoID/DCAT predicates,R score,I1-D Standard & open representation format,I1-M Metadata are described with VoID/DCAT predicates,I2 Use of FAIR vocabularies,I3-D Degree of connection,I score,FAIR score
+ASCDC-Tibetan-Audio-Archive,The Tibetan Collection Audio Archive Research Project (Tibetan Audio Archive),https://data.ascdc.tw/en/data.php,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,1,1,0,1,0.75,0,1,0,1,0.5,2.53
+dbpedia,DBpedia,http://dbpedia.org/,,,,,,,,,,,,,,,,,,,,,,,
+linkedmdb,Linked Movie DataBase,http://linkedmdb.org/,1,0,1,0.78,1,1,0.8,0,1,0,1,0.5,1,1,1,1,1,1,1,0,1,0.75,3.05
+dbtune-musicbrainz,DBTune.org Musicbrainz D2R Server,http://dbtune.org/musicbrainz/,1,0,1,0.56,1,1,0.76,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.26
+bbc-wildlife-finder,BBC Wildlife Finder,http://www.bbc.co.uk/wildlifefinder/,1,0,1,0.78,1,1,0.8,0,1,0,1,0.5,1,1,0,1,0.75,0,1,0,1,0.5,2.55
+bbc-programmes,BBC Programmes,http://www.bbc.co.uk/programmes,1,0,1,0.89,1,1,0.82,1,1,0,1,0.75,1,1,0,1,0.75,0,1,0,1,0.5,2.82
+event-media,EventMedia,http://eventmedia.eurecom.fr/,1,0,1,0.89,1,1,0.82,1,1,0,1,0.75,1,1,1,1,1,1,1,0,1,0.75,3.32
+nytimes-linked-open-data,New York Times - Linked Open Data,http://data.nytimes.com/,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,1,1,1,1,1,1,1,0,1,0.75,3.03
+ontos-news-portal,Ontos News Portal,http://news.ontos.com,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,1,1,1,1,1,1,1,0,1,0.75,3.03
+bricklink,Bricklink,http://kasabi.com/dataset/bricklink,1,0,1,0.89,1,1,0.82,1,1,0,1,0.75,1,1,1,1,1,1,1,0,1,0.75,3.32
+zitgist-musicbrainz,MusicBrainz (zitgist.com),http://fgiasson.com/blog/index.php/2007/05/22/browsing-musicbrainzs-dataset-via-uri-dereferencing/,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,1,1,0,1,0.75,0,1,0,1,0.5,2.53
+dbtune-classical,DBTune.org/classical,http://dbtune.org/classical/,1,0,1,0.67,1,1,0.78,0.5,1,0,1,0.62,0,1,0,1,0.5,0,1,0,1,0.5,2.4
+bbc-music,BBC Music,http://www.bbc.co.uk/music,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.55
+gemeenschappelijke-thesaurus-audiovisuele-archieven,Gemeenschappelijke Thesaurus Audiovisuele Archieven ? Common Thesaurus Audiovisual Archives,http://data.beeldengeluid.nl/gtaa/GTAA,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,0,1,0.75,0,1,0,1,0.5,2.8
+betweenourworlds,Between Our Worlds,https://betweenourworlds.org,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,1,1,1,1,1,0,1,0.75,3.3
+chronicling-america,Chronicling America,http://chroniclingamerica.loc.gov/about/api/,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,1,1,0.75,1,1,0,1,0.75,3.03
+data-incubator-discogs,Discogs in RDF,http://kasabi.com/dataset/discogs,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,1,1,1,1,1,0,1,0.75,3.3
+dbtune-john-peel-sessions,DBTune.org John Peel sessions RDF server,http://dbtune.org/bbc/peel/,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.55
+muziekweb,Muziekweb,https://data.muziekweb.nl/,1,0,1,0.89,1,1,0.82,1,1,1,1,1,1,1,1,1,1,1,1,0,1,0.75,3.57
+dbtune-artists-last-fm,DBTune.org Artists: Last.fm,http://dbtune.org/artists/last-fm/,1,0,1,0.44,1,1,0.74,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.24
+salzburgerland-com-it,Salzburgerland IT,https://www.salzburgerland.com/it/,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,1,1,0,1,0.75,0,1,0,1,0.5,2.53
+edublogs,Edublogs,absent,1,0,1,0.67,1,1,0.78,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.53
+pokepedia-fr,Poképédia,http://www.pokepedia.fr,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,1,1,0,1,0.75,0,1,0,1,0.5,2.53
+data-incubator-pokedex,Pokedex data in RDF,http://pokedex.dataincubator.org/,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,0,1,1,1,0.75,1,1,0,1,0.75,3.05
+wasabi,WASABI RDF Knowledge Graph,https://github.com/micbuffa/WasabiDataset,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0.526315789,1,0.88,3.88
+surge-radio,Surge Radio,http://www.surgeradio.co.uk/,1,0,1,0.56,1,1,0.76,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.26
+salzburgerland-com-de,Salzburgerland DE,https://www.salzburgerland.com/de/,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,1,1,0,1,0.75,0,1,0,1,0.5,2.53
+dbtune-audioscrobbler,DBTune.org AudioScrobbler RDF Service,http://dbtune.org/last-fm/,1,0,1,0.44,1,1,0.74,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.24
+salzburgerland-com-en,Salzburgerland EN,https://www.salzburgerland.com/en/,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,1,1,0,1,0.75,0,1,0,1,0.5,2.53
+linked-user-feedback,Linked User Feedback,http://soa4all.isoco.net/luf/about/,1,0,1,0.78,1,1,0.8,0,1,0,1,0.5,1,1,1,1,1,1,1,0,1,0.75,3.05
+rdfize-lastfm,"Last.FM RDFization of Events, Artists, and Users",http://lastfm.rdfize.com,1,0,1,0.56,1,1,0.76,0,1,0,1,0.5,0,1,0,1,0.5,0,1,0,1,0.5,2.26
+eutc-productions,Edinburgh University Theatre Company Productions,http://www.bedlamtheatre.co.uk/,1,0,1,0.89,1,1,0.82,1,1,0,1,0.75,1,1,0,1,0.75,0,1,0,1,0.5,2.82
+dbtune-magnatune,DBTune.org Magnatune RDF server,http://dbtune.org/magnatune/,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.55
+data-incubator-moseley,Moseley Folk Festival Data,http://moseley.dataincubator.org/,1,0,1,0.89,1,1,0.82,1,1,0,1,0.75,1,1,1,1,1,1,1,0,1,0.75,3.32
+jamendo-dbtune,DBTune.org Jamendo RDF Server,http://dbtune.org/jamendo/,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,0,1,0,1,0.5,0,1,0,1,0.5,2.55
+dbtropes,DBTropes,http://dbtropes.org/,1,0,1,0.78,1,1,0.8,1,1,0,1,0.75,1,1,0,1,0.75,0,1,0,1,0.5,2.8
+ASCDC-CTS-TV-Programs,The Chinese Television System Educational and Cultural Programs Digital Archive (CTS-TV-Programs),https://data.ascdc.tw/en/data.php,1,0,1,0.67,1,1,0.78,0,1,0,1,0.5,1,1,0,1,0.75,0,1,0,1,0.5,2.53

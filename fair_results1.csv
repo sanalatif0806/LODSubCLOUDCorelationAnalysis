@@ -1,0 +1,1086 @@
+id,title,original_url,score_F1A,score_F1B,score_F2,score_F3,score_F4,score_A1.1,score_A1.2,score_A2,score_I1,score_I2,score_I3,score_R1.1,score_R1.2,score_R1.3,total_F,avg_F,total_A,avg_A,total_I,avg_I,total_R,avg_R,score_total,score_avg
+bio2rdf-chembl,Bio2RDF::Chembl,http://chembl.bio2rdf.org/,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+fu-berlin-drugbank,DrugBank,http://www4.wiwiss.fu-berlin.de/drugbank/,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+bio2rdf-goa,Bio2RDF::Goa,http://goa.bio2rdf.org/,2,0,,,,2,0,,0,0,0,0,0,0,2,0.5,2,1,0,0,0,0,4,0.333
+bio2rdf-homologene,Bio2RDF::Homologene,http://homologene.bio2rdf.org/,2,0,,,,2,0,,0,0,0,0,0,0,2,0.5,2,1,0,0,0,0,4,0.333
+bio2rdf-irefindex,Bio2RDF::Irefindex,http://irefindex.bio2rdf.org/,2,0,,,,2,0,,0,0,0,0,0,0,2,0.5,2,1,0,0,0,0,4,0.333
+bio2rdf-mesh,Bio2RDF::Mesh,http://mesh.bio2rdf.org/,2,0,,,,2,0,,0,0,0,0,0,0,2,0.5,2,1,0,0,0,0,4,0.333
+bio2rdf-ndc,Bio2RDF::Ndc,http://ndc.bio2rdf.org/,2,0,,,,2,0,,0,0,0,0,0,0,2,0.5,2,1,0,0,0,0,4,0.333
+bio2rdf-pharmgkb,Bio2RDF::Pharmgkb,http://pharmgkb.bio2rdf.org/,2,0,,,,2,0,,0,0,0,0,0,0,2,0.5,2,1,0,0,0,0,4,0.333
+bio2rdf-orphanet,Bio2RDF::Orphanet,http://orphanet.bio2rdf.org/,2,0,,,,2,0,,0,0,0,0,0,0,2,0.5,2,1,0,0,0,0,4,0.333
+bio2rdf-sabiork,Bio2RDF::Sabiork,http://sabiork.bio2rdf.org/,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+bio2rdf-sider,Bio2RDF::Sider,http://sider.bio2rdf.org/,2,0,,,,2,0,,0,0,0,0,0,0,2,0.5,2,1,0,0,0,0,4,0.333
+bio2rdf-taxon,bio2rdf-taxon,http://taxon.bio2rdf.org/,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+bio2rdf-wormbase,Bio2RDF::Wormbase,http://wormbase.bio2rdf.org/,2,0,,,,2,0,,0,0,0,0,0,0,2,0.5,2,1,0,0,0,0,4,0.333
+bioportal-mccl_x1,Cell line ontology,https://bioportal.bioontology.org/ontologies/CLO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+bioportal-apo,Ascomycete phenotype ontology,https://bioportal.bioontology.org/ontologies/APO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+bioportal-nmr,NMR-instrument specific component of metabolomics investigations,https://old.datahub.io/zh_TW/dataset/bioportal-nmr,0,0,,,,0,0,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+bioportal-sio,SemanticScience Integrated Ontology,https://bioportal.bioontology.org/ontologies/SIO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+bioportal-fypo,Fission Yeast Phenotype Ontology,https://bioportal.bioontology.org/ontologies/FYPO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+bioportal-mod,Protein modification,https://bioportal.bioontology.org/ontologies/PSIMOD,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+bioportal-imr,Molecule role (INOH Protein name/family name ontology),http://linkeddatacatalog.dws.informatik.uni-mannheim.de/id/dataset/bioportal-imr,2,2,,,,2,0,,2,2,2,0,2,2,8,2,2,1,6,2,4,1.333,20,1.667
+bioportal-nif_cell,NIF Cell,https://bioportal.bioontology.org/ontologies/NIFCELL,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+bioportal-wbphenotype,C. elegans phenotype,https://bioportal.bioontology.org/ontologies/WB-PHENOTYPE,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+jita,JITA Classification System of Library and Information Science,http://www.destin-informatique.com/ASKOSI/Wiki.jsp?page=JITA%20Maintenance,0,0,,,,0,0,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+bioportal-efo,Experimental Factor Ontology,https://bioportal.bioontology.org/ontologies/EFO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+bioportal-aeo,Anatomical Entity Ontology,https://bioportal.bioontology.org/ontologies/AEO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+bioportal-rex,Physico-chemical process,https://bioportal.bioontology.org/ontologies/REX,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+bioportal-geospecies,GeoSpecies Ontology,https://bioportal.bioontology.org/ontologies/GEOSPECIES,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+bioportal-chebi,Chemical entities of biological interest,https://bioportal.bioontology.org/ontologies/CHEBI,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+bioportal-rnao,RNA ontology,https://bioportal.bioontology.org/ontologies/RNAO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+bioportal-lipro,Lipid Ontology,https://bioportal.bioontology.org/ontologies/LIPRO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+bioportal-hao,Hymenoptera Anatomy Ontology,https://bioportal.bioontology.org/ontologies/HAO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+bioportal-fbdv,Drosophila development,https://bioportal.bioontology.org/ontologies/FB-DV,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+bioportal-fbbt,Drosophila gross anatomy,https://bioportal.bioontology.org/ontologies/FB-BT,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+bioportal-bto,BRENDA tissue / enzyme source,https://bioportal.bioontology.org/ontologies/BTO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+bioportal-ncbitaxon,NCBI organismal classification,https://bioportal.bioontology.org/ontologies/NCBITAXON,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+bioportal-pw,Pathway ontology,https://bioportal.bioontology.org/ontologies/PW,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+bioportal-ogi,Ontology for Genetic Interval,https://bioportal.bioontology.org/ontologies/OGI,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+bioportal-ev,eVOC (Expressed Sequence Annotation for Humans),https://old.datahub.io/bg/dataset/bioportal-ev,0,0,,,,0,0,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+bioportal-ehdaa,"Human developmental anatomy, abstract version",https://bioportal.bioontology.org/ontologies/EHDAA,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+bioportal-mmo,Measurement Method Ontology,https://bioportal.bioontology.org/ontologies/MMO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+bioportal-ido,Infectious Disease Ontology,https://bioportal.bioontology.org/ontologies/IDO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+bioportal-cheminf,Chemical Information Ontology,https://bioportal.bioontology.org/ontologies/CHEMINF,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+bioportal-npo,NanoParticle Ontology,https://bioportal.bioontology.org/ontologies/NPO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+chempedia-rdf,ChemPedia RDF,http://figshare.com/articles/ChemPedia_as_RDF/681678,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+bioportal-mego,MeGO,https://bioportal.bioontology.org/ontologies/MEGO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+addgene,Addgene,http://www.addgene.org/,2,0,,,,2,0,,0,0,0,0,0,0,2,0.5,2,1,0,0,0,0,4,0.333
+bioportal-exo,ExO,https://bioportal.bioontology.org/ontologies/EXO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+bioportal-uo,Units of measurement,https://bioportal.bioontology.org/ontologies/UO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+bioportal-pato,Phenotypic quality,https://bioportal.bioontology.org/ontologies/PATO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+kupkb,Kidney and Urinary Pathway Knowledge Base,http://www.kupkb.org,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+entrez_gene,Entrez Gene,http://www.ncbi.nlm.nih.gov/gene,2,0,,,,2,0,,0,0,0,0,0,0,2,0.5,2,1,0,0,0,0,4,0.333
+bioportal-mcbcc,Breast tissue cell lines,https://bioportal.bioontology.org/ontologies/MCBCC,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+bioportal-oboe,OBOE,https://bioportal.bioontology.org/ontologies/OBOE,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+bioportal-snpo,SNP-Ontology,https://bioportal.bioontology.org/ontologies/SNPO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+bioportal-sao,Subcellular Anatomy Ontology (SAO),https://bioportal.bioontology.org/ontologies/SAO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+fu-berlin-stitch,STITCH: Chemical-Protein Interactions,http://www4.wiwiss.fu-berlin.de/stitch/,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+bioportal-cl,Cell type,https://bioportal.bioontology.org/ontologies/CL,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+bioportal-bp,BioPAX,https://bioportal.bioontology.org/ontologies/BP,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+bioportal-bdo,Bone Dysplasia Ontology,https://bioportal.bioontology.org/ontologies/BDO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+biosamples-rdf,BioSamples RDF,https://www.ebi.ac.uk/biosamples/,2,0,,,,2,0,,1,2,0,0,2,2,5,1.25,2,1,3,1,4,1.333,14,1.167
+bioportal-ecg,Electrocardiography Ontology,https://bioportal.bioontology.org/ontologies/ECG,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+fu-berlin-dailymed,DailyMed,http://www4.wiwiss.fu-berlin.de/dailymed/,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+PGxLOD,PGxLOD,https://pgxlod.loria.fr/,2,0,,,,2,2,,1,2,2,2,2,2,5,1.25,4,2,5,1.667,6,2,20,1.667
+gene-expression-atlas-rdf,Gene Expression Atlas RDF,http://www.ebi.ac.uk/rdf/services/atlas,0,0,,,,0,0,,1,2,0,0,0,2,3,0.75,0,0,3,1,2,0.667,8,0.667
+yale_senselab,Yale Senselab,http://neuroweb.med.yale.edu/senselab/,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+arrayexpress-e-afmx-1,"Transcription profiling of human, chimp and mouse brain",https://www.ebi.ac.uk/biostudies/arrayexpress/studies/E-AFMX-1,2,0,,,,2,0,,0,0,0,0,0,0,2,0.5,2,1,0,0,0,0,4,0.333
+biolod-pdb,BioLOD for Protein Data Bank Japan,http://biolod.org/database/ria1i/Protein_Data_Bank,0,0,,,,2,0,,1,1,0,0,0,1,2,0.5,2,1,2,0.667,1,0.333,7,0.583
+bioportal-icf_x1,"International Classification of Functioning, Disability and Health (ICF)",https://bioportal.bioontology.org/ontologies/ICF,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+cz-sidc-drug-ingredients,Active ingredients of medicinal products available in Czech Republic,http://linked.opendata.cz/resource/dataset/sukl/drug-ingredients,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+chem2bio2rdf,Chem2Bio2RDF,http://chem2bio2rdf.org,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+Naturopathy,Naturopathy Knowledge Graph (Ontology and Dataset) - RDF distribution of the naturopathy dataset.,http://sensormeasurement.appspot.com/dataset/naturopathy-dataset,2,0,,,,2,0,,0,0,0,0,0,0,2,0.5,2,1,0,0,0,0,4,0.333
+bioportal-mdr,MedDRA,https://bioportal.bioontology.org/ontologies/MEDDRA,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+bioportal-spto,Solanaceae Phenotype Ontology,https://bioportal.bioontology.org/ontologies/SPTO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+bioportal-ddi,Ontology for Drug Discovery Investigations,https://bioportal.bioontology.org/ontologies/DDI,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+Hermos,Hermos,https://mcbu-semanticweb-lab.github.io/hermos/,2,0,,,,2,0,,1,1,0,0,0,1,4,1,2,1,2,0.667,1,0.333,9,0.75
+bioportal-mpath,Mouse pathology,https://bioportal.bioontology.org/ontologies/MPATH,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+bioportal-jerm,SysMO-JERM,https://old.datahub.io/dataset/bioportal-jerm,0,0,,,,0,0,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+bioportal-phare,PHARE,https://bioportal.bioontology.org/ontologies/PHARE,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+disgenet,DisGeNET,https://maayanlab.cloud/Harmonizome/dataset/DisGeNET+Gene-Disease+Associations,2,0,,,,2,0,,1,2,0,0,2,2,5,1.25,2,1,3,1,4,1.333,14,1.167
+cz-sidc-drugs,Medicinal products marketed in Czech Republic,http://linked.opendata.cz/resource/dataset/sukl/drugs,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+cz-eh-1-atc,ATC groups,https://bioportal.bioontology.org/ontologies/ATC,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+bioportal-nigo,Neural-Immune Gene Ontology,https://bioportal.bioontology.org/ontologies/NIGO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+PubChem RDF,PubChem RDF,https://pubchem.ncbi.nlm.nih.gov/,2,0,,,,2,0,,1,2,0,0,0,2,5,1.25,2,1,3,1,2,0.667,12,1
+bioportal-gro,Cereal Plant Development,http://bioportal.bioontology.org/ontologies/1047,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+bioportal-unitsontology,Units Ontology,https://bioportal.bioontology.org/ontologies/UNITSONT,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+bioportal-ogmd,Ontology of Glucose Metabolism Disorder,https://bioportal.bioontology.org/ontologies/OGMD,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+bioportal-nddf,National Drug Data File,https://bioportal.bioontology.org/ontologies/NDDF,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+bioportal-mo,MGED Ontology,https://bioportal.bioontology.org/ontologies/MO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+bioportal-ms,Mass spectrometry,https://bioportal.bioontology.org/ontologies/MS,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+linked-drugs,LinkedDrugs: Linked Drug Product Data on a Global Scale,http://drugs.linkeddata.finki.ukim.mk/,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+ontobeef-domain,OntoBeef Domain,http://onto.beef.org.pl/ontobeef,0,0,,,,0,0,,1,0,0,0,0,0,1,0.25,0,0,1,0.333,0,0,2,0.167
+bioportal-ndfrt,National Drug File,https://bioportal.bioontology.org/ontologies/NDFRT,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+bioportal-ontoorpha,Orphanet Ontology of Rare Diseases,https://bioportal.bioontology.org/ontologies/ORDO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+bioportal-air,AI/RHEUM,https://bioportal.bioontology.org/ontologies/AI-RHEUM,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+bioportal-bcgo,Breast Cancer Grading Ontology,https://bioportal.bioontology.org/ontologies/BCGO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+ogolod,Orthology and Diseases Information - OGO,http://miuras.inf.um.es/~ogo/ogolod.html,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+bioportal-hugo,HUGO,https://bioportal.bioontology.org/ontologies/HGNC,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+bioportal-neomark,Neomark Oral Cancer Ontology,https://bioportal.bioontology.org/ontologies/NEOMARK3  https://bioportal.bioontology.org/ontologies/NEOMARK4,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+bioportal-pdq,Physician Data Query,https://bioportal.bioontology.org/ontologies/PDQ,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+bioportal-cogat,Cognitive Atlas,https://bioportal.bioontology.org/ontologies/COGAT,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+bio2rdf-affymetrix,Affymetrix,https://www.thermofisher.com,2,0,,,,2,0,,0,0,0,0,0,0,2,0.5,2,1,0,0,0,0,4,0.333
+bio2rdf-clinicaltrials,ClinicalTrials.gov,http://clinicaltrials.bio2rdf.org/,2,0,,,,2,0,,0,0,0,0,0,0,2,0.5,2,1,0,0,0,0,4,0.333
+bio2rdf-ctd,Comparative ToxicogenomicsÂ ,http://ctd.bio2rdf.org/,2,0,,,,2,0,,0,0,0,0,0,0,2,0.5,2,1,0,0,0,0,4,0.333
+bio2rdf-dbsnp,Database of single nucleotide polymorphism,http://dbsnp.bio2rdf.org/,2,0,,,,2,0,,0,0,0,0,0,0,2,0.5,2,1,0,0,0,0,4,0.333
+bio2rdf-genage,GenAge: The Ageing Gene Database,http://genage.bio2rdf.org/,2,0,,,,2,0,,0,0,0,0,0,0,2,0.5,2,1,0,0,0,0,4,0.333
+bio2rdf-gendr,GenDR: The Dietary Restriction Gene Database,http://gendr.bio2rdf.org/,2,0,,,,2,0,,0,0,0,0,0,0,2,0.5,2,1,0,0,0,0,4,0.333
+bio2rdf-hgnc,HUGO Gene Nomenclature CommitteeÂ ,http://hgnc.bio2rdf.org/,2,0,,,,2,0,,0,0,0,0,0,0,2,0.5,2,1,0,0,0,0,4,0.333
+bio2rdf-interpro,"Integrated resource of protein families, domains and functional sites",http://interpro.bio2rdf.org/,2,0,,,,2,0,,0,0,0,0,0,0,2,0.5,2,1,0,0,0,0,4,0.333
+bio2rdf-iproclass,Integrated Protein Knowledgebase,http://iproclass.bio2rdf.org/,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+bio2rdf-kegg,Kyoto Encyclopedia of Genes and Genomes,https://www.genome.jp/kegg,2,0,,,,2,0,,0,0,0,0,0,0,2,0.5,2,1,0,0,0,0,4,0.333
+bio2rdf-linkedspl,Linked Structured Product Label,https://www.nlm.nih.gov,2,0,,,,2,0,,0,0,0,0,0,0,2,0.5,2,1,0,0,0,0,4,0.333
+bio2rdf-lsr,The Life Science Resource Registry,http://lsr.bio2rdf.org/,2,0,,,,2,0,,0,0,0,0,0,0,2,0.5,2,1,0,0,0,0,4,0.333
+bio2rdf-ncbigene,NCBI Gene,http://ncbigene.bio2rdf.org/,2,0,,,,2,0,,0,0,0,0,0,0,2,0.5,2,1,0,0,0,0,4,0.333
+bio2rdf-omim,Online Mendelian Inheritance in Man,http://omim.bio2rdf.org/,2,0,,,,2,0,,0,0,0,0,0,0,2,0.5,2,1,0,0,0,0,4,0.333
+bio2rdf-pathwaycommons,Pathway Commons,https://www.pathwaycommons.org,2,0,,,,2,0,,0,0,0,0,0,0,2,0.5,2,1,0,0,0,0,4,0.333
+bio2rdf-reactome,Reactome - a curated knowledgebase of biological pathways,https://reactome.org,2,0,,,,2,0,,1,1,0,0,0,1,4,1,2,1,2,0.667,1,0.333,9,0.75
+bio2rdf-sgd,Saccharomyces Genome Database,http://sgd.bio2rdf.org/,2,0,,,,2,0,,0,0,0,0,0,0,2,0.5,2,1,0,0,0,0,4,0.333
+bio2rdf-bioportal,BioPortal,http://bioportal.bio2rdf.org/,2,0,,,,2,0,,0,0,0,0,0,0,2,0.5,2,1,0,0,0,0,4,0.333
+lincs-cloview,LINCS Cell Line Ontology View,https://lincsproject.org/,2,0,,,,2,0,,0,0,0,0,0,0,2,0.5,2,1,0,0,0,0,4,0.333
+lthido,Linked Terminologies for Human Infectious Diseases,https://bioportal.bioontology.org/ontologies/LTHIDO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+ndf-rt,National Drug File - Reference Terminology,https://www.nlm.nih.gov/research/umls/sourcereleasedocs/current/NDFRT/,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+ogg-at,Ontology of Genes and Genomes - Arabidopsis,http://purl.obolibrary.org/obo/ogg,0,2,,,,0,0,,0,0,0,0,0,0,2,0.5,0,0,0,0,0,0,2,0.167
+ogg-bru,Ontology of Genes and Genomes - Brucella,http://purl.obolibrary.org/obo/ogg,,,,,,,,,,,,,,,,,,,,,,,2,0.167
+ogg-dm,Ontology of Genes and Genomes - Drosophila,http://purl.obolibrary.org/obo/ogg,,,,,,,,,,,,,,,,,,,,,,,2,0.167
+ogg-sc,Ontology of Genes and Genomes - Yeast,http://purl.obolibrary.org/obo/ogg,0,2,,,,0,0,,0,0,0,0,0,0,2,0.5,0,0,0,0,0,0,2,0.167
+reo,Radiological Events Ontology,https://bioportal.bioontology.org/ontologies/REO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+sdgio,Sustainable Development Goals Interface Ontology,https://bioportal.bioontology.org/ontologies/SDGIO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+uberon-basic,Uberon Basic,http://uberon.github.io/,2,0,,,,2,0,,0,0,0,0,0,0,2,0.5,2,1,0,0,0,0,4,0.333
+uberon_collected_metazoa,Uberon Collected Metazoa,http://uberon.github.io/,,,,,,,,,,,,,,,,,,,,,,,4,0.333
+uberon_depictions,Uberon Depictions,http://uberon.github.io/,,,,,,,,,,,,,,,,,,,,,,,4,0.333
+xl,Xenopus Anatomy Ontology,https://bioportal.bioontology.org/ontologies/XL,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+evorao,European Viral Outbreak Response Alliance Ontology,http://www.evocontology.org/,2,0,,,,2,0,,1,1,0,0,2,1,4,1,2,1,2,0.667,3,1,11,0.917
+ictv,ICTV Virus Taxonomy,https://talk.ictvonline.org/,2,0,,,,2,0,,0,0,0,0,0,0,2,0.5,2,1,0,0,0,0,4,0.333
+uniprotrdfs,UniProt RDF Schema,https://www.uniprot.org/,2,0,,,,2,0,,1,1,2,0,0,1,4,1,2,1,4,1.333,1,0.333,11,0.917
+addicto,Addiction Ontology,https://www.ebi.ac.uk/ols4/ontologies/addicto,2,0,,,,2,0,,0,0,0,0,0,0,2,0.5,2,1,0,0,0,0,4,0.333
+dhba,Developing Human Brain Atlas Ontology,https://www.ebi.ac.uk/ols4/ontologies/dhba,2,0,,,,2,0,,0,0,0,0,0,0,2,0.5,2,1,0,0,0,0,4,0.333
+hba,Human Brain Atlas Ontology,https://www.ebi.ac.uk/ols4/ontologies/hba,2,0,,,,2,0,,0,0,0,0,0,0,2,0.5,2,1,0,0,0,0,4,0.333
+lipidmaps,LIPID MAPS,https://www.lipidmaps.org/,2,0,,,,2,0,,0,0,0,0,0,0,2,0.5,2,1,0,0,0,0,4,0.333
+cao,Chemical Analysis Metadata Platform (ChAMP) Ontology version 0.2,https://www.ebi.ac.uk/ols4/ontologies/cao,2,0,,,,2,0,,0,0,0,0,0,0,2,0.5,2,1,0,0,0,0,4,0.333
+phi,PHI-base Ontology,http://www.phi-base.org/,2,0,,,,2,0,,0,0,0,0,0,0,2,0.5,2,1,0,0,0,0,4,0.333
+msio,Metabolomics Standards Initiative Ontology (MSIO),https://www.ebi.ac.uk/ols4/ontologies/msio,2,0,,,,2,0,,0,0,0,0,0,0,2,0.5,2,1,0,0,0,0,4,0.333
+pride,Proteomics Identification Database Ontology,https://www.ebi.ac.uk/pride/,2,0,,,,2,0,,0,0,0,0,0,0,2,0.5,2,1,0,0,0,0,4,0.333
+unimod,Unimod protein modification database for mass spectrometry,http://www.unimod.org/,2,0,,,,2,0,,0,0,0,0,0,0,2,0.5,2,1,0,0,0,0,4,0.333
+hcao,Human Cell Atlas Ontology,https://www.ebi.ac.uk/ols4/ontologies/hcao,2,0,,,,2,0,,0,0,0,0,0,0,2,0.5,2,1,0,0,0,0,4,0.333
+bcio,The Behaviour Change Intervention Ontology,https://www.ebi.ac.uk/ols4/ontologies/bcio,2,0,,,,2,0,,0,0,0,0,0,0,2,0.5,2,1,0,0,0,0,4,0.333
+covoc,CoVoc Coronavirus Vocabulary,https://www.ebi.ac.uk/ols4/ontologies/covoc,2,0,,,,2,0,,0,0,0,0,0,0,2,0.5,2,1,0,0,0,0,4,0.333
+snomed,SNOMED CT (International Edition),https://www.snomed.org/,2,0,,,,2,0,,1,1,0,0,0,1,4,1,2,1,2,0.667,1,0.333,9,0.75
+ehda,"Human developmental anatomy, timed version",https://bioportal.bioontology.org/ontologies/EHDA,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+flu,Influenza Ontology,https://bioportal.bioontology.org/ontologies/FLU,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+loggerhead,Loggerhead nesting,https://bioportal.bioontology.org/ontologies/LHN,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+pd_st,Platynereis stage ontology,http://4dx.embl.de/platy,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+propreo,Proteomics data and process provece,http://lsdis.cs.uga.edu/projects/glycomics/propreo/,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+resid,Protein covalent bond,http://www.ebi.ac.uk/RESID/,0,0,,,,0,0,,1,2,0,0,0,2,3,0.75,0,0,3,1,2,0.667,8,0.667
+sopharm,Suggested Ontology for Pharmacogenomics,https://bioportal.bioontology.org/ontologies/SOPHARM,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+tahe,Terminology of Anatomy of Human Embryology,https://www.ucl.ac.uk/anatomy,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+tahh,Terminology of Anatomy of Human Histology,https://www.ucl.ac.uk/anatomy,,,,,,,,,,,,,,,,,,,,,,,2,0.167
+bci,Brain-Computer Interface Ontology,https://lov.linkeddata.es/dataset/lov/vocabs/bci,2,0,,,,2,0,,0,0,0,0,0,0,2,0.5,2,1,0,0,0,0,4,0.333
+biol,Biological Taxonomy Ontology,https://lov.linkeddata.es/dataset/lov/vocabs/biol,2,0,,,,2,0,,0,0,0,0,0,0,2,0.5,2,1,0,0,0,0,4,0.333
+biopax,BioPAX Ontology,https://lov.linkeddata.es/dataset/lov/vocabs/biopax,2,0,,,,2,0,,0,0,0,0,0,0,2,0.5,2,1,0,0,0,0,4,0.333
+biotop,Biology Upper-Level Ontology,https://lov.linkeddata.es/dataset/lov/vocabs/biotop,2,0,,,,2,0,,0,0,0,0,0,0,2,0.5,2,1,0,0,0,0,4,0.333
+cochrane,Cochrane Core Ontology,https://lov.linkeddata.es/dataset/lov/vocabs/cochrane,2,0,,,,2,0,,0,0,0,0,0,0,2,0.5,2,1,0,0,0,0,4,0.333
+cocoon,Cocoon Ontology,https://lov.linkeddata.es/dataset/lov/vocabs/cocoon,2,0,,,,2,0,,0,0,0,0,0,0,2,0.5,2,1,0,0,0,0,4,0.333
+dataid,DataID Core Vocabulary,https://lov.linkeddata.es/dataset/lov/vocabs/dataid,2,0,,,,2,0,,0,0,0,0,0,0,2,0.5,2,1,0,0,0,0,4,0.333
+dbm,DBM Ontology,https://lov.linkeddata.es/dataset/lov/vocabs/dbm,2,0,,,,2,0,,0,0,0,0,0,0,2,0.5,2,1,0,0,0,0,4,0.333
+dbpedia-owl,DBpedia Ontology,https://lov.linkeddata.es/dataset/lov/vocabs/dbpedia-owl,2,0,,,,2,0,,0,0,0,0,0,0,2,0.5,2,1,0,0,0,0,4,0.333
+hifm,HIFM Ontology,https://lov.linkeddata.es/dataset/lov/vocabs/hifm,2,0,,,,2,0,,0,0,0,0,0,0,2,0.5,2,1,0,0,0,0,4,0.333
+hosp,Healthcare Provider Ontology,https://lov.linkeddata.es/dataset/lov/vocabs/hosp,2,0,,,,2,0,,0,0,0,0,0,0,2,0.5,2,1,0,0,0,0,4,0.333
+incident,RESC Incident Ontology,https://lov.linkeddata.es/dataset/lov/vocabs/incident,,,,,,,,,,,,,,,,,,,,,,,,
+lsc,Linked Science Core Ontology,https://lov.linkeddata.es/dataset/lov/vocabs/lsc,2,0,,,,2,0,,0,0,0,0,0,0,2,0.5,2,1,0,0,0,0,4,0.333
+ofo,OFO (Open Food Ontology),https://lov.linkeddata.es/dataset/lov/vocabs/ofo,2,0,,,,2,0,,0,0,0,0,0,0,2,0.5,2,1,0,0,0,0,4,0.333
+omnlc,OMN Lifecycle Ontology,https://lov.linkeddata.es/dataset/lov/vocabs/omnlc,2,0,,,,2,0,,0,0,0,0,0,0,2,0.5,2,1,0,0,0,0,4,0.333
+person,Person Ontology,https://lov.linkeddata.es/dataset/lov/vocabs/person,2,0,,,,2,0,,0,0,0,0,0,0,2,0.5,2,1,0,0,0,0,4,0.333
+pext,PROTONext Ontology,https://lov.linkeddata.es/dataset/lov/vocabs/pext,2,0,,,,2,0,,0,0,0,0,0,0,2,0.5,2,1,0,0,0,0,4,0.333
+phdd,PHDD Ontology,https://lov.linkeddata.es/dataset/lov/vocabs/phdd,2,0,,,,2,0,,0,0,0,0,0,0,2,0.5,2,1,0,0,0,0,4,0.333
+pimsii,PIMS-II Ontology,https://lov.linkeddata.es/dataset/lov/vocabs/pimsii,2,0,,,,2,0,,0,0,0,0,0,0,2,0.5,2,1,0,0,0,0,4,0.333
+plink,PersonLink Ontology,https://lov.linkeddata.es/dataset/lov/vocabs/plink,2,0,,,,2,0,,0,0,0,0,0,0,2,0.5,2,1,0,0,0,0,4,0.333
+pmofn,PREMON Functional Ontology,https://lov.linkeddata.es/dataset/lov/vocabs/pmofn,2,0,,,,2,0,,0,0,0,0,0,0,2,0.5,2,1,0,0,0,0,4,0.333
+pmonb,PREMON Neural Behavior Ontology,https://lov.linkeddata.es/dataset/lov/vocabs/pmonb,2,0,,,,2,0,,0,0,0,0,0,0,2,0.5,2,1,0,0,0,0,4,0.333
+pmopb,PREMON Physical Behavior Ontology,https://lov.linkeddata.es/dataset/lov/vocabs/pmopb,2,0,,,,2,0,,0,0,0,0,0,0,2,0.5,2,1,0,0,0,0,4,0.333
+pmovn,PREMON Visual Neuroscience Ontology,https://lov.linkeddata.es/dataset/lov/vocabs/pmovn,2,0,,,,2,0,,0,0,0,0,0,0,2,0.5,2,1,0,0,0,0,4,0.333
+s4ehaw,SAREF4EHAW (eHealth and Ageing Well) Extension,https://lov.linkeddata.es/dataset/lov/vocabs/s4ehaw,2,0,,,,2,0,,0,0,0,0,0,0,2,0.5,2,1,0,0,0,0,4,0.333
+sbeo,SBEO (Systems Biology Evidence Ontology),https://lov.linkeddata.es/dataset/lov/vocabs/sbeo,2,0,,,,2,0,,0,0,0,0,0,0,2,0.5,2,1,0,0,0,0,4,0.333
+scip,Scientific People Ontology,https://lov.linkeddata.es/dataset/lov/vocabs/scip,2,0,,,,2,0,,0,0,0,0,0,0,2,0.5,2,1,0,0,0,0,4,0.333
+scoro,SCORO (Scientific Communication Roles) Ontology,https://lov.linkeddata.es/dataset/lov/vocabs/scoro,2,0,,,,2,0,,0,0,0,0,0,0,2,0.5,2,1,0,0,0,0,4,0.333
+tax,EU Taxonomy Ontology,https://lov.linkeddata.es/dataset/lov/vocabs/tax,2,0,,,,2,0,,0,0,0,0,0,0,2,0.5,2,1,0,0,0,0,4,0.333
+taxon,Biodiversity Taxon Ontology,https://lov.linkeddata.es/dataset/lov/vocabs/taxon,2,0,,,,2,0,,0,0,0,0,0,0,2,0.5,2,1,0,0,0,0,4,0.333
+wikibase,Wikidata Ontology,https://lov.linkeddata.es/dataset/lov/vocabs/wikibase,2,0,,,,2,0,,0,0,0,0,0,0,2,0.5,2,1,0,0,0,0,4,0.333
+mammalian-phenotype-ontology,Mammalian Phenotype Ontology,http://obofoundry.org/ontology/mp.html,2,0,,,,2,0,,0,0,0,0,0,0,2,0.5,2,1,0,0,0,0,4,0.333
+drosophila-anatomy-developmental-ontology,Drosophila Anatomy & Developmental Ontology,http://obofoundry.org/ontology/fbbt.html,2,0,,,,2,0,,0,0,0,0,0,0,2,0.5,2,1,0,0,0,0,4,0.333
+geno-ontology,GENO Ontology,http://obofoundry.org/ontology/geno.html,2,0,,,,2,0,,0,0,0,0,0,0,2,0.5,2,1,0,0,0,0,4,0.333
+sem-prov-ontologies,Semi‑PROV Ontologies,https://dataoneorg.github.io/sem-prov-ontologies,2,0,,,,2,0,,0,0,0,0,0,0,2,0.5,2,1,0,0,0,0,4,0.333
+semanticchemistry,semanticchemistry,http://semanticchemistry.github.io/semanticchemistry,2,0,,,,2,0,,1,1,0,0,0,1,4,1,2,1,2,0.667,1,0.333,9,0.75
+environmental-exposure-ontology,Environmental Exposure Ontology,http://obofoundry.org/ontology/exo.html,2,0,,,,2,0,,0,0,0,0,0,0,2,0.5,2,1,0,0,0,0,4,0.333
+mental-functioning-ontology,Mental Functioning Ontology,https://bioportal.bioontology.org/ontologies/MF,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+bio-attribute-ontology,Bio‑Attribute Ontology,http://obofoundry.org/ontology/oba.html,2,0,,,,2,0,,0,0,0,0,0,0,2,0.5,2,1,0,0,0,0,4,0.333
+behavior-ontology,Behavior Ontology,http://obofoundry.org/ontology/nbo.html,2,0,,,,2,0,,0,0,0,0,0,0,2,0.5,2,1,0,0,0,0,4,0.333
+crop-ontology,Crop Ontology,http://www.cropontology.org/,,,,,,,,,,,,,,,,,,,,,,,,
+humandiseaseontology,Human Disease Ontology,https://bioportal.bioontology.org/ontologies/DOID,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+human-phenotype-ontology,Human Phenotype Ontology,https://bioportal.bioontology.org/ontologies/HP,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+go-ontology,Gene Ontology,https://bioportal.bioontology.org/ontologies/GO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+cell-ontology,Cell Ontology,http://obofoundry.org/ontology/cl.html,2,0,,,,2,0,,0,0,0,0,0,0,2,0.5,2,1,0,0,0,0,4,0.333
+bbc-wildlife,Bbc-wildlife,http://www.bbc.co.uk/nature/,2,2,,,,2,0,,1,2,0,0,0,2,7,1.75,2,1,3,1,2,0.667,14,1.167
+human_phenotype_ontology,Human Phenotype Ontology,https://bioportal.bioontology.org/ontologies/HP,,,,,,,,,,,,,,,,,,,,,,,2,0.167
+ontology_deb,DEB Ontology,https://projectdebbie.org/,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+bioportal,BioPortal,https://bioportal.bioontology.org/,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+obi-ontology.org,OBI Ontology,http://obi-ontology.org/,2,0,,,,2,0,,0,0,0,0,0,0,2,0.5,2,1,0,0,0,0,4,0.333
+hpo-explorer,HPO Explorer,https://hpo.jax.org/,2,0,,,,2,0,,0,0,0,0,0,0,2,0.5,2,1,0,0,0,0,4,0.333
+clusterprofiler,ClusterProfiler,https://www.bioconductor.org/,2,0,,,,2,0,,0,0,0,0,0,0,2,0.5,2,1,0,0,0,0,4,0.333
+bluegenes-gene-ontology,BlueGenes Gene Ontology,http://targetmine.mizuguchilab.org/,2,0,,,,2,0,,1,0,0,0,0,0,3,0.75,2,1,1,0.333,0,0,6,0.5
+ogg-bacteria,OGG-Bacteria,http://ogg-ontology.org,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+cellxgene-ontology-guide,cellxgene-ontology-guide,https://cellxgene.cziscience.com/,2,0,,,,2,0,,1,0,0,0,0,0,3,0.75,2,1,1,0.333,0,0,6,0.5
+zebrafish-anatomical-ontology,Zebrafish Anatomical Ontology,https://zfin.org/,2,0,,,,2,0,,0,0,0,0,0,0,2,0.5,2,1,0,0,0,0,4,0.333
+human-developmental-anatomy-ontology,Human Developmental Anatomy Ontology,http://uberon.github.io/,2,0,,,,2,0,,0,0,0,0,0,0,2,0.5,2,1,0,0,0,0,4,0.333
+myupheno1,uPheno,http://upheno.org/,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+homology-ontology,Homology Ontology,https://bgee.org/,,,,,,,,,,,,,,,,,,,,,,,,
+infectious-disease-ontology,Infectious Disease Ontology,https://bioportal.bioontology.org/ontologies/IDO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+diseasedriversontology,Disease Drivers Ontology,http://www.disease-ontology.org/,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+opioiddrugontology.github.io,Opioid Drug Ontology,https://opioiddrugontology.github.io/,2,0,,,,2,0,,0,0,0,0,0,0,2,0.5,2,1,0,0,0,0,4,0.333
+ucva,Unwarranted Clinical Variation Analysis With Contextual Factors,https://bioportal.bioontology.org/ontologies/UCVA,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+jso,JS Ontology,https://bioportal.bioontology.org/ontologies/JSO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+koio,Knowledge Object Implementation Ontology,https://bioportal.bioontology.org/ontologies/KOIO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+datahub,RADx Data Hub Ontology,https://bioportal.bioontology.org/ontologies/DATAHUB,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+genevieve,Charlotte,https://bioportal.bioontology.org/ontologies/GENEVIEVE,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+gdco,Data Collection Ontology,https://bioportal.bioontology.org/ontologies/GDCO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+tm-other-factors,Traditional Medicine Other Factors Value Set,https://bioportal.bioontology.org/ontologies/TM-OTHER-FACTORS,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+rdao,Rare Diseases Awareness Ontology,https://bioportal.bioontology.org/ontologies/RDAO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+hfo,Heart Failure Ontology,https://bioportal.bioontology.org/ontologies/HFO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+gfvo,Genomic Feature and Variation Ontology,https://bioportal.bioontology.org/ontologies/GFVO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+g4-dsip,Group 4-Data Science in Practice,https://bioportal.bioontology.org/ontologies/G4-DSIP,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+fisho,Fish Ontology,https://bioportal.bioontology.org/ontologies/FISHO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+simon,Simple Measurement Ontology,https://bioportal.bioontology.org/ontologies/SIMON,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+injurytypes,Injury Types,https://bioportal.bioontology.org/ontologies/INJURYTYPES,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+cst,Cancer Staging Terms,https://bioportal.bioontology.org/ontologies/CST,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+cstd,Clinical smell and taste disorders,https://bioportal.bioontology.org/ontologies/CSTD,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+vimm,In Vitro Methodologies Ontology for MAATrica metric,https://bioportal.bioontology.org/ontologies/VIMM,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+ontopbm,Ontology for Process-Based Modeling of Dynamical Systems (OntoPBM),https://bioportal.bioontology.org/ontologies/ONTOPBM,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+icd11-bodysystem,Body System Terms from ICD11,https://bioportal.bioontology.org/ontologies/ICD11-BODYSYSTEM,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+vodanadiseases,VODANADiseases,https://bioportal.bioontology.org/ontologies/VODANADISEASES,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+iso19115mi,ISO 19115 Metadata Information,https://bioportal.bioontology.org/ontologies/ISO19115MI,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+bim,Biomedical Image Ontology,https://bioportal.bioontology.org/ontologies/BIM,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+hmis033b,HMIS 033,https://bioportal.bioontology.org/ontologies/HMIS033B,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+rda-issuance,RDA Mode of Issuance,https://bioportal.bioontology.org/ontologies/RDA-ISSUANCE,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+typon,Microbial Typing Ontology,https://bioportal.bioontology.org/ontologies/TYPON,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+test-m4m20-pav,test-m4m20-subjects-pav,https://bioportal.bioontology.org/ontologies/TEST-M4M20-PAV,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+neudigs,Neuroscience Domain Insight Graph,https://bioportal.bioontology.org/ontologies/NEUDIGS,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+opde,OPD-Ethiopia,https://bioportal.bioontology.org/ontologies/OPDE,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+opdt,opd_test,https://bioportal.bioontology.org/ontologies/OPDT,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+ncod,NCoD,https://bioportal.bioontology.org/ontologies/NCOD,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+lc-media,Library of Congress Media Types Scheme,https://bioportal.bioontology.org/ontologies/LC-MEDIA,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+rnprio,Research Network and Patient Registry Inventory Ontology,https://bioportal.bioontology.org/ontologies/RNPRIO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+nnd_nd,NND_Neuropathological_Diagnosis,https://bioportal.bioontology.org/ontologies/NND_ND,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+iso19115id,ISO 19115 Identification Information,https://bioportal.bioontology.org/ontologies/ISO19115ID,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+rdo,Reusable Biodiversity Ontology,https://bioportal.bioontology.org/ontologies/RDO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+testex,test1,https://bioportal.bioontology.org/ontologies/TESTEX,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+ahso,Animal Health Surveillance Ontology,https://bioportal.bioontology.org/ontologies/AHSO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+imobo,Intelligent Medicine oriented Biobank Ontology,https://bioportal.bioontology.org/ontologies/IMOBO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+rao,Rheumatoid Arthritis ontology,https://bioportal.bioontology.org/ontologies/RAO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+ogroup,Orthologous Group Ontology,https://bioportal.bioontology.org/ontologies/OGROUP,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+cokpme,COKPME - COVID19 Ontology for analyzing the Karnataka Private Medical Establishments Data  ,https://bioportal.bioontology.org/ontologies/COKPME,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+odht,Digital Health Technologies,https://bioportal.bioontology.org/ontologies/ODHT,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+iso19115pr,ISO 19115 Codelists,https://bioportal.bioontology.org/ontologies/ISO19115PR,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+pgxo,PGxO,https://bioportal.bioontology.org/ontologies/PGXO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+top-menelas,Menelas Project Top-Level Ontology,https://bioportal.bioontology.org/ontologies/TOP-MENELAS,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+infrarisk,InfraRisk Ontology,https://bioportal.bioontology.org/ontologies/INFRARISK,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+wc,Whole-cell modeling ontology,https://bioportal.bioontology.org/ontologies/WC,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+vvmm,In Vivo Methodologies Ontology for MAATrica metric,https://bioportal.bioontology.org/ontologies/VVMM,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+gamuts,Radiology Gamuts Ontology,https://bioportal.bioontology.org/ontologies/GAMUTS,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+ecosim,ecosim ontology,https://bioportal.bioontology.org/ontologies/ECOSIM,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+aura,KB_Bio_101,https://bioportal.bioontology.org/ontologies/AURA,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+frmo,Fall Risk Management Ontology ,https://bioportal.bioontology.org/ontologies/FRMO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+plio,Protein-ligand interaction ontology,https://bioportal.bioontology.org/ontologies/PLIO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+flyglycodb,FlyGlycoDB,https://bioportal.bioontology.org/ontologies/FLYGLYCODB,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+ldbase,LDbase,https://bioportal.bioontology.org/ontologies/LDBASE,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+admin,Nurse Administrator,https://bioportal.bioontology.org/ontologies/ADMIN,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+hivhpvstom,HIVHPVStom,https://bioportal.bioontology.org/ontologies/HIVHPVSTOM,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+fplx,FamPlex,https://bioportal.bioontology.org/ontologies/FPLX,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+epso,Epilepsy and Seizure Ontology,https://bioportal.bioontology.org/ontologies/EPSO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+epie,Epigenetic Entity,https://bioportal.bioontology.org/ontologies/EPIE,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+epip,Epigenetic Process,https://bioportal.bioontology.org/ontologies/EPIP,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+land-surface,Land Surface classifiers,https://bioportal.bioontology.org/ontologies/LAND-SURFACE,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+panda,Probabilistic Knowledge Assembly Ontology,https://bioportal.bioontology.org/ontologies/PANDA,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+nnd_ch,NND_Clinical_history,https://bioportal.bioontology.org/ontologies/NND_CH,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+dsip,Pharmacy mock data,https://bioportal.bioontology.org/ontologies/DSIP,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+lcdgt,Library of Congress Demographic Group Terms,https://bioportal.bioontology.org/ontologies/LCDGT,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+sugarbind,SugarBind,https://bioportal.bioontology.org/ontologies/SUGARBIND,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+omv,Ontology Metadata Vocabulary,https://bioportal.bioontology.org/ontologies/OMV,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+apaocuemploy,APA Occupational and Employment cluster,https://bioportal.bioontology.org/ontologies/APAOCUEMPLOY,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+glyco,Glycomics Ontology,https://bioportal.bioontology.org/ontologies/GLYCO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+tm-const,Traditional Medicine Constitution Value Set,https://bioportal.bioontology.org/ontologies/TM-CONST,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+cdmonto,Common Diabetes Medications Ontology,https://bioportal.bioontology.org/ontologies/CDMONTO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+rgd,RRB Group D,https://bioportal.bioontology.org/ontologies/RGD,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+gbol,GBOL,https://bioportal.bioontology.org/ontologies/GBOL,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+tp_rel_fam,Relation familiales,https://bioportal.bioontology.org/ontologies/TP_REL_FAM,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+allergidoc,Allergy Ontology,https://bioportal.bioontology.org/ontologies/ALLERGIDOC,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+haroreado,Halocynthia roretzi Anatomy and Development Ontology,https://bioportal.bioontology.org/ontologies/HAROREADO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+neomark4,"Neomark Oral Cancer Ontology, version 4",https://bioportal.bioontology.org/ontologies/NEOMARK4,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+pmd,Persian Medicine Diseases Ontology,https://bioportal.bioontology.org/ontologies/PMD,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+pmdo,Parkinson and Movement Disorder Ontology,https://bioportal.bioontology.org/ontologies/PMDO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+comodi,COMODI,https://bioportal.bioontology.org/ontologies/COMODI,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+e-ppo,Enhanced Personal Profile Ontology,https://bioportal.bioontology.org/ontologies/E-PPO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+sos,emergÃªncia,https://bioportal.bioontology.org/ontologies/SOS,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+chd,Congenital Heart Defects Ontology,https://bioportal.bioontology.org/ontologies/CHD,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+boshi,boshra,https://bioportal.bioontology.org/ontologies/BOSHI,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+idg_gl,IDG gene list,https://bioportal.bioontology.org/ontologies/IDG_GL,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+gco,Genome Component Ontology,https://bioportal.bioontology.org/ontologies/GCO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+zonmw-generic,ZonMw Generic Terms,https://bioportal.bioontology.org/ontologies/ZONMW-GENERIC,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+extract,EXTeRnAl Conditions Taxonomy (EXTRACT),https://bioportal.bioontology.org/ontologies/EXTRACT,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+vodana-mpa,VODANA-MIGRANTS-PRESS ARTICLES,https://bioportal.bioontology.org/ontologies/VODANA-MPA,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+hmado,Human Microbiome Associated Disease Ontology ,https://bioportal.bioontology.org/ontologies/HMADO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+ontokbcf,Ontological Knowledge Base Model for Cystic Fibrosis,https://bioportal.bioontology.org/ontologies/ONTOKBCF,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+electrica,"Ontology for ELEctronic tool for Clinicians, Trainers and Researchers In Child Abuse",https://bioportal.bioontology.org/ontologies/ELECTRICA,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+covid19-ibo,Covid19 Impact on Banking Ontology,https://bioportal.bioontology.org/ontologies/COVID19-IBO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+rctv2,Read Clinical Terminology Version 2,https://bioportal.bioontology.org/ontologies/RCTV2,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+dhmo,RADx Data Hub Metadata Ontology,https://bioportal.bioontology.org/ontologies/DHMO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+medeon,Medical Error Ontology,https://bioportal.bioontology.org/ontologies/MEDEON,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+npokb,Neuron Phenotype Ontology,https://bioportal.bioontology.org/ontologies/NPOKB,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+dsip2324_demo,DSIP2324_Demonstration,https://bioportal.bioontology.org/ontologies/DSIP2324_DEMO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+apaonto,Psychology Ontology,https://bioportal.bioontology.org/ontologies/APAONTO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+vodanamflcode,VODANAFACILITIESLIST,https://bioportal.bioontology.org/ontologies/VODANAMFLCODE,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+cisaviado,Ciona savignyi Anatomy and Development Ontology ,https://bioportal.bioontology.org/ontologies/CISAVIADO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+cso,Clinical Study Ontology,https://bioportal.bioontology.org/ontologies/CSO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+asdf,testiiii1,https://bioportal.bioontology.org/ontologies/ASDF,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+ontosinasc,Ontology of Information System on Live Births,https://bioportal.bioontology.org/ontologies/ONTOSINASC,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+cidoc-crm,CIDOC Conceptual Reference Model,https://bioportal.bioontology.org/ontologies/CIDOC-CRM,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+roo,Radiation Oncology Ontology,https://bioportal.bioontology.org/ontologies/ROO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+sty,Semantic Types Ontology,https://bioportal.bioontology.org/ontologies/STY,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+covid-19-ont-pm,COVID-19OntologyInPatternMedicine,https://bioportal.bioontology.org/ontologies/COVID-19-ONT-PM,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+nmdco,NMDC Ontology,https://bioportal.bioontology.org/ontologies/NMDCO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+ogr,Ontology of Geographical Region,https://bioportal.bioontology.org/ontologies/OGR,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+iso19115ex,ISO 19115 Extent Information,https://bioportal.bioontology.org/ontologies/ISO19115EX,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+ontodm-kdd,Ontology of Data Mining Investigations,https://bioportal.bioontology.org/ontologies/ONTODM-KDD,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+esfo,Enzyme Structure Function Ontology,https://bioportal.bioontology.org/ontologies/ESFO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+sbol,Synthetic Biology Open Language Visual Ontology,https://bioportal.bioontology.org/ontologies/SBOL,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+gdoa,Graphic Descriptor Ontology Anatomy Extension,https://bioportal.bioontology.org/ontologies/GDOA,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+mello-d,MEdical LifeLog Ontology for people with Disability,https://bioportal.bioontology.org/ontologies/MELLO-D,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+fire,Fire Ontology,https://bioportal.bioontology.org/ontologies/FIRE,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+ecm4m-md-vocabs,EarthCube M4M Metadata Vocabulary,https://bioportal.bioontology.org/ontologies/ECM4M-MD-VOCABS,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+patit,Placental Investigative Technique,https://bioportal.bioontology.org/ontologies/PATIT,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+itemas,Medical Technology Innovation in healthcare centers,https://bioportal.bioontology.org/ontologies/ITEMAS,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+senso,Sensitive Data Ontology,https://bioportal.bioontology.org/ontologies/SENSO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+bof,Biodiversity Ontology,https://bioportal.bioontology.org/ontologies/BOF,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+uganda_diseases,Uganda_diseases,https://bioportal.bioontology.org/ontologies/UGANDA_DISEASES,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+taon,Therapeutic Antibody Ontology,https://bioportal.bioontology.org/ontologies/TAON,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+spo,Skin Physiology Ontology,https://bioportal.bioontology.org/ontologies/SPO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+oborel,Relations Ontology,https://bioportal.bioontology.org/ontologies/OBOREL,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+xeo,XEML Environment Ontology,https://bioportal.bioontology.org/ontologies/XEO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+doves,Digital medicine Outcomes Value Set (DOVeS) Ontology,https://bioportal.bioontology.org/ontologies/DOVES,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+bpforms,"Ontology of chemically concrete, composable DNA, RNA, and protein residue and crosslinks",https://bioportal.bioontology.org/ontologies/BPFORMS,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+datacite,SPAR DataCite Ontology,https://bioportal.bioontology.org/ontologies/DATACITE,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+marc-relators,MARC Code List for Relators,https://bioportal.bioontology.org/ontologies/MARC-RELATORS,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+fdc-gdmt,Ontology for Generic Dataset Metadata Template,https://bioportal.bioontology.org/ontologies/FDC-GDMT,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+ontotox,Chemotherapy Toxicities Ontology,https://bioportal.bioontology.org/ontologies/ONTOTOX,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+pma,Portfolio Management Application,https://bioportal.bioontology.org/ontologies/PMA,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+sto-draft,The Stroke Ontology,https://bioportal.bioontology.org/ontologies/STO-DRAFT,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+bto-provo,Brinell Test Ontology-PROVO,https://bioportal.bioontology.org/ontologies/BTO-PROVO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+dct,DC Terms,https://bioportal.bioontology.org/ontologies/DCT,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+into,Indian Terrorism Ontology,https://bioportal.bioontology.org/ontologies/INTO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+henecon,Head and Neck Cancer Ontology,https://bioportal.bioontology.org/ontologies/HENECON,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+ecso,The Ecosystem Ontology,https://bioportal.bioontology.org/ontologies/ECSO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+gpml,Graphical Pathway Markup Language,https://bioportal.bioontology.org/ontologies/GPML,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+olam,Ontology of Laboratory Animal Medicine,https://bioportal.bioontology.org/ontologies/OLAM,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+olas,Ontology of Laboratory Animal Science,https://bioportal.bioontology.org/ontologies/OLAS,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+paino,Pain Ontology,https://bioportal.bioontology.org/ontologies/PAINO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+o-rextech,OSIRIS-REx Analytical Technique,https://bioportal.bioontology.org/ontologies/O-REXTECH,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+fdsajfahsjk,OWL_XML_Tool5,https://bioportal.bioontology.org/ontologies/FDSAJFAHSJK,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+bhn,Biologie Hors Nomenclature,https://bioportal.bioontology.org/ontologies/BHN,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+brain-cof,Computational Ontology Framework for Brain Profiles,https://bioportal.bioontology.org/ontologies/BRAIN-COF,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+pnado,Pneumonia Diagnosis Ontology,https://bioportal.bioontology.org/ontologies/PNADO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+ontoad,Bilingual Ontology of Alzheimer's Disease and Related Diseases,https://bioportal.bioontology.org/ontologies/ONTOAD,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+hrdo,Disease core ontology applied to Rare Diseases,https://bioportal.bioontology.org/ontologies/HRDO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+cdpeo,Chronic Disease Patient Education Ontology,https://bioportal.bioontology.org/ontologies/CDPEO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+elter_cl,eLTER Controlled Lists,https://bioportal.bioontology.org/ontologies/ELTER_CL,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+matrrockigneous,Material Rock Igneouus,https://bioportal.bioontology.org/ontologies/MATRROCKIGNEOUS,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+bms-lm,BioMedical Study Lifecycle Management,https://bioportal.bioontology.org/ontologies/BMS-LM,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+opdre,OPD Regitry Ethiopia,https://bioportal.bioontology.org/ontologies/OPDRE,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+pmo-speed,PMO Playing Speed Vocabulary,https://bioportal.bioontology.org/ontologies/PMO-SPEED,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+idoden,Dengue Fever Ontology,https://bioportal.bioontology.org/ontologies/IDODEN,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+birthonto,BirthOnto: Birth Data Analysis,https://bioportal.bioontology.org/ontologies/BIRTHONTO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+meo,Metagenome and Microbes Environmental Ontology,https://bioportal.bioontology.org/ontologies/MEO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+idem,IDEM: wInD Energy Models Taxonomy,https://bioportal.bioontology.org/ontologies/IDEM,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+dilon,Dietary lifestyle ontology,https://bioportal.bioontology.org/ontologies/DILON,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+fmpm,Food Matrix for Predictive Microbiology,https://bioportal.bioontology.org/ontologies/FMPM,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+patct,Placental Cell Type,https://bioportal.bioontology.org/ontologies/PATCT,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+hiv,HIV ontology,https://bioportal.bioontology.org/ontologies/HIV,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+dsip1v,DSIP1_vocabulary,https://bioportal.bioontology.org/ontologies/DSIP1V,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+suicideo,suicideonto,https://bioportal.bioontology.org/ontologies/suicideo,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+smash,SMASH Ontology,https://bioportal.bioontology.org/ontologies/SMASH,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+gvo,Genome Variation Ontology,https://bioportal.bioontology.org/ontologies/GVO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+ibd,Indian Biodiversity Ontology,https://bioportal.bioontology.org/ontologies/IBD,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+iso19115dtc,ISO 19115 Date Type Code,https://bioportal.bioontology.org/ontologies/ISO19115DTC,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+onl-mr-da,Magnetic Resoce Dataset Acquisition Ontology,https://bioportal.bioontology.org/ontologies/ONL-MR-DA,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+bipom,Biological interlocked Process Ontology for metabolism,https://bioportal.bioontology.org/ontologies/BIPOM,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+entity,ISO-15926-2_2003_entityMembership,https://bioportal.bioontology.org/ontologies/ENTITY,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+mco4mcre,Multiplex Classification Ontology for the MultiCaRe Experiment,https://bioportal.bioontology.org/ontologies/MCO4MCRE,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+rdl,RDL,https://bioportal.bioontology.org/ontologies/RDL,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+surgical,Nurse Surgical,https://bioportal.bioontology.org/ontologies/SURGICAL,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+radxtt-mvreasons,RADx Tiger Team Missing Value Reasons,https://bioportal.bioontology.org/ontologies/RADXTT-MVREASONS,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+omco,OligoMetastatic Cancer Ontology,https://bioportal.bioontology.org/ontologies/OMCO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+bpt,Biological Pathway Taxonomy,https://bioportal.bioontology.org/ontologies/BPT,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+cho,ChemoOnto,https://bioportal.bioontology.org/ontologies/CHO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+bmt,Biomedical Topics,https://bioportal.bioontology.org/ontologies/BMT,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+weave,WEAVE: Wind Energy ActiVitiEs,https://bioportal.bioontology.org/ontologies/WEAVE,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+mnr,Material Natural Resource ,https://bioportal.bioontology.org/ontologies/MNR,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+elig,Eligibility Feature Hierarchy,https://bioportal.bioontology.org/ontologies/ELIG,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+asdpto,Autism Spectrum Disorder Phenotype Ontology,https://bioportal.bioontology.org/ontologies/ASDPTO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+legalapa,legalapa,https://bioportal.bioontology.org/ontologies/LEGALAPA,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+deb,"Devices, Experimental scaffolds and Biomaterials Ontology",https://bioportal.bioontology.org/ontologies/DEB,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+apro,Ancient Poet Resource Ontology,https://bioportal.bioontology.org/ontologies/APRO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+cabro,Computer Assisted Brain Injury Rehabilitation Ontology,https://bioportal.bioontology.org/ontologies/CABRO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+helifit,HeLiFit-Ontology,https://bioportal.bioontology.org/ontologies/HELIFIT,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+i2sv,Integration and Implementation Sciences Vocabulary,https://bioportal.bioontology.org/ontologies/I2SV,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+ochv,Ontology of Consumer Health Vocabulary,https://bioportal.bioontology.org/ontologies/OCHV,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+gro-cpd,Cereal Plant Development Ontology,https://bioportal.bioontology.org/ontologies/GRO-CPD,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+nifsubcell,Neuroscience Information Framework (NIF) Subcellular Ontology,https://bioportal.bioontology.org/ontologies/NIFSUBCELL,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+nmosp,NeuroMorpho.Org species ontology,https://bioportal.bioontology.org/ontologies/NMOSP,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+hamidehsgh,Inherited Retinal Dystrophy,https://bioportal.bioontology.org/ontologies/HAMIDEHSGH,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+mim,Molecular Interaction Map,https://bioportal.bioontology.org/ontologies/MIM,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+sepon,Sepsis Ontology,https://bioportal.bioontology.org/ontologies/SEPON,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+tma,Tissue Microarray Ontology,https://bioportal.bioontology.org/ontologies/TMA,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+nero,Named Entity Recognition Ontology ,https://bioportal.bioontology.org/ontologies/NERO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+n-cdoh,Non Clinical Determits of Health,https://bioportal.bioontology.org/ontologies/N-CDOH,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+ocdm,Ontology of Craniofacial Development and Malformation,https://bioportal.bioontology.org/ontologies/OCDM,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+cedarpc,CEDAR Provisional Classes,https://bioportal.bioontology.org/ontologies/CEDARPC,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+wsm-library,MWS,https://bioportal.bioontology.org/ontologies/WSM-LIBRARY,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+mnv,VODANA Migrants,https://bioportal.bioontology.org/ontologies/MNV,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+nist_gel,NIST Genome Editing Lexicon,https://bioportal.bioontology.org/ontologies/NIST_GEL,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+fast-formgenre,FAST (Faceted Application of Subject Terminology) FormGenre facet,https://bioportal.bioontology.org/ontologies/FAST-FORMGENRE,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+galen,Galen Ontology,https://bioportal.bioontology.org/ontologies/GALEN,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+biomodels,BioModels Ontology,https://bioportal.bioontology.org/ontologies/BIOMODELS,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+pregonto,Pregcy Ontology,https://bioportal.bioontology.org/ontologies/PREGONTO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+url,URL ONTOLOGY,https://bioportal.bioontology.org/ontologies/URL,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+exon,Experimental Ontology,https://bioportal.bioontology.org/ontologies/EXON,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+dcat-fdc,Data Catalog Vocabulary (DCAT),https://bioportal.bioontology.org/ontologies/DCAT-FDC,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+poem,Psychometric Ontology of Experiences and Measures,https://bioportal.bioontology.org/ontologies/POEM,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+ofl, A comprehensive ontology of flaps in reconstructive surgery,https://bioportal.bioontology.org/ontologies/OFL,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+sd3,Simulation Delivery and Documentation Deviations,https://bioportal.bioontology.org/ontologies/SD3,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+be,Bioentities,https://bioportal.bioontology.org/ontologies/BE,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+ontolurgences,Emergency care ontology,https://bioportal.bioontology.org/ontologies/ONTOLURGENCES,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+test_cbi,test_cbi,https://bioportal.bioontology.org/ontologies/TEST_CBI,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+adcad,Arctic Data Center Academic Disciplines Ontology,https://bioportal.bioontology.org/ontologies/ADCAD,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+decide,DECIDE ONTOLOGY,https://bioportal.bioontology.org/ontologies/DECIDE,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+iso19115roles,ISO 19115 Role Codes,https://bioportal.bioontology.org/ontologies/ISO19115ROLES,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+pso_2,PatientSafetyOntologyRevisted,https://bioportal.bioontology.org/ontologies/PSO_2,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+ontodm-algorithm,OntoDM-core/algorithms,https://bioportal.bioontology.org/ontologies/ONTODM-ALGORITHM,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+vfb_drivers,vfb_drivers,https://bioportal.bioontology.org/ontologies/VFB_DRIVERS,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+lifo,Life Ontology,https://bioportal.bioontology.org/ontologies/LIFO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+phy,physiotherapy,https://bioportal.bioontology.org/ontologies/PHY,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+dermo,Human Dermatological Disease Ontology,https://bioportal.bioontology.org/ontologies/DERMO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+msv,Metagenome Sample Vocabulary,https://bioportal.bioontology.org/ontologies/MSV,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+pp,Pipeline Patterns Ontology,https://bioportal.bioontology.org/ontologies/PP,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+pe,Pulmonary Embolism Ontology,https://bioportal.bioontology.org/ontologies/PE,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+pu,Test Dataset,https://bioportal.bioontology.org/ontologies/PU,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+ngsonto,NGS ontology,https://bioportal.bioontology.org/ontologies/NGSONTO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+dsip7,DSIP_FieldLab_7,https://bioportal.bioontology.org/ontologies/DSIP7,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+creno,"Culture, Race, Ethnicity and Nationality Ontology",https://bioportal.bioontology.org/ontologies/CRENO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+ddss,Health_ontology,https://bioportal.bioontology.org/ontologies/DDSS,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+apatandt,APA Tests and Testing cluster,https://bioportal.bioontology.org/ontologies/APATANDT,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+cto-ndd,Clinical Trials Ontology - Neurodegenerative Diseases,https://bioportal.bioontology.org/ontologies/CTO-NDD,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+umms,FirstOntologyForUMMS,https://bioportal.bioontology.org/ontologies/UMMS,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+tml,trasformative machine learning metadata,https://bioportal.bioontology.org/ontologies/TML,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+peao,Plant Experimental Assay Ontology,https://bioportal.bioontology.org/ontologies/PEAO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+soho,Social Determits of Health Ontology,https://bioportal.bioontology.org/ontologies/SOHO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+pe-o,Pre-eclampsia Ontology,https://bioportal.bioontology.org/ontologies/PE-O,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+neicbeer,The NeIC PaRI beer vocabulary,https://bioportal.bioontology.org/ontologies/NEICBEER,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+cmdo,Clinical MetaData Ontology,https://bioportal.bioontology.org/ontologies/CMDO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+hhearvs,HHEAR Value Sets,https://bioportal.bioontology.org/ontologies/HHEARVS,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+sasap,The State of Alaska's Salmon and People Ontology,https://bioportal.bioontology.org/ontologies/SASAP,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+bctt,Behaviour Change Technique Taxonomy,https://bioportal.bioontology.org/ontologies/BCTT,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+hivhpvschistosom,HIVHPVSchistosomiasis,https://bioportal.bioontology.org/ontologies/HIVHPVSCHISTOSOM,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+iobc,Interlinking Ontology for Biological Concepts,https://bioportal.bioontology.org/ontologies/IOBC,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+fast-event,FAST (Faceted Application of Subject Terminology) Event,https://bioportal.bioontology.org/ontologies/FAST-EVENT,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+nio,Neuropsychological Integrative Ontology,https://bioportal.bioontology.org/ontologies/NIO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+glycordf,GlycoRDF,https://bioportal.bioontology.org/ontologies/GLYCORDF,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+syriandrugs,Syrian Drugs and medicines,https://bioportal.bioontology.org/ontologies/SYRIANDRUGS,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+ipd,injury process description ontology,https://bioportal.bioontology.org/ontologies/IPD,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+mads-rdf,Metadata Authority Description Schema in RDF,https://bioportal.bioontology.org/ontologies/MADS-RDF,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+rsa,Reference Sequence Annotation,https://bioportal.bioontology.org/ontologies/RSA,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+icd-o-3,"International Classification of Diseases for Oncology, 3rd edition",https://bioportal.bioontology.org/ontologies/ICD-O-3,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+dreamdnpto,Dementia-Related Emotional And Mood Disturbance Non-Pharmacological Treatment Ontology,https://bioportal.bioontology.org/ontologies/DREAMDNPTO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+npi,Non-Pharmacological Interventions (NPIs),https://bioportal.bioontology.org/ontologies/NPI,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+bflc,LC BIBFRAME 2.0 Vocabulary Extension,https://bioportal.bioontology.org/ontologies/BFLC,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+hhear,Human Health Exposure Analysis Resource,https://bioportal.bioontology.org/ontologies/HHEAR,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+hhearp,HHEAR Properties,https://bioportal.bioontology.org/ontologies/HHEARP,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+sarsmutonto,Ontology for SARS-CoV-2  lineages and mutations,https://bioportal.bioontology.org/ontologies/SARSMUTONTO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+ecp,Electronic Care Plan,https://bioportal.bioontology.org/ontologies/ECP,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+bcsr-onto,Breast cancer screening recommendation ontology,https://bioportal.bioontology.org/ontologies/BCSR-ONTO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+lpt,Livestock Product Trait Ontology,https://bioportal.bioontology.org/ontologies/LPT,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+orcs,Ontology for Representing CDM Semantics,https://bioportal.bioontology.org/ontologies/ORCS,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+genai,Generative AI Ontology,https://bioportal.bioontology.org/ontologies/GENAI,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+pharmgkb,PharmGKB Ontology,https://bioportal.bioontology.org/ontologies/PHARMGKB,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+gdmt,Generic Dataset Metadata Template Vocabulary,https://bioportal.bioontology.org/ontologies/GDMT,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+cdo,Chinese Diabetes Mellitus Ontology,https://bioportal.bioontology.org/ontologies/CDO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+cdoh,Commercial determit of Health Ontology,https://bioportal.bioontology.org/ontologies/CDOH,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+adicap,Association pour le DÃ©veloppement de l'Informatique en Cytologie et Anatomie Pathologique,https://bioportal.bioontology.org/ontologies/ADICAP,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+cohsi2termsweekx,cohsi2termsweekx,https://bioportal.bioontology.org/ontologies/COHSI2TERMSWEEKX,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+dmto,Diabetes Mellitus Treatment Ontology,https://bioportal.bioontology.org/ontologies/DMTO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+tm-mer,Traditional Medicine Meridian Value Sets,https://bioportal.bioontology.org/ontologies/TM-MER,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+mamo-scr-onto,Mammography Screening Ontology,https://bioportal.bioontology.org/ontologies/MAMO-SCR-ONTO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+comet,LinkML Common Metadata Elements and Terms,https://bioportal.bioontology.org/ontologies/COMET,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+bero,Biological and Environmental Research Ontology,https://bioportal.bioontology.org/ontologies/BERO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+drmo,Dental Restorative Material Ontology,https://bioportal.bioontology.org/ontologies/DRMO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+assaynode,Assaynode,https://bioportal.bioontology.org/ontologies/ASSAYNODE,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+neic-onto,Unoffical NeIC Organisation Vocabulary,https://bioportal.bioontology.org/ontologies/NEIC-ONTO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+nic,Nursing Interventions Classification,https://bioportal.bioontology.org/ontologies/NIC,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+contsonto,Continuity of care,https://bioportal.bioontology.org/ontologies/CONTSONTO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+momcare,MomCareVocabulary,https://bioportal.bioontology.org/ontologies/MOMCARE,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+peo_ontology,Prompt Engineering Ontology,https://bioportal.bioontology.org/ontologies/PEO_ONTOLOGY,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+iso19115srs,ISO 19115 Reference Systems,https://bioportal.bioontology.org/ontologies/ISO19115SRS,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+iso19115tcc,ISO 19115 Topic Categories,https://bioportal.bioontology.org/ontologies/ISO19115TCC,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+m4m-21-variables,M4M.21 FAIRWare Variables,https://bioportal.bioontology.org/ontologies/M4M-21-VARIABLES,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+pbpko,Physiologically Based Pharmacokinetic ontology,https://bioportal.bioontology.org/ontologies/PBPKO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+trak,Taxonomy for Rehabilitation of Knee Conditions,https://bioportal.bioontology.org/ontologies/TRAK,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+kenyaanc,kenyaancfile,https://bioportal.bioontology.org/ontologies/KENYAANC,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+inbiodiv,An Ontology for Indian Biodiversity Knowledge Management,https://bioportal.bioontology.org/ontologies/INBIODIV,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+canont,Upper-Level Cancer Ontology ,https://bioportal.bioontology.org/ontologies/CANONT,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+dcat3,DCAT3,https://bioportal.bioontology.org/ontologies/DCAT3,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+m4m-21-subjects,M4M.21 FAIRWare Subjects,https://bioportal.bioontology.org/ontologies/M4M-21-SUBJECTS,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+hio,Hearing Impairment Ontology,https://bioportal.bioontology.org/ontologies/HIO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+option-ontology,Optimization Algorithm Benchmarking Ontology,https://bioportal.bioontology.org/ontologies/OPTION-ONTOLOGY,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+vrd,Vaccineresearchdata,https://bioportal.bioontology.org/ontologies/VRD,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+bcs8,Breast Cancer Staging - 8th Edition,https://bioportal.bioontology.org/ontologies/BCS8,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+bcs7,Breast Cancer Staging - 7th Edition,https://bioportal.bioontology.org/ontologies/BCS7,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+aspect,"ASPECT: wind energy vAriableS, ParametErs and ConsTants",https://bioportal.bioontology.org/ontologies/ASPECT,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+brazi,"Estados, Municipios, Bairros e RegiÃµes do Brasil",https://bioportal.bioontology.org/ontologies/BRAZI,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+bci-o,Brain-Computer Interaction (BCI) Ontology,https://bioportal.bioontology.org/ontologies/BCI-O,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+dseo,Data Science Education Ontology,https://bioportal.bioontology.org/ontologies/DSEO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+ho,Histological Ontology,https://bioportal.bioontology.org/ontologies/HO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+hc,Habronattus Courtship Ontology,https://bioportal.bioontology.org/ontologies/HC,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+oco,OpenCareOntology ,https://bioportal.bioontology.org/ontologies/OCO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+apaeducluster,Educational Cluster,https://bioportal.bioontology.org/ontologies/APAEDUCLUSTER,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+proj,Project ontology,https://bioportal.bioontology.org/ontologies/PROJ,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+zahrahaddad,????????,https://bioportal.bioontology.org/ontologies/ZAHRAHADDAD,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+qudt2,"Quantities, Units, Dimensions and Types (QUDT) Schema - Version 2.0",https://bioportal.bioontology.org/ontologies/QUDT2,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+gmm,GoMapMan,https://bioportal.bioontology.org/ontologies/GMM,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+my_syriancinema,MWS-WSM Syrian Cinema Ontology,https://bioportal.bioontology.org/ontologies/MY_SYRIANCINEMA,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+reproduce-me,REPRODUCE-ME,https://bioportal.bioontology.org/ontologies/REPRODUCE-ME,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+dccdfv,Dublin Core Collection Description Frequency Vocabulary,https://bioportal.bioontology.org/ontologies/DCCDFV,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+premedonto,Precision Medicine Ontology,https://bioportal.bioontology.org/ontologies/PREMEDONTO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+ontosim,The Ontology of Information System on Mortality,https://bioportal.bioontology.org/ontologies/ONTOSIM,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+zonmw-content,ZonMW COVID-19,https://bioportal.bioontology.org/ontologies/ZONMW-CONTENT,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+apatreatment,APA Treatment Cluster,https://bioportal.bioontology.org/ontologies/APATREATMENT,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+melo,Melanoma Ontology,https://bioportal.bioontology.org/ontologies/MELO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+glycocoo,GlycoConjugate Ontology,https://bioportal.bioontology.org/ontologies/GLYCOCOO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+m4m19-subs,M4M19 Subjects,https://bioportal.bioontology.org/ontologies/M4M19-SUBS,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+issva,International Society for the Study of Vascular Anomalies (ISSVA) Ontology,https://bioportal.bioontology.org/ontologies/ISSVA,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+phfumiado,Phallusia fumigata Anatomy and Development Ontology,https://bioportal.bioontology.org/ontologies/PHFUMIADO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+patel,Archana Patel,https://bioportal.bioontology.org/ontologies/PATEL,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+evi,Evidence Graph Ontology,https://bioportal.bioontology.org/ontologies/EVI,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+ontodm-core,Ontology of Core Data Mining Entities,https://bioportal.bioontology.org/ontologies/ONTODM-CORE,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+dsip8,DSIP8REFUGEE,https://bioportal.bioontology.org/ontologies/DSIP8,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+agromop,Control de Cacao,https://bioportal.bioontology.org/ontologies/AGROMOP,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+sco_f23,Syrian Cinema Ontology - ahmad - F23,https://bioportal.bioontology.org/ontologies/SCO_F23,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+rocknrolltest,ROCK-N-ROLL-TEST,https://bioportal.bioontology.org/ontologies/ROCKNROLLTEST,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+hcm-d,Home Cage Monitoring definition,https://bioportal.bioontology.org/ontologies/HCM-D,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+fitbit,Fitbit Vocabulary,https://bioportal.bioontology.org/ontologies/FITBIT,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+optimal,OPTImAL: An ontology for patient adherence modeling in physical activity domain,https://bioportal.bioontology.org/ontologies/OPTIMAL,,,,,,,,,,,,,,,,,,,,,,,,
+tcdo,Traditional Chinese Drug Ontology,https://bioportal.bioontology.org/ontologies/TCDO,,,,,,,,,,,,,,,,,,,,,,,,
+ooevv,Ontology of Experimental Variables and Values,https://bioportal.bioontology.org/ontologies/OOEVV,,,,,,,,,,,,,,,,,,,,,,,,
+ontriscal,Ontology of Risk Stratification in Mental Health,https://bioportal.bioontology.org/ontologies/ONTRISCAL,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+diab,BioMedBridges Diabetes Ontology,https://bioportal.bioontology.org/ontologies/DIAB,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+dfo,Databank Family Ontology,https://bioportal.bioontology.org/ontologies/DFO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+brct,Brain Region & Cell Type terminology,https://bioportal.bioontology.org/ontologies/BRCT,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+ctgo,Clinical Trials Gov Ontology,https://bioportal.bioontology.org/ontologies/CTGO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+gender,Gender Identity,https://bioportal.bioontology.org/ontologies/GENDER,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+aceso,Adverse Childhood Experiences Ontology,https://bioportal.bioontology.org/ontologies/ACESO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+cryoem,Cryo Electron Microscopy,https://bioportal.bioontology.org/ontologies/CRYOEM,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+hivmt,HIVMutation,https://bioportal.bioontology.org/ontologies/HIVMT,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+ethanc,ETHANC,https://bioportal.bioontology.org/ontologies/ETHANC,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+dsipfl7,DSIP_Fieldlab_7,https://bioportal.bioontology.org/ontologies/DSIPFL7,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+plosthes,PLOS Thesaurus,https://bioportal.bioontology.org/ontologies/PLOSTHES,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+go-plus,go-plus,https://bioportal.bioontology.org/ontologies/GO-PLUS,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+wear,WEAR: Wind Energy mAteRials Taxonomy,https://bioportal.bioontology.org/ontologies/WEAR,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+datacite-vocab,DATACITE V4.4,https://bioportal.bioontology.org/ontologies/DATACITE-VOCAB,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+vodana-migrants,VODANA MIGRANTS VOCABULARY,https://bioportal.bioontology.org/ontologies/VODANA-MIGRANTS,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+mineral,Material Mineral,https://bioportal.bioontology.org/ontologies/MINERAL,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+ckdo,Chronic Kidney Disease Ontology,https://bioportal.bioontology.org/ontologies/CKDO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+hdmponto,HierarchicalDMProcessOnto,https://bioportal.bioontology.org/ontologies/HDMPONTO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+onstr,Ontology for Newborn Screening Follow-up and Translational Research,https://bioportal.bioontology.org/ontologies/ONSTR,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+hcodonont,HGeneCodonOntology,https://bioportal.bioontology.org/ontologies/HCODONONT,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+vodanacovid,VODANA-COVIDTERMS,https://bioportal.bioontology.org/ontologies/VODANACOVID,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+test_a,TEST_A,https://bioportal.bioontology.org/ontologies/TEST_A,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+pcalion,Prostate Cancer Lifestyle Ontology,https://bioportal.bioontology.org/ontologies/PCALION,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+mono,Monogenean Ontology,https://bioportal.bioontology.org/ontologies/MONO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+macroalgaetraits,Macroalgae Traits Thesaurus,https://bioportal.bioontology.org/ontologies/MACROALGAETRAITS,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+mosaic,The MOSAiC Ontology,https://bioportal.bioontology.org/ontologies/MOSAIC,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+bcteo,Bone and Cartilage Tissue Engineering Ontology,https://bioportal.bioontology.org/ontologies/BCTEO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+triage,Nurse triage,https://bioportal.bioontology.org/ontologies/TRIAGE,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+socpres,Social Prescribing Ontology,https://bioportal.bioontology.org/ontologies/SOCPRES,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+mcr_tx,MultiCaRe Taxonomy,https://bioportal.bioontology.org/ontologies/MCR_TX,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+sp_ontology,SmartPITeS Proyect Ontology for Complex Chronic Patients,https://bioportal.bioontology.org/ontologies/SP_ONTOLOGY,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+ontoparon_social,"Ontology of amyotrophic  lateral sclerosis, social module",https://bioportal.bioontology.org/ontologies/ONTOPARON_SOCIAL,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+nddo,Neurodegenerative Disease Data Ontology,https://bioportal.bioontology.org/ontologies/NDDO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+opd-nambobi,SELECTED OTHER PRIORITY DISEASES UNDER IDSR (INTEGRATED DISEASE SURVEILLANCE AND RESPONSES),https://bioportal.bioontology.org/ontologies/OPD-NAMBOBI,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+lbo,Livestock Breed Ontology,https://bioportal.bioontology.org/ontologies/LBO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+lungmap-mouse,Anatomic Ontology for Mouse Lung Maturation,https://bioportal.bioontology.org/ontologies/LUNGMAP-MOUSE,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+incentive,INCENTIVE Community Controlled Vocabulary,https://bioportal.bioontology.org/ontologies/INCENTIVE,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+ontopsychia,"OntoPsychia, social module",https://bioportal.bioontology.org/ontologies/ONTOPSYCHIA,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+ml_mcr_tx,MultiCaRe Taxonomy (ML Labels),https://bioportal.bioontology.org/ontologies/ML_MCR_TX,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+nihss,National Institutes of Health Stroke Scale Ontology,https://bioportal.bioontology.org/ontologies/NIHSS,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+ros,Radiation Oncology Structures Ontology,https://bioportal.bioontology.org/ontologies/ROS,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+allergydetector,Allergy Detector II,https://bioportal.bioontology.org/ontologies/ALLERGYDETECTOR,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+nhsqi2009,NHS Quality Indicators,https://bioportal.bioontology.org/ontologies/NHSQI2009,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+hord,Holistic Ontology of Rare Diseases,https://bioportal.bioontology.org/ontologies/HORD,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+hasco,Human-Aware Science Ontology,https://bioportal.bioontology.org/ontologies/HASCO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+envthes,"Thesaurus for long-term ecological research, monitoring, experiments",https://bioportal.bioontology.org/ontologies/ENVTHES,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+geosparql,GeoSPARQL,https://bioportal.bioontology.org/ontologies/GEOSPARQL,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+mvaont,Mosquito Vector Association Ontology with Biocontrol Agents,https://bioportal.bioontology.org/ontologies/MVAONT,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+legalapatest2,apalegal,https://bioportal.bioontology.org/ontologies/LEGALAPATEST2,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+agrocymac,Control y Monitoreo de afecciones en los cultivos,https://bioportal.bioontology.org/ontologies/AGROCYMAC,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+gecco,COVID-19 Common Datamodel,https://bioportal.bioontology.org/ontologies/GECCO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+lsfc,LSFC,https://bioportal.bioontology.org/ontologies/LSFC,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+lsfo,Lifestyle Factor Ontology,https://bioportal.bioontology.org/ontologies/LSFO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+hmislab0115,HMIS LAB 011 5,https://bioportal.bioontology.org/ontologies/HMISLAB0115,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+pino,Pregcy Information Needs Ontology,https://bioportal.bioontology.org/ontologies/PINO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+mio,Myocardial Infarction Ontology,https://bioportal.bioontology.org/ontologies/MIO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+hsclo38,Homo sapiens Chromosomal Location Ontology for GRCh38,https://bioportal.bioontology.org/ontologies/HSCLO38,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+lcgft,Library of Congress Genre/Form Thesaurus for Library and Archival Materials,https://bioportal.bioontology.org/ontologies/LCGFT,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+infra-en,Infrastructure,https://bioportal.bioontology.org/ontologies/INFRA-EN,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+koro,Knowledge Object Reference Ontology,https://bioportal.bioontology.org/ontologies/KORO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+eol,Environment Ontology for Livestock,https://bioportal.bioontology.org/ontologies/EOL,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+bsao,Botryllus schlosseri anatomy and development ontology,https://bioportal.bioontology.org/ontologies/BSAO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+hupson,Human Physiology Simulation Ontology,https://bioportal.bioontology.org/ontologies/HUPSON,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+farmaci,FARMACI AIFA,https://bioportal.bioontology.org/ontologies/FARMACI,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+tp4,Oualid,https://bioportal.bioontology.org/ontologies/TP4,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+ai,Artificial Intelligence,https://bioportal.bioontology.org/ontologies/AI,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+sse,Surgical Secondary Events,https://bioportal.bioontology.org/ontologies/SSE,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+pghd-bp,PGHD Auxillary - BP,https://bioportal.bioontology.org/ontologies/PGHD-BP,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+evs,Exposure Value Set,https://bioportal.bioontology.org/ontologies/EVS,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+intveetype,Interviewee Type,https://bioportal.bioontology.org/ontologies/INTVEETYPE,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+hcdr,Homelessness and Clinical Data Recording,https://bioportal.bioontology.org/ontologies/HCDR,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+inverseroles,ISO-15926-2_2003_inverseRoles,https://bioportal.bioontology.org/ontologies/INVERSEROLES,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+preo,Presence Ontology,https://bioportal.bioontology.org/ontologies/PREO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+i-adopt,I-ADOPT Framework Ontology,https://bioportal.bioontology.org/ontologies/I-ADOPT,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+mltx,Machine Learning Methodology Taxonomy Mapping,https://bioportal.bioontology.org/ontologies/MLTX,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+pseudo,Pseudogene,https://bioportal.bioontology.org/ontologies/pseudo,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+dermlex,Dermatology Lexicon,https://bioportal.bioontology.org/ontologies/DERMLEX,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+ibo,Imaging Biomarker Ontology,https://bioportal.bioontology.org/ontologies/IBO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+phenx,PhenX Phenotypic Terms,https://bioportal.bioontology.org/ontologies/PHENX,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+smo,Syrian Movies Ontology,https://bioportal.bioontology.org/ontologies/SMO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+apastatistical,APA Statistical Cluster,https://bioportal.bioontology.org/ontologies/APASTATISTICAL,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+partumdo,postpartum depression ontology,https://bioportal.bioontology.org/ontologies/PARTUMDO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+matrrock,Material Rock,https://bioportal.bioontology.org/ontologies/MATRROCK,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+strong,STress ONtoloGy,https://bioportal.bioontology.org/ontologies/STRONG,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+adher_intcare_en,Adherence and Integrated Care,https://bioportal.bioontology.org/ontologies/ADHER_INTCARE_EN,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+ontopneumo,Ontology of Pneumology,https://bioportal.bioontology.org/ontologies/ONTOPNEUMO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+sco_v1,Sustainability Core Ontology,https://bioportal.bioontology.org/ontologies/SCO_V1,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+ontoparon,"Ontology of Amyotrophic Lateral Sclerosis, all modules",https://bioportal.bioontology.org/ontologies/ONTOPARON,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+fldlb3,FIELDLAB3_2023_2,https://bioportal.bioontology.org/ontologies/FLDLB3,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+tron,Tribolium Ontology,https://bioportal.bioontology.org/ontologies/TRON,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+kusiima,naava,https://bioportal.bioontology.org/ontologies/KUSIIMA,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+jerm,Just Enough Results Model Ontology,https://bioportal.bioontology.org/ontologies/JERM,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+nln,NLighten Ontology,https://bioportal.bioontology.org/ontologies/NLN,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+chear,Children's Health Exposure Analysis Resource,https://bioportal.bioontology.org/ontologies/CHEAR,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+bao-gpcr,G Protein-Coupled Receptor BioAssays Ontology,https://bioportal.bioontology.org/ontologies/BAO-GPCR,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+cptac,CPTAC Proteomics Pipeline Infrastructure Ontology,https://bioportal.bioontology.org/ontologies/CPTAC,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+paco,Physical Activity Ontology,https://bioportal.bioontology.org/ontologies/PACO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+heio,Regional Healthcare System Interoperability and Information Exchange Measurement Ontology,https://bioportal.bioontology.org/ontologies/HEIO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+abd,Anthology of Biosurveillance Diseases,https://bioportal.bioontology.org/ontologies/ABD,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+nccnehr,NCCN EHR Oncology Categories,https://bioportal.bioontology.org/ontologies/NCCNEHR,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+mstde,Minimal Standard Terminology of Digestive Endoscopy,https://bioportal.bioontology.org/ontologies/MSTDE,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+m4m-20-subjects,M4M.20 FAIRWare Subjects,https://bioportal.bioontology.org/ontologies/M4M-20-SUBJECTS,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+lungmap_h_cell,Cell Ontology for Human Lung Maturation,https://bioportal.bioontology.org/ontologies/LUNGMAP_H_CELL,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+pdon,Parkinson's Disease Ontology,https://bioportal.bioontology.org/ontologies/PDON,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+iso639-1,ISO 639-1: Codes for the Representation of Names of Languages - Part 1: Two-letter codes for languages,https://bioportal.bioontology.org/ontologies/ISO639-1,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+iso639-2,ISO 639-2: Codes for the Representation of Names of Languages,https://bioportal.bioontology.org/ontologies/ISO639-2,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+tco,Thyroid Cancer Ontology,https://bioportal.bioontology.org/ontologies/TCO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+tst7,FIELDLAB3_2023,https://bioportal.bioontology.org/ontologies/TST7,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+lungmap_m_cell,Cell Ontology for Mouse Lung Maturation,https://bioportal.bioontology.org/ontologies/LUNGMAP_M_CELL,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+idqa,Image and Data Quality Assessment Ontology,https://bioportal.bioontology.org/ontologies/IDQA,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+eld,EthiopianListOfDiseases,https://bioportal.bioontology.org/ontologies/ELD,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+iceci,International Classification of  External Causes of Injuries,https://bioportal.bioontology.org/ontologies/ICECI,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+iso19115con,ISO 19115 Constraints Information,https://bioportal.bioontology.org/ontologies/ISO19115CON,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+id-amr,Infectious Diseases and Antimicrobial Resistance,https://bioportal.bioontology.org/ontologies/ID-AMR,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+patmhc,Placental Maternal Health Conditions,https://bioportal.bioontology.org/ontologies/PATMHC,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+neurobrg,NeuroBridge Ontology,https://bioportal.bioontology.org/ontologies/NEUROBRG,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+ontotoxnuc,Ontology of Nuclear Toxicity,https://bioportal.bioontology.org/ontologies/ONTOTOXNUC,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+regn_bro,REGN_BRO,https://bioportal.bioontology.org/ontologies/REGN_BRO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+bridg,Biomedical Research Integrated Domain Group Model,https://bioportal.bioontology.org/ontologies/BRIDG,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+m4m19-vars,M4M19 Variables,https://bioportal.bioontology.org/ontologies/M4M19-VARS,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+fns-h,FNS-Harmony,https://bioportal.bioontology.org/ontologies/FNS-H,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+ncco,Nursing Care Coordination Ontology,https://bioportal.bioontology.org/ontologies/NCCO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+ad-drop,Alzheimer Disease Relevance Ontology by Process,https://bioportal.bioontology.org/ontologies/AD-DROP,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+mchvodanaterms,MCHVODANATERMS,https://bioportal.bioontology.org/ontologies/MCHVODANATERMS,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+edda_pt,EDDA Publication Types Taxonomy,https://bioportal.bioontology.org/ontologies/EDDA_PT,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+mdm,Mapping of Drug Names and MeSH 2022,https://bioportal.bioontology.org/ontologies/MDM,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+svu_mws_wsm,Syrian Cinema Ontology,https://bioportal.bioontology.org/ontologies/SVU_MWS_WSM,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+adalab-meta,AdaLab-meta ontology,https://bioportal.bioontology.org/ontologies/ADALAB-META,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+exact,An ontology for experimental actions,https://bioportal.bioontology.org/ontologies/EXACT,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+rvo,Research Variable Ontology,https://bioportal.bioontology.org/ontologies/RVO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+library,wsm24,https://bioportal.bioontology.org/ontologies/LIBRARY,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+lc-carriers,Library of Congress Carriers Scheme,https://bioportal.bioontology.org/ontologies/LC-CARRIERS,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+iso19115cc,ISO 19115 Common Classes,https://bioportal.bioontology.org/ontologies/ISO19115CC,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+iso19115ci,ISO 19115 Citation Information,https://bioportal.bioontology.org/ontologies/ISO19115CI,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+stmso,symptomatic treatment of multiple sclerosis ontology,https://bioportal.bioontology.org/ontologies/STMSO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+ddiem,Drug Database for Inborn Errors of Metabolism (DDIEM) Ontology,https://bioportal.bioontology.org/ontologies/DDIEM,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+adar,Autism DSM-ADI-R ontology,https://bioportal.bioontology.org/ontologies/ADAR,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+lion,LipidOntology,https://bioportal.bioontology.org/ontologies/LION,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+covid19,COVID-19 Surveillance Ontology,https://bioportal.bioontology.org/ontologies/COVID19,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+phylont,Phylogenetic Ontology,https://bioportal.bioontology.org/ontologies/PHYLONT,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+fast-event-skos,FAST (Faceted Application of Subject Terminology) Event Facet,https://bioportal.bioontology.org/ontologies/FAST-EVENT-SKOS,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+iso19108to,ISO 19108 Temporal Objects,https://bioportal.bioontology.org/ontologies/ISO19108TO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+longcovid,Long Covid Phenotype Ontology,https://bioportal.bioontology.org/ontologies/LONGCOVID,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+ahol,Animal Health Ontology for Livestock,https://bioportal.bioontology.org/ontologies/AHOL,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+cyto,CYTOKINE,https://bioportal.bioontology.org/ontologies/CYTO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+aio,Artificial Intelligence Ontology,https://bioportal.bioontology.org/ontologies/AIO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+radmo,RADx Metadata Ontology,https://bioportal.bioontology.org/ontologies/RADMO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+vdot,Viral Disease Ontology Trunk,https://bioportal.bioontology.org/ontologies/VDOT,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+hp_o,Hypersensitivity pneumonitis ontology,https://bioportal.bioontology.org/ontologies/HP_O,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+pesont,Preposition_enabled Spatial Ontology,https://bioportal.bioontology.org/ontologies/PESONT,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+phenomeblast,PhenomeBLAST Ontology,https://bioportal.bioontology.org/ontologies/PHENOMEBLAST,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+three-st,3-Step Theory of suicide,https://bioportal.bioontology.org/ontologies/THREE-ST,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+hspo,Health and Social Person-centric Ontology,https://bioportal.bioontology.org/ontologies/HSPO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+doccc,Diagnosis Ontology of Clinical Care Classification,https://bioportal.bioontology.org/ontologies/DOCCC,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+vodana-general,VODANATERMS,https://bioportal.bioontology.org/ontologies/VODANA-GENERAL,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+opdront,OPD Register Ontology,https://bioportal.bioontology.org/ontologies/OPDRONT,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+medicalinfo,mymedicalinformation,https://bioportal.bioontology.org/ontologies/MEDICALINFO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+hecon,HECON: Health Condition Evolution Ontology,https://bioportal.bioontology.org/ontologies/HECON,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+bto-bfo,Brinell Test Ontology-BFO,https://bioportal.bioontology.org/ontologies/BTO-BFO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+vodanethiopia_or,ETHIOPIA_OUTPATIENT,https://bioportal.bioontology.org/ontologies/VODANETHIOPIA_OR,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+kgcl,Knowledge Graph Change Language,https://bioportal.bioontology.org/ontologies/KGCL,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+bifo,Biofilm Ontology,https://bioportal.bioontology.org/ontologies/BIFO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+oto, Obesity Tracking Ontology,https://bioportal.bioontology.org/ontologies/OTO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+ird,Inherited Retinal Dystrophies,https://bioportal.bioontology.org/ontologies/IRD,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+irdg,Data harmonization ontology for cross border malaria surveillance ,https://bioportal.bioontology.org/ontologies/IRDG,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+sst,SATUSEHAT Thesis,https://bioportal.bioontology.org/ontologies/SST,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+snmi,"Systematized Nomenclature of Medicine, International Version",https://bioportal.bioontology.org/ontologies/SNMI,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+esso,Epilepsy Syndrome Seizure Ontology,https://bioportal.bioontology.org/ontologies/ESSO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+ecdo,Elderly Care Dementia Ontology,https://bioportal.bioontology.org/ontologies/ECDO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+brso,Biological Resource Schema Ontology,https://bioportal.bioontology.org/ontologies/BRSO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+haauraado,Halocynthia aurantium Anatomy and Development Ontology,https://bioportal.bioontology.org/ontologies/HAAURAADO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+onl-tasks,Cognitive Reserves Assessment Tasks,https://bioportal.bioontology.org/ontologies/ONL-TASKS,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+mera,Medical Educational Resource Aggregator,https://bioportal.bioontology.org/ontologies/MERA,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+inbancido,Assessment of Indian Economy During Covid-19 ,https://bioportal.bioontology.org/ontologies/INBANCIDO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+etanc,ETHIOPIANC,https://bioportal.bioontology.org/ontologies/ETANC,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+bno,Bionutrition Ontology,https://bioportal.bioontology.org/ontologies/BNO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+cwd,Consumer Wearable Device,https://bioportal.bioontology.org/ontologies/CWD,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+doremus-keys,Doremus List of Keys,https://bioportal.bioontology.org/ontologies/DOREMUS-KEYS,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+pathlex,Anatomic Pathology Lexicon,https://bioportal.bioontology.org/ontologies/PATHLEX,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+bcon,Breast Cancer Ontology,https://bioportal.bioontology.org/ontologies/BCON,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+bt-ontology,BrainTeaser Ontology (BTO),https://bioportal.bioontology.org/ontologies/BT-ONTOLOGY,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+iso-annotations,ISO-15926-2_2003_annotations,https://bioportal.bioontology.org/ontologies/ISO-ANNOTATIONS,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+fdt-o,FAIR Data Train Ontology,https://bioportal.bioontology.org/ontologies/FDT-O,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+hero,Healthcare Monitoring and Emergency Response Ontology,https://bioportal.bioontology.org/ontologies/HERO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+home,Health Ontology for Minority Equity,https://bioportal.bioontology.org/ontologies/HOME,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+ciinteado,Ciona intestinalis Anatomy and Development Ontology,https://bioportal.bioontology.org/ontologies/CIINTEADO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+procchemical,Chemical Process,https://bioportal.bioontology.org/ontologies/PROCCHEMICAL,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+iso-15926-2_2003,ISO-15926-2_2003_oil,https://bioportal.bioontology.org/ontologies/ISO-15926-2_2003,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+bcmo,Breast Cancer-Microbiome Ontology ,https://bioportal.bioontology.org/ontologies/BCMO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+ccon,Cerrado concepts and plant community dynamics,https://bioportal.bioontology.org/ontologies/CCON,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+lda,Ontology of Language Disorder in Autism,https://bioportal.bioontology.org/ontologies/LDA,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+sk,Digital Forensic,https://bioportal.bioontology.org/ontologies/SK,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+metpo,METPO,https://bioportal.bioontology.org/ontologies/METPO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+incentive-vars,INCENTIVE Variables,https://bioportal.bioontology.org/ontologies/INCENTIVE-VARS,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+wsio,Web-Service Interaction Ontology,https://bioportal.bioontology.org/ontologies/WSIO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+soil-prof,Soil Profile classifiers,https://bioportal.bioontology.org/ontologies/SOIL-PROF,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+gfo-bio,General Formal Ontology for Biology,https://bioportal.bioontology.org/ontologies/GFO-BIO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+carre,CARRE Risk Factor ontology,https://bioportal.bioontology.org/ontologies/CARRE,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+landform,Landform classifiers,https://bioportal.bioontology.org/ontologies/LANDFORM,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+opdzimbabwe,OPDZimbabwe,https://bioportal.bioontology.org/ontologies/OPDZIMBABWE,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+ontovip,Medical image simulation,https://bioportal.bioontology.org/ontologies/OntoVIP,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+lungmap-human,Anatomic Ontology for Human Lung Maturation,https://bioportal.bioontology.org/ontologies/LUNGMAP-HUMAN,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+payor,Payor,https://bioportal.bioontology.org/ontologies/PAYOR,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+dsipf7,DSIP FiledLab7 ,https://bioportal.bioontology.org/ontologies/DSIPF7,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+onlira,Ontology of Liver for Radiology,https://bioportal.bioontology.org/ontologies/ONLIRA,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+bko,Bricks ontology,https://bioportal.bioontology.org/ontologies/BKO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+medo,Mouse Experimental Design Ontology,https://bioportal.bioontology.org/ontologies/MEDO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+sdoed,Social Determits of Education Ontology,https://bioportal.bioontology.org/ontologies/SDOED,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+episem,Epilepsy Semiology,https://bioportal.bioontology.org/ontologies/EPISEM,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+sedi,Semantic DICOM Ontology,https://bioportal.bioontology.org/ontologies/SEDI,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+gmo,Growth Medium Ontology,https://bioportal.bioontology.org/ontologies/GMO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+zonmw-admin-md,ZonMW Administrative Metadata Vocabulary,https://bioportal.bioontology.org/ontologies/ZONMW-ADMIN-MD,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+moc,Material Organic Compound,https://bioportal.bioontology.org/ontologies/MOC,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+nemo,Neural ElectroMagnetic Ontology,https://bioportal.bioontology.org/ontologies/NEMO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+m4m-20-variables,M4M.20 FAIRWare Variables,https://bioportal.bioontology.org/ontologies/M4M-20-VARIABLES,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+repos,repository,https://bioportal.bioontology.org/ontologies/REPOS,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+hravs,HuBMAP Research Attributes Value Set,https://bioportal.bioontology.org/ontologies/HRAVS,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+case-base-onto,Case-base ontology for gastric dystemperament in Persian medicine,https://bioportal.bioontology.org/ontologies/CASE-BASE-ONTO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+onl-msa,Mental State Assessment,https://bioportal.bioontology.org/ontologies/ONL-MSA,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+xref-funder-reg,CrossRef Funder Registry,https://bioportal.bioontology.org/ontologies/XREF-FUNDER-REG,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+dikb,Drug Interaction Knowledge Base Ontology,https://bioportal.bioontology.org/ontologies/DIKB,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+ebp,EmpowerBP,https://bioportal.bioontology.org/ontologies/EBP,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+sleep,SLEEP ontology,https://bioportal.bioontology.org/ontologies/SLEEP,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+henegeo,Head and Neck Cancer - Clinical and Gene Ontology,https://bioportal.bioontology.org/ontologies/HENEGEO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+uhc-metadata,UHC Metadata,https://bioportal.bioontology.org/ontologies/UHC-METADATA,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+fenics,Functional Electrophysiology Nomenclature for Ion Channels,https://bioportal.bioontology.org/ontologies/FENICS,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+vodana-mi,VODANA-MIGRANTS-INTERVIEWS,https://bioportal.bioontology.org/ontologies/VODANA-MI,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+dmdsont,Diabetes Mellitus Diagnosis and Support Ontology ,https://bioportal.bioontology.org/ontologies/DMDSONT,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+chr,Monochrom,https://bioportal.bioontology.org/ontologies/CHR,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+chro,Chromatin Regulator Ontology,https://bioportal.bioontology.org/ontologies/CHRO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+como,Context and Measurement Ontology,https://bioportal.bioontology.org/ontologies/COMO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+mco4hke,Multiplex Classification Ontology for the HyperKvasir Experiment,https://bioportal.bioontology.org/ontologies/MCO4HKE,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+copdo,COPD Ontology,https://bioportal.bioontology.org/ontologies/COPDO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+hivo004,HIVOntologymain.owl,https://bioportal.bioontology.org/ontologies/HIVO004,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+ccont,Cell Culture Ontology,https://bioportal.bioontology.org/ontologies/CCONT,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+vodan_anc,VODAN ANC Vocabulary ,https://bioportal.bioontology.org/ontologies/VODAN_ANC,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+g-prov,Guideline Provece,https://bioportal.bioontology.org/ontologies/G-PROV,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+bto_ontology,Brain Tumour Ontology,https://bioportal.bioontology.org/ontologies/BTO_ONTOLOGY,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+mccl,Cell Line Ontology [by Mahadevan],https://bioportal.bioontology.org/ontologies/MCCL,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+mccv,Microbial Culture Collection Vocabulary,https://bioportal.bioontology.org/ontologies/MCCV,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+bllm,Large Language Model Ontology,https://bioportal.bioontology.org/ontologies/BLLM,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+drpsnpto,Dementia-Related Psychotic Symptoms Non-Pharmacological Treatment Ontology,https://bioportal.bioontology.org/ontologies/DRPSNPTO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+goldterms,GOLD Ecosystem Classification,https://bioportal.bioontology.org/ontologies/GOLDTERMS,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+piero,Enzyme Reaction Ontology for annotating Partial Information of chemical transformation,https://bioportal.bioontology.org/ontologies/PIERO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+fcc1,Fernald Community Cohort N,https://bioportal.bioontology.org/ontologies/FCC1,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+fo,Fern Ontology,https://bioportal.bioontology.org/ontologies/FO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+fg,FAIR Genomes,https://bioportal.bioontology.org/ontologies/FG,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+cu-vo,Venom Ontology,https://bioportal.bioontology.org/ontologies/CU-VO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+sato,SATO (IDEAS expAnded wiTh BCIO): workflow for designers of patient-centered mobile health behaviour change intervention applications,https://bioportal.bioontology.org/ontologies/SATO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+orex-sam,OSIRIS-REx sample type,https://bioportal.bioontology.org/ontologies/OREX-SAM,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+scio,Spinal Cord Injury Ontology,https://bioportal.bioontology.org/ontologies/SCIO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+admf,alzhaimer dessiese main factors,https://bioportal.bioontology.org/ontologies/ADMF,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+admo,Alzheimer Disease Map Ontology,https://bioportal.bioontology.org/ontologies/ADMO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+rnrmu,RNRMU,https://bioportal.bioontology.org/ontologies/RNRMU,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+edem-connectonto,eDEM-Connect: Ontology of Dementia-related Agitation and Relationship between Informal Caregivers and Persons with Dementia,https://bioportal.bioontology.org/ontologies/EDEM-CONNECTONTO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+cn,computer network,https://bioportal.bioontology.org/ontologies/CN,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+gff-m4m,GO FAIR M4M,https://bioportal.bioontology.org/ontologies/GFF-M4M,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+pdo_cas,Plant Diversity Ontology,https://bioportal.bioontology.org/ontologies/PDO_CAS,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+emo,Enzyme Mechanism Ontology,https://bioportal.bioontology.org/ontologies/EMO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+qudt2-1,"Quantities, Units, Dimensions and Types (QUDT Version 2.1)",https://bioportal.bioontology.org/ontologies/QUDT2-1,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+rpo,Resource of Asian Primary Immunodeficiency Diseases (RAPID) Phenotype Ontology,https://bioportal.bioontology.org/ontologies/RPO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+syrian-cinema,Syrian Cinema,https://bioportal.bioontology.org/ontologies/SYRIAN-CINEMA,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+pts,Pathway Terminology System,https://bioportal.bioontology.org/ontologies/PTS,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+exmo,Exercise Medicine Ontology,https://bioportal.bioontology.org/ontologies/EXMO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+lico,Liver Case Ontology (LiCO),https://bioportal.bioontology.org/ontologies/LICO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+matr,Material,https://bioportal.bioontology.org/ontologies/MATR,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+mini-fast-1,mini fast test,https://bioportal.bioontology.org/ontologies/MINI-FAST-1,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+neumore,Neural Motor Recovery Ontology,https://bioportal.bioontology.org/ontologies/NEUMORE,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+panet,PaN Experimental technique,https://bioportal.bioontology.org/ontologies/PANET,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+envs_variables,ENVS variables,https://bioportal.bioontology.org/ontologies/ENVS_VARIABLES,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+snomedct,SNOMED CT,https://bioportal.bioontology.org/ontologies/SNOMEDCT,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+fit_bit,Fitbit Vocabularies ,https://bioportal.bioontology.org/ontologies/FIT_BIT,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+icw,International Classification of Wellness,https://bioportal.bioontology.org/ontologies/ICW,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+ogco,OriGinal Chemical Ontology,https://bioportal.bioontology.org/ontologies/OGCO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+insname,VODANAINSNAMES,https://bioportal.bioontology.org/ontologies/INSNAME,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+ontoreplicov,OntoRepliCov,https://bioportal.bioontology.org/ontologies/ONTOREPLICOV,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+nidm-results,NIDM-Results,https://bioportal.bioontology.org/ontologies/NIDM-RESULTS,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+hivcrs,HIVCompoundRels,https://bioportal.bioontology.org/ontologies/HIVCRS,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+dloro,Dependency Layered Ontology for Radiation Oncology,https://bioportal.bioontology.org/ontologies/DLORO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+gffo,Genetic Feature Format Ontology,https://bioportal.bioontology.org/ontologies/GFFO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+nro,NeuralReprogrammingOntology,https://bioportal.bioontology.org/ontologies/NRO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+rh-mesh,Robert Hoehndorf Version of MeSH,https://bioportal.bioontology.org/ontologies/RH-MESH,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+intvmode,Interview Mode,https://bioportal.bioontology.org/ontologies/INTVMODE,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+cohsi2study,cohsi2study,https://bioportal.bioontology.org/ontologies/COHSI2STUDY,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+fast-chrono,FAST (Faceted Access of Subject Terminology) Chronological Facet,https://bioportal.bioontology.org/ontologies/FAST-CHRONO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+ibio,IndianBiodiversity,https://bioportal.bioontology.org/ontologies/IBIO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+adher_intcare_sp,Adherence and Integrated Care in Spanish,https://bioportal.bioontology.org/ontologies/ADHER_INTCARE_SP,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+edda,EDDA Study Designs Taxonomy,https://bioportal.bioontology.org/ontologies/EDDA,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+patgv,Placental Genetic Variance,https://bioportal.bioontology.org/ontologies/PATGV,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+eso_c,Epilepsy Semiology Ontology,https://bioportal.bioontology.org/ontologies/ESO_C,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+hns,HNS_Ontolgoy,https://bioportal.bioontology.org/ontologies/HNS,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+mixs,Minimal Information about any Sequence Ontology,https://bioportal.bioontology.org/ontologies/MIXS,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+mooccuado,Molgula occulta Anatomy and Development Ontology,https://bioportal.bioontology.org/ontologies/MOOCCUADO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+fish-ast,FISH Archaeological Sciences Thesaurus,https://bioportal.bioontology.org/ontologies/FISH-AST,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+mpo,Microbial Phenotype Ontology,https://bioportal.bioontology.org/ontologies/MPO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+cseo,Cigarette Smoke Exposure Ontology,https://bioportal.bioontology.org/ontologies/CSEO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+bp-metadata,BioPortal Metadata Ontology,https://bioportal.bioontology.org/ontologies/BP-METADATA,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+obs,OntoBioStat,https://bioportal.bioontology.org/ontologies/OBS,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+ito,Intelligence Task Ontology,https://bioportal.bioontology.org/ontologies/ITO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+leo,Living Environment Ontology,https://bioportal.bioontology.org/ontologies/LEO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+adalab,AdaLab ontology,https://bioportal.bioontology.org/ontologies/ADALAB,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+mepo,Mapping of Epilepsy Ontologies,https://bioportal.bioontology.org/ontologies/MEPO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+arcrc,Arctic Report Card,https://bioportal.bioontology.org/ontologies/ARCRC,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+csso,Clinical Signs and Symptoms Ontology,https://bioportal.bioontology.org/ontologies/CSSO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+apadisorders,Disorders cluster,https://bioportal.bioontology.org/ontologies/APADISORDERS,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+sweet,Semantic Web for Earth and Environment Technology Ontology,https://bioportal.bioontology.org/ontologies/SWEET,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+eo1,Example Ontology,https://bioportal.bioontology.org/ontologies/EO1,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+satusehatthesis,SatuSehatThesis,https://bioportal.bioontology.org/ontologies/SATUSEHATTHESIS,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+mwla,Medical Web Lifestyle Aggregator,https://bioportal.bioontology.org/ontologies/MWLA,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+fgnhns,FoodGroupNHNS,https://bioportal.bioontology.org/ontologies/FGNHNS,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+m,May,https://bioportal.bioontology.org/ontologies/M,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+mm,mm,https://bioportal.bioontology.org/ontologies/MM,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+pmo,Performed Music Ontology,https://bioportal.bioontology.org/ontologies/PMO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+ftc,Functional Therapeutic Chemical Classification System,https://bioportal.bioontology.org/ontologies/FTC,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+ifar,Fanconi Anemia Ontology,https://bioportal.bioontology.org/ontologies/IFAR,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+onl-dp,Dataset processing,https://bioportal.bioontology.org/ontologies/ONL-DP,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+cpro,Computer-Based Patient Record Ontology,https://bioportal.bioontology.org/ontologies/CPRO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+altproton,An Ontology for integration and interoperability of multi-aspect data of Protein food production chains,https://bioportal.bioontology.org/ontologies/ALTPROTON,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+inbio,Invasion Biology Ontology,https://bioportal.bioontology.org/ontologies/INBIO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+ik,Irabi kassim,https://bioportal.bioontology.org/ontologies/IK,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+vodanauganda,VODANAUGANDA,https://bioportal.bioontology.org/ontologies/VODANAUGANDA,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+pcao,Prostate Cancer Ontology,https://bioportal.bioontology.org/ontologies/PCAO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+gb,GlycanBind,https://bioportal.bioontology.org/ontologies/GB,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+fall,MyOntoServiceFull_FallDetection,https://bioportal.bioontology.org/ontologies/FALL,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+hed,Hierarchical Event Descriptors,https://bioportal.bioontology.org/ontologies/HED,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+regn_go,REGN_GO,https://bioportal.bioontology.org/ontologies/REGN_GO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+bclion,Breast Cancer Lifestyle Ontology,https://bioportal.bioontology.org/ontologies/BCLION,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+simm,In Silico Methodologies Ontology for MAATrica metric,https://bioportal.bioontology.org/ontologies/SIMM,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+tdwgspec,TDWG Specimen LSID Ontology,https://bioportal.bioontology.org/ontologies/TDWGSPEC,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+matrcompound,Material Compound,https://bioportal.bioontology.org/ontologies/MATRCOMPOUND,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+fast-title,FAST (Faceted Application of Subject Terminology) Title Facet,https://bioportal.bioontology.org/ontologies/FAST-TITLE,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+dranpto,Dementia-Related Agitation Non-Pharmacological Treatment Ontology,https://bioportal.bioontology.org/ontologies/DRANPTO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+phage,Phylogenetics Ontology,https://bioportal.bioontology.org/ontologies/PHAGE,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+fast-genreform,FAST (Faceted Access of Subject Terminology) GenreForm,https://bioportal.bioontology.org/ontologies/FAST-GENREFORM,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+phmammado,Phallusia mammillata Anatomy and Development Ontology,https://bioportal.bioontology.org/ontologies/PHMAMMADO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+emif-ad,EMIF-AD ontology,https://bioportal.bioontology.org/ontologies/EMIF-AD,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+neio,Neural Electronic Interface Ontology,https://bioportal.bioontology.org/ontologies/NEIO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+hgnc-nr,HGNC New Releases Ontology,https://bioportal.bioontology.org/ontologies/HGNC-NR,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+bibframe,BIBFRAME 2.0,https://bioportal.bioontology.org/ontologies/BIBFRAME,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+metabus,metaBUS controlled vocabulary for organizational and applied psychology research,https://bioportal.bioontology.org/ontologies/METABUS,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+hivhpvfgs,"HIV, HPV, FGS vocabulary",https://bioportal.bioontology.org/ontologies/HIVHPVFGS,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+bibliotek-o,The Biblioteko Ontology,https://bioportal.bioontology.org/ontologies/BIBLIOTEK-O,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+pcmo,Pediatric Consultation and Monitoring Ontology ,https://bioportal.bioontology.org/ontologies/PCMO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+pghd_connect,PGHD_CONNECT,https://bioportal.bioontology.org/ontologies/PGHD_CONNECT,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+ctu_beready_gem,CTU Bern BEReady Gemeinden,https://bioportal.bioontology.org/ontologies/CTU_BEREADY_GEM,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+ego,Epigenome Ontology,https://bioportal.bioontology.org/ontologies/EGO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+pplc,Placental Pathology Lesion Classification,https://bioportal.bioontology.org/ontologies/PPLC,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+marc-languages,MARC List for Languages,https://bioportal.bioontology.org/ontologies/MARC-LANGUAGES,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+pvonto,Pharmacovigilance Ontology,https://bioportal.bioontology.org/ontologies/PVONTO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+pmapp-pmo,PMO Precision Medicine Ontology,https://bioportal.bioontology.org/ontologies/PMAPP-PMO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+iaml-mop,IAML Medium of Performance Vocabulary,https://bioportal.bioontology.org/ontologies/IAML-MOP,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+atom,Atlas Ontology Model,https://bioportal.bioontology.org/ontologies/ATOM,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+atol,Animal Trait Ontology for Livestock,https://bioportal.bioontology.org/ontologies/ATOL,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+m4m-char,M4M-CHAR,https://bioportal.bioontology.org/ontologies/M4M-CHAR,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+vodanakenya,VODANA KENYA,https://bioportal.bioontology.org/ontologies/VODANAKENYA,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+nlmvs,NIH NLM Value Sets,https://bioportal.bioontology.org/ontologies/NLMVS,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+rda-content,RDA Content type,https://bioportal.bioontology.org/ontologies/RDA-CONTENT,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+ichom-proms-pcb,ICHOM Set Pregcy and Childbirth,https://bioportal.bioontology.org/ontologies/ICHOM-PROMS-PCB,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+bdpm,Base de DonnÃ©es Publique des MÃ©dicaments,https://bioportal.bioontology.org/ontologies/BDPM,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+opb,Ontology of Physics for Biology,https://bioportal.bioontology.org/ontologies/OPB,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+iso19115,ISO 19115,https://bioportal.bioontology.org/ontologies/ISO19115,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+iso19110,ISO 19110 Methodology for Feature Cataloguing,https://bioportal.bioontology.org/ontologies/ISO19110,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+falls,falls prevention ,https://bioportal.bioontology.org/ontologies/FALLS,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+biomo,Biological Observation Matrix Ontology,https://bioportal.bioontology.org/ontologies/BIOMO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+sdoho,social determits of health ontology-TaoLab,https://bioportal.bioontology.org/ontologies/SDOHO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+gcbo,Global Code Book Ontology,https://bioportal.bioontology.org/ontologies/GCBO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+hoip,Homeostasis imbalance process ontology,https://bioportal.bioontology.org/ontologies/HOIP,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+cedarvs,CEDAR Value Sets,https://bioportal.bioontology.org/ontologies/CEDARVS,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+ope,Ontology of Physical Exercises,https://bioportal.bioontology.org/ontologies/OPE,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+moocciado,Molgula occidentalis Anatomy and Development Ontology,https://bioportal.bioontology.org/ontologies/MOOCCIADO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+obi_iee,The Ontology for Biomedical Investigation based Inner Ear Electrophysiology ,https://bioportal.bioontology.org/ontologies/OBI_IEE,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+neo,Neurologic Examination Ontology,https://bioportal.bioontology.org/ontologies/NEO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+apaneurocluster,APA Neuro Cluster,https://bioportal.bioontology.org/ontologies/APANEUROCLUSTER,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+materialsmine,MaterialsMine Ontology,https://bioportal.bioontology.org/ontologies/MATERIALSMINE,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+iso-food,A formal representation of the knowledge within the domain of Isotopes for Food Science,https://bioportal.bioontology.org/ontologies/ISO-FOOD,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+dsip_fl_7,DSIP_FL_7,https://bioportal.bioontology.org/ontologies/DSIP_FL_7,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+mooculado,Molgula oculata Anatomy and Development Ontology,https://bioportal.bioontology.org/ontologies/MOOCULADO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+orex-wg,OSIRIS-REx sample analysis workgroups,https://bioportal.bioontology.org/ontologies/OREX-WG,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+nmobr,NeuroMorpho.Org brain region ontologies,https://bioportal.bioontology.org/ontologies/NMOBR,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+paymentmode,Payment Mode,https://bioportal.bioontology.org/ontologies/PAYMENTMODE,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+thesisdemo,thesisdemo,https://bioportal.bioontology.org/ontologies/THESISDEMO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+ofsmr,Open Predictive Microbiology Ontology,https://bioportal.bioontology.org/ontologies/OFSMR,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+four-m_vocabs,AGE-FRIENDLY 4M VOCABULARY,https://bioportal.bioontology.org/ontologies/FOUR-M_VOCABS,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+acvd_ontology,Atherosclerotic Cerebrovascular Disease Ontology,https://bioportal.bioontology.org/ontologies/ACVD_ONTOLOGY,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+fasto,HL7 FHIR and SSN ontology based Type 1 Diabetes Mellitus Ontology,https://bioportal.bioontology.org/ontologies/FASTO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+svu_mws_wsm_f23,MWS-WSM-F23 Syrian Cinema Ontology,https://bioportal.bioontology.org/ontologies/SVU_MWS_WSM_F23,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+hoom,HPO - ORDO Ontological Module,https://bioportal.bioontology.org/ontologies/HOOM,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+tephram4mexample,Tephra M4M Example,https://bioportal.bioontology.org/ontologies/TEPHRAM4MEXAMPLE,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+ethopd,Ethiopian OPD,https://bioportal.bioontology.org/ontologies/ETHOPD,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+bin,Body in Numbers project terminology,https://bioportal.bioontology.org/ontologies/BIN,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+insecth,insectH,https://bioportal.bioontology.org/ontologies/INSECTH,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+infection_trans,Infection Transmission Ontology,https://bioportal.bioontology.org/ontologies/INFECTION_TRANS,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+hivhpv,HIVHPV,https://bioportal.bioontology.org/ontologies/HIVHPV,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+endoh,Environmental Determits of Health,https://bioportal.bioontology.org/ontologies/ENDOH,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+biodivthes,Biodiversity Thesaurus,https://bioportal.bioontology.org/ontologies/BIODIVTHES,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+d3o,DSMZ Digital Diversity Ontology,https://bioportal.bioontology.org/ontologies/D3O,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+nxdx,Test NXDX,https://bioportal.bioontology.org/ontologies/NXDX,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+wetaxtopics,NEAT: wiNd Energy tAxonomy of Topics,https://bioportal.bioontology.org/ontologies/WETAXTOPICS,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+wweca,Women with Epilepsy of Child-bearing Age Ontology,https://bioportal.bioontology.org/ontologies/WWECA,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+bio2rdf-pubmed,PubMed,http://pubmed.bio2rdf.org/,2,0,,,,2,0,,0,0,0,0,0,0,2,0.5,2,1,0,0,0,0,4,0.333
+pco,Population and Community Ontology,https://www.ebi.ac.uk/ols4/ontologies/pco,2,0,,,,2,0,,0,0,0,0,0,0,2,0.5,2,1,0,0,0,0,4,0.333
+ccfo,Human Reference Atlas Common Coordinate Framework Ontology,https://humanatlas.io/ccf-ontology,2,0,,,,2,0,,0,0,0,0,0,0,2,0.5,2,1,0,0,0,0,4,0.333
+uniprot,UniProt Core Ontology,https://www.uniprot.org/,2,0,,,,2,0,,1,1,2,0,0,1,4,1,2,1,4,1.333,1,0.333,11,0.917
+sibo,Social Insect Behavior Ontology,https://www.ebi.ac.uk/ols4/ontologies/sibo,2,0,,,,2,0,,0,0,0,0,0,0,2,0.5,2,1,0,0,0,0,4,0.333
+rexo,Regulation of Gene Expression Ontolology,https://www.ebi.ac.uk/ols4/ontologies/rexo,2,0,,,,2,0,,0,0,0,0,0,0,2,0.5,2,1,0,0,0,0,4,0.333
+reto,Regulation of Transcription Ontology,https://www.ebi.ac.uk/ols4/ontologies/reto,2,0,,,,2,0,,0,0,0,0,0,0,2,0.5,2,1,0,0,0,0,4,0.333
+dcm,DICOM Controlled Terminology,http://dicom.nema.org/medical/dicom/current/output/chtml/part16/chapter_D.html,2,0,,,,2,0,,0,0,0,0,0,0,2,0.5,2,1,0,0,0,0,4,0.333
+bco,Biological Collections Ontology,https://www.ebi.ac.uk/ols4/ontologies/bco,2,0,,,,2,0,,0,0,0,0,0,0,2,0.5,2,1,0,0,0,0,4,0.333
+foodon,The FoodOn Food Ontology,https://foodon.org/,2,0,,,,2,0,,1,0,0,0,0,0,3,0.75,2,1,1,0.333,0,0,6,0.5
+bfo,Basic Formal Ontology,https://bioportal.bioontology.org/ontologies/BFO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+mirnao,,https://bioportal.bioontology.org/ontologies/MIRNAO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+ncro,Non-coding RNA Ontology,http://omnisearch.soc.southalabama.edu/w/index.php/Ontology,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+fbsp,Fly taxonomy,https://bioportal.bioontology.org/ontologies/FB-SP,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+dinto,Drug-drug Interaction Ontology,http://labda.inf.uc3m.es/doku.php?id=es:labda_dinto,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+fbcv,FlyBase Controlled Vocabulary (FBcv),https://www.ebi.ac.uk/ols4/ontologies/fbcv,2,0,,,,2,0,,0,0,0,0,0,0,2,0.5,2,1,0,0,0,0,4,0.333
+dron,The Drug Ontology,https://bioportal.bioontology.org/ontologies/DRON,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+ado,Alzheimer's Disease Ontology,https://bioportal.bioontology.org/ontologies/ADO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+owl,The OWL 2 Schema vocabulary (OWL 2),https://www.ebi.ac.uk/ols4/ontologies/owl,2,0,,,,2,0,,0,0,0,0,0,0,2,0.5,2,1,0,0,0,0,4,0.333
+coid,Combined Ontology for Inflammatory Diseases,https://bioportal.bioontology.org/ontologies/COID,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+dpo,Drosophila Phenotype Ontology,https://bioportal.bioontology.org/ontologies/DPO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+ecao,The Echinoderm Anatomy and Development Ontology,https://www.ebi.ac.uk/ols4/ontologies/ecao,2,0,,,,2,0,,0,0,0,0,0,0,2,0.5,2,1,0,0,0,0,4,0.333
+disdriv,Disease Drivers Ontology,http://www.disease-ontology.org,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+doid,Human Disease Ontology,https://bioportal.bioontology.org/ontologies/DOID,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+txpo,Toxic Process Ontology,https://bioportal.bioontology.org/ontologies/TXPO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+cctoo,Cancer Care: Treatment Outcome Ontology,https://bioportal.bioontology.org/ontologies/CCTOO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+ncit,National Cancer Institute Thesaurus,https://bioportal.bioontology.org/ontologies/NCIT,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+mondo,Mondo Disease Ontology,https://monarch-initiative.github.io/mondo,2,0,,,,2,0,,1,2,0,0,0,2,5,1.25,2,1,3,1,2,0.667,12,1
+nomen,NOMEN - A nomenclatural ontology for biological names,https://bioportal.bioontology.org/ontologies/NOMEN,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+tads,Tick Anatomy Ontology,https://www.vectorbase.org/ontology-browser,2,0,,,,2,0,,0,0,0,0,0,0,2,0.5,2,1,0,0,0,0,4,0.333
+uberon,Uberon multi-species anatomy ontology,http://uberon.org,2,0,,,,2,0,,0,0,0,0,0,0,2,0.5,2,1,0,0,0,0,4,0.333
+chebi,CHEBI,http://www.ebi.ac.uk/chebi,2,0,,,,2,0,,1,1,0,0,0,1,4,1,2,1,2,0.667,1,0.333,9,0.75
+bioportal-bootstrep,Gene Regulation Ontology,https://bioportal.bioontology.org/ontologies/GRO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+idomal,Malaria Ontology,https://bioportal.bioontology.org/ontologies/IDOMAL,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+ido,Infectious Disease Ontology,https://bioportal.bioontology.org/ontologies/IDO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+veo,Visualized Emotion Ontology,https://bioportal.bioontology.org/ontologies/VEO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+cbo,Cell Behavior Ontology,https://bioportal.bioontology.org/ontologies/CBO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+ino,Interaction Network Ontology,https://bioportal.bioontology.org/ontologies/INO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+hino,HINO: Human Interaction Network Ontology,http://www.ino-ontology.org/hino.php,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+afo,Allotrope Merged Ontology Suite,https://www.allotrope.org/ontologies,2,0,,,,2,0,,0,0,0,0,0,0,2,0.5,2,1,0,0,0,0,4,0.333
+enm,eoMapper Ontology,http://www.enanomapper.net/,2,0,,,,2,0,,1,2,0,0,0,2,5,1.25,2,1,3,1,2,0.667,12,1
+ddpheno,Dictyostelium Discoideum Phenotype Ontology,http://dictybase.org/,2,0,,,,2,0,,0,0,0,0,0,0,2,0.5,2,1,0,0,0,0,4,0.333
+eco,Evidence & Conclusion Ontology,https://www.evidenceontology.org,2,0,,,,2,0,,0,0,0,0,0,0,2,0.5,2,1,0,0,0,0,4,0.333
+ao,Asthma Ontology,http://purl.org/ontology/ao/core,0,2,,,,0,0,,0,0,0,0,0,0,2,0.5,0,0,0,0,0,0,2,0.167
+hao,Hymenoptera Anatomy Ontology,https://bioportal.bioontology.org/ontologies/HAO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+hso,Health Surveillance Ontology,https://w3id.org/hso,,,,,,,,,,,,,,,,,,,,,,,,
+pico,Pathogen-related Informed Consent Ontology,http://data.cochrane.org/ontologies/pico/,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+fbbt,Drosophila Anatomy Ontology,http://obofoundry.org/ontology/fbbt.html,2,0,,,,2,0,,0,0,0,0,0,0,2,0.5,2,1,0,0,0,0,4,0.333
+fbdv,Drosophila Developmental Ontology,http://obofoundry.org/ontology/fbdv.html,2,0,,,,2,0,,0,0,0,0,0,0,2,0.5,2,1,0,0,0,0,4,0.333
+bto,BRENDA Tissue Ontology,http://www.brenda-enzymes.org,2,0,,,,2,0,,0,0,0,0,0,0,2,0.5,2,1,0,0,0,0,4,0.333
+ncbitaxon,NCBI organismal classification,https://bioportal.bioontology.org/ontologies/NCBITAXON,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+pw,Pathway ontology,https://bioportal.bioontology.org/ontologies/PW,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+ogi,Ontology for Genetic Interval,https://bioportal.bioontology.org/ontologies/OGI,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+ev,eVOC (Expressed Sequence Annotation for Humans),https://old.datahub.io/bg/dataset/bioportal-ev,0,0,,,,0,0,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mmo,Measurement Method Ontology,https://bioportal.bioontology.org/ontologies/MMO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+ido;_vido;_cido,Infectious Disease Ontology,https://bioportal.bioontology.org/ontologies/IDO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+genepio,Genomic Epidemiology Ontology,http://genepio.org/,,,,,,,,,,,,,,,,,,,,,,,,
+cl,Cell Ontology,https://obophenotype.github.io/cell-ontology/,2,0,,,,2,0,,0,0,0,0,0,0,2,0.5,2,1,0,0,0,0,4,0.333
+cheminf,Chemical Information Ontology,https://bioportal.bioontology.org/ontologies/CHEMINF,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+mido,Mycosis Infectious Disease Ontology,https://bioportal.bioontology.org/ontologies/MIDO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+lib,MWS-WSM,https://bioportal.bioontology.org/ontologies/LIB,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+of,OntoFood,https://bioportal.bioontology.org/ontologies/OF,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+cs,Coping Strategies for Adverse Drug Events Ontology,https://bioportal.bioontology.org/ontologies/CS,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+xlmod,HUPO-PSI cross-linking and derivatization reagents controlled vocabulary,http://www.psidev.info/groups/controlled-vocabularies,2,0,,,,2,0,,1,1,0,0,2,1,4,1,2,1,2,0.667,3,1,11,0.917
+colao,Coleoptera Anatomy Ontology,https://bioportal.bioontology.org/ontologies/COLAO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+gaz,,http://environmentontology.github.io/gaz/,2,0,,,,2,0,,0,0,0,0,0,0,2,0.5,2,1,0,0,0,0,4,0.333
+dcterms,DCMI Metadata Terms: properties in /terms/ namespace,https://bioportal.bioontology.org/ontologies/DCTERMS,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+dicom,Healthcare Vocabulary,http://purl.org/healthcarevocab/v1,,,,,,,,,,,,,,,,,,,,,,,,
+ero,eagle-i resource ontology,https://open.med.harvard.edu/wiki/display/eaglei/Ontology,,,,,,,,,,,,,,,,,,,,,,,,
+hra,Human Reference Atlas,https://bioportal.bioontology.org/ontologies/HRA,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+mro,Defen,https://bioportal.bioontology.org/ontologies/MRO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+ocd,OCD ontology,https://bioportal.bioontology.org/ontologies/OCD,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+cco,Cell Cycle Ontology,https://bioportal.bioontology.org/ontologies/CCO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+chemrof,CHEMROF,https://bioportal.bioontology.org/ontologies/CHEMROF,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+dto,Drug Target Ontology,https://bioportal.bioontology.org/ontologies/DTO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+carolio,Caroli's Disease and Syndrome Ontology,https://bioportal.bioontology.org/ontologies/CAROLIO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+orth,Orthology Ontology,http://purl.org/net/orth,,,,,,,,,,,,,,,,,,,,,,,,
+fbbi,Biological Imaging Methods Ontology,http://cellimagelibrary.org/,2,0,,,,2,0,,1,1,2,0,0,1,4,1,2,1,4,1.333,1,0.333,11,0.917
+cmo,Clinical Measurement Ontology,https://bioportal.bioontology.org/ontologies/CMO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+go,Gene Ontology,https://bioportal.bioontology.org/ontologies/GO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+hancestro,Human Ancestry Ontology,https://ebispot.github.io/hancestro/,2,0,,,,2,0,,0,0,0,0,0,0,2,0.5,2,1,0,0,0,0,4,0.333
+pr,PRotein Ontology,http://proconsortium.org,2,0,,,,2,0,,0,0,0,0,0,0,2,0.5,2,1,0,0,0,0,4,0.333
+miapa,MIAPA Ontology,http://www.evoio.org/wiki/MIAPA,2,0,,,,2,0,,0,0,0,0,0,0,2,0.5,2,1,0,0,0,0,4,0.333
+vo,Vaccine Ontology,https://bioportal.bioontology.org/ontologies/VO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+fideo,Food Interactions with Drugs Evidence Ontology,https://gitub.u-bordeaux.fr/erias/fideo,2,0,,,,2,0,,1,1,0,0,0,1,4,1,2,1,2,0.667,1,0.333,9,0.75
+ohd,Oral Health and Disease Ontology,https://purl.obolibrary.org/obo/ohd/home,0,2,,,,0,0,,0,0,0,0,0,0,2,0.5,0,0,0,0,0,0,2,0.167
+spd,Spider Ontology,https://bioportal.bioontology.org/ontologies/SPD,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+cdno,Compositional Dietary Nutrition Ontology,https://cdno.info/,2,0,,,,2,0,,0,0,0,0,0,0,2,0.5,2,1,0,0,0,0,4,0.333
+epo,Epidemiology Ontology,https://code.google.com/p/epidemiology-ontology/,2,0,,,,2,0,,0,0,0,0,0,0,2,0.5,2,1,0,0,0,0,4,0.333
+ovae,Ontology of Vaccine Adverse Events,http://www.violinet.org/ovae/,2,0,,,,2,0,,0,0,0,0,0,0,2,0.5,2,1,0,0,0,0,4,0.333
+vt,Vertebrate Trait Ontology,https://bioportal.bioontology.org/ontologies/VT,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+gexo,Gene Expression Ontology,http://www.semantic-systems-biology.org/apo,2,0,,,,2,0,,0,0,0,0,0,0,2,0.5,2,1,0,0,0,0,4,0.333
+fma,Foundational Model of Anatomy,https://bioportal.bioontology.org/ontologies/FMA,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+obi,Ontology for Biomedical Investigations,https://bioportal.bioontology.org/ontologies/OBI,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+vso,Vital Sign Ontology,http://www.heppnetz.de/ontologies/vso/ns.owl,2,0,,,,2,2,,1,2,2,2,0,2,5,1.25,4,2,5,1.667,4,1.333,18,1.5
+ogg,Ontology of Genes and Genomes,https://bitbucket.org/hegroup/ogg,2,0,,,,2,0,,0,0,0,0,0,0,2,0.5,2,1,0,0,0,0,4,0.333
+omit,Ontology for MIRNA Target,http://omit.cis.usouthal.edu/,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+biolink,Biolink Model,https://bioportal.bioontology.org/ontologies/BIOLINK,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+ocimido,Ocular Immune-Mediated Inflammatory Diseases Ontology,https://bioportal.bioontology.org/ontologies/OCIMIDO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+do,byo Disease Ontology,http://www.disease-ontology.org,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+gsso,"Gender, Sex, and Sexual Orientation ontology",https://gsso.research.cchmc.org/,2,0,,,,2,0,,0,0,0,0,0,0,2,0.5,2,1,0,0,0,0,4,0.333
+cob,Core Ontology for Biology and Biomedicine,https://obofoundry.org/COB/,2,0,,,,2,0,,0,0,0,0,0,0,2,0.5,2,1,0,0,0,0,4,0.333
+edam-bioimaging,EDAM Bioimaging Ontology,https://bioportal.bioontology.org/ontologies/EDAM-BIOIMAGING,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+symp,Symptom Ontology,http://symptomontologywiki.igs.umaryland.edu/mediawiki/index.php/Main_Page,0,0,,,,0,0,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ocvdae,Ontology of Cardiovascular Drug Adverse Events,"https://bioportal.bioontology.org/ontologies/OCVDAE (Bioportal), https://github.com/OCVDAE (Ontobee), https://github.com/wangliwei33/OCVDAE (Github)",0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+codo,CODO: an Ontology for collection and analysis of COviD-19 data,"https://bioportal.bioontology.org/ontologies/CODO (Bioportal), https://github.com/biswanathdutta/CODO (Github)",0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+obiws,Bioinformatics Web Service Ontology,"https://bioportal.bioontology.org/ontologies/OBIWS (Bioportal), http://code.google.com/p/obi-webservice/ (Ontobee)",0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+mpio/mpio,Minimum PDDI Information Ontology,"https://bioportal.bioontology.org/ontologies/MPIO (Bioportal), https://github.com/MPIO-Developers/MPIO (Ontobee/OLS/OBO)",0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+oba/oba,Ontology of Biological Attributes,"https://bioportal.bioontology.org/ontologies/OBA (Bioportal), https://github.com/obophenotype/bio-attribute-ontology (Ontobee/OLS/OBO)",0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+aro/aro,Antibiotic Resistance Ontology,"https://bioportal.bioontology.org/ontologies/ARO (Bioportal), https://github.com/arpcard/aro (OBO/Github)",0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+modsci/modsci,ModSci (Modular Science) Ontology,"https://w3id.org/skgo/modsci# (LOV), https://bioportal.bioontology.org/ontologies/MODSCI (Bioportal)",2,2,,,,2,2,,1,2,2,2,2,2,7,1.75,4,2,5,1.667,6,2,22,1.833
+scdo/scdo,Sickle Cell Disease Ontology,"https://bioportal.bioontology.org/ontologies/SCDO (Bioportal), https://scdontology.h3abionet.org/ (OLS/OBO)",0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+bmont/bmont,The Biomarker Ontology,"https://bioportal.bioontology.org/ontologies/BMONT (Bioportal), https://github.com/SCAI-BIO/BiomarkerOntology (OBO)",0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+cmpo/cmpo,Cellular microscopy phenotype ontology,http://www.ebi.ac.uk/cmpo,,,,,,,,,,,,,,,,,,,,,,,,
+cvdo/cvdo,Cardiovascular Disease Ontology,https://bioportal.bioontology.org/ontologies/CVDO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+exo,Exposure ontology (ExO),https://www.ebi.ac.uk/ols4/ontologies/exo,2,0,,,,2,0,,0,0,0,0,0,0,2,0.5,2,1,0,0,0,0,4,0.333
+labo/labo,clinical LABoratory Ontology,https://bioportal.bioontology.org/ontologies/LABO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+vio,Vaccine Investigation Ontology,https://bioportal.bioontology.org/ontologies/VIO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+cteno/cteno,Ctenophore Ontology,https://bioportal.bioontology.org/ontologies/CTENO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+ceph/ceph,Cephalopod Ontology,https://bioportal.bioontology.org/ontologies/CEPH,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+aero,Adverse Event Reporting Ontology,https://bioportal.bioontology.org/ontologies/AERO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+xco,Experimental condition ontology,https://rgd.mcw.edu/rgdweb/ontology/,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+sbo,Systems Biology Ontology,http://www.ebi.ac.uk/sbo/,2,0,,,,2,0,,0,0,0,0,0,0,2,0.5,2,1,0,0,0,0,4,0.333
+vsao,Vertebrate Skeletal Anatomy Ontology,https://www.nescent.org/phenoscape/Main_Page,0,0,,,,0,0,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+bao,BioAssay Ontology,https://bioportal.bioontology.org/ontologies/BAO,0,0,,,,2,0,,0,0,0,0,0,0,0,0,2,1,0,0,0,0,2,0.167
+ipr,Protein Domains,http://www.ebi.ac.uk/interpro/index.html,2,0,,,,2,0,,0,0,0,0,0,0,2,0.5,2,1,0,0,0,0,4,0.333
+vhog,Vertebrate Homologous Ontology Group Ontology,http://berkeleybop.org/,2,0,,,,2,0,,0,0,0,0,0,0,2,0.5,2,1,0,0,0,0,4,0.333
