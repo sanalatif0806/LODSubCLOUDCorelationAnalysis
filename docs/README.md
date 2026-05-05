@@ -5,7 +5,7 @@ An automated pipeline for evaluating the FAIRness of Knowledge Graph datasets dr
 ---
 ## FAIR Principles Metric Mapping
 
-📄 **[View interactive mapping table →](https://github.com/sanalatif0806/LODSubCLOUDCorelationAnalysis/fair-mapping.html)**
+📄 **[View mapping table →]([https://github.com/sanalatif0806/LODSubCLOUDCorelationAnalysis/fair-mapping.html](https://github.com/sanalatif0806/LODSubCLOUDCorelationAnalysis/blob/main/docs/fair-mapping.html))**
 
 ## Overview
 
