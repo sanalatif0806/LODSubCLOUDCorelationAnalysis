@@ -3,6 +3,9 @@
 An automated pipeline for evaluating the FAIRness of Knowledge Graph datasets drawn from the [LOD Cloud](https://lod-cloud.net/), using three complementary tools: **KGHeartbeat**, **F-UJI**, and **FAIR-Checker**.
 
 ---
+## FAIR Principles Metric Mapping
+
+📄 **[View interactive mapping table →](https://your-username.github.io/your-repo/fair-mapping.html)**
 
 ## Overview
 
