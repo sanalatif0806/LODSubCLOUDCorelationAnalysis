@@ -406,15 +406,26 @@
   <span style="font-family:'DM Mono',monospace;font-size:11px;color:rgba(255,255,255,0.45);letter-spacing:.06em;text-transform:uppercase;">
     FAIR Assessment Pipeline
   </span>
-  <a href="fair-dashboard-v8.html"
-     style="font-family:'DM Mono',monospace;font-size:11px;font-weight:500;
-            color:#fff;text-decoration:none;letter-spacing:.05em;
-            background:rgba(255,255,255,0.1);padding:5px 14px;border-radius:2px;
-            border:1px solid rgba(255,255,255,0.18);"
-     onmouseover="this.style.background='rgba(255,255,255,0.18)'"
-     onmouseout="this.style.background='rgba(255,255,255,0.1)'">
-    View Dashboard →
-  </a>
+  <div style="display:flex;gap:.6rem;align-items:center;">
+    <a href="Fair-mapping.html"
+       style="font-family:'DM Mono',monospace;font-size:11px;font-weight:500;
+              color:#fff;text-decoration:none;letter-spacing:.05em;
+              background:rgba(255,255,255,0.07);padding:5px 14px;border-radius:2px;
+              border:1px solid rgba(255,255,255,0.14);"
+       onmouseover="this.style.background='rgba(255,255,255,0.14)'"
+       onmouseout="this.style.background='rgba(255,255,255,0.07)'">
+      Metric Mapping →
+    </a>
+    <a href="fair-dashboard-v8.html"
+       style="font-family:'DM Mono',monospace;font-size:11px;font-weight:500;
+              color:#fff;text-decoration:none;letter-spacing:.05em;
+              background:rgba(255,255,255,0.1);padding:5px 14px;border-radius:2px;
+              border:1px solid rgba(255,255,255,0.18);"
+       onmouseover="this.style.background='rgba(255,255,255,0.18)'"
+       onmouseout="this.style.background='rgba(255,255,255,0.1)'">
+      View Dashboard →
+    </a>
+  </div>
 </nav>
 
 <header class="site-header">
@@ -433,23 +444,39 @@
       <span>CSV + JSON output</span>
     </div>
 
-  <div style="padding: 1.6rem 0 2rem;">
-    <a href="fair-dashboard-v8.html"
-       style="display:inline-flex;align-items:center;gap:0.55rem;
-              background:var(--ink);color:var(--paper);
-              font-family:'DM Mono',monospace;font-size:12px;font-weight:500;
-              letter-spacing:0.06em;text-transform:uppercase;text-decoration:none;
-              padding:10px 20px;border-radius:3px;transition:opacity .15s;"
-       onmouseover="this.style.opacity='.8'" onmouseout="this.style.opacity='1'">
-      <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <rect x="1" y="7" width="3" height="6" fill="currentColor" opacity=".6"/>
-        <rect x="5.5" y="4" width="3" height="9" fill="currentColor" opacity=".8"/>
-        <rect x="10" y="1" width="3" height="12" fill="currentColor"/>
-      </svg>
-      Open Research Dashboard →
-    </a>
-    <span style="font-family:'DM Mono',monospace;font-size:10px;color:var(--ink-faint);margin-left:1rem;letter-spacing:.04em;">Interactive FAIR score analysis across 2,796 datasets</span>
-  </div>
+    <div style="padding: 1.6rem 0 2rem; display:flex; gap:1rem; align-items:center; flex-wrap:wrap;">
+      <a href="fair-dashboard-v8.html"
+         style="display:inline-flex;align-items:center;gap:0.55rem;
+                background:var(--ink);color:var(--paper);
+                font-family:'DM Mono',monospace;font-size:12px;font-weight:500;
+                letter-spacing:0.06em;text-transform:uppercase;text-decoration:none;
+                padding:10px 20px;border-radius:3px;transition:opacity .15s;"
+         onmouseover="this.style.opacity='.8'" onmouseout="this.style.opacity='1'">
+        <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x="1" y="7" width="3" height="6" fill="currentColor" opacity=".6"/>
+          <rect x="5.5" y="4" width="3" height="9" fill="currentColor" opacity=".8"/>
+          <rect x="10" y="1" width="3" height="12" fill="currentColor"/>
+        </svg>
+        Open Research Dashboard →
+      </a>
+      <a href="fair_mapping.html"
+         style="display:inline-flex;align-items:center;gap:0.55rem;
+                background:transparent;color:var(--ink);
+                font-family:'DM Mono',monospace;font-size:12px;font-weight:500;
+                letter-spacing:0.06em;text-transform:uppercase;text-decoration:none;
+                padding:10px 20px;border-radius:3px;border:1.5px solid var(--rule-dark);
+                transition:background .15s;"
+         onmouseover="this.style.background='var(--paper-warm)'" onmouseout="this.style.background='transparent'">
+        <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x="1" y="1" width="5" height="5" fill="currentColor" opacity=".5"/>
+          <rect x="8" y="1" width="5" height="5" fill="currentColor" opacity=".7"/>
+          <rect x="1" y="8" width="5" height="5" fill="currentColor" opacity=".7"/>
+          <rect x="8" y="8" width="5" height="5" fill="currentColor"/>
+        </svg>
+        View Metric Mapping →
+      </a>
+      <span style="font-family:'DM Mono',monospace;font-size:10px;color:var(--ink-faint);letter-spacing:.04em;">Interactive FAIR score analysis across 2,796 datasets</span>
+    </div>
   </div>
 </header>
 
@@ -686,14 +713,24 @@
     <p>FAIR Assessment Pipeline · Python 3.11 · LOD Cloud · F-UJI · FAIR-Checker</p>
     <p style="margin-top:4px;">FAIRsFAIR Metrics — <a href="https://doi.org/10.5281/zenodo.3775793" style="color:var(--ink-muted);">zenodo.3775793</a></p>
   </div>
-  <a href="fair-dashboard-v8.html"
-     style="font-family:'DM Mono',monospace;font-size:11px;font-weight:500;
-            color:var(--ink);text-decoration:none;letter-spacing:.05em;
-            border:1px solid var(--rule-dark);padding:8px 16px;border-radius:3px;white-space:nowrap;"
-     onmouseover="this.style.background='var(--paper-warm)'"
-     onmouseout="this.style.background=''">
-    Open Dashboard →
-  </a>
+  <div style="display:flex;gap:.6rem;flex-wrap:wrap;">
+    <a href="fair-mapping.html"
+       style="font-family:'DM Mono',monospace;font-size:11px;font-weight:500;
+              color:var(--ink);text-decoration:none;letter-spacing:.05em;
+              border:1px solid var(--rule-dark);padding:8px 16px;border-radius:3px;white-space:nowrap;"
+       onmouseover="this.style.background='var(--paper-warm)'"
+       onmouseout="this.style.background=''">
+      Metric Mapping →
+    </a>
+    <a href="fair-dashboard-v8.html"
+       style="font-family:'DM Mono',monospace;font-size:11px;font-weight:500;
+              color:var(--ink);text-decoration:none;letter-spacing:.05em;
+              border:1px solid var(--rule-dark);padding:8px 16px;border-radius:3px;white-space:nowrap;"
+       onmouseover="this.style.background='var(--paper-warm)'"
+       onmouseout="this.style.background=''">
+      Open Dashboard →
+    </a>
+  </div>
 </footer>
 
 </body>
