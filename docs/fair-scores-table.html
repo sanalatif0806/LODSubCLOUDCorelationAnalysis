@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FAIR Score Distribution — Biomedical KGs</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Mono:wght@400;500&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --ink:        #1a1a18;
+    --ink-muted:  #5a5a55;
+    --ink-faint:  #9a9a92;
+    --paper:      #faf9f5;
+    --paper-warm: #f2f0e8;
+    --paper-card: #ffffff;
+    --accent:     #1d6b45;
+    --accent-lt:  #e4f0e9;
+    --accent2:    #8b3a1e;
+    --accent2-lt: #f5e8e3;
+    --accent3:    #1a4a7a;
+    --accent3-lt: #e3ecf5;
+    --rule:       rgba(26,26,24,0.12);
+    --rule-dark:  rgba(26,26,24,0.22);
+
+    /* tier colours */
+    --top-bg:    #e4f0e9;
+    --top-bar:   #1d6b45;
+    --top-text:  #0f3d27;
+    --avg-bg:    #e3ecf5;
+    --avg-bar:   #1a4a7a;
+    --avg-text:  #0d2644;
+    --low-bg:    #f5e8e3;
+    --low-bar:   #8b3a1e;
+    --low-text:  #4e1e0a;
+  }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.75;
+    color: var(--ink);
+    background: var(--paper);
+    min-height: 100vh;
+  }
+
+  /* ── Nav ── */
+  nav {
+    position: sticky; top: 0; z-index: 100;
+    background: var(--ink);
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 10px 2rem;
+    border-bottom: 1px solid rgba(255,255,255,0.08);
+  }
+  .nav-label {
+    font-family: 'DM Mono', monospace;
+    font-size: 11px; color: rgba(255,255,255,0.45);
+    letter-spacing: .06em; text-transform: uppercase;
+  }
+  .nav-link {
+    font-family: 'DM Mono', monospace; font-size: 11px; font-weight: 500;
+    color: #fff; text-decoration: none; letter-spacing: .05em;
+    background: rgba(255,255,255,0.07); padding: 5px 14px;
+    border-radius: 2px; border: 1px solid rgba(255,255,255,0.14);
+    transition: background .15s;
+  }
+  .nav-link:hover { background: rgba(255,255,255,0.14); }
+
+  /* ── Header ── */
+  .site-header {
+    border-bottom: 1.5px solid var(--ink);
+    padding: 2.5rem 0 0;
+    margin-bottom: 3.5rem;
+  }
+  .header-inner {
+    max-width: 860px; margin: 0 auto; padding: 0 2rem;
+  }
+  .label-row {
+    display: flex; align-items: center; gap: 1.2rem; margin-bottom: 1.2rem;
+  }
+  .tag {
+    font-family: 'DM Mono', monospace; font-size: 10px; font-weight: 500;
+    letter-spacing: 0.12em; text-transform: uppercase;
+    padding: 4px 10px; border-radius: 2px;
+  }
+  .tag-bio   { background: var(--accent-lt);  color: var(--accent); }
+  .tag-fair  { background: var(--accent3-lt); color: var(--accent3); }
+  .tag-table { background: var(--accent2-lt); color: var(--accent2); }
+
+  h1 {
+    font-family: 'DM Serif Display', serif;
+    font-size: clamp(2rem, 5vw, 3.2rem);
+    line-height: 1.1; letter-spacing: -0.01em;
+    margin-bottom: 1rem; color: var(--ink);
+  }
+  .subtitle {
+    font-size: 1.05rem; color: var(--ink-muted); font-weight: 300;
+    max-width: 580px; margin-bottom: 2rem; line-height: 1.6;
+  }
+  .header-meta {
+    display: flex; gap: 2rem; padding: 1rem 0;
+    border-top: 1px solid var(--rule);
+    font-family: 'DM Mono', monospace; font-size: 11px;
+    color: var(--ink-faint); letter-spacing: 0.04em;
+    margin-bottom: 1.6rem;
+  }
+
+  /* ── Page ── */
+  .page {
+    max-width: 860px; margin: 0 auto; padding: 0 2rem 6rem;
+  }
+
+  /* ── Legend ── */
+  .legend {
+    display: flex; gap: 1rem; flex-wrap: wrap;
+    margin-bottom: 2rem;
+  }
+  .legend-item {
+    display: flex; align-items: center; gap: 0.5rem;
+    font-family: 'DM Mono', monospace; font-size: 11px;
+    color: var(--ink-muted); letter-spacing: 0.04em;
+  }
+  .legend-dot {
+    width: 10px; height: 10px; border-radius: 50%; flex-shrink: 0;
+  }
+  .dot-top { background: var(--top-bar); }
+  .dot-avg { background: var(--avg-bar); }
+  .dot-low { background: var(--low-bar); }
+
+  /* ── Table wrapper ── */
+  .table-wrap {
+    background: var(--paper-card);
+    border: 1px solid var(--rule-dark);
+    border-radius: 6px;
+    overflow: hidden;
+  }
+
+  /* ── Section header rows ── */
+  .section-row {
+    display: grid;
+    grid-template-columns: 48px 1fr 120px;
+    align-items: center;
+    padding: 0.65rem 1.25rem;
+    font-family: 'DM Mono', monospace;
+    font-size: 11px; font-weight: 500;
+    letter-spacing: 0.08em; text-transform: uppercase;
+  }
+  .section-row.top { background: var(--top-bg); color: var(--top-text); border-left: 3px solid var(--top-bar); }
+  .section-row.avg { background: var(--avg-bg); color: var(--avg-text); border-left: 3px solid var(--avg-bar); }
+  .section-row.low { background: var(--low-bg); color: var(--low-text); border-left: 3px solid var(--low-bar); }
+
+  /* ── Data rows ── */
+  .data-row {
+    display: grid;
+    grid-template-columns: 48px 1fr 120px;
+    align-items: center;
+    padding: 0.55rem 1.25rem;
+    border-top: 1px solid var(--rule);
+    transition: background .12s;
+    border-left: 3px solid transparent;
+  }
+  .data-row:hover { background: var(--paper-warm); }
+
+  .data-row.tier-top { border-left-color: rgba(29,107,69,0.18); }
+  .data-row.tier-avg { border-left-color: rgba(26,74,122,0.18); }
+  .data-row.tier-low { border-left-color: rgba(139,58,30,0.18); }
+
+  .row-rank {
+    font-family: 'DM Mono', monospace; font-size: 12px;
+    color: var(--ink-faint); font-weight: 500;
+  }
+  .row-name {
+    font-family: 'DM Mono', monospace; font-size: 13px;
+    color: var(--ink); letter-spacing: 0.02em;
+  }
+
+  /* ── Score cell with bar ── */
+  .score-cell {
+    display: flex; flex-direction: column; align-items: flex-end; gap: 3px;
+  }
+  .score-val {
+    font-family: 'DM Mono', monospace; font-size: 13px; font-weight: 500;
+    color: var(--ink);
+  }
+  .score-bar-track {
+    width: 80px; height: 4px;
+    background: var(--paper-warm); border-radius: 2px; overflow: hidden;
+  }
+  .score-bar-fill {
+    height: 100%; border-radius: 2px;
+    transition: width .4s ease;
+  }
+  .tier-top .score-bar-fill { background: var(--top-bar); }
+  .tier-avg .score-bar-fill { background: var(--avg-bar); }
+  .tier-low .score-bar-fill { background: var(--low-bar); }
+
+  /* ── Divider between sections ── */
+  .section-divider { height: 6px; background: var(--paper-warm); }
+
+  /* ── Caption ── */
+  .table-caption {
+    font-family: 'DM Mono', monospace; font-size: 11px;
+    color: var(--ink-faint); letter-spacing: 0.04em;
+    text-align: center; margin-top: 1rem;
+    padding-bottom: 0.5rem;
+  }
+
+  /* ── Summary cards ── */
+  .summary-grid {
+    display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 1rem;
+    margin-bottom: 2.5rem;
+  }
+  .summary-card {
+    border-radius: 4px; padding: 1.1rem 1.25rem;
+    border-left: 3px solid;
+  }
+  .summary-card.top { background: var(--top-bg); border-color: var(--top-bar); }
+  .summary-card.avg { background: var(--avg-bg); border-color: var(--avg-bar); }
+  .summary-card.low { background: var(--low-bg); border-color: var(--low-bar); }
+
+  .summary-card .card-score {
+    font-family: 'DM Serif Display', serif; font-size: 2rem;
+    line-height: 1; margin-bottom: 0.2rem;
+  }
+  .summary-card.top .card-score { color: var(--top-bar); }
+  .summary-card.avg .card-score { color: var(--avg-bar); }
+  .summary-card.low .card-score { color: var(--low-bar); }
+
+  .summary-card .card-label {
+    font-family: 'DM Mono', monospace; font-size: 10px;
+    text-transform: uppercase; letter-spacing: 0.1em; font-weight: 500;
+  }
+  .summary-card.top .card-label { color: var(--top-text); }
+  .summary-card.avg .card-label { color: var(--avg-text); }
+  .summary-card.low .card-label { color: var(--low-text); }
+
+  .summary-card .card-sub {
+    font-size: 0.82rem; margin-top: 0.25rem;
+  }
+  .summary-card.top .card-sub { color: var(--top-text); opacity: 0.75; }
+  .summary-card.avg .card-sub { color: var(--avg-text); opacity: 0.75; }
+  .summary-card.low .card-sub { color: var(--low-text); opacity: 0.75; }
+
+  /* ── Footer ── */
+  footer {
+    border-top: 1.5px solid var(--ink);
+    padding: 1.5rem 2rem;
+    max-width: 860px; margin: 0 auto;
+    display: flex; justify-content: space-between; align-items: center;
+    gap: 1rem; flex-wrap: wrap;
+  }
+  footer p {
+    font-family: 'DM Mono', monospace; font-size: 11px;
+    color: var(--ink-faint); margin: 0;
+  }
+
+  @media (max-width: 580px) {
+    .summary-grid { grid-template-columns: 1fr; }
+    .data-row, .section-row { grid-template-columns: 36px 1fr 90px; }
+    .score-bar-track { width: 55px; }
+    h1 { font-size: 1.8rem; }
+  }
+</style>
+</head>
+<body>
+
+<nav>
+  <span class="nav-label">FAIR Assessment Pipeline</span>
+  <a href="index.html" class="nav-link">← Back to Pipeline</a>
+</nav>
+
+<header class="site-header">
+  <div class="header-inner">
+    <div class="label-row">
+      <span class="tag tag-bio">Biomedical KGs</span>
+      <span class="tag tag-fair">FAIR Scores</span>
+      <span class="tag tag-table">Table 1</span>
+    </div>
+    <h1>FAIR Score<br><em>Distribution</em></h1>
+    <p class="subtitle">Top, average, and worst FAIR score distribution across biomedical Knowledge Graphs — 30 representative datasets ranked by overall FAIR compliance score.</p>
+    <div class="header-meta">
+      <span>30 datasets</span>
+      <span>3 tiers</span>
+      <span>Score range 0–4</span>
+      <span>Biomedical sub-cloud</span>
+    </div>
+  </div>
+</header>
+
+<main class="page">
+
+  <!-- Summary cards -->
+  <div class="summary-grid">
+    <div class="summary-card top">
+      <div class="card-score">3.63</div>
+      <div class="card-label">Top Score</div>
+      <div class="card-sub">Bio2RDF cluster · 10 KGs</div>
+    </div>
+    <div class="summary-card avg">
+      <div class="card-score">2.27</div>
+      <div class="card-label">Average Score</div>
+      <div class="card-sub">BioPortal / FU-Berlin · 10 KGs</div>
+    </div>
+    <div class="summary-card low">
+      <div class="card-score">0.70</div>
+      <div class="card-label">Worst Score</div>
+      <div class="card-sub">Mixed ontologies · 10 KGs</div>
+    </div>
+  </div>
+
+  <!-- Legend -->
+  <div class="legend">
+    <div class="legend-item">
+      <div class="legend-dot dot-top"></div>
+      <span>Top scoring (ranks 1–10)</span>
+    </div>
+    <div class="legend-item">
+      <div class="legend-dot dot-avg"></div>
+      <span>Average scoring (ranks 11–20)</span>
+    </div>
+    <div class="legend-item">
+      <div class="legend-dot dot-low"></div>
+      <span>Worst scoring (ranks 21–30)</span>
+    </div>
+  </div>
+
+  <!-- Table -->
+  <div class="table-wrap">
+
+    <!-- TOP TIER -->
+    <div class="section-row top">
+      <span>#</span>
+      <span>Knowledge Graph</span>
+      <span style="text-align:right;">FAIR Score</span>
+    </div>
+
+    <div class="data-row tier-top">
+      <span class="row-rank">01</span>
+      <span class="row-name">bio2rdf-goa</span>
+      <div class="score-cell">
+        <span class="score-val">3.63</span>
+        <div class="score-bar-track"><div class="score-bar-fill" style="width:90.75%"></div></div>
+      </div>
+    </div>
+    <div class="data-row tier-top">
+      <span class="row-rank">02</span>
+      <span class="row-name">bio2rdf-homologene</span>
+      <div class="score-cell">
+        <span class="score-val">3.63</span>
+        <div class="score-bar-track"><div class="score-bar-fill" style="width:90.75%"></div></div>
+      </div>
+    </div>
+    <div class="data-row tier-top">
+      <span class="row-rank">03</span>
+      <span class="row-name">bio2rdf-irefindex</span>
+      <div class="score-cell">
+        <span class="score-val">3.63</span>
+        <div class="score-bar-track"><div class="score-bar-fill" style="width:90.75%"></div></div>
+      </div>
+    </div>
+    <div class="data-row tier-top">
+      <span class="row-rank">04</span>
+      <span class="row-name">bio2rdf-mesh</span>
+      <div class="score-cell">
+        <span class="score-val">3.63</span>
+        <div class="score-bar-track"><div class="score-bar-fill" style="width:90.75%"></div></div>
+      </div>
+    </div>
+    <div class="data-row tier-top">
+      <span class="row-rank">05</span>
+      <span class="row-name">bio2rdf-ndc</span>
+      <div class="score-cell">
+        <span class="score-val">3.63</span>
+        <div class="score-bar-track"><div class="score-bar-fill" style="width:90.75%"></div></div>
+      </div>
+    </div>
+    <div class="data-row tier-top">
+      <span class="row-rank">06</span>
+      <span class="row-name">bio2rdf-pharmgkb</span>
+      <div class="score-cell">
+        <span class="score-val">3.63</span>
+        <div class="score-bar-track"><div class="score-bar-fill" style="width:90.75%"></div></div>
+      </div>
+    </div>
+    <div class="data-row tier-top">
+      <span class="row-rank">07</span>
+      <span class="row-name">bio2rdf-orphanet</span>
+      <div class="score-cell">
+        <span class="score-val">3.63</span>
+        <div class="score-bar-track"><div class="score-bar-fill" style="width:90.75%"></div></div>
+      </div>
+    </div>
+    <div class="data-row tier-top">
+      <span class="row-rank">08</span>
+      <span class="row-name">bio2rdf-sider</span>
+      <div class="score-cell">
+        <span class="score-val">3.63</span>
+        <div class="score-bar-track"><div class="score-bar-fill" style="width:90.75%"></div></div>
+      </div>
+    </div>
+    <div class="data-row tier-top">
+      <span class="row-rank">09</span>
+      <span class="row-name">bio2rdf-wormbase</span>
+      <div class="score-cell">
+        <span class="score-val">3.63</span>
+        <div class="score-bar-track"><div class="score-bar-fill" style="width:90.75%"></div></div>
+      </div>
+    </div>
+    <div class="data-row tier-top">
+      <span class="row-rank">10</span>
+      <span class="row-name">bio2rdf-affymetrix</span>
+      <div class="score-cell">
+        <span class="score-val">3.63</span>
+        <div class="score-bar-track"><div class="score-bar-fill" style="width:90.75%"></div></div>
+      </div>
+    </div>
+
+    <div class="section-divider"></div>
+
+    <!-- AVERAGE TIER -->
+    <div class="section-row avg">
+      <span>#</span>
+      <span>Knowledge Graph</span>
+      <span style="text-align:right;">FAIR Score</span>
+    </div>
+
+    <div class="data-row tier-avg">
+      <span class="row-rank">11</span>
+      <span class="row-name">bioportal-mccl_x1</span>
+      <div class="score-cell">
+        <span class="score-val">2.26</span>
+        <div class="score-bar-track"><div class="score-bar-fill" style="width:56.5%"></div></div>
+      </div>
+    </div>
+    <div class="data-row tier-avg">
+      <span class="row-rank">12</span>
+      <span class="row-name">bioportal-efo</span>
+      <div class="score-cell">
+        <span class="score-val">2.26</span>
+        <div class="score-bar-track"><div class="score-bar-fill" style="width:56.5%"></div></div>
+      </div>
+    </div>
+    <div class="data-row tier-avg">
+      <span class="row-rank">13</span>
+      <span class="row-name">fu-berlin-drugbank</span>
+      <div class="score-cell">
+        <span class="score-val">2.28</span>
+        <div class="score-bar-track"><div class="score-bar-fill" style="width:57%"></div></div>
+      </div>
+    </div>
+    <div class="data-row tier-avg">
+      <span class="row-rank">14</span>
+      <span class="row-name">bioportal-apo</span>
+      <div class="score-cell">
+        <span class="score-val">2.28</span>
+        <div class="score-bar-track"><div class="score-bar-fill" style="width:57%"></div></div>
+      </div>
+    </div>
+    <div class="data-row tier-avg">
+      <span class="row-rank">15</span>
+      <span class="row-name">bioportal-nmr</span>
+      <div class="score-cell">
+        <span class="score-val">2.28</span>
+        <div class="score-bar-track"><div class="score-bar-fill" style="width:57%"></div></div>
+      </div>
+    </div>
+    <div class="data-row tier-avg">
+      <span class="row-rank">16</span>
+      <span class="row-name">bioportal-fypo</span>
+      <div class="score-cell">
+        <span class="score-val">2.28</span>
+        <div class="score-bar-track"><div class="score-bar-fill" style="width:57%"></div></div>
+      </div>
+    </div>
+    <div class="data-row tier-avg">
+      <span class="row-rank">17</span>
+      <span class="row-name">bioportal-mod</span>
+      <div class="score-cell">
+        <span class="score-val">2.28</span>
+        <div class="score-bar-track"><div class="score-bar-fill" style="width:57%"></div></div>
+      </div>
+    </div>
+    <div class="data-row tier-avg">
+      <span class="row-rank">18</span>
+      <span class="row-name">bioportal-imr</span>
+      <div class="score-cell">
+        <span class="score-val">2.28</span>
+        <div class="score-bar-track"><div class="score-bar-fill" style="width:57%"></div></div>
+      </div>
+    </div>
+    <div class="data-row tier-avg">
+      <span class="row-rank">19</span>
+      <span class="row-name">bioportal-nif_cell</span>
+      <div class="score-cell">
+        <span class="score-val">2.28</span>
+        <div class="score-bar-track"><div class="score-bar-fill" style="width:57%"></div></div>
+      </div>
+    </div>
+    <div class="data-row tier-avg">
+      <span class="row-rank">20</span>
+      <span class="row-name">bioportal-dc_cl</span>
+      <div class="score-cell">
+        <span class="score-val">2.28</span>
+        <div class="score-bar-track"><div class="score-bar-fill" style="width:57%"></div></div>
+      </div>
+    </div>
+
+    <div class="section-divider"></div>
+
+    <!-- WORST TIER -->
+    <div class="section-row low">
+      <span>#</span>
+      <span>Knowledge Graph</span>
+      <span style="text-align:right;">FAIR Score</span>
+    </div>
+
+    <div class="data-row tier-low">
+      <span class="row-rank">21</span>
+      <span class="row-name">addicto</span>
+      <div class="score-cell">
+        <span class="score-val">0.70</span>
+        <div class="score-bar-track"><div class="score-bar-fill" style="width:17.5%"></div></div>
+      </div>
+    </div>
+    <div class="data-row tier-low">
+      <span class="row-rank">22</span>
+      <span class="row-name">dhba</span>
+      <div class="score-cell">
+        <span class="score-val">0.70</span>
+        <div class="score-bar-track"><div class="score-bar-fill" style="width:17.5%"></div></div>
+      </div>
+    </div>
+    <div class="data-row tier-low">
+      <span class="row-rank">23</span>
+      <span class="row-name">disease-ontology</span>
+      <div class="score-cell">
+        <span class="score-val">0.70</span>
+        <div class="score-bar-track"><div class="score-bar-fill" style="width:17.5%"></div></div>
+      </div>
+    </div>
+    <div class="data-row tier-low">
+      <span class="row-rank">24</span>
+      <span class="row-name">obsolete-hdo</span>
+      <div class="score-cell">
+        <span class="score-val">0.70</span>
+        <div class="score-bar-track"><div class="score-bar-fill" style="width:17.5%"></div></div>
+      </div>
+    </div>
+    <div class="data-row tier-low">
+      <span class="row-rank">25</span>
+      <span class="row-name">bbc-wildlife</span>
+      <div class="score-cell">
+        <span class="score-val">0.70</span>
+        <div class="score-bar-track"><div class="score-bar-fill" style="width:17.5%"></div></div>
+      </div>
+    </div>
+    <div class="data-row tier-low">
+      <span class="row-rank">26</span>
+      <span class="row-name">developmental-stage-ontologies</span>
+      <div class="score-cell">
+        <span class="score-val">0.70</span>
+        <div class="score-bar-track"><div class="score-bar-fill" style="width:17.5%"></div></div>
+      </div>
+    </div>
+    <div class="data-row tier-low">
+      <span class="row-rank">27</span>
+      <span class="row-name">zebrafish-phenotype-ontology</span>
+      <div class="score-cell">
+        <span class="score-val">0.70</span>
+        <div class="score-bar-track"><div class="score-bar-fill" style="width:17.5%"></div></div>
+      </div>
+    </div>
+    <div class="data-row tier-low">
+      <span class="row-rank">28</span>
+      <span class="row-name">fungal-anatomy-ontology</span>
+      <div class="score-cell">
+        <span class="score-val">0.70</span>
+        <div class="score-bar-track"><div class="score-bar-fill" style="width:17.5%"></div></div>
+      </div>
+    </div>
+    <div class="data-row tier-low">
+      <span class="row-rank">29</span>
+      <span class="row-name">sfwo</span>
+      <div class="score-cell">
+        <span class="score-val">0.70</span>
+        <div class="score-bar-track"><div class="score-bar-fill" style="width:17.5%"></div></div>
+      </div>
+    </div>
+    <div class="data-row tier-low">
+      <span class="row-rank">30</span>
+      <span class="row-name">gene-ontology</span>
+      <div class="score-cell">
+        <span class="score-val">0.70</span>
+        <div class="score-bar-track"><div class="score-bar-fill" style="width:17.5%"></div></div>
+      </div>
+    </div>
+
+  </div><!-- /table-wrap -->
+
+  <p class="table-caption">Table 1 — Top, average, and worst FAIR score distribution across biomedical KGs. Score range: 0–4.</p>
+
+</main>
+
+<footer>
+  <div>
+    <p>FAIR Assessment Pipeline · Biomedical KG Score Distribution</p>
+    <p style="margin-top:4px;">FAIRsFAIR Metrics — <a href="https://doi.org/10.5281/zenodo.3775793" style="color:var(--ink-muted);">zenodo.3775793</a></p>
+  </div>
+  <a href="index.html"
+     style="font-family:'DM Mono',monospace;font-size:11px;font-weight:500;
+            color:var(--ink);text-decoration:none;letter-spacing:.05em;
+            border:1px solid var(--rule-dark);padding:8px 16px;border-radius:3px;white-space:nowrap;"
+     onmouseover="this.style.background='var(--paper-warm)'"
+     onmouseout="this.style.background=''">
+    ← Back to Pipeline
+  </a>
+</footer>
+
+</body>
+</html>
