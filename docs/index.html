@@ -437,15 +437,10 @@
     </div>
     <h1>FAIR Assessment<br><em>Pipeline</em></h1>
     <p class="subtitle">An automated pipeline for evaluating the FAIRness of Knowledge Graphs drawn from the LOD Cloud, using three complementary tools: KGHeartbeat, F-UJI, and FAIR-Checker.</p>
-    <div class="header-meta">
-      <span>5 modules</span>
-      <span>3 assessment tools</span>
-      <span>LOD Cloud source</span>
-      <span>CSV + JSON output</span>
-    </div>
 
+    <!-- FIX 1: removed duplicate dashboard link; FIX 3: removed leading space from GitHub URL -->
     <div style="padding: 1.6rem 0 2rem; display:flex; gap:1rem; align-items:center; flex-wrap:wrap;">
-      <a href="fair-dashboard-v8.html"
+      <a href="https://sanalatif0806.github.io/LODSubCLOUDCorelationAnalysis/"
          style="display:inline-flex;align-items:center;gap:0.55rem;
                 background:var(--ink);color:var(--paper);
                 font-family:'DM Mono',monospace;font-size:12px;font-weight:500;
@@ -459,26 +454,6 @@
         </svg>
         Open Research Dashboard →
       </a>
-
-  
-       <a href=" https://sanalatif0806.github.io/LODSubCLOUDCorelationAnalysis/"
-         style="display:inline-flex;align-items:center;gap:0.55rem;
-                background:transparent;color:var(--ink);
-                font-family:'DM Mono',monospace;font-size:12px;font-weight:500;
-                letter-spacing:0.06em;text-transform:uppercase;text-decoration:none;
-                padding:10px 20px;border-radius:3px;border:1.5px solid var(--rule-dark);
-                transition:background .15s;"
-         onmouseover="this.style.background='var(--paper-warm)'" onmouseout="this.style.background='transparent'">
-        <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <rect x="1" y="1" width="5" height="5" fill="currentColor" opacity=".5"/>
-          <rect x="8" y="1" width="5" height="5" fill="currentColor" opacity=".7"/>
-          <rect x="1" y="8" width="5" height="5" fill="currentColor" opacity=".7"/>
-          <rect x="8" y="8" width="5" height="5" fill="currentColor"/>
-        </svg>
-        LOD Cloud Correlation Analysis
-      </a>
-      <span style="font-family:'DM Mono',monospace;font-size:10px;color:var(--ink-faint);letter-spacing:.04em;">Interactive FAIR score analysis across 2,796 datasets</span>
-    </div>
       <a href="fair-mapping.html"
          style="display:inline-flex;align-items:center;gap:0.55rem;
                 background:transparent;color:var(--ink);
@@ -495,8 +470,18 @@
         </svg>
         View Metric Mapping →
       </a>
+    </div>
+
+    <div class="header-meta">
+      <span>5 modules</span>
+      <span>3 assessment tools</span>
+      <span>LOD Cloud source</span>
+      <span>CSV + JSON output</span>
+    </div>
+    <div style="padding: 0.8rem 0 1.6rem;">
       <span style="font-family:'DM Mono',monospace;font-size:10px;color:var(--ink-faint);letter-spacing:.04em;">Interactive FAIR score analysis across 2,796 datasets</span>
     </div>
+
   </div>
 </header>
 
@@ -551,7 +536,7 @@
             <span class="step-title">Generate per-topic CSV files</span>
             <span class="step-file">LODsubcloudclasscsv.py</span>
           </div>
-          <p class="step-desc">Reads <code style="font-family:'DM Mono',monospace;font-size:0.85em;">kgs_by_topic.json</code> — a mapping of topic names to LOD Cloud dataset URLs — and writes one <code style="font-family:'DM Mono',monospace;font-size:0.85em;">&lt;topic&gt;.csv</code> per topic into <code style="font-family:'DM Mono',monospace;font-size:0.85em;">data/LODsubclouds/</code>. Each CSV contains the extracted dataset IDs (the last path segment of each URL).</p>
+          <p class="step-desc">Reads <code style="font-family:'DM Mono',monospace;font-size:0.85em;">kgs_by_topic.json</code> from <code style="font-family:'DM Mono',monospace;font-size:0.85em;">data/ass/KGHBeatassessmentResult/FAIRASSInput/</code> — a mapping of topic names to LOD Cloud dataset URLs — and writes one <code style="font-family:'DM Mono',monospace;font-size:0.85em;">&lt;topic&gt;.csv</code> per topic into <code style="font-family:'DM Mono',monospace;font-size:0.85em;">data/LODsubclouds/</code>. Each CSV contains the extracted dataset IDs (the last path segment of each URL).</p>
         </div>
       </div>
 
@@ -565,7 +550,7 @@
             <span class="step-title">Generate per-topic JSON files</span>
             <span class="step-file">LODsubcloudclassjson.py</span>
           </div>
-          <p class="step-desc">Performs the same partitioning as Step 1, but writes structured JSON files (with topic, count, and id list) into a separate output directory, plus a <code style="font-family:'DM Mono',monospace;font-size:0.85em;">_index.json</code> summary of all topic sizes.</p>
+          <p class="step-desc">Performs the same partitioning as Step 1, but writes structured JSON files (with topic, count, and id list) into <code style="font-family:'DM Mono',monospace;font-size:0.85em;">data/ass/KGHBeatassessmentResult/LODsubclouds/</code>, plus a <code style="font-family:'DM Mono',monospace;font-size:0.85em;">_index.json</code> summary of all topic sizes.</p>
         </div>
       </div>
 
@@ -579,7 +564,7 @@
             <span class="step-title">Merge with FAIR baseline</span>
             <span class="step-file">mergefairscore.py</span>
           </div>
-          <p class="step-desc">Left-joins each sub-cloud CSV against the KGHBeat expert assessment baseline (a wide CSV keyed on KG ID). The merged files, one per topic, are saved to <code style="font-family:'DM Mono',monospace;font-size:0.85em;">FAIRASSout/</code>. Datasets not present in the baseline appear with NaN columns, preserving the full sub-cloud.</p>
+          <p class="step-desc">Left-joins each sub-cloud CSV against the KGHBeat expert assessment baseline (a wide CSV keyed on KG ID) sourced from <code style="font-family:'DM Mono',monospace;font-size:0.85em;">FAIRASSInput/</code>. The merged files, one per topic, are saved to <code style="font-family:'DM Mono',monospace;font-size:0.85em;">FAIRASSout/</code>. Datasets not present in the baseline appear with NaN columns, preserving the full sub-cloud.</p>
         </div>
       </div>
 
@@ -664,10 +649,10 @@
 │       └── <span class="file-py">FAIR-Checkerass.py</span>       <span class="comment"># step 5</span>
 │
 └── <span class="dir">data/</span>
-    ├── <span class="dir">LODsubclouds/</span>               <span class="comment"># &lt;topic&gt;.csv — steps 1 input for 4 & 5</span>
+    ├── <span class="dir">LODsubclouds/</span>               <span class="comment"># &lt;topic&gt;.csv — input for steps 4 &amp; 5</span>
     └── <span class="dir">ass/</span>
         ├── <span class="dir">KGHBeatassessmentResult/</span>
-        │   ├── <span class="dir">FAIRASSInput/</span>           <span class="comment"># kgs_by_topic.json, baseline CSV</span>
+        │   ├── <span class="dir">FAIRASSInput/</span>           <span class="comment"># kgs_by_topic.json + baseline CSV (step 1 &amp; 3 input)</span>
         │   ├── <span class="dir">LODsubclouds/</span>           <span class="comment"># JSON output of step 2</span>
         │   └── <span class="dir">FAIRASSout/</span>             <span class="comment"># merged output of step 3</span>
         ├── <span class="dir">F-UJIassessmentResult/</span>      <span class="comment"># CSV output of step 4</span>
